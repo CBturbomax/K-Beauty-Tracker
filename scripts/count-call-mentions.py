@@ -4,29 +4,22 @@ Only aggregate counts are published; source exports stay outside the repository.
 """
 import hashlib,json,re,sys
 from pathlib import Path
-DIRECT=[('K-beauty',r'\bk[\s\-‐‑–—]*beauty\b'),('Korean beauty',r'\bkorean\s+beauty\b'),('Korean skincare / cosmetics',r'\bkorean\s+(?:skin\s*care|cosmetics?)\b'),('K뷰티',r'K[\s-]*뷰티'),('한국 브랜드·메이크업',r'(?<!non-)(?<!non )\bkorean\s+(?:(?:makeup|make-up|cosmetic)\s+)?brands?\b|\bkorean\s+make-?up\b|\bk[\s-]*makeup\b'),('한국 브랜드·제조 맥락',r"\bbrands?\s+from\s+(?:south\s+)?korea\b|\bkorea['’]s\s+leading\s+skincare\s+brand\b|\b(?:manufacturers|bought|expertise)\s+in\s+korea\b|\bcoming\s+from\s+korea\b|\bknow\s+from\s+korea\b|\bkorean\s+(?:vendors|flag)\b")]
-BRANDS=[('Medicube',r'\bmedicube\b'),('Anua',r'\b(?:anua|inua)\b'),('Dr.Jart',r'\b(?:dr\.?|doctor\.?)\s*jart\b'),('Dr.G',r'\bdr\.?\s*g\b'),('Laneige',r'\blaneige\b'),('COSRX',r'\bcosrx\b'),('Beauty of Joseon',r'\bbeauty\s+of\s+joseon\b'),('Aestura',r'\baestura\b'),('Biodance',r'\bbiodance\b'),('TIRTIR',r'\btirtir\b'),('Erborian',r'\berborian\b'),('3CE',r'\b3ce\b'),('Innisfree',r'\binnisfree\b'),('Belif',r'\bbelif\b'),('Round Lab',r'\bround\s+lab\b'),('Torriden',r'\btorriden\b'),('Missha',r'\bmissha\b'),('numbuzin',r'\bnumbuzin\b'),('Centellian24',r'\bcentellian\s*24\b'),('Dr.Althea',r'\bdr\.?\s*althea\b'),('SKIN1004',r'\bskin\s*1004\b'),('Amorepacific',r'\bamore\s*pacific\b'),('Sulwhasoo',r'\bsulwhasoo\b'),('Mamonde',r'\bmamonde\b'),('Stylenanda',r'\bstylenanda\b'),('Peach & Lily',r'\bpeach\s*(?:&|and)\s*lily\b')]
-# Source-specific references checked against their surrounding cosmetics discussion.
-# These add Korean sourcing/brand context without counting unrelated Korean markets.
-REVIEWED_CONTEXT={
- '63990':[r'\bmanufacturing is in Italy and South Korea\b'],
- '23322':[r'\bsuppliers both in Italy and South Korea\b'],
- '166922':[r'\bin Korea on the ground together, just meeting with the manufacturers\b'],
- 'eu-47':[r'\bbrands of Chinese, Korean, Japanese\b'],
-}
+DIRECT=[('K-beauty',r'\bk[\s\-‐‑–—]*beauty\b'),('한국 관련',r'\b(?:south\s+)?korea(?:n|ns)?\b|대한민국|한국'),('K뷰티',r'K[\s-]*뷰티'),('K메이크업',r'\bk[\s-]*makeup\b')]
+
+BRANDS=[('Medicube',r'\bmedicube\b'),('Anua',r'\b(?:anua|inua)\b'),('Dr.Jart',r'\b(?:(?:dr\.?|doctor\.?)\s*)?jart\b'),('Dr.G',r'\bdr\.?\s*g\b'),('Laneige',r'\blaneige\b'),('COSRX',r'\bcosrx\b'),('Beauty of Joseon',r'\bbeauty\s+of\s+joseon\b'),('Aestura',r'\baestura\b'),('Biodance',r'\bbiodance\b'),('TIRTIR',r'\btirtir\b'),('Erborian',r'\berborian\b'),('3CE',r'\b3ce\b'),('Innisfree',r'\binnisfree\b'),('Belif',r'\bbelif\b'),('Round Lab',r'\bround\s+lab\b'),('Torriden',r'\btorriden\b'),('Fwee',r'\bfwee\b'),('Unleashia',r'\bunleashia\b'),('Missha',r'\bmissha\b'),('numbuzin',r'\bnumbuzin\b'),('Centellian24',r'\bcentellian\s*24\b'),('Dr.Althea',r'\bdr\.?\s*althea\b'),('SKIN1004',r'\bskin\s*1004\b'),('Amorepacific',r'\bamore\s*pacific\b'),('Sulwhasoo',r'\bsulwhasoo\b'),('Mamonde',r'\bmamonde\b'),('Stylenanda',r'\bstylen\s*anda\b'),('Peach & Lily',r'\bpeach\s*(?:&|and)\s*lily\b')]
 
 GENERAL=[('beauty',r'\bbeauty\b'),('skincare',r'\bskin\s*care\b'),('cosmetics',r'\bcosmetics?\b')]
 def count(text,qna=None,source_id=None):
     lines=[];section='unknown';at=None
     for line_no,line in enumerate(text.splitlines(),1):
-        if re.match(r'^\s*\[Paragraph\s+\d+\]',line):continue
+        if re.match(r'^\s*(?:\[Paragraph\s+\d+\]|→)',line):continue
         m=re.match(r'^\s*\[(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)\]\s*',line)
         if m:
             at=float(m[1]);line=line[m.end():]
             section=('qna' if at>=qna else 'prepared') if qna is not None else 'unknown'
         lines.append((line,section,at,line_no))
     body='\n'.join(x[0] for x in lines);terms=[];moments=[]
-    for category,patterns in [('direct',DIRECT+[("한국 화장품 제조·브랜드 맥락",p) for p in REVIEWED_CONTEXT.get(source_id,[])]),('brands',BRANDS),('general',GENERAL)]:
+    for category,patterns in [('direct',DIRECT),('brands',BRANDS),('general',GENERAL)]:
         for term,pattern in patterns:
             segments={'prepared':0,'qna':0,'unknown':0}
             for line,part,at,line_no in lines:
@@ -45,8 +38,11 @@ if __name__=='__main__':
     for m in source.get('europe',[]):
         f=root/f"{m['id']}.json";raw=json.loads(f.read_text()) if f.exists() else {};d={**m,'status':'missing','reason':raw.get('reason') or '전체 원문 미확보·미집계'}
         if raw.get('verifiedBody') and raw.get('content'):d['status']='complete';d.update(count(raw['content'],source_id=m['id']))
+        elif raw.get('excerptBody') and raw.get('content'):d['status']='excerpt';d['source']=raw.get('source',d['source']);d.update(count(raw['content'],source_id=m['id']))
+        d['coverage']='전체 원문' if d['status']=='complete' else raw.get('coverage','확보 발췌') if d['status']=='excerpt' else '원문 미확보'
+        if raw.get('dateCorrection'):d.update(raw['dateCorrection'])
         docs.append(d)
-    result={'updated':'2026-09-30','version':2,'range':'2024-01 ~ 2026-09','directTerms':[x[0] for x in DIRECT],'brandTerms':[x[0] for x in BRANDS],'method':'한국 화장품·K뷰티·한국 브랜드 및 관련 한국 제조/조달 표현의 등장 횟수. 반복 표현·브랜드명 각각 집계. 일반 뷰티/한국 시장 제외. Peach & Lily는 원문에서 K뷰티로 분류한 브랜드. Anua/Inua는 자동전사 표기 변형.','documents':docs}
+    result={'updated':'2026-09-30','version':3,'range':'2024-01 ~ 2026-09','directTerms':[x[0] for x in DIRECT],'brandTerms':[x[0] for x in BRANDS],'method':'한국·한국 브랜드·K뷰티 관련 모든 표현을 집계. 한국 시장·생산·조달·면세·환율·경쟁·질문 포함. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.','documents':docs}
     Path('data/call-frequency.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('Documents:',len(docs),'complete:',sum(d['status']=='complete' for d in docs))
     print('ULTA:',[(d['date'],d.get('counts',{}).get('direct'),d['status']) for d in docs if d['company']=='Ulta Beauty'])

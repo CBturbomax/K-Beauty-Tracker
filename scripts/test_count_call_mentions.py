@@ -24,14 +24,21 @@ class MentionCountingTests(unittest.TestCase):
   d=counter.count('Korean brands. Korean makeup brand. Brands from Korea. Numbuzin, Centellian24, Peach & Lily. Manufacturing is in Italy and South Korea.',source_id='63990')
   self.assertEqual(d['counts']['direct'],4)
   self.assertEqual(d['counts']['brands'],3)
- def test_unrelated_korean_market_excluded(self):
+ def test_all_korean_references_included(self):
   d=counter.count('Our stores in Korea. Korean won. Sales in Korea. Non-Korean brands.')
-  self.assertEqual(d['counts']['direct'],0)
+  self.assertEqual(d['counts']['direct'],4)
  def test_missing_is_not_zero(self):
   docs=json.loads(Path('data/call-frequency.json').read_text())['documents']
   for d in docs:
-   if d['status']!='complete':self.assertNotIn('counts',d)
+   if d['status']=='missing':self.assertNotIn('counts',d)
    else:
     for category,total in d['counts'].items():self.assertEqual(total,sum(t['count'] for t in d['terms'] if t['category']==category))
   ulta=[d for d in docs if d['company']=='Ulta Beauty'];self.assertEqual(len(ulta),23);self.assertTrue(all(d['status']=='complete' for d in ulta))
+ def test_translated_duplicate_not_counted(self):
+  d=counter.count('[10-12] South Korea.\n  → 한국.');self.assertEqual(d['counts']['direct'],1)
+ def test_every_existing_comment_has_counted_evidence(self):
+  e=json.loads(Path('data/call-evidence.json').read_text());ids={d['id'] for d in e}
+  for n,i in enumerate(json.loads(Path('data/calls.json').read_text())['items']):self.assertIn(str(i.get('callId') or 'eu-'+str(n)),ids)
+  d=next(d for d in e if d['id']=='eu-21');self.assertEqual(d['count'],3);self.assertEqual(len(d['segments']),3)
+  for d in e:self.assertEqual(d['count'],sum(s['count'] for s in d['segments']))
 if __name__=='__main__':unittest.main()

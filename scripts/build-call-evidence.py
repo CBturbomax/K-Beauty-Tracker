@@ -28,7 +28,7 @@ for d in freq['documents']:
   segments.append({'id':key,**c,'line':n,'location':location,'speaker':speaker,'count':sum(m['count'] for m in ms),'terms':[{'term':m['term'],'count':m['count']} for m in ms]})
  assert words<=25,(d['id'],words)
  total=sum(s['count'] for s in segments);assert total==d['counts']['direct']+d['counts']['brands'],d['id']
- out.append({'id':d['id'],'company':d['company'],'date':d['date'],'title':d['title'],'source':d['source'],'url':d.get('url'),'callId':d.get('callId'),'sha256':d['sha256'],'count':total,'segments':segments})
+ out.append({'id':d['id'],'company':d['company'],'date':d['date'],'title':d['title'],'source':d['source'],'url':d.get('url'),'callId':d.get('callId'),'sha256':d['sha256'],'coverage':d.get('coverage','전체 원문'),'dateSource':d.get('dateSource'),'count':total,'segments':segments})
 assert len(copy)==sum(len(d['segments']) for d in out)
 Path('data/call-evidence.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(out)} source documents, {sum(len(d["segments"]) for d in out)} source passages, {sum(d["count"] for d in out)} mentions; all reconciled.')

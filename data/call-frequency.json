@@ -1,14 +1,12 @@
 {
   "updated": "2026-09-30",
-  "version": 2,
+  "version": 3,
   "range": "2024-01 ~ 2026-09",
   "directTerms": [
     "K-beauty",
-    "Korean beauty",
-    "Korean skincare / cosmetics",
+    "한국 관련",
     "K뷰티",
-    "한국 브랜드·메이크업",
-    "한국 브랜드·제조 맥락"
+    "K메이크업"
   ],
   "brandTerms": [
     "Medicube",
@@ -27,6 +25,8 @@
     "Belif",
     "Round Lab",
     "Torriden",
+    "Fwee",
+    "Unleashia",
     "Missha",
     "numbuzin",
     "Centellian24",
@@ -38,7 +38,7 @@
     "Stylenanda",
     "Peach & Lily"
   ],
-  "method": "한국 화장품·K뷰티·한국 브랜드 및 관련 한국 제조/조달 표현의 등장 횟수. 반복 표현·브랜드명 각각 집계. 일반 뷰티/한국 시장 제외. Peach & Lily는 원문에서 K뷰티로 분류한 브랜드. Anua/Inua는 자동전사 표기 변형.",
+  "method": "한국·한국 브랜드·K뷰티 관련 모든 표현을 집계. 한국 시장·생산·조달·면세·환율·경쟁·질문 포함. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.",
   "documents": [
     {
       "id": "123290",
@@ -114,11 +114,19 @@
       "status": "complete",
       "callId": 5473,
       "counts": {
-        "direct": 0,
+        "direct": 3,
         "brands": 0,
         "general": 25
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -136,7 +144,32 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1044.42,
+          "line": 105
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1410.52,
+          "line": 141
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 3725.065,
+          "line": 438
+        }
+      ],
       "wordCount": 8895,
       "sha256": "59d14559c85c0a7f975c6080b17a9c12314461783a05f0b5f71b795206440f7c"
     },
@@ -525,12 +558,30 @@
       "status": "complete",
       "callId": 3975,
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 0,
         "general": 0
       },
-      "terms": [],
-      "moments": [],
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.93,
+          "line": 75
+        }
+      ],
       "wordCount": 10925,
       "sha256": "f13680eb76ffe6b5c241e67b61580a229d39d16e206d814916fbaa80f468f05a"
     },
@@ -777,11 +828,19 @@
       "status": "complete",
       "callId": 5475,
       "counts": {
-        "direct": 0,
+        "direct": 3,
         "brands": 0,
         "general": 34
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -799,7 +858,32 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1393.388,
+          "line": 140
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1922.073,
+          "line": 187
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2326.983,
+          "line": 245
+        }
+      ],
       "wordCount": 9151,
       "sha256": "ec858218e0a9afba19b092afe87e9801a9eb37bdfc938a53680e02243b0d17b9"
     },
@@ -1243,11 +1327,27 @@
       "status": "complete",
       "callId": 5474,
       "counts": {
-        "direct": 0,
-        "brands": 0,
+        "direct": 2,
+        "brands": 1,
         "general": 50
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -1265,7 +1365,32 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1128.002,
+          "line": 111
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 2360.942,
+          "line": 218
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1561.887,
+          "line": 153
+        }
+      ],
       "wordCount": 9753,
       "sha256": "5e6380c4b2e62bbc589aacbabe22aa9d5797424856e5430bba59765ab33f5eb7"
     },
@@ -1843,11 +1968,27 @@
       "status": "complete",
       "callId": 5476,
       "counts": {
-        "direct": 0,
-        "brands": 0,
+        "direct": 5,
+        "brands": 1,
         "general": 46
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 5,
+          "prepared": 5,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -1865,7 +2006,56 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1147.71,
+          "line": 112
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1385.955,
+          "line": 137
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1402.07,
+          "line": 138
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 2061.065,
+          "line": 207
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 2095.1,
+          "line": 211
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1407.83,
+          "line": 139
+        }
+      ],
       "wordCount": 9149,
       "sha256": "4d40ddad1e036b222228c96475de72d35d8047b5043241770cca61952e6da56e"
     },
@@ -2324,7 +2514,7 @@
       },
       "terms": [
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -2358,7 +2548,7 @@
       ],
       "moments": [
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -2779,11 +2969,19 @@
       "status": "complete",
       "callId": 51508,
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 0,
         "general": 16
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -2793,7 +2991,16 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 847.07,
+          "line": 159
+        }
+      ],
       "wordCount": 6538,
       "sha256": "88de77249ca78487776e6373c934f2a3bc53030021cac639782a31889a64ec50"
     },
@@ -2813,19 +3020,11 @@
       },
       "terms": [
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 2,
           "prepared": 0,
-          "qna": 1,
-          "unknown": 0
-        },
-        {
-          "term": "한국 브랜드·제조 맥락",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 1,
+          "qna": 2,
           "unknown": 0
         },
         {
@@ -2839,7 +3038,7 @@
       ],
       "moments": [
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -2847,7 +3046,7 @@
           "line": 149
         },
         {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -2956,11 +3155,27 @@
       "status": "complete",
       "callId": 35805,
       "counts": {
-        "direct": 0,
-        "brands": 0,
+        "direct": 1,
+        "brands": 1,
         "general": 35
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -2978,7 +3193,24 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2492.36,
+          "line": 369
+        },
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 368.58,
+          "line": 53
+        }
+      ],
       "wordCount": 9067,
       "sha256": "d5dde4ed5f1cd601ee60838beb4e153e266c6889455345fb7087fc53545e4557"
     },
@@ -3038,7 +3270,7 @@
       },
       "terms": [
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -3072,7 +3304,7 @@
       ],
       "moments": [
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -3184,7 +3416,7 @@
       "callId": 51460,
       "counts": {
         "direct": 6,
-        "brands": 4,
+        "brands": 6,
         "general": 32
       },
       "terms": [
@@ -3214,6 +3446,22 @@
         },
         {
           "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Fwee",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Unleashia",
           "category": "brands",
           "count": 1,
           "prepared": 1,
@@ -3304,6 +3552,22 @@
         },
         {
           "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.06,
+          "line": 78
+        },
+        {
+          "term": "Fwee",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.06,
+          "line": 78
+        },
+        {
+          "term": "Unleashia",
           "category": "brands",
           "count": 1,
           "section": "prepared",
@@ -3731,7 +3995,7 @@
           "unknown": 0
         },
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -3837,7 +4101,7 @@
           "line": 464
         },
         {
-          "term": "한국 화장품 제조·브랜드 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -4008,19 +4272,11 @@
       },
       "terms": [
         {
-          "term": "Korean skincare / cosmetics",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 1,
-          "unknown": 0
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 1,
+          "count": 2,
           "prepared": 1,
-          "qna": 0,
+          "qna": 1,
           "unknown": 0
         },
         {
@@ -4058,20 +4314,20 @@
       ],
       "moments": [
         {
-          "term": "Korean skincare / cosmetics",
-          "category": "direct",
-          "count": 1,
-          "section": "qna",
-          "seconds": 2290.62,
-          "line": 324
-        },
-        {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "prepared",
           "seconds": 691.79,
           "line": 86
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2290.62,
+          "line": 324
         },
         {
           "term": "Beauty of Joseon",
@@ -4121,17 +4377,17 @@
       "status": "complete",
       "callId": 189502,
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 0,
         "general": 26
       },
       "terms": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 2,
           "prepared": 0,
-          "qna": 1,
+          "qna": 2,
           "unknown": 0
         },
         {
@@ -4153,7 +4409,15 @@
       ],
       "moments": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2278.87,
+          "line": 381
+        },
+        {
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "qna",
@@ -4990,7 +5254,7 @@
       "status": "complete",
       "callId": 189866,
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "brands": 0,
         "general": 5
       },
@@ -5004,11 +5268,11 @@
           "unknown": 0
         },
         {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 2,
           "prepared": 1,
-          "qna": 0,
+          "qna": 1,
           "unknown": 0
         },
         {
@@ -5030,16 +5294,85 @@
           "line": 142
         },
         {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "prepared",
           "seconds": 1127.32,
           "line": 142
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2573.52,
+          "line": 368
         }
       ],
       "wordCount": 10610,
       "sha256": "1b56b040404b73b48252f15139e65e203391d0a6d9e9d1ffa31cd20df1c54f80"
+    },
+    {
+      "id": "184336",
+      "company": "e.l.f. Beauty",
+      "date": "2026-05-29",
+      "title": "Status update",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 184336,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 27
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 13,
+          "prepared": 3,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 9,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1908.5,
+          "line": 665
+        }
+      ],
+      "wordCount": 8602,
+      "sha256": "0377ddcdbba3260c59774f649396b6c2ba9296a9c605ea05de0fe3ee2d48306e"
     },
     {
       "id": "eu-4",
@@ -5047,10 +5380,62 @@
       "date": "2026-09",
       "title": "Barclays Global Consumer Conference",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "공개 컨퍼런스콜 전사본",
       "url": "https://www.investing.com/news/transcripts/loreal-at-barclays-19th-annual-global-consumer-conference-growth-edge-93CH-4891883",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 145,
+      "sha256": "c16974e85f03c9cbab7d61e95c071915fdff066fcbb1daa13ce1e2cb3401e026",
+      "coverage": "확보 발췌"
     },
     {
       "id": "eu-7",
@@ -5069,20 +5454,12 @@
       },
       "terms": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 5,
+          "count": 8,
           "prepared": 0,
           "qna": 0,
-          "unknown": 5
-        },
-        {
-          "term": "한국 브랜드·제조 맥락",
-          "category": "direct",
-          "count": 3,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 3
+          "unknown": 8
         },
         {
           "term": "beauty",
@@ -5103,7 +5480,7 @@
       ],
       "moments": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -5111,7 +5488,15 @@
           "line": 43
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 60
+        },
+        {
+          "term": "한국 관련",
           "category": "direct",
           "count": 2,
           "section": "unknown",
@@ -5119,7 +5504,7 @@
           "line": 77
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -5127,24 +5512,17 @@
           "line": 100
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
           "line": 101
-        },
-        {
-          "term": "한국 브랜드·제조 맥락",
-          "category": "direct",
-          "count": 3,
-          "section": "unknown",
-          "seconds": null,
-          "line": 60
         }
       ],
       "wordCount": 9773,
-      "sha256": "0d9a11be9210f53e7c7d31345e34dc138a032ae901ce7dfb5954426405ce7b08"
+      "sha256": "0d9a11be9210f53e7c7d31345e34dc138a032ae901ce7dfb5954426405ce7b08",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-8",
@@ -5152,21 +5530,182 @@
       "date": "2026-08",
       "title": "3Q FY26",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "공개 컨퍼런스콜 전사본",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-douglas-group-q3-2026-sales-fall-as-margins-narrow-93CH-4854160",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 2,
+        "brands": 2,
+        "general": 2
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Erborian",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        },
+        {
+          "term": "Erborian",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 144,
+      "sha256": "6dbb88717fce1458707c2fff1e7916b8e7c8c0c1a5677c6569b04c5197cc83c9",
+      "coverage": "확보 발췌"
     },
     {
       "id": "eu-9",
       "company": "L'Oréal",
-      "date": "2026-07",
-      "title": "1H26",
+      "date": "2026-07-30",
+      "title": "H1 2026 실적 발표",
       "type": "conference",
       "source": "공개 전사본",
       "url": "https://stockanalysis.com/quote/epa/OR/transcripts/557549-h1-2026/",
-      "status": "missing",
-      "reason": "원문 제목은 2026년이나 본문은 2025년 상반기로 소개되어 시점 대조 필요"
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 3,
+        "brands": 4,
+        "general": 58
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 42,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 42
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 16,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 16
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 24
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 52
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 8
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 24
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 52
+        }
+      ],
+      "wordCount": 12082,
+      "sha256": "397b648f66e0860f850928e3776c75ef75df4c5133b1d63a57d9084e81b6e439",
+      "coverage": "전체 원문",
+      "dateSource": "https://www.loreal-finance.com/eng/2026-half-year-results-webcast-9-am"
     },
     {
       "id": "eu-12",
@@ -5185,20 +5724,12 @@
       },
       "terms": [
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 3,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 2,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 2
+          "unknown": 3
         },
         {
           "term": "beauty",
@@ -5219,15 +5750,7 @@
       ],
       "moments": [
         {
-          "term": "Korean beauty",
-          "category": "direct",
-          "count": 1,
-          "section": "unknown",
-          "seconds": null,
-          "line": 35
-        },
-        {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -5235,16 +5758,17 @@
           "line": 12
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 2,
           "section": "unknown",
           "seconds": null,
           "line": 35
         }
       ],
       "wordCount": 5637,
-      "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a"
+      "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-15",
@@ -5257,13 +5781,21 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 2,
         "general": 64
       },
       "terms": [
         {
           "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -5313,6 +5845,14 @@
           "line": 53
         },
         {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 53
+        },
+        {
           "term": "Beauty of Joseon",
           "category": "brands",
           "count": 1,
@@ -5330,7 +5870,8 @@
         }
       ],
       "wordCount": 12650,
-      "sha256": "87e09cebcb5c11abf071327643f4c04f06a83e91d14ec57f0e92b6f818895349"
+      "sha256": "87e09cebcb5c11abf071327643f4c04f06a83e91d14ec57f0e92b6f818895349",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-16",
@@ -5338,10 +5879,62 @@
       "date": "2026-04-24",
       "title": "주주총회",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "참고 대시보드 인용",
       "url": "https://kbeauty-app-hj-aiproject1-handy.vercel.app/",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 8,
+      "sha256": "409e154e9396c99c121a975e68a607a09240f5a8c22c1717bab3e11bd47a4c03",
+      "coverage": "참고 대시보드 인용"
     },
     {
       "id": "eu-18",
@@ -5349,10 +5942,54 @@
       "date": "2026-04",
       "title": "1Q26",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "공개 컨퍼런스콜 전사본",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-loreal-q1-2026-shows-strong-growth-amid-it-challenges-93CH-4630262",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 147,
+      "sha256": "e55be6dc98a81def964bd49646cfb91517faa790a6eac191f81f2bf9572b6dcc",
+      "coverage": "확보 발췌"
     },
     {
       "id": "eu-19",
@@ -5365,21 +6002,92 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 7,
+        "direct": 8,
         "brands": 0,
         "general": 3
       },
       "terms": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 4,
+          "count": 8,
           "prepared": 0,
           "qna": 0,
-          "unknown": 4
+          "unknown": 8
         },
         {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 152
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 258
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 262
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 266
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 267
+        }
+      ],
+      "wordCount": 9913,
+      "sha256": "a495eb4551f6646979213a16a8582590fb40dc1ee7ff4118bc717662d9a211a8",
+      "coverage": "전체 원문"
+    },
+    {
+      "id": "eu-21",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2026-03",
+      "title": "FY2025 실적",
+      "type": "earnings",
+      "source": "공개 컨퍼런스콜 전사본",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-beiersdorf-ag-q4-2025-results-show-solid-growth-93CH-4537068",
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 3,
+        "brands": 0,
+        "general": 3
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
           "category": "direct",
           "count": 3,
           "prepared": 0,
@@ -5397,59 +6105,33 @@
       ],
       "moments": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 152
+          "line": 3
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 258
+          "line": 4
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 262
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 1,
-          "section": "unknown",
-          "seconds": null,
-          "line": 267
-        },
-        {
-          "term": "한국 브랜드·제조 맥락",
-          "category": "direct",
-          "count": 3,
-          "section": "unknown",
-          "seconds": null,
-          "line": 266
+          "line": 9
         }
       ],
-      "wordCount": 9913,
-      "sha256": "a495eb4551f6646979213a16a8582590fb40dc1ee7ff4118bc717662d9a211a8"
-    },
-    {
-      "id": "eu-21",
-      "company": "Beiersdorf (NIVEA)",
-      "date": "2026-03",
-      "title": "FY2025 실적",
-      "type": "earnings",
-      "source": "공개 전사본",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-beiersdorf-ag-q4-2025-results-show-solid-growth-93CH-4537068",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "wordCount": 841,
+      "sha256": "2be68e4657f203c95218a30a585fa03c0839d46bd3cff112daf9ea12a7a49765",
+      "coverage": "확보 발췌"
     },
     {
       "id": "eu-22",
@@ -5476,20 +6158,12 @@
           "unknown": 1
         },
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 2,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 1
+          "unknown": 2
         },
         {
           "term": "Dr.G",
@@ -5534,20 +6208,20 @@
           "line": 37
         },
         {
-          "term": "Korean beauty",
-          "category": "direct",
-          "count": 1,
-          "section": "unknown",
-          "seconds": null,
-          "line": 37
-        },
-        {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
           "line": 23
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 37
         },
         {
           "term": "Dr.G",
@@ -5567,7 +6241,8 @@
         }
       ],
       "wordCount": 7410,
-      "sha256": "b95c0a492569ae70b79b0ea53a0c49195a8651bfcc1ceec1304075d5d550abf1"
+      "sha256": "b95c0a492569ae70b79b0ea53a0c49195a8651bfcc1ceec1304075d5d550abf1",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-23",
@@ -5575,10 +6250,46 @@
       "date": "2026-02-11",
       "title": "1Q FY26",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "공개 컨퍼런스콜 전사본",
       "url": "https://earningscalls.dev/transcripts/douglas-ag_dou_earnings_call_transcript_2026-02-11",
-      "status": "missing",
-      "reason": "공개 페이지에 부분 전사본 안내가 있어 전체 횟수 미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 3
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 361,
+      "sha256": "98b08be9e3594d192c2382aa6686b7e9d980a2942812734ff77bfe93209fd2da",
+      "coverage": "확보 발췌"
     },
     {
       "id": "eu-24",
@@ -5591,7 +6302,7 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 5,
+        "direct": 7,
         "brands": 7,
         "general": 110
       },
@@ -5605,12 +6316,12 @@
           "unknown": 4
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 3,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
+          "unknown": 3
         },
         {
           "term": "Dr.G",
@@ -5687,9 +6398,17 @@
           "line": 74
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 8
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
           "section": "unknown",
           "seconds": null,
           "line": 35
@@ -5752,7 +6471,8 @@
         }
       ],
       "wordCount": 16199,
-      "sha256": "6b3ce5193aed32424efc7d353c6b32a3e229c6e12045bf770b204c6479dc2604"
+      "sha256": "6b3ce5193aed32424efc7d353c6b32a3e229c6e12045bf770b204c6479dc2604",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-26",
@@ -5765,11 +6485,19 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 1,
         "general": 35
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
         {
           "term": "Dr.Jart",
           "category": "brands",
@@ -5797,6 +6525,14 @@
       ],
       "moments": [
         {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 54
+        },
+        {
           "term": "Dr.Jart",
           "category": "brands",
           "count": 1,
@@ -5806,7 +6542,8 @@
         }
       ],
       "wordCount": 9827,
-      "sha256": "cbfc53fcb958cd3bee1e6869e522846ae6ddbed29e4203ffa397dea7c79aa524"
+      "sha256": "cbfc53fcb958cd3bee1e6869e522846ae6ddbed29e4203ffa397dea7c79aa524",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-29",
@@ -5825,7 +6562,7 @@
       },
       "terms": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 3,
           "prepared": 0,
@@ -5859,7 +6596,7 @@
       ],
       "moments": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 3,
           "section": "unknown",
@@ -5868,7 +6605,8 @@
         }
       ],
       "wordCount": 8880,
-      "sha256": "b5d3a7671f0ea98939a9a502b70f546cb2a7475f6166716e594d79712e83986b"
+      "sha256": "b5d3a7671f0ea98939a9a502b70f546cb2a7475f6166716e594d79712e83986b",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-37",
@@ -5881,26 +6619,18 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 2,
+        "direct": 7,
         "brands": 2,
         "general": 71
       },
       "terms": [
         {
-          "term": "Korean skincare / cosmetics",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
+          "count": 7,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 1
+          "unknown": 7
         },
         {
           "term": "Dr.G",
@@ -5929,7 +6659,15 @@
       ],
       "moments": [
         {
-          "term": "Korean skincare / cosmetics",
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 6
+        },
+        {
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -5937,12 +6675,44 @@
           "line": 31
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 6
+          "line": 40
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 47
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 62
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 64
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 69
         },
         {
           "term": "Dr.G",
@@ -5962,7 +6732,8 @@
         }
       ],
       "wordCount": 8325,
-      "sha256": "8c1c0c1edb7e8497b6148948a539f2484d50055bf9497527b2610689abd30cd2"
+      "sha256": "8c1c0c1edb7e8497b6148948a539f2484d50055bf9497527b2610689abd30cd2",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-38",
@@ -5975,7 +6746,7 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 7,
+        "direct": 11,
         "brands": 7,
         "general": 100
       },
@@ -5989,31 +6760,15 @@
           "unknown": 2
         },
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 2,
+          "count": 8,
           "prepared": 0,
           "qna": 0,
-          "unknown": 2
+          "unknown": 8
         },
         {
-          "term": "Korean skincare / cosmetics",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 1
-        },
-        {
-          "term": "한국 브랜드·메이크업",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 1
-        },
-        {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "K메이크업",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -6079,23 +6834,23 @@
           "line": 50
         },
         {
-          "term": "Korean beauty",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 9
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
           "section": "unknown",
           "seconds": null,
           "line": 50
         },
         {
-          "term": "Korean beauty",
-          "category": "direct",
-          "count": 1,
-          "section": "unknown",
-          "seconds": null,
-          "line": 167
-        },
-        {
-          "term": "Korean skincare / cosmetics",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -6103,15 +6858,39 @@
           "line": 61
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 50
+          "line": 73
         },
         {
-          "term": "한국 브랜드·제조 맥락",
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 147
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 149
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 167
+        },
+        {
+          "term": "K메이크업",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -6176,7 +6955,8 @@
         }
       ],
       "wordCount": 16965,
-      "sha256": "f42603e48bfbd36b4bc0849493d105417d45007ea46531adc499c7b17ef700d6"
+      "sha256": "f42603e48bfbd36b4bc0849493d105417d45007ea46531adc499c7b17ef700d6",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-46",
@@ -6184,10 +6964,38 @@
       "date": "2024-06-27",
       "title": "JP Morgan 대담",
       "type": "conference",
-      "source": "공개 전사본",
+      "source": "참고 대시보드 인용",
       "url": "https://kbeauty-app-hj-aiproject1-handy.vercel.app/",
-      "status": "missing",
-      "reason": "전체 원문 미확보·미집계"
+      "status": "excerpt",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 1
+        }
+      ],
+      "wordCount": 14,
+      "sha256": "6d1b7c74cd60122851f9450990a63c43e750a5e4b02d560847825173de39cff6",
+      "coverage": "참고 대시보드 인용"
     },
     {
       "id": "eu-47",
@@ -6206,20 +7014,12 @@
       },
       "terms": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 2,
+          "count": 3,
           "prepared": 0,
           "qna": 0,
-          "unknown": 2
-        },
-        {
-          "term": "한국 화장품 제조·브랜드 맥락",
-          "category": "direct",
-          "count": 1,
-          "prepared": 0,
-          "qna": 0,
-          "unknown": 1
+          "unknown": 3
         },
         {
           "term": "beauty",
@@ -6240,7 +7040,7 @@
       ],
       "moments": [
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -6248,24 +7048,17 @@
           "line": 77
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
-          "count": 1,
-          "section": "unknown",
-          "seconds": null,
-          "line": 78
-        },
-        {
-          "term": "한국 화장품 제조·브랜드 맥락",
-          "category": "direct",
-          "count": 1,
+          "count": 2,
           "section": "unknown",
           "seconds": null,
           "line": 78
         }
       ],
       "wordCount": 8863,
-      "sha256": "d1d26d5b5adc48a24d8f8109ae6be00a3c3cb2e13803cf7e0804c85078a42ba4"
+      "sha256": "d1d26d5b5adc48a24d8f8109ae6be00a3c3cb2e13803cf7e0804c85078a42ba4",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-48",
@@ -6278,11 +7071,19 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 5,
         "brands": 0,
         "general": 11
       },
       "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 5,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 5
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -6308,9 +7109,35 @@
           "unknown": 6
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 231
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 244
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 245
+        }
+      ],
       "wordCount": 10050,
-      "sha256": "c4e008525c6e8dc70d0879a986f917fba7c123effc37131d4317df94ce7f9cd4"
+      "sha256": "c4e008525c6e8dc70d0879a986f917fba7c123effc37131d4317df94ce7f9cd4",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-50",
@@ -6324,7 +7151,7 @@
       "reason": "전체 원문 미확보·미집계",
       "counts": {
         "direct": 2,
-        "brands": 1,
+        "brands": 2,
         "general": 144
       },
       "terms": [
@@ -6337,7 +7164,7 @@
           "unknown": 1
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -6346,6 +7173,14 @@
         },
         {
           "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Stylenanda",
           "category": "brands",
           "count": 1,
           "prepared": 0,
@@ -6387,7 +7222,7 @@
           "line": 22
         },
         {
-          "term": "한국 브랜드·메이크업",
+          "term": "한국 관련",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -6401,10 +7236,19 @@
           "section": "unknown",
           "seconds": null,
           "line": 22
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 22
         }
       ],
       "wordCount": 17143,
-      "sha256": "33cca7d7a58fafbddb18a00f0e340a744ff0013d6868a67e974660dae2853614"
+      "sha256": "33cca7d7a58fafbddb18a00f0e340a744ff0013d6868a67e974660dae2853614",
+      "coverage": "전체 원문"
     }
   ]
 }

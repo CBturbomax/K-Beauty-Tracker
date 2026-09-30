@@ -22,9 +22,9 @@ export default function CallsView(){
  const select=(name:string,q:string|null=null)=>{if(company===name&&period===q){setCompany(null);setPeriod(null)}else{setCompany(name);setPeriod(q)}requestAnimationFrame(()=>resultsRef.current?.scrollIntoView({behavior:'smooth',block:'start'}))};
  const clear=()=>{setCompany(null);setPeriod(null);setSearch('')};
  return <div className="calls-view">
-  <div className="calls-toolbar"><Choice label="컨콜 지역" value={region} options={['전체','미국','유럽']} onChange={v=>{setRegion(v);clear()}}/><span className="calls-count-hint">한국 화장품·한국 브랜드 관련 표현의 실제 등장 횟수</span></div>
+
   <section className="calls-matrix-panel" aria-label="기업별 컨콜 선택">
-   <div className="calls-matrix-heading"><div><h3>회사별 · 분기별 언급 횟수</h3></div><span>{eligible.length}개 기업 · 단위: 회</span></div>
+   <div className="calls-matrix-heading"><div><h3 title="한국 화장품·한국 브랜드·관련 한국 제조/조달 표현의 실제 등장 횟수">회사별 · 분기별 언급 횟수</h3></div><Choice label="컨콜 지역" value={region} options={['전체','미국','유럽']} onChange={v=>{setRegion(v);clear()}}/><span>{eligible.length}개 기업 · 단위: 회</span></div>
    <div className="calls-matrix-scroll"><table className="calls-matrix"><thead><tr><th scope="col">회사</th>{quarters.map((q,j)=><th scope="col" key={q} className={j===quarters.length-1?'latest-quarter':undefined}>{q}</th>)}<th scope="col">합계</th><th scope="col" title="전체 원문을 확보해 집계한 콜 수">원문</th></tr></thead><tbody>{eligible.map((c:any)=>{
     const docs=frequency.documents.filter(d=>d.company===c.name),complete=docs.filter(d=>d.status==='complete');
     const counts=quarters.map(q=>{const all=docs.filter(d=>quarter(d.date)===q),ready=all.filter(d=>d.status==='complete');return {n:ready.length?ready.reduce((sum,d)=>sum+(d.counts?.direct||0)+(d.counts?.brands||0),0):null,partial:ready.length>0&&ready.length<all.length,ready:ready.length,all:all.length}}),total=counts.reduce((sum,d)=>sum+(d.n||0),0),active=c.name===company;

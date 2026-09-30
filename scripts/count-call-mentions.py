@@ -3,6 +3,7 @@ Usage: python scripts/count-call-mentions.py /path/to/private-sources-directory
 Only aggregate counts are published; source exports stay outside the repository.
 """
 import hashlib,json,re,sys
+from datetime import datetime,timezone
 from pathlib import Path
 DIRECT=[('K-beauty',r'\bk[\s\-‐‑–—]*beauty\b'),('한국 관련',r'\b(?:south\s+)?korea(?:n|ns)?\b|대한민국|한국'),('K뷰티',r'K[\s-]*뷰티'),('K메이크업',r'\bk[\s-]*makeup\b')]
 
@@ -49,7 +50,14 @@ if __name__=='__main__':
         d['coverage']='전체 원문' if d['status']=='complete' else raw.get('coverage','확보 발췌') if d['status']=='excerpt' else '원문 미확보'
         if raw.get('dateCorrection'):d.update(raw['dateCorrection'])
         docs.append(d)
-    result={'updated':'2026-09-30','version':4,'range':'2024-01 ~ 2026-09','directTerms':[x[0] for x in DIRECT],'brandTerms':[x[0] for x in BRANDS],'method':'한국 관련 표현 중 화장품·뷰티 맥락을 검토한 발언만 집계. 브랜드·화장품 시장·생산·조달·면세·경쟁·질문 포함. 일반 매장 출점·회원 수·환율 가정 제외. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.','documents':docs}
+    if '--incremental' in sys.argv:
+        previous=json.loads(Path('data/call-frequency.json').read_text())
+        merged={d['id']:d for d in previous['documents']}
+        for d in docs:
+            if d['status']=='missing' and merged.get(d['id'],{}).get('status') in ('complete','excerpt'):continue
+            merged[d['id']]=d
+        docs=list(merged.values())
+    result={'updated':datetime.now(timezone.utc).date().isoformat(),'version':4,'range':min(d['date'][:7] for d in docs)+' ~ '+max(d['date'][:7] for d in docs),'directTerms':[x[0] for x in DIRECT],'brandTerms':[x[0] for x in BRANDS],'method':'한국 관련 표현 중 화장품·뷰티 맥락을 검토한 발언만 집계. 브랜드·화장품 시장·생산·조달·면세·경쟁·질문 포함. 일반 매장 출점·회원 수·환율 가정 제외. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.','documents':docs}
     Path('data/call-frequency.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print('Documents:',len(docs),'complete:',sum(d['status']=='complete' for d in docs))
     print('ULTA:',[(d['date'],d.get('counts',{}).get('direct'),d['status']) for d in docs if d['company']=='Ulta Beauty'])

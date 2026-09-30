@@ -1,0 +1,27 @@
+{
+  "automationEnabled": true,
+  "schedule": "매일 오전 8시 전후 · 한국시간",
+  "datasets": {
+    "trade": {
+      "label": "수출입",
+      "checkedAt": "2026-09-30T06:20:38.221394+00:00",
+      "status": "partial",
+      "latest": "2026-08",
+      "message": "관세청 최신 발표월 8월 확인. 전체 국가 정정치 대조는 첫 자동 실행에서 진행."
+    },
+    "financials": {
+      "label": "ODM 별도 손익",
+      "checkedAt": "2026-09-30T06:20:38.221394+00:00",
+      "status": "no_change",
+      "latest": "2Q26",
+      "message": "DART 별도 최신 2개 분기 조회 완료. 최신 공시분 2Q26."
+    },
+    "calls": {
+      "label": "컨콜",
+      "checkedAt": "2026-09-30T06:20:38.221394+00:00",
+      "status": "partial",
+      "latest": "2026-09-24",
+      "message": "미국상장 11사 최근 7일 조회 완료. 유럽 5사와 지연 전사는 첫 자동 실행에서 확인."
+    }
+  }
+}

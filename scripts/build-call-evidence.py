@@ -5,11 +5,14 @@ Only reviewed excerpts and aggregate evidence are published, never full transcri
 import json,re,sys,collections
 from pathlib import Path
 root=Path(sys.argv[1]); freq=json.loads(Path('data/call-frequency.json').read_text())
+previous={d['id']:d for d in json.loads(Path('data/call-evidence.json').read_text())} if '--incremental' in sys.argv else {}
 copy=json.loads(Path('data/call-evidence-copy.json').read_text());out=[]
 def stamp(n):
  n=int(float(n));return f'{n//60}:{n%60:02}'
 for d in freq['documents']:
  if not d.get('moments'):continue
+ if '--incremental' in sys.argv and not (root/(d['id']+'.json')).exists():
+  old=previous[d['id']];assert old['sha256']==d['sha256'],d['id'];out.append(old);continue
  raw=json.loads((root/(d['id']+'.json')).read_text());lines=raw['content'].splitlines();groups={}
  for m in d['moments']:groups.setdefault(m['line'],[]).append(m)
  segments=[];words=0

@@ -4,7 +4,9 @@ import contexts from '@/data/call-context.json';
 import frequency from '@/data/call-frequency.json';
 import evidence from '@/data/call-evidence.json';
 
-const quarters=Array.from({length:11},(_,i)=>`${i%4+1}Q${24+Math.floor(i/4)}`);
+const latestCallDate=frequency.documents.map(d=>d.date).sort().at(-1)||'2024-01-01';
+const quarterCount=Math.max(1,(Number(latestCallDate.slice(0,4))-2024)*4+Math.floor((Number(latestCallDate.slice(5,7))-1)/3)+1);
+const quarters=Array.from({length:quarterCount},(_,i)=>`${i%4+1}Q${24+Math.floor(i/4)}`);
 const highlightPattern=/(K[ -]?뷰티|K[ -]?beauty|한국(?:의|에서|과|·일본| 브랜드| 스킨케어| 메이크업| 제조업체| 공급업체| 공급| 제조| 시장)?|Korean(?: beauty)?|South Korea|Korea|메디큐브|Medicube|아누아|Anua|Inua|닥터자르트|Dr\.?\s?Jart\+?|Doctor\. Jart|닥터지|Dr\.?\s?G\b|피치앤릴리|Peach(?: &| and)? Lily|라네즈|Laneige|조선미녀|Beauty of Joseon|에스트라|Aestura|바이오던스|Biodance|에르보리안|Erborian|3CE|코스알엑스|CosRX|티르티르|TIRTIR|글래스 스킨|유리알 피부|glass skin)/gi;
 function Highlight({text}:{text:string}){return <>{text.split(highlightPattern).map((t,i)=>i%2?<mark key={i}>{t}</mark>:<Fragment key={i}>{t}</Fragment>)}</>}
 function Choice({value,options,onChange,label}:{value:string;options:string[];onChange:(v:string)=>void;label:string}){return <div className="calls-choices" role="group" aria-label={label}>{options.map(o=><button key={o} aria-pressed={o===value} onClick={()=>onChange(o)}>{o}</button>)}</div>}

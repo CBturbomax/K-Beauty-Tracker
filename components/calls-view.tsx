@@ -28,7 +28,7 @@ export default function CallsView(){
  return <div className="calls-view">
 
   <section className="calls-matrix-panel" aria-label="기업별 컨콜 선택">
-   <div className="calls-matrix-heading"><div><h3 title="한국·한국 브랜드·K뷰티·한국 시장·생산·조달·면세·환율 관련 표현을 모두 집계">회사별 · 분기별 한국 관련 언급</h3></div><Choice label="컨콜 지역" value={region} options={['전체','미국','유럽']} onChange={v=>{setRegion(v);clear()}}/><span>{eligible.length}개 기업 · 단위: 회</span></div>
+   <div className="calls-matrix-heading"><div><h3 title="화장품·뷰티 맥락의 한국 브랜드·시장·생산·조달·면세 관련 발언만 집계">회사별 · 분기별 K뷰티 관련 언급</h3></div><Choice label="컨콜 지역" value={region} options={['전체','미국','유럽']} onChange={v=>{setRegion(v);clear()}}/><span>{eligible.length}개 기업 · 단위: 회</span></div>
    <div className="calls-matrix-scroll"><table className="calls-matrix"><thead><tr><th scope="col">회사</th>{quarters.map((q,j)=><th scope="col" key={q} className={j===quarters.length-1?'latest-quarter':undefined}>{q}</th>)}<th scope="col">합계</th><th scope="col" title="전체 원문 또는 확보한 발췌를 집계한 자료 수">자료</th></tr></thead><tbody>{eligible.map((c:any)=>{
     const docs=frequency.documents.filter(d=>d.company===c.name),complete=docs.filter(d=>d.status==='complete'||d.status==='excerpt');
     const counts=quarters.map(q=>{const all=docs.filter(d=>quarter(d.date)===q),ready=all.filter(d=>d.status==='complete'||d.status==='excerpt');return {n:ready.length?evidence.filter(d=>d.company===c.name&&quarter(d.date)===q).reduce((sum,d)=>sum+d.count,0):null,partial:ready.length>0&&ready.length<all.length,ready:ready.length,all:all.length}}),total=counts.reduce((sum,d)=>sum+(d.n||0),0),active=c.name===company;
@@ -40,7 +40,7 @@ export default function CallsView(){
    <div className="calls-matrix-key"><span><i className="retail-dot"/>리테일러</span><span><i className="brand-dot"/>브랜드</span><span className="heat-key"><i/>1–2 <i/>3–9 <i/>10+</span><span>확보 원문·발췌 기준 · — 자료 없음</span><span className="calls-select-hint">기업·숫자를 누르면 아래 인용 보기 ↓</span></div>
   </section>
   <div className="calls-results-head" ref={resultsRef} aria-live="polite"><div><span className="eyebrow">EARNINGS CALL NOTES</span><h3>{selected?selected.ko:'전체 기업'}{period&&<small> · {period}</small>} <b>{shownCount}회</b></h3><p>집계 자료 {shownEvidence.length}건 · 발언 {shownPassages}개 구간 · <mark>아래 발언별 횟수의 합계</mark></p></div><div className="calls-result-controls"><input type="search" value={search} onChange={e=>setSearch(e.target.value)} aria-label="컨콜 내용 검색" placeholder="브랜드·발언 검색"/>{(company||period||search)&&<button className="calls-reset" onClick={clear}>전체 기업 보기 ×</button>}</div></div>
-  <div className="calls-reading-list">{items.length===0?<div className="calls-empty">선택한 조건의 컨콜이 없습니다.<button onClick={clear}>조건 초기화</button></div>:items.map((i:any)=>{
+  <div className="calls-reading-list">{items.length===0?<div className="calls-empty">선택한 조건에서 집계할 화장품·뷰티 관련 발언이 없습니다.<button onClick={clear}>조건 초기화</button></div>:items.map((i:any)=>{
    const c=calls.companies.find((c:any)=>c.name===i.company),q=i.quote,ctx=i.context;
    if(i.evidence){const d=i.evidence;return <article className="call-note call-evidence-note" key={d.id} data-source-id={d.id} data-mention-count={d.count}>
     <div className="call-note-top"><button className="call-company" onClick={()=>select(i.company)}><i className={c.type==='브랜드'?'brand-dot':'retail-dot'}/>{c.ko}<span>{c.ticker}</span></button><time dateTime={d.date}>{d.date}</time><b className="evidence-call-total">{d.count}회</b></div>
@@ -62,6 +62,6 @@ export default function CallsView(){
     </div>
     <div className="call-note-bottom"><div className="call-citation">{q&&<><p className="citation-detail">{q.source}{q.timestamp&&` · ${q.timestamp}`} · 짧은 발췌 / 전후 맥락은 요약</p>{q.url&&<a href={q.url} target="_blank" rel="noreferrer">{q.verification==='secondary'?'참고 대시보드':'전체 전사본'} ↗</a>}</>}{i.url&&i.url!==q?.url&&<a href={i.url} target="_blank" rel="noreferrer">원문 링크 ↗</a>}</div><span>{quarter(i.date)}</span></div>
    </article>
-  })}</div><p className="calls-source-note">횟수는 확보한 원문과 발췌에서 한국·한국 브랜드·K뷰티 관련 표현이 등장한 횟수입니다. 한국 시장·생산·조달·면세·경쟁·환율과 질문도 모두 포함합니다. 같은 발언의 반복 표현과 브랜드명도 각각 셉니다. 한국과 관련 없는 일반 뷰티 표현만 제외하며, 자동 번역 병기는 중복 집계하지 않습니다. 표의 숫자는 아래 발언별 횟수와 일치합니다. 짧은 원문 발췌와 번역을 함께 표시하며 …는 중간 생략입니다. 시간 정보가 없는 전사본은 수집 원문의 행 위치와 출처 링크를 표시합니다. 기존 참고 인용 중 집계에 포함하지 않은 것은 별도로 명시합니다. 전후 맥락은 발언 내용을 풀어쓴 요약이며, 자동전사에는 고유명사 오류가 있을 수 있습니다.</p>
+  })}</div><p className="calls-source-note">횟수는 확보한 원문과 발췌에서 한국·한국 브랜드·K뷰티 관련 표현이 등장한 횟수입니다. 화장품·뷰티 사업에 연결되는 한국 시장·생산·조달·면세·경쟁과 질문을 포함합니다. 같은 발언의 반복 표현과 브랜드명도 각각 셉니다. 화장품과 무관한 일반 매장 출점·회원 수·환율 가정과 한국 관련성이 없는 발언은 제외하며, 자동 번역 병기는 중복 집계하지 않습니다. 표의 숫자는 아래 발언별 횟수와 일치합니다. 짧은 원문 발췌와 번역을 함께 표시하며 …는 중간 생략입니다. 시간 정보가 없는 전사본은 수집 원문의 행 위치와 출처 링크를 표시합니다. 기존 참고 인용 중 집계에 포함하지 않은 것은 별도로 명시합니다. 전후 맥락은 발언 내용을 풀어쓴 요약이며, 자동전사에는 고유명사 오류가 있을 수 있습니다.</p>
  </div>
 }

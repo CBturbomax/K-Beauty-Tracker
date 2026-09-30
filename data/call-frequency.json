@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-30",
-  "version": 3,
+  "version": 4,
   "range": "2024-01 ~ 2026-09",
   "directTerms": [
     "K-beauty",
@@ -38,7 +38,7 @@
     "Stylenanda",
     "Peach & Lily"
   ],
-  "method": "한국·한국 브랜드·K뷰티 관련 모든 표현을 집계. 한국 시장·생산·조달·면세·환율·경쟁·질문 포함. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.",
+  "method": "한국 관련 표현 중 화장품·뷰티 맥락을 검토한 발언만 집계. 브랜드·화장품 시장·생산·조달·면세·경쟁·질문 포함. 일반 매장 출점·회원 수·환율 가정 제외. 반복 표현과 브랜드명을 각각 세며 같은 Korea/Korean 표현은 중복 집계하지 않음. 전체 원문 또는 확보한 발췌의 범위를 개별 출처에 표시.",
   "documents": [
     {
       "id": "123290",
@@ -114,7 +114,7 @@
       "status": "complete",
       "callId": 5473,
       "counts": {
-        "direct": 3,
+        "direct": 2,
         "brands": 0,
         "general": 25
       },
@@ -122,8 +122,8 @@
         {
           "term": "한국 관련",
           "category": "direct",
-          "count": 3,
-          "prepared": 2,
+          "count": 2,
+          "prepared": 1,
           "qna": 1,
           "unknown": 0
         },
@@ -152,14 +152,6 @@
           "section": "prepared",
           "seconds": 1044.42,
           "line": 105
-        },
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "section": "prepared",
-          "seconds": 1410.52,
-          "line": 141
         },
         {
           "term": "한국 관련",
@@ -558,30 +550,12 @@
       "status": "complete",
       "callId": 3975,
       "counts": {
-        "direct": 1,
+        "direct": 0,
         "brands": 0,
         "general": 0
       },
-      "terms": [
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "prepared": 1,
-          "qna": 0,
-          "unknown": 0
-        }
-      ],
-      "moments": [
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "section": "prepared",
-          "seconds": 645.93,
-          "line": 75
-        }
-      ],
+      "terms": [],
+      "moments": [],
       "wordCount": 10925,
       "sha256": "f13680eb76ffe6b5c241e67b61580a229d39d16e206d814916fbaa80f468f05a"
     },
@@ -828,7 +802,7 @@
       "status": "complete",
       "callId": 5475,
       "counts": {
-        "direct": 3,
+        "direct": 2,
         "brands": 0,
         "general": 34
       },
@@ -836,8 +810,8 @@
         {
           "term": "한국 관련",
           "category": "direct",
-          "count": 3,
-          "prepared": 2,
+          "count": 2,
+          "prepared": 1,
           "qna": 1,
           "unknown": 0
         },
@@ -866,14 +840,6 @@
           "section": "prepared",
           "seconds": 1393.388,
           "line": 140
-        },
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "section": "prepared",
-          "seconds": 1922.073,
-          "line": 187
         },
         {
           "term": "한국 관련",
@@ -1327,7 +1293,7 @@
       "status": "complete",
       "callId": 5474,
       "counts": {
-        "direct": 2,
+        "direct": 1,
         "brands": 1,
         "general": 50
       },
@@ -1335,8 +1301,8 @@
         {
           "term": "한국 관련",
           "category": "direct",
-          "count": 2,
-          "prepared": 2,
+          "count": 1,
+          "prepared": 1,
           "qna": 0,
           "unknown": 0
         },
@@ -1373,14 +1339,6 @@
           "section": "prepared",
           "seconds": 1128.002,
           "line": 111
-        },
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "section": "prepared",
-          "seconds": 2360.942,
-          "line": 218
         },
         {
           "term": "Dr.Jart",
@@ -5254,7 +5212,7 @@
       "status": "complete",
       "callId": 189866,
       "counts": {
-        "direct": 3,
+        "direct": 2,
         "brands": 0,
         "general": 5
       },
@@ -5270,9 +5228,9 @@
         {
           "term": "한국 관련",
           "category": "direct",
-          "count": 2,
+          "count": 1,
           "prepared": 1,
-          "qna": 1,
+          "qna": 0,
           "unknown": 0
         },
         {
@@ -5300,14 +5258,6 @@
           "section": "prepared",
           "seconds": 1127.32,
           "line": 142
-        },
-        {
-          "term": "한국 관련",
-          "category": "direct",
-          "count": 1,
-          "section": "qna",
-          "seconds": 2573.52,
-          "line": 368
         }
       ],
       "wordCount": 10610,

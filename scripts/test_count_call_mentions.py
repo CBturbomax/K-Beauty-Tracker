@@ -21,7 +21,7 @@ class MentionCountingTests(unittest.TestCase):
   term=next(t for t in d['terms'] if t['term']=='K-beauty');moments=[x for x in d['moments'] if x['term']=='K-beauty']
   self.assertEqual(term['count'],17);self.assertEqual(len(moments),16);self.assertEqual(sum(x['count'] for x in moments),17)
  def test_korean_cosmetics_context_and_brands(self):
-  d=counter.count('Korean brands. Korean makeup brand. Brands from Korea. Numbuzin, Centellian24, Peach & Lily. Manufacturing is in Italy and South Korea.',source_id='63990')
+  d=counter.count('Korean brands. Korean makeup brand. Brands from Korea. Numbuzin, Centellian24, Peach & Lily. Manufacturing is in Italy and South Korea.')
   self.assertEqual(d['counts']['direct'],4)
   self.assertEqual(d['counts']['brands'],3)
  def test_all_korean_references_included(self):
@@ -41,4 +41,10 @@ class MentionCountingTests(unittest.TestCase):
   for n,i in enumerate(json.loads(Path('data/calls.json').read_text())['items']):self.assertIn(str(i.get('callId') or 'eu-'+str(n)),ids)
   d=next(d for d in e if d['id']=='eu-21');self.assertEqual(d['count'],3);self.assertEqual(len(d['segments']),3)
   for d in e:self.assertEqual(d['count'],sum(s['count'] for s in d['segments']))
+ def test_non_beauty_mentions_removed(self):
+  e=json.loads(Path('data/call-evidence.json').read_text());ids={s['id'] for d in e for s in d['segments']}
+  for id in ['3975:75','189866:368','5473:141','5475:187','5474:218']:self.assertNotIn(id,ids)
+  for id in ['189866:142','5475:140','5475:245','eu-21:3']:self.assertIn(id,ids)
+ def test_new_or_changed_passage_requires_review(self):
+  with self.assertRaises(ValueError):counter.count('Korean brands.',source_id='new-source')
 if __name__=='__main__':unittest.main()

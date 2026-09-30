@@ -10,7 +10,7 @@
     "sha256": "59d14559c85c0a7f975c6080b17a9c12314461783a05f0b5f71b795206440f7c",
     "coverage": "전체 원문",
     "dateSource": null,
-    "count": 3,
+    "count": 2,
     "segments": [
       {
         "id": "5473:105",
@@ -29,22 +29,6 @@
         ]
       },
       {
-        "id": "5473:141",
-        "en": "Korean won",
-        "ko": "한국 원화",
-        "context": "실적 전망에 적용한 원화 환율을 제시하며 환산 영향이 매출과 EPS에 불리할 것으로 예상했습니다.",
-        "line": 141,
-        "location": "23:30–23:51",
-        "speaker": "전사본 화자 10",
-        "count": 1,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 1
-          }
-        ]
-      },
-      {
         "id": "5473:438",
         "en": "also in China, also in Korea",
         "ko": "중국에서도, 한국에서도",
@@ -52,37 +36,6 @@
         "line": 438,
         "location": "62:05–62:13",
         "speaker": "전사본 화자 3",
-        "count": 1,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "3975",
-    "company": "Costco",
-    "date": "2024-03-07",
-    "title": "Q2 2024",
-    "source": "StockNow 자동전사",
-    "url": null,
-    "callId": 3975,
-    "sha256": "f13680eb76ffe6b5c241e67b61580a229d39d16e206d814916fbaa80f468f05a",
-    "coverage": "전체 원문",
-    "dateSource": null,
-    "count": 1,
-    "segments": [
-      {
-        "id": "3975:75",
-        "en": "1 each in Korea and China.",
-        "ko": "한국과 중국에 각각 한 곳.",
-        "context": "신규 매장 15곳 계획을 설명하면서 한국과 중국에 각각 한 곳씩 열겠다고 밝혔습니다.",
-        "line": 75,
-        "location": "10:45–10:53",
-        "speaker": "전사본 화자 11",
         "count": 1,
         "terms": [
           {
@@ -135,7 +88,7 @@
     "sha256": "ec858218e0a9afba19b092afe87e9801a9eb37bdfc938a53680e02243b0d17b9",
     "coverage": "전체 원문",
     "dateSource": null,
-    "count": 3,
+    "count": 2,
     "segments": [
       {
         "id": "5475:140",
@@ -144,22 +97,6 @@
         "context": "트래블리테일 회복에는 전년 한국·하이난의 부진으로 비교 기준이 낮았던 효과도 있다고 설명했습니다.",
         "line": 140,
         "location": "23:13–23:37",
-        "speaker": "전사본 화자 10",
-        "count": 1,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "5475:187",
-        "en": "Korean won",
-        "ko": "한국 원화",
-        "context": "실적 전망에 사용한 원화 환율 가정을 제시했습니다.",
-        "line": 187,
-        "location": "32:02–32:15",
         "speaker": "전사본 화자 10",
         "count": 1,
         "terms": [
@@ -198,7 +135,7 @@
     "sha256": "5e6380c4b2e62bbc589aacbabe22aa9d5797424856e5430bba59765ab33f5eb7",
     "coverage": "전체 원문",
     "dateSource": null,
-    "count": 3,
+    "count": 2,
     "segments": [
       {
         "id": "5474:111",
@@ -228,22 +165,6 @@
         "terms": [
           {
             "term": "Dr.Jart",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "5474:218",
-        "en": "Korean won",
-        "ko": "한국 원화",
-        "context": "연간 매출 전망과 함께 원화 등 통화별 환율 가정을 설명했습니다.",
-        "line": 218,
-        "location": "39:20–39:47",
-        "speaker": "전사본 화자 10",
-        "count": 1,
-        "terms": [
-          {
-            "term": "한국 관련",
             "count": 1
           }
         ]
@@ -2095,7 +2016,7 @@
     "sha256": "1b56b040404b73b48252f15139e65e203391d0a6d9e9d1ffa31cd20df1c54f80",
     "coverage": "전체 원문",
     "dateSource": null,
-    "count": 3,
+    "count": 2,
     "segments": [
       {
         "id": "189866:142",
@@ -2111,22 +2032,6 @@
             "term": "K-beauty",
             "count": 1
           },
-          {
-            "term": "한국 관련",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "189866:368",
-        "en": "China, Japan, Korea",
-        "ko": "중국, 일본, 한국",
-        "context": "한국 등 아시아 매장은 창고형 매장 한 곳당 회원 수가 더 많을 수 있다고 설명했습니다.",
-        "line": 368,
-        "location": "42:53–43:07",
-        "speaker": "전사본 화자 1",
-        "count": 1,
-        "terms": [
           {
             "term": "한국 관련",
             "count": 1

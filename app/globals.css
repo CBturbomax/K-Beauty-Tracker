@@ -16,20 +16,20 @@
 
 /* Calls use the same square panels, typography and table grid as the dashboard. */
 .calls-view{--call-yellow:#FFCB05;--call-blue:#5B9BD5}
-.calls-toolbar{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:24px}
+.calls-toolbar{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
 .calls-choices{display:flex;flex-wrap:wrap;gap:0}
 .calls-choices button{padding:8px 14px;border:1px solid var(--border);margin-right:-1px;color:#fff;font:inherit;font-size:18px;line-height:1.4;background:var(--card)}
 .calls-choices button[aria-pressed=true]{border-color:#FFCB05;box-shadow:inset 0 -4px #FFCB05;font-weight:800;z-index:1}
-.calls-matrix-panel{background:var(--card);border:1px solid var(--border);border-top:3px solid #FFCB05;padding:22px 20px;min-width:0}
-.calls-matrix-heading{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:20px}
+.calls-matrix-panel{background:var(--card);border:1px solid var(--border);border-top:3px solid #FFCB05;padding:14px 16px;min-width:0}
+.calls-matrix-heading{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-bottom:10px}
 .calls-matrix-heading h3{font-size:26px;font-weight:800;line-height:1.3;margin:0 0 5px;color:#fff}
 .calls-matrix-heading p,.calls-matrix-heading>span{font-size:17px;color:var(--muted-foreground);margin:0}
 .calls-matrix-heading>span{border:1px solid var(--border);padding:2px 10px;white-space:nowrap}
-.calls-matrix-scroll{overflow:auto;max-height:610px}
-.calls-matrix{width:100%;border-collapse:separate;border-spacing:0;min-width:1170px;table-layout:fixed;line-height:1.35}
-.calls-matrix th,.calls-matrix td{padding:8px 9px;text-align:right;font-size:19px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);white-space:nowrap;font-variant-numeric:tabular-nums}
+.calls-matrix-scroll{overflow-x:auto}
+.calls-matrix{width:100%;border-collapse:separate;border-spacing:0;min-width:1050px;table-layout:fixed;line-height:1.25}
+.calls-matrix th,.calls-matrix td{padding:3px 8px;text-align:right;font-size:19px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);white-space:nowrap;font-variant-numeric:tabular-nums}
 .calls-matrix thead th{position:sticky;top:0;z-index:2;font-weight:800;color:var(--muted-foreground);background:#1d2732;border-top:1px solid var(--border)}
-.calls-matrix th:first-child{width:260px;text-align:left;border-left:1px solid var(--border)}
+.calls-matrix th:first-child{width:220px;text-align:left;border-left:1px solid var(--border)}
 .calls-matrix thead th:first-child{position:sticky;left:0;z-index:4;color:#fff}
 .calls-matrix th:nth-last-child(-n+2){width:78px;color:#fff}
 .calls-matrix thead th.latest-quarter{background:#fff;color:#0f1419}
@@ -48,7 +48,7 @@
 .retail-dot,.brand-dot{display:inline-block;width:10px;height:10px;min-width:10px;background:var(--call-blue)}
 .brand-dot{background:var(--call-yellow)}
 .selection-check{position:absolute;right:0;top:0;color:#FFCB05}
-.calls-matrix td>button{display:block;width:100%;min-height:38px;color:#fff;border:0;background:transparent;font:inherit;font-weight:500;text-align:right;cursor:pointer}
+.calls-matrix td>button{display:block;width:100%;min-height:23px;padding:0;color:#fff;border:0;background:transparent;font:inherit;font-weight:500;text-align:right;cursor:pointer}
 .calls-matrix td.latest-quarter>button{font-weight:800}
 .calls-matrix td>span{color:#687687}
 .calls-matrix td.intensity-1{background:#FFCB0520}
@@ -83,7 +83,7 @@
 .call-event>span{font-size:17px;color:#e9c18a;border:1px solid #665138;padding:2px 6px}
 .call-note h4{font-size:26px;line-height:1.4;margin:0 0 12px;color:#fff;font-weight:800;letter-spacing:-.02em}
 .call-topic-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
-.call-topic-tags button{border:1px solid #35414e;background:#202a35;padding:3px 9px;color:#b3c7da;font:inherit;font-size:17px}
+.call-topic-tags>span{border:1px solid #35414e;background:#202a35;padding:3px 9px;color:#b3c7da;font:inherit;font-size:17px}
 .call-reading{border-top:1px solid var(--border);padding-top:20px}
 .context-label{font-size:17px;color:var(--muted-foreground);margin-bottom:12px}
 .context-label>span{font-size:17px;padding:1px 6px;border:1px solid var(--border);margin-left:8px}
@@ -93,9 +93,7 @@
 .call-excerpt p{font-size:21px;line-height:1.8;color:#f2f5f7;margin:8px 0 0;word-break:keep-all}
 .call-excerpt mark{font-weight:750}
 .call-note-bottom{border-top:1px solid var(--border);margin-top:22px;padding-top:14px;display:flex;justify-content:space-between;gap:15px;color:var(--muted-foreground);font-size:17px}
-.call-note-bottom details{flex:1;min-width:0}
-.call-note-bottom summary{cursor:pointer;color:#a4b4c4;display:list-item;list-style:disclosure-closed inside}
-.call-note-bottom details[open]>summary{list-style-type:disclosure-open}
+.call-citation{flex:1;min-width:0}
 .call-note-bottom a{display:inline-block;margin-right:18px;color:#89b9e1;font-size:17px}
 .original-excerpt{font-size:17px;color:#b4c0cc;line-height:1.85}
 .citation-detail{font-size:17px;color:var(--muted-foreground);line-height:1.8}
@@ -117,14 +115,7 @@
 .call-excerpt p{font-size:20px}
 }
 
-/* Literal conference-call frequency, using the dashboard's existing colorway. */
-.frequency-mode{margin-bottom:22px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.frequency-intro{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:20px;font-size:17px;color:#8b98a5}.frequency-intro b{color:#fff;font-size:20px}
-.frequency-view .calls-matrix sup{font-size:12px;color:#FFCB05;margin-left:2px}.frequency-coverage{font-size:17px;color:#8b98a5;line-height:1.8;margin:14px 0 0}
-.frequency-chart-panel,.frequency-audit{margin-top:28px;scroll-margin-top:20px}.frequency-chart-panel{border-top-color:#FFCB05}
-.frequency-company-label{display:flex;align-items:center;gap:12px;font-size:17px}.frequency-company-label select{font:inherit;font-size:18px;background:#161d25;color:#fff;border:1px solid #2a3542;padding:8px 12px;max-width:240px;border-radius:0}
-.frequency-stats .stat-value{font-size:42px}.frequency-stats .stat-value small{font-size:19px;color:#8b98a5;margin-left:8px;font-weight:500}.frequency-measure{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:18px 0;font-size:17px}.frequency-chart-scroll{overflow-x:auto}.frequency-chart-panel .chart-tip{max-width:460px}.frequency-chart-panel .chart-tip b{float:none;margin:0}
-.frequency-audit .table-wrap th:first-child{min-width:100px}.frequency-doc-button{padding:0;background:none;border:0;color:inherit;font:inherit;text-align:left}.frequency-doc-button:hover{color:#FFCB05;text-decoration:underline}.frequency-title-cell{white-space:normal!important;min-width:270px;max-width:430px;text-align:left!important}.frequency-title-cell>span{display:block;font-size:17px;color:#8b98a5;margin-top:4px}.frequency-selected td{background:#FFCB0517!important}.frequency-selected td:first-child{box-shadow:inset 3px 0 #FFCB05}
-.frequency-detail{padding:22px 0 0;margin-top:22px;border-top:1px solid #2a3542}.frequency-detail h4{font-size:24px;margin:0 0 10px}.frequency-term-list{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.frequency-term-list>span{border:1px solid #2a3542;padding:10px 14px;font-size:19px}.frequency-term-list small{display:block;font-size:17px;color:#8b98a5}.frequency-term-list b{margin-left:16px;color:#FFCB05}.frequency-method{margin-top:28px;border:1px solid #2a3542;padding:20px;font-size:17px;line-height:1.8;color:#8b98a5}.frequency-method summary{font-size:19px;font-weight:700;color:#fff;cursor:pointer}.frequency-method p{margin:14px 0}.frequency-method b{color:#fff}@media(max-width:600px){.frequency-stats{grid-template-columns:1fr!important}.frequency-stats .stat-value{font-size:36px}.frequency-company-label{flex-wrap:wrap}.frequency-method{padding:16px}}
-
-.frequency-moments{margin-top:18px;font-size:17px}.frequency-moments summary{cursor:pointer;color:#fff}.frequency-moments>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.frequency-moments span{padding:6px 10px;border:1px solid #2a3542;color:#8b98a5}.frequency-moments b{color:#FFCB05;margin-left:6px}
+/* Keep the original company table and immediately visible bilingual quotes. */
+.calls-intro{margin-bottom:14px}.calls-intro .eyebrow,.calls-intro>p{display:none}.calls-intro h2{font-size:32px;margin-bottom:10px}.calls-intro .yellow-rule{height:4px}
+.calls-count-hint{font-size:17px;color:#8b98a5}.calls-matrix sup{font-size:12px;color:#FFCB05;line-height:0;margin-left:1px}.missing-count{color:#687687}.calls-select-hint{margin-left:auto}.call-excerpt .original-excerpt{font-size:18px;color:#b4c0cc;line-height:1.65;margin-top:14px;padding-top:12px;border-top:1px solid #2a3542;word-break:normal}.citation-detail{margin:0 0 6px}
+@media(max-width:600px){.calls-count-hint{font-size:17px}.calls-select-hint{margin-left:0}.calls-matrix{min-width:1050px}.calls-matrix-panel{padding:12px}.calls-matrix-heading h3{font-size:23px}.call-excerpt .original-excerpt{font-size:17px}}

@@ -20,6 +20,13 @@ class MentionCountingTests(unittest.TestCase):
   docs=json.loads(Path('data/call-frequency.json').read_text())['documents'];d=next(x for x in docs if x['id']=='194083')
   term=next(t for t in d['terms'] if t['term']=='K-beauty');moments=[x for x in d['moments'] if x['term']=='K-beauty']
   self.assertEqual(term['count'],17);self.assertEqual(len(moments),16);self.assertEqual(sum(x['count'] for x in moments),17)
+ def test_korean_cosmetics_context_and_brands(self):
+  d=counter.count('Korean brands. Korean makeup brand. Brands from Korea. Numbuzin, Centellian24, Peach & Lily. Manufacturing is in Italy and South Korea.',source_id='63990')
+  self.assertEqual(d['counts']['direct'],4)
+  self.assertEqual(d['counts']['brands'],3)
+ def test_unrelated_korean_market_excluded(self):
+  d=counter.count('Our stores in Korea. Korean won. Sales in Korea. Non-Korean brands.')
+  self.assertEqual(d['counts']['direct'],0)
  def test_missing_is_not_zero(self):
   docs=json.loads(Path('data/call-frequency.json').read_text())['documents']
   for d in docs:

@@ -1,12 +1,14 @@
 {
   "updated": "2026-09-30",
-  "version": 1,
+  "version": 2,
   "range": "2024-01 ~ 2026-09",
   "directTerms": [
     "K-beauty",
     "Korean beauty",
     "Korean skincare / cosmetics",
-    "K뷰티"
+    "K뷰티",
+    "한국 브랜드·메이크업",
+    "한국 브랜드·제조 맥락"
   ],
   "brandTerms": [
     "Medicube",
@@ -25,8 +27,18 @@
     "Belif",
     "Round Lab",
     "Torriden",
-    "Missha"
+    "Missha",
+    "numbuzin",
+    "Centellian24",
+    "Dr.Althea",
+    "SKIN1004",
+    "Amorepacific",
+    "Sulwhasoo",
+    "Mamonde",
+    "Stylenanda",
+    "Peach & Lily"
   ],
+  "method": "한국 화장품·K뷰티·한국 브랜드 및 관련 한국 제조/조달 표현의 등장 횟수. 반복 표현·브랜드명 각각 집계. 일반 뷰티/한국 시장 제외. Peach & Lily는 원문에서 K뷰티로 분류한 브랜드. Anua/Inua는 자동전사 표기 변형.",
   "documents": [
     {
       "id": "123290",
@@ -1318,10 +1330,18 @@
       "callId": 6168,
       "counts": {
         "direct": 0,
-        "brands": 0,
+        "brands": 3,
         "general": 51
       },
       "terms": [
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 3,
+          "prepared": 3,
+          "qna": 0,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -1347,7 +1367,32 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 332.58,
+          "line": 57
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 606.14,
+          "line": 84
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 752.66,
+          "line": 99
+        }
+      ],
       "wordCount": 9013,
       "sha256": "098475109a140cc4705850f106b3728f2c42c73b688255233ffd16ea9efc2ed0"
     },
@@ -1477,13 +1522,21 @@
       "callId": 6170,
       "counts": {
         "direct": 1,
-        "brands": 0,
+        "brands": 1,
         "general": 286
       },
       "terms": [
         {
           "term": "K-beauty",
           "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
           "count": 1,
           "prepared": 1,
           "qna": 0,
@@ -1522,6 +1575,14 @@
           "section": "prepared",
           "seconds": 4210.825,
           "line": 440
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 4665.46,
+          "line": 492
         }
       ],
       "wordCount": 26143,
@@ -2257,11 +2318,19 @@
       "status": "complete",
       "callId": 23322,
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 0,
         "general": 67
       },
       "terms": [
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -2287,7 +2356,16 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 3293.82,
+          "line": 696
+        }
+      ],
       "wordCount": 9485,
       "sha256": "1f19f41ed8ef7cedb16339e2b6e2de5a90f1fa02ce9addacebe26f225bfbadc9"
     },
@@ -2312,7 +2390,7 @@
       "callId": 30158,
       "counts": {
         "direct": 2,
-        "brands": 0,
+        "brands": 4,
         "general": 42
       },
       "terms": [
@@ -2321,6 +2399,22 @@
           "category": "direct",
           "count": 2,
           "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
           "qna": 0,
           "unknown": 0
         },
@@ -2357,6 +2451,38 @@
           "section": "prepared",
           "seconds": 583.44,
           "line": 74
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 339.9,
+          "line": 52
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 583.44,
+          "line": 74
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2806.26,
+          "line": 460
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 339.9,
+          "line": 52
         }
       ],
       "wordCount": 9046,
@@ -2559,7 +2685,7 @@
       "callId": 39877,
       "counts": {
         "direct": 1,
-        "brands": 1,
+        "brands": 2,
         "general": 43
       },
       "terms": [
@@ -2573,6 +2699,14 @@
         },
         {
           "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "prepared": 1,
@@ -2607,6 +2741,14 @@
         },
         {
           "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 462.111,
+          "line": 64
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "section": "prepared",
@@ -2665,13 +2807,21 @@
       "status": "complete",
       "callId": 51313,
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 0,
         "general": 11
       },
       "terms": [
         {
           "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -2695,6 +2845,14 @@
           "section": "qna",
           "seconds": 678.08,
           "line": 149
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 689.28,
+          "line": 150
         }
       ],
       "wordCount": 5139,
@@ -2874,11 +3032,19 @@
       "status": "complete",
       "callId": 63990,
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 0,
         "general": 16
       },
       "terms": [
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -2904,7 +3070,16 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 3004.02,
+          "line": 771
+        }
+      ],
       "wordCount": 9947,
       "sha256": "e9b5540d473a284909fcc3c0ae032ca8ccc08d11d989c964b480257104c653a7"
     },
@@ -3009,7 +3184,7 @@
       "callId": 51460,
       "counts": {
         "direct": 6,
-        "brands": 3,
+        "brands": 4,
         "general": 32
       },
       "terms": [
@@ -3039,6 +3214,14 @@
         },
         {
           "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "prepared": 1,
@@ -3126,6 +3309,14 @@
           "section": "prepared",
           "seconds": 645.06,
           "line": 78
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 631.98,
+          "line": 77
         }
       ],
       "wordCount": 9473,
@@ -3312,7 +3503,7 @@
       "callId": 65156,
       "counts": {
         "direct": 9,
-        "brands": 5,
+        "brands": 7,
         "general": 32
       },
       "terms": [
@@ -3345,6 +3536,14 @@
           "category": "brands",
           "count": 1,
           "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 2,
+          "prepared": 2,
           "qna": 0,
           "unknown": 0
         },
@@ -3477,6 +3676,22 @@
           "section": "prepared",
           "seconds": 419.0,
           "line": 51
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 495.88,
+          "line": 56
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1370.8,
+          "line": 135
         }
       ],
       "wordCount": 8983,
@@ -3502,7 +3717,7 @@
       "status": "complete",
       "callId": 166922,
       "counts": {
-        "direct": 8,
+        "direct": 9,
         "brands": 3,
         "general": 16
       },
@@ -3513,6 +3728,14 @@
           "count": 8,
           "prepared": 0,
           "qna": 8,
+          "unknown": 0
+        },
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
           "unknown": 0
         },
         {
@@ -3612,6 +3835,14 @@
           "section": "qna",
           "seconds": 2490.19,
           "line": 464
+        },
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 688.2,
+          "line": 120
         },
         {
           "term": "Medicube",
@@ -3771,7 +4002,7 @@
       "status": "complete",
       "callId": 147606,
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 3,
         "general": 4
       },
@@ -3782,6 +4013,14 @@
           "count": 1,
           "prepared": 0,
           "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
           "unknown": 0
         },
         {
@@ -3825,6 +4064,14 @@
           "section": "qna",
           "seconds": 2290.62,
           "line": 324
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 691.79,
+          "line": 86
         },
         {
           "term": "Beauty of Joseon",
@@ -3874,11 +4121,19 @@
       "status": "complete",
       "callId": 189502,
       "counts": {
-        "direct": 0,
+        "direct": 1,
         "brands": 0,
         "general": 26
       },
       "terms": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -3896,7 +4151,16 @@
           "unknown": 0
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2289.27,
+          "line": 384
+        }
+      ],
       "wordCount": 7314,
       "sha256": "cd49ef418669053a38eb38ad7801c0643a1f78e560f31039a20fd9ed26a06a5e"
     },
@@ -3931,7 +4195,7 @@
       "callId": 195259,
       "counts": {
         "direct": 0,
-        "brands": 2,
+        "brands": 3,
         "general": 26
       },
       "terms": [
@@ -3945,6 +4209,14 @@
         },
         {
           "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "prepared": 1,
@@ -3992,6 +4264,14 @@
           "section": "prepared",
           "seconds": 1375.4,
           "line": 148
+        },
+        {
+          "term": "Peach & Lily",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1359.5,
+          "line": 147
         }
       ],
       "wordCount": 9185,
@@ -4229,7 +4509,7 @@
       "callId": 194083,
       "counts": {
         "direct": 17,
-        "brands": 2,
+        "brands": 5,
         "general": 34
       },
       "terms": [
@@ -4251,6 +4531,30 @@
         },
         {
           "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "numbuzin",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Centellian24",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "prepared": 1,
@@ -4413,6 +4717,30 @@
         },
         {
           "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1418.12,
+          "line": 152
+        },
+        {
+          "term": "numbuzin",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 469.81,
+          "line": 61
+        },
+        {
+          "term": "Centellian24",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 469.81,
+          "line": 61
+        },
+        {
+          "term": "Peach & Lily",
           "category": "brands",
           "count": 1,
           "section": "prepared",
@@ -4662,13 +4990,21 @@
       "status": "complete",
       "callId": 189866,
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 0,
         "general": 5
       },
       "terms": [
         {
           "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
           "category": "direct",
           "count": 1,
           "prepared": 1,
@@ -4687,6 +5023,14 @@
       "moments": [
         {
           "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1127.32,
+          "line": 142
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
           "category": "direct",
           "count": 1,
           "section": "prepared",
@@ -4719,11 +5063,27 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 8,
         "brands": 0,
         "general": 11
       },
       "terms": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 5,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 5
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -4741,7 +5101,48 @@
           "unknown": 9
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 43
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 77
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 100
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 101
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 60
+        }
+      ],
       "wordCount": 9773,
       "sha256": "0d9a11be9210f53e7c7d31345e34dc138a032ae901ce7dfb5954426405ce7b08"
     },
@@ -4778,7 +5179,7 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 1,
+        "direct": 3,
         "brands": 0,
         "general": 39
       },
@@ -4790,6 +5191,14 @@
           "prepared": 0,
           "qna": 0,
           "unknown": 1
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
         },
         {
           "term": "beauty",
@@ -4811,6 +5220,22 @@
       "moments": [
         {
           "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 12
+        },
+        {
+          "term": "한국 브랜드·메이크업",
           "category": "direct",
           "count": 1,
           "section": "unknown",
@@ -4940,11 +5365,27 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 7,
         "brands": 0,
         "general": 3
       },
       "terms": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
         {
           "term": "skincare",
           "category": "general",
@@ -4954,7 +5395,48 @@
           "unknown": 3
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 152
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 258
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 262
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 267
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 266
+        }
+      ],
       "wordCount": 9913,
       "sha256": "a495eb4551f6646979213a16a8582590fb40dc1ee7ff4118bc717662d9a211a8"
     },
@@ -4980,7 +5462,7 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "brands": 2,
         "general": 61
       },
@@ -4995,6 +5477,14 @@
         },
         {
           "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "한국 브랜드·메이크업",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -5052,6 +5542,14 @@
           "line": 37
         },
         {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 23
+        },
+        {
           "term": "Dr.G",
           "category": "brands",
           "count": 1,
@@ -5093,7 +5591,7 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 4,
+        "direct": 5,
         "brands": 7,
         "general": 110
       },
@@ -5105,6 +5603,14 @@
           "prepared": 0,
           "qna": 0,
           "unknown": 4
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
         },
         {
           "term": "Dr.G",
@@ -5179,6 +5685,14 @@
           "section": "unknown",
           "seconds": null,
           "line": 74
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
         },
         {
           "term": "Dr.G",
@@ -5305,11 +5819,19 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 3,
         "brands": 0,
         "general": 25
       },
       "terms": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -5335,7 +5857,16 @@
           "unknown": 1
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 18
+        }
+      ],
       "wordCount": 8880,
       "sha256": "b5d3a7671f0ea98939a9a502b70f546cb2a7475f6166716e594d79712e83986b"
     },
@@ -5350,13 +5881,21 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 2,
         "general": 71
       },
       "terms": [
         {
           "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "한국 브랜드·메이크업",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -5398,6 +5937,14 @@
           "line": 31
         },
         {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 6
+        },
+        {
           "term": "Dr.G",
           "category": "brands",
           "count": 1,
@@ -5428,8 +5975,8 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 5,
-        "brands": 5,
+        "direct": 7,
+        "brands": 7,
         "general": 100
       },
       "terms": [
@@ -5458,6 +6005,22 @@
           "unknown": 1
         },
         {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
           "term": "Dr.G",
           "category": "brands",
           "count": 4,
@@ -5472,6 +6035,14 @@
           "prepared": 0,
           "qna": 0,
           "unknown": 1
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
         },
         {
           "term": "beauty",
@@ -5532,6 +6103,22 @@
           "line": 61
         },
         {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        },
+        {
+          "term": "한국 브랜드·제조 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        },
+        {
           "term": "Dr.G",
           "category": "brands",
           "count": 1,
@@ -5570,6 +6157,22 @@
           "section": "unknown",
           "seconds": null,
           "line": 50
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 166
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 167
         }
       ],
       "wordCount": 16965,
@@ -5597,11 +6200,27 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 0,
+        "direct": 3,
         "brands": 0,
         "general": 32
       },
       "terms": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
         {
           "term": "beauty",
           "category": "general",
@@ -5619,7 +6238,32 @@
           "unknown": 11
         }
       ],
-      "moments": [],
+      "moments": [
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 77
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 78
+        },
+        {
+          "term": "한국 화장품 제조·브랜드 맥락",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 78
+        }
+      ],
       "wordCount": 8863,
       "sha256": "d1d26d5b5adc48a24d8f8109ae6be00a3c3cb2e13803cf7e0804c85078a42ba4"
     },
@@ -5679,13 +6323,21 @@
       "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "brands": 1,
         "general": 144
       },
       "terms": [
         {
           "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "한국 브랜드·메이크업",
           "category": "direct",
           "count": 1,
           "prepared": 0,
@@ -5733,6 +6385,14 @@
           "section": "unknown",
           "seconds": null,
           "line": 22
+        },
+        {
+          "term": "한국 브랜드·메이크업",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 88
         },
         {
           "term": "3CE",

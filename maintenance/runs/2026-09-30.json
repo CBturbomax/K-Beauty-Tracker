@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-09-30T06:52:36.485283+00:00",
+  "changes": {
+    "newDocuments": [
+      "221287",
+      "eu-loreal-20260925"
+    ],
+    "delayedTranscripts": [
+      "226698",
+      "225846",
+      "225611"
+    ],
+    "newRelevantMentions": 7,
+    "company": "Estée Lauder",
+    "date": "2026-09-09",
+    "unchangedTranscriptIds": [
+      "226193",
+      "225657",
+      "225673",
+      "189866"
+    ]
+  },
+  "trade": {
+    "source": "InvestingWiki trade_stats / 관세청",
+    "months": [
+      "202606",
+      "202607",
+      "202608"
+    ],
+    "nationalHs10Reconciled": 13,
+    "nationalResult": "13 HS10 source totals reconcile to HS3304 exact USD; stored national values equal per-HS10 truncated thousand USD. No numerical restatement.",
+    "countrySeriesChecked": {
+      "3304": 20,
+      "3304991000": 20
+    },
+    "coverage": "partial; unreturned countries not checked for restatements; no new month, existing series preserved"
+  },
+  "financials": {
+    "checkedAt": "2026-09-30T06:52:36.485283+00:00",
+    "source": "DART via InvestingWiki kr_financials, basis=OFS, periods=4",
+    "reports": {
+      "코스맥스": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001436",
+      "한국콜마": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002721",
+      "코스메카코리아": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003595"
+    },
+    "periodValidation": "코스메카코리아 원공시 4-2 별도 포괄손익계산서의 2026.01.01~06.30 및 당반기 3개월 손익으로 2Q26을 검증. API 기수 경고가 있으나 표시 매출·영업이익은 일치.",
+    "latestQuarter": "2Q26"
+  },
+  "europeSources": [
+    {
+      "company": "L’Oréal",
+      "url": "https://www.loreal-finance.com/eng/strategic-presentations",
+      "latestEventChecked": "2026-09-25",
+      "transcript": "https://www.youtube.com/watch?v=nk66ibTF1XE",
+      "transcriptUploadDate": "2026-09-26",
+      "eventDateBasis": "official IR event date, not upload date",
+      "relevantMentions": 0
+    },
+    {
+      "company": "Beiersdorf",
+      "url": "https://www.beiersdorf.com/investor-relations/financial-reports/financial-reports-and-presentations"
+    },
+    {
+      "company": "LVMH",
+      "url": "https://www.lvmh.com/investors/investors-and-analysts"
+    },
+    {
+      "company": "Puig",
+      "url": "https://www.puig.com/en/financial-information/"
+    },
+    {
+      "company": "Douglas",
+      "url": "https://douglas.group/en/investors/publications"
+    }
+  ],
+  "limitations": [
+    "국가별 수출입 전체 원장 정정치 대조 미완료",
+    "과거 미확보 전사 146건은 0회로 바꾸지 않고 missing 보존"
+  ],
+  "validation": "scripts/validate-update.py 및 build 성공 전 배포 금지"
+}

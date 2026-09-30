@@ -4980,8 +4980,42 @@
       "title": "Barclays 19th Annual Global Consumer Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 226698
+      "status": "complete",
+      "callId": 226698,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 17
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 13,
+          "prepared": 0,
+          "qna": 13,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 3,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 7149,
+      "sha256": "ad48cb662712c29370acf9c2b8b87d1292bc8ac3cd94ee92b48b2a73750ffd25"
     },
     {
       "id": "225846",
@@ -4990,8 +5024,91 @@
       "title": "Barclays 19th Annual Global Consumer Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 225846
+      "status": "complete",
+      "callId": 225846,
+      "counts": {
+        "direct": 7,
+        "brands": 0,
+        "general": 26
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 7,
+          "prepared": 0,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 21,
+          "prepared": 0,
+          "qna": 21,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 867.86,
+          "line": 110
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "qna",
+          "seconds": 922.06,
+          "line": 118
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 927.62,
+          "line": 120
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1530.55,
+          "line": 226
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1557.89,
+          "line": 229
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1901.08,
+          "line": 286
+        }
+      ],
+      "wordCount": 6053,
+      "sha256": "3338f33b707e8c897eaa7838c1df5498f6dbf07abdef4ddfae9eca4003eec524"
     },
     {
       "id": "225611",
@@ -5000,8 +5117,26 @@
       "title": "Goldman Sachs Communacopia + Technology Conference 2026",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 225611
+      "status": "complete",
+      "callId": 225611,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4977,
+      "sha256": "b88ca0f25a01586dcc26c01c3b471f7331402144517143799a87a94dc4e86fb5"
     },
     {
       "id": "226193",
@@ -7198,6 +7333,64 @@
       ],
       "wordCount": 17143,
       "sha256": "33cca7d7a58fafbddb18a00f0e340a744ff0013d6868a67e974660dae2853614",
+      "coverage": "전체 원문"
+    },
+    {
+      "id": "221287",
+      "company": "Costco",
+      "date": "2026-09-02",
+      "title": "Monthly Sales Update August 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 221287,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": 691,
+      "sha256": "00c8b7b302c418709e5644f017ea8f61f9f75b785e949e6ba7e669f690840325"
+    },
+    {
+      "id": "eu-loreal-20260925",
+      "company": "L'Oréal",
+      "date": "2026-09-25",
+      "title": "Let's Talk Beauty — Professional Products / Omar Hajeri",
+      "type": "conference",
+      "source": "공식 IR 영상 영문 자막",
+      "url": "https://www.youtube.com/watch?v=nk66ibTF1XE",
+      "dateSource": "https://www.loreal-finance.com/eng/strategic-presentations",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 9
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [],
+      "wordCount": 7817,
+      "sha256": "9c94a168d9c650ff4cac9516caf2fd2efc2a8fd36578a8e269db50417155bdf4",
       "coverage": "전체 원문"
     }
   ]

@@ -1,0 +1,2435 @@
+[
+  {
+    "id": "117086",
+    "company": "Estée Lauder",
+    "date": "2024-03-14",
+    "title": "UBS Global Consumer and Retail Conference 2024",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 117086,
+    "sha256": "7a79dd4846f68fdfd30b0f640c82f831fe475d02b4cce35fa957b631ddade294",
+    "count": 1,
+    "segments": [
+      {
+        "id": "117086:80",
+        "en": "Dr. Jart as an example",
+        "ko": "예를 들어 닥터자르트",
+        "context": "더마 시장 점유율 확대 전략을 설명하면서, 현재 규모는 작지만 성장에 기여할 브랜드로 닥터자르트를 들었습니다.",
+        "line": 80,
+        "location": "21:26–22:07",
+        "speaker": "전사본 화자 0",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Dr.Jart",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6168",
+    "company": "Ulta Beauty",
+    "date": "2024-08-29",
+    "title": "Q2 2024",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 6168,
+    "sha256": "098475109a140cc4705850f106b3728f2c42c73b688255233ffd16ea9efc2ed0",
+    "count": 3,
+    "segments": [
+      {
+        "id": "6168:57",
+        "en": "Peach and Lily are driving healthy comp growth.",
+        "ko": "피치앤릴리가 건전한 기존점 성장을 이끌고 있습니다.",
+        "context": "신규 브랜드의 고객 유입 효과와 함께, 피치앤릴리 등 기존 브랜드의 신제품이 기존점 매출 성장에 기여한다고 설명했습니다.",
+        "line": 57,
+        "location": "5:32–5:47",
+        "speaker": "전사본 화자 10",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "6168:84",
+        "en": "newness from Peach and Lily",
+        "ko": "피치앤릴리의 신제품",
+        "context": "피치앤릴리 신제품 반응은 좋았지만 다른 브랜드의 부진이 이를 상쇄해 프레스티지 스킨케어 전체는 압박받았다고 설명했습니다.",
+        "line": 84,
+        "location": "10:06–10:20",
+        "speaker": "전사본 화자 10",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "6168:99",
+        "en": "key exclusive brands, including Peach and Lily",
+        "ko": "피치앤릴리를 포함한 핵심 독점 브랜드",
+        "context": "독점 브랜드의 인지도와 고객 참여를 높이는 전략을 설명하며 피치앤릴리를 다시 언급했습니다.",
+        "line": 99,
+        "location": "12:32–12:50",
+        "speaker": "전사본 화자 10",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "104075",
+    "company": "Walmart",
+    "date": "2024-09-04",
+    "title": "Goldman Sachs 31st Annual Global Retailing Conference",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 104075,
+    "sha256": "f36c932236b8fe78c355005b7d09b0c19c5a1d568ee24156cd84bd6e04295463",
+    "count": 1,
+    "segments": [
+      {
+        "id": "104075:121",
+        "en": "we launched Premium Beauty, so you can find CosRX",
+        "ko": "프리미엄 뷰티를 출시해 코스알엑스를 만나볼 수 있습니다",
+        "context": "고객 수요에 따라 상품 구색을 넓혔다며, 프리미엄 뷰티 도입 후 월마트 플랫폼에서 코스알엑스를 구매할 수 있다고 설명했습니다.",
+        "line": 121,
+        "location": "14:25–15:06",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "COSRX",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6170",
+    "company": "Ulta Beauty",
+    "date": "2024-10-16",
+    "title": "Investor Day 2024",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 6170,
+    "sha256": "80de3a1b2f4f6dca7f4663f6a18f2b999fe8b9bba3218d7c9dcab4699cc1a0ac",
+    "count": 2,
+    "segments": [
+      {
+        "id": "6170:440",
+        "en": "continued growth to come from K beauty",
+        "ko": "K뷰티에서 이어질 성장",
+        "context": "스킨케어 성장 동력으로 K뷰티와 글래스 스킨을 선호하는 고객 흐름을 들었습니다.",
+        "line": 440,
+        "location": "70:10–70:18",
+        "speaker": "전사본 화자 5",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "6170:492",
+        "en": "Peach and Lily, launched in 2019, remains exclusive",
+        "ko": "2019년 출시된 피치앤릴리는 계속 독점으로 남아 있습니다",
+        "context": "피치앤릴리가 울타 및 타깃 내 울타에서 독점 판매되며 높은 성장에 기여한다고 설명했습니다.",
+        "line": 492,
+        "location": "77:45–77:53",
+        "speaker": "전사본 화자 5",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17395",
+    "company": "Kohl's (Sephora 숍인숍)",
+    "date": "2024-11-26",
+    "title": "Q3 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 17395,
+    "sha256": "1430a15d8f9f8348b5af96b35d34101619b27f925588bb56952b9c7e67339b6b",
+    "count": 1,
+    "segments": [
+      {
+        "id": "17395:110",
+        "en": "brands including YSL, Laneige and Sephora Collection drove solid growth.",
+        "ko": "YSL, 라네즈, 세포라 컬렉션 등의 브랜드가 견조한 성장을 이끌었습니다.",
+        "context": "세포라 사업 성장에 기여한 브랜드를 열거하면서 라네즈를 포함했습니다.",
+        "line": 110,
+        "location": "15:54–16:00",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Laneige",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18759",
+    "company": "e.l.f. Beauty",
+    "date": "2025-02-06",
+    "title": "Q3 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 18759,
+    "sha256": "0a3c66b439a456a83b058ba004e8a455588cf0e7f43a0f5a7014dbe0354665f2",
+    "count": 1,
+    "segments": [
+      {
+        "id": "18759:714",
+        "en": "more competitive, such as maybe some K beauty brands",
+        "ko": "일부 K뷰티 브랜드 등으로 경쟁이 더 치열해지는",
+        "context": "애널리스트가 K뷰티와 소규모 신생 브랜드 진입으로 경쟁이 심해지는지 질문했습니다. 경영진 답변이 아니라 질문에서 나온 언급입니다.",
+        "line": 714,
+        "location": "53:02–53:14",
+        "speaker": "전사본 화자 14",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20249",
+    "company": "Kohl's (Sephora 숍인숍)",
+    "date": "2025-03-11",
+    "title": "Q4 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 20249,
+    "sha256": "08d73d45e41ce909430b8c53424251a8ab90807ec5b2f165e728d63fc7f1b66b",
+    "count": 1,
+    "segments": [
+      {
+        "id": "20249:126",
+        "en": "Laneige, YSL, and Summer Fridays perform especially well",
+        "ko": "라네즈, YSL, 서머프라이데이가 특히 좋은 성과를 내다",
+        "context": "해당 분기에 성과가 좋았던 브랜드로 라네즈 등을 들었습니다.",
+        "line": 126,
+        "location": "14:10–14:18",
+        "speaker": "전사본 화자 7",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Laneige",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20423",
+    "company": "Ulta Beauty",
+    "date": "2025-03-13",
+    "title": "Q4 2024",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 20423,
+    "sha256": "dda944cc23ecb291ca5bf68ca61e0ced7da5c40b72ed9d4a49d18672f5ff48f3",
+    "count": 2,
+    "segments": [
+      {
+        "id": "20423:87",
+        "en": "the innovative K-beauty skincare brand ANUA, exclusive to Ulta Beauty.",
+        "ko": "울타 뷰티 독점인 혁신적인 K뷰티 스킨케어 브랜드 아누아.",
+        "context": "상품 구색 확대를 설명하며 아누아를 울타 독점 스킨케어 브랜드로 소개했습니다. K뷰티 표현과 브랜드명은 각각 셉니다.",
+        "line": 87,
+        "location": "9:57–10:04",
+        "speaker": "전사본 화자 6",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "23322",
+    "company": "e.l.f. Beauty",
+    "date": "2025-05-28",
+    "title": "Q4 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 23322,
+    "sha256": "1f19f41ed8ef7cedb16339e2b6e2de5a90f1fa02ce9addacebe26f225bfbadc9",
+    "count": 1,
+    "segments": [
+      {
+        "id": "23322:696",
+        "en": "They have suppliers both in Italy and South Korea",
+        "ko": "이들은 이탈리아와 한국 양쪽에 공급업체를 두고 있습니다",
+        "context": "공급망을 설명하며 이탈리아와 한국 공급업체의 생산 여력이 충분하다고 말했습니다.",
+        "line": 696,
+        "location": "54:53–54:59",
+        "speaker": "전사본 화자 13",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 화장품 제조·브랜드 맥락",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30158",
+    "company": "Ulta Beauty",
+    "date": "2025-05-29",
+    "title": "Q1 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 30158,
+    "sha256": "0a0189f80dfc1291e3f63efb8c6186eafd088d16ab10591b1838bbb9fcd8303f",
+    "count": 6,
+    "segments": [
+      {
+        "id": "30158:52",
+        "en": "Inua … exclusive K-Beauty brand Peach and Lily",
+        "ko": "아누아 … 독점 K뷰티 브랜드 피치앤릴리",
+        "context": "신규 브랜드와 트렌드에 맞는 독점 브랜드가 고객 반응을 얻었다고 설명했습니다. Inua는 자동전사에서 아누아를 표기한 형태입니다.",
+        "line": 52,
+        "location": "5:39–5:56",
+        "speaker": "전사본 화자 13",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "30158:74",
+        "en": "Inua, a viral K-Beauty brand",
+        "ko": "바이럴 K뷰티 브랜드 아누아",
+        "context": "독점 브랜드가 성장을 이끈다는 설명에서 아누아를 사례로 들었습니다.",
+        "line": 74,
+        "location": "9:43–9:59",
+        "speaker": "전사본 화자 13",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "30158:460",
+        "en": "Sacred and Inua",
+        "ko": "세이크리드와 아누아",
+        "context": "1분기에 출시한 독점 브랜드를 다시 열거하면서 아누아를 언급했습니다.",
+        "line": 460,
+        "location": "46:46–46:58",
+        "speaker": "전사본 화자 13",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "39877",
+    "company": "Ulta Beauty",
+    "date": "2025-08-28",
+    "title": "Q2 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 39877,
+    "sha256": "16d6ac1f0086e48a3bd6d7d2b8e29e334b42d0dc9a105896e05937195b1b71f5",
+    "count": 3,
+    "segments": [
+      {
+        "id": "39877:64",
+        "en": "our robust and expanded k beauty assortment … Anua … Peach and Lily",
+        "ko": "당사의 탄탄하고 확대된 K뷰티 상품 구색 … 아누아 … 피치앤릴리",
+        "context": "확대한 K뷰티 상품군에 신규 브랜드 아누아와 독점 브랜드 피치앤릴리가 기여한다고 설명했습니다.",
+        "line": 64,
+        "location": "7:42–7:52",
+        "speaker": "전사본 화자 7",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51313",
+    "company": "Ulta Beauty",
+    "date": "2025-09-04",
+    "title": "Goldman Sachs 32nd Annual Global Retailing Conference 2025",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 51313,
+    "sha256": "6c1dfbb3147a68f60b5303b8c50aa9d96977841009e75c6f38bac70bef30ce05",
+    "count": 2,
+    "segments": [
+      {
+        "id": "51313:149",
+        "en": "Korean beauty happens to be one",
+        "ko": "한국 뷰티가 그중 하나입니다",
+        "context": "SNS에서 글래스 스킨을 원하는 수요가 커지는 흐름을 한국 뷰티와 연결해 설명했습니다.",
+        "line": 149,
+        "location": "11:18–11:28",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Korean beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51313:150",
+        "en": "brands from Korea that are exclusive really to Ulta Beauty.",
+        "ko": "실제로 울타 뷰티 독점인 한국 브랜드들.",
+        "context": "이어서 한국 브랜드를 독점으로 도입하고 있다고 설명했습니다.",
+        "line": 150,
+        "location": "11:29–11:34",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·제조 맥락",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63990",
+    "company": "e.l.f. Beauty",
+    "date": "2025-11-14",
+    "title": "Fireside Chat",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 63990,
+    "sha256": "e9b5540d473a284909fcc3c0ae032ca8ccc08d11d989c964b480257104c653a7",
+    "count": 1,
+    "segments": [
+      {
+        "id": "63990:771",
+        "en": "their manufacturing is in Italy and South Korea primarily.",
+        "ko": "이들의 제조는 주로 이탈리아와 한국에서 이루어집니다.",
+        "context": "로드의 일부 부품은 중국에서 오지만 주요 제조국은 이탈리아와 한국이라고 설명했습니다.",
+        "line": 771,
+        "location": "50:04–50:12",
+        "speaker": "전사본 화자 0",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 화장품 제조·브랜드 맥락",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51460",
+    "company": "Ulta Beauty",
+    "date": "2025-12-04",
+    "title": "Q3 2026",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 51460,
+    "sha256": "2de225f8fe9c1250575e3acc0f421fd0d1570f969e53359454fceb10881fcc86",
+    "count": 10,
+    "segments": [
+      {
+        "id": "51460:53",
+        "en": "K-Beauty assortment continues to resonate",
+        "ko": "K뷰티 상품 구색이 계속 호응을 얻다",
+        "context": "K뷰티 상품군이 고객 반응을 얻으며 스킨케어 매출을 이끈다고 설명했습니다.",
+        "line": 53,
+        "location": "6:41–6:45",
+        "speaker": "전사본 화자 13",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51460:61",
+        "en": "K-beauty assortment in makeup",
+        "ko": "메이크업의 K뷰티 상품 구색",
+        "context": "새로 도입한 K뷰티 메이크업 상품군도 높은 성장을 보인다고 설명했습니다.",
+        "line": 61,
+        "location": "7:58–8:02",
+        "speaker": "전사본 화자 13",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51460:76",
+        "en": "K-beauty assortment",
+        "ko": "K뷰티 상품 구색",
+        "context": "K뷰티를 종합적인 브랜드 육성 전략의 사례로 소개했습니다.",
+        "line": 76,
+        "location": "10:27–10:31",
+        "speaker": "전사본 화자 13",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51460:77",
+        "en": "K-beauty … Peach & Lily … K-beauty",
+        "ko": "K뷰티 … 피치앤릴리 … K뷰티",
+        "context": "피치앤릴리 등 독점 스킨케어 브랜드의 기반 위에서 스킨케어와 메이크업 양쪽의 K뷰티 기회를 보았다고 설명했습니다.",
+        "line": 77,
+        "location": "10:31–10:44",
+        "speaker": "전사본 화자 13",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51460:78",
+        "en": "Anua, Medicube, Tirtir",
+        "ko": "아누아, 메디큐브, 티르티르",
+        "context": "2025년 도입한 신규·독점 브랜드들을 열거했습니다. 현재 집계 사전에 포함된 이 세 브랜드를 셌습니다.",
+        "line": 78,
+        "location": "10:45–11:00",
+        "speaker": "전사본 화자 13",
+        "count": 3,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "TIRTIR",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "51460:493",
+        "en": "K-Beauty bringing things here",
+        "ko": "K뷰티를 이곳에 들여오는 것",
+        "context": "질문자가 스페이스NK와 K뷰티 도입에 관한 앞선 설명을 되짚었습니다.",
+        "line": 493,
+        "location": "48:56–49:00",
+        "speaker": "전사본 화자 3",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "65156",
+    "company": "Ulta Beauty",
+    "date": "2026-03-12",
+    "title": "Q4 2026",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 65156,
+    "sha256": "6d4c340d90878bf318ed3bcc8c076e5c7c5a44c56fb11bc2fae4516707b16b8e",
+    "count": 16,
+    "segments": [
+      {
+        "id": "65156:51",
+        "en": "Medicube, Anua … TIRTIR",
+        "ko": "메디큐브, 아누아 … 티르티르",
+        "context": "연간 100개가 넘는 신규 브랜드를 도입한 성과를 설명하면서 세 한국 브랜드를 열거했습니다.",
+        "line": 51,
+        "location": "6:59–7:17",
+        "speaker": "전사본 화자 3",
+        "count": 3,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "TIRTIR",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:56",
+        "en": "K-beauty brand Peach & Lily",
+        "ko": "K뷰티 브랜드 피치앤릴리",
+        "context": "2025년 주요 성과를 낸 브랜드 중 프레스티지 스킨케어의 피치앤릴리를 들었습니다.",
+        "line": 56,
+        "location": "8:15–8:33",
+        "speaker": "전사본 화자 3",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:135",
+        "en": "K-beauty brands, Medicube, Anua, and Peach & Lily",
+        "ko": "K뷰티 브랜드인 메디큐브, 아누아, 피치앤릴리",
+        "context": "스킨케어·웰니스의 기존점 성장과 고객 참여를 이끈 브랜드들을 설명했습니다.",
+        "line": 135,
+        "location": "22:50–23:18",
+        "speaker": "전사본 화자 0",
+        "count": 4,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:318",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "질문자가 제품 관련 질문의 주제로 K뷰티와 웰니스를 제시했습니다.",
+        "line": 318,
+        "location": "43:26–43:30",
+        "speaker": "전사본 화자 7",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:321",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "질문자가 K뷰티가 대형 장기 트렌드인지 경영진의 견해를 요청했습니다.",
+        "line": 321,
+        "location": "43:43–43:48",
+        "speaker": "전사본 화자 7",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:332",
+        "en": "K beauty",
+        "ko": "K뷰티",
+        "context": "경영진이 부진 SKU를 정리하고 K뷰티·웰니스 상품을 늘리는 작업을 설명했습니다. 같은 구간에서 K뷰티를 두 번 말했습니다.",
+        "line": 332,
+        "location": "44:41–44:58",
+        "speaker": "전사본 화자 3",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "65156:334",
+        "en": "K beauty",
+        "ko": "K뷰티",
+        "context": "K뷰티 상품의 유행과 교체 속도가 패션과 비슷하다고 설명했습니다.",
+        "line": 334,
+        "location": "45:04–45:09",
+        "speaker": "전사본 화자 3",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:336",
+        "en": "K-beauty products",
+        "ko": "K뷰티 제품들",
+        "context": "고객이 믿을 수 있는 제품을 고르도록 울타가 검증·선별 역할을 한다고 설명했습니다.",
+        "line": 336,
+        "location": "45:16–45:25",
+        "speaker": "전사본 화자 3",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "65156:341",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "K뷰티를 포함해 웰니스와 마켓플레이스까지 전반에 같은 선별 방식을 적용한다고 설명했습니다.",
+        "line": 341,
+        "location": "45:51–46:00",
+        "speaker": "전사본 화자 3",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "166922",
+    "company": "Ulta Beauty",
+    "date": "2026-04-08",
+    "title": "J.P. Morgan Retail Round Up Forum 2026",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 166922,
+    "sha256": "50ce746ef1bf6351d1c6870e5e8986a8f3d3161688cb474fb4b4ab331dd72426",
+    "count": 12,
+    "segments": [
+      {
+        "id": "166922:119",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "경영진이 계속 발굴할 신흥 브랜드 영역으로 K뷰티를 소개했습니다. 같은 구간에서 두 번 언급했습니다.",
+        "line": 119,
+        "location": "11:21–11:28",
+        "speaker": "전사본 화자 2",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "166922:120",
+        "en": "in Korea",
+        "ko": "한국에서",
+        "context": "경영진과 상품 담당자가 한국 현지를 방문해 제조업체와 브랜드를 만났다고 설명했습니다.",
+        "line": 120,
+        "location": "11:28–11:34",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 화장품 제조·브랜드 맥락",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:185",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "질문자가 프레스티지 메이크업, 향수, K뷰티, 스킨케어의 성장 지속성에 관한 시장 관심을 제시했습니다.",
+        "line": 185,
+        "location": "17:24–17:33",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:190",
+        "en": "I'll start with K-beauty.",
+        "ko": "K뷰티부터 말씀드리겠습니다.",
+        "context": "경영진이 여러 질문 가운데 K뷰티부터 답하겠다고 말한 부분도 실제 등장 횟수에 포함됩니다.",
+        "line": 190,
+        "location": "17:46–17:49",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:191",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "경영진이 K뷰티를 새롭게 부상한 영역으로 설명했습니다.",
+        "line": 191,
+        "location": "17:50–17:51",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:192",
+        "en": "brick-and-mortar K-beauty retailer",
+        "ko": "오프라인 K뷰티 소매업체",
+        "context": "울타가 미국 최대 오프라인 K뷰티 소매업체라고 설명했습니다.",
+        "line": 192,
+        "location": "17:51–17:59",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:194",
+        "en": "Anua and Medicube",
+        "ko": "아누아와 메디큐브",
+        "context": "두 브랜드의 판매 성과가 매우 좋았다고 평가했습니다.",
+        "line": 194,
+        "location": "18:01–18:04",
+        "speaker": "전사본 화자 2",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:199",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "K뷰티를 지속될 트렌드로 본다고 설명했습니다.",
+        "line": 199,
+        "location": "18:31–18:34",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "166922:464",
+        "en": "Anua … K-beauty brand",
+        "ko": "아누아 … K뷰티 브랜드",
+        "context": "할인·상품 운영을 잘한 사례로 아누아를 들며 이 브랜드에서 배운 점이 많다고 설명했습니다.",
+        "line": 464,
+        "location": "41:30–41:40",
+        "speaker": "전사본 화자 2",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "147606",
+    "company": "Kohl's (Sephora 숍인숍)",
+    "date": "2026-05-28",
+    "title": "Q1 2027",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 147606,
+    "sha256": "9ae17631610827bf756ffa2779689474895e7fffbe638074cb640b0e7e3c3b0c",
+    "count": 5,
+    "segments": [
+      {
+        "id": "147606:86",
+        "en": "trending Korean brands like Beauty of Joseon, Aestura, and Biodance.",
+        "ko": "조선미녀, 에스트라, 바이오던스 같은 유행하는 한국 브랜드들.",
+        "context": "스킨케어 신상품을 확대하면서 한국 브랜드 세 곳을 소개했습니다.",
+        "line": 86,
+        "location": "11:31–11:39",
+        "speaker": "전사본 화자 6",
+        "count": 4,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "Beauty of Joseon",
+            "count": 1
+          },
+          {
+            "term": "Aestura",
+            "count": 1
+          },
+          {
+            "term": "Biodance",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "147606:324",
+        "en": "newness coming in there with the Korean skincare efforts",
+        "ko": "한국 스킨케어 관련 노력으로 유입되는 신제품",
+        "context": "스킨케어 실적 부진을 논의하는 가운데 한국 스킨케어 신상품 도입을 개선 요인으로 언급했습니다.",
+        "line": 324,
+        "location": "38:10–38:17",
+        "speaker": "전사본 화자 4",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Korean skincare / cosmetics",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "189502",
+    "company": "Estée Lauder",
+    "date": "2026-06-02",
+    "title": "23rd annual dbAccess Global Consumer Conference",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 189502,
+    "sha256": "cd49ef418669053a38eb38ad7801c0643a1f78e560f31039a20fd9ed26a06a5e",
+    "count": 1,
+    "segments": [
+      {
+        "id": "189502:384",
+        "en": "We've seen the rise of the Korean brand.",
+        "ko": "우리는 한국 브랜드의 부상을 보았습니다.",
+        "context": "지역별 현지 브랜드의 성장 흐름을 설명하며 한국 브랜드가 부상한 경험을 들었습니다.",
+        "line": 384,
+        "location": "38:09–38:10",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "195259",
+    "company": "Ulta Beauty",
+    "date": "2026-06-02",
+    "title": "Q1 2027",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 195259,
+    "sha256": "51b81f92478a5f06dbaafc4290a9f3ec41c23541cc3ddd06cf04ab25b07043a0",
+    "count": 3,
+    "segments": [
+      {
+        "id": "195259:147",
+        "en": "including Medicube … exclusive brand Peach & Lily",
+        "ko": "메디큐브를 포함하여 … 독점 브랜드 피치앤릴리",
+        "context": "메디큐브와 피치앤릴리 등의 신제품이 고객 참여를 이끌며 프레스티지 스킨케어 성과에 기여했다고 설명했습니다.",
+        "line": 147,
+        "location": "22:39–22:54",
+        "speaker": "전사본 화자 1",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "195259:148",
+        "en": "in-store expansion for Anua",
+        "ko": "아누아의 매장 내 확대",
+        "context": "대중 스킨케어 성장 요인으로 아누아의 매장 전개 확대 등을 들었습니다.",
+        "line": 148,
+        "location": "22:55–23:06",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Anua",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "189745",
+    "company": "Kohl's (Sephora 숍인숍)",
+    "date": "2026-08-26",
+    "title": "Q2 2027",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 189745,
+    "sha256": "c8d2554491cc2b08fd7ce1faca469e40e706244b59fccc1d2beb34e0eada5029",
+    "count": 1,
+    "segments": [
+      {
+        "id": "189745:92",
+        "en": "existing new launches in K-Beauty and Body",
+        "ko": "K뷰티와 바디의 기존 신제품 출시",
+        "context": "기존 대형 출시의 높은 비교 기준과 함께 K뷰티·바디 신제품이 아직 충분한 규모에 이르지 못했다고 설명했습니다.",
+        "line": 92,
+        "location": "11:33–11:48",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "194083",
+    "company": "Ulta Beauty",
+    "date": "2026-08-27",
+    "title": "Q2 2027",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 194083,
+    "sha256": "44e59673bbe9ce29bc011647bf8ea1f5aec3f7da778160ed79c99989a299050d",
+    "count": 22,
+    "segments": [
+      {
+        "id": "194083:60",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "향수에 이어 K뷰티 성장세도 지속됐다고 설명했습니다.",
+        "line": 60,
+        "location": "7:46–7:49",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:61",
+        "en": "K-beauty … numbuzin … Centellian24",
+        "ko": "K뷰티 … 넘버즈인 … 센텔리안24",
+        "context": "K뷰티 신규 브랜드 다섯 곳을 추가했다고 설명했습니다. 전사 오류로 불명확한 이름은 이 구간의 집계에서 제외했습니다.",
+        "line": 61,
+        "location": "7:49–8:01",
+        "speaker": "전사본 화자 2",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "numbuzin",
+            "count": 1
+          },
+          {
+            "term": "Centellian24",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:62",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "전년 대비 두 자릿수 K뷰티 매출 성장으로 상품 구색에 대한 자신감이 높아졌다고 말했습니다. 같은 구간에서 두 번 언급했습니다.",
+        "line": 62,
+        "location": "8:02–8:11",
+        "speaker": "전사본 화자 2",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "194083:63",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "분기 K뷰티 매출의 약 절반이 독점 브랜드·상품에서 발생했다고 설명했습니다.",
+        "line": 63,
+        "location": "8:12–8:17",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:64",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "시장 점유율 상승이 K뷰티 브랜드의 장기 지속성에 대한 낙관을 뒷받침한다고 설명했습니다.",
+        "line": 64,
+        "location": "8:18–8:27",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:152",
+        "en": "K-beauty … Medicube, Anua … Peach & Lily",
+        "ko": "K뷰티 … 메디큐브, 아누아 … 피치앤릴리",
+        "context": "프레스티지·대중 스킨케어 성장에 기여한 K뷰티 브랜드를 열거했습니다.",
+        "line": 152,
+        "location": "23:38–23:55",
+        "speaker": "전사본 화자 3",
+        "count": 4,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Medicube",
+            "count": 1
+          },
+          {
+            "term": "Anua",
+            "count": 1
+          },
+          {
+            "term": "Peach & Lily",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:312",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "브랜드 육성 전략을 답하면서 향수·K뷰티 투자와 독점 상품의 중요성을 강조했습니다.",
+        "line": 312,
+        "location": "42:05–42:14",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:313",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "두 자릿수 성장한 K뷰티 사업에서 독점 상품 비중이 50%라는 점을 다시 설명했습니다.",
+        "line": 313,
+        "location": "42:14–42:23",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:332",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "애널리스트가 K뷰티에 관한 질문을 시작했습니다.",
+        "line": 332,
+        "location": "43:42–43:44",
+        "speaker": "전사본 화자 8",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:335",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "애널리스트가 K뷰티 판매처 확대 속에서 울타의 경쟁 우위를 어떻게 유지할지 물었습니다.",
+        "line": 335,
+        "location": "43:50–43:57",
+        "speaker": "전사본 화자 8",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:339",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "경영진이 지난 18개월간 미국 K뷰티 선두 지위를 유지하며 사업을 확대했다고 답했습니다.",
+        "line": 339,
+        "location": "44:05–44:13",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:342",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "경영진이 발굴 대상이 K뷰티에만 한정되는 것은 아니라고 설명했습니다.",
+        "line": 342,
+        "location": "44:30–44:31",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:344",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "K뷰티를 빠르게 교체되는 패션 유행처럼 취급하는 분위기에 경계감을 보였습니다.",
+        "line": 344,
+        "location": "44:35–44:46",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:346",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "울타는 일시적 유행에 휘둘리는 방식으로 K뷰티를 운영하지 않겠다고 다시 설명했습니다.",
+        "line": 346,
+        "location": "45:03–45:09",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:348",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "K뷰티 외에 C뷰티 등 다른 글로벌 트렌드도 주시한다고 말했습니다.",
+        "line": 348,
+        "location": "45:16–45:23",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "194083:461",
+        "en": "K-beauty",
+        "ko": "K뷰티",
+        "context": "새롭게 성장하는 카테고리를 거론하는 문맥에서 웰니스와 K뷰티를 들었습니다.",
+        "line": 461,
+        "location": "55:04–55:09",
+        "speaker": "전사본 화자 12",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "226193",
+    "company": "Ulta Beauty",
+    "date": "2026-09-10",
+    "title": "Barclays 19th Annual Global Consumer Staples Conference",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 226193,
+    "sha256": "f86b2730882bdd4bc6db13e01b59304ef571c46e4d8b6aff92a454f892e4b966",
+    "count": 6,
+    "segments": [
+      {
+        "id": "226193:92",
+        "en": "K-beauty launching stronger in the U.S.",
+        "ko": "미국에서 더욱 강해지는 K뷰티 출시",
+        "context": "스킨케어를 논의하며 미국에서 K뷰티 흐름이 강화되고 있다고 설명했습니다.",
+        "line": 92,
+        "location": "8:06–8:13",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "226193:93",
+        "en": "K-beauty … K-beauty were due to exclusives",
+        "ko": "K뷰티 … K뷰티가 독점 상품에서 나왔습니다",
+        "context": "18개월간 미국 K뷰티 소매 선두를 유지했고 직전 분기 K뷰티 매출의 50%가 독점에서 발생했다고 설명했습니다. 두 번 등장합니다.",
+        "line": 93,
+        "location": "8:13–8:23",
+        "speaker": "전사본 화자 1",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "226193:94",
+        "en": "assortments within K-beauty",
+        "ko": "K뷰티 내 상품 구색",
+        "context": "상품 담당자들이 우수한 K뷰티 상품을 선별했다고 평가했습니다.",
+        "line": 94,
+        "location": "8:24–8:30",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "226193:96",
+        "en": "It's not just about K-beauty",
+        "ko": "K뷰티만의 이야기는 아닙니다",
+        "context": "멕시코·중동의 파트너십 등을 통해 K뷰티 이외의 브랜드도 발굴한다고 설명했습니다.",
+        "line": 96,
+        "location": "8:40–8:52",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "226193:310",
+        "en": "K-beauty, C-beauty",
+        "ko": "K뷰티, C뷰티",
+        "context": "미국에 도입할 글로벌 트렌드의 예로 K뷰티와 C뷰티를 들었습니다. K뷰티만 집계합니다.",
+        "line": 310,
+        "location": "29:11–29:19",
+        "speaker": "전사본 화자 0",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "225657",
+    "company": "Walmart",
+    "date": "2026-09-15",
+    "title": "Goldman Sachs Global Consumer and Retail Conference",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 225657,
+    "sha256": "bfd89f449f5b0f11aa1237e8d30908061ebd5ad1f546caa65e222f2da02bea48",
+    "count": 3,
+    "segments": [
+      {
+        "id": "225657:233",
+        "en": "added to both 1P and 3P, called Medicube.",
+        "ko": "직매입과 제3자 판매 양쪽에 추가된, 메디큐브라는 브랜드입니다.",
+        "context": "메디큐브를 월마트 직매입과 마켓플레이스 양쪽에 도입했다고 설명했습니다.",
+        "line": 233,
+        "location": "19:42–19:46",
+        "speaker": "전사본 화자 0",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "225657:234",
+        "en": "engaging with Medicube, purchasing Medicube, are new to the beauty space.",
+        "ko": "메디큐브에 관심을 갖고 메디큐브를 구매하는 이들은 뷰티 부문에 새로 유입된 고객입니다.",
+        "context": "메디큐브 구매 고객의 약 50%가 월마트 뷰티 부문의 신규 고객이라고 설명했습니다. 한 문장 안에서 메디큐브를 두 번 말했습니다.",
+        "line": 234,
+        "location": "19:48–19:58",
+        "speaker": "전사본 화자 0",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Medicube",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "225673",
+    "company": "Walmart",
+    "date": "2026-09-16",
+    "title": "Piper Sandler 5th Annual Growth Frontiers Conference",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 225673,
+    "sha256": "2117989cddf560f7d88db97f62fce7ad4c5dd113d7dcd7cc4a4e00a0e2f81927",
+    "count": 3,
+    "segments": [
+      {
+        "id": "225673:47",
+        "en": "Getting K-Beauty … Medicube and others that we get on board.",
+        "ko": "K뷰티를 확보하는 것 … 우리가 입점시키는 메디큐브 등의 브랜드.",
+        "context": "메디큐브 등 K뷰티 브랜드를 도입하고 상품이 매장 후방과 물류센터에 들어와 있다고 설명했습니다.",
+        "line": 47,
+        "location": "2:42–2:51",
+        "speaker": "전사본 화자 1",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Medicube",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "225673:96",
+        "en": "You can also find the K-Beauty elements that didn't exist before.",
+        "ko": "이전에는 없었던 K뷰티 제품들도 이제 만나볼 수 있습니다.",
+        "context": "월마트에서 고객이 찾을 수 있는 상품 구색이 넓어졌다는 설명에서 K뷰티를 다시 언급했습니다.",
+        "line": 96,
+        "location": "5:38–5:41",
+        "speaker": "전사본 화자 1",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "189866",
+    "company": "Costco",
+    "date": "2026-09-24",
+    "title": "Q4 2026",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 189866,
+    "sha256": "1b56b040404b73b48252f15139e65e203391d0a6d9e9d1ffa31cd20df1c54f80",
+    "count": 2,
+    "segments": [
+      {
+        "id": "189866:142",
+        "en": "K-beauty products such as collagen face masks and lotions from a number of top Korean vendors.",
+        "ko": "여러 주요 한국 공급업체의 콜라겐 마스크팩과 로션 같은 K뷰티 제품.",
+        "context": "분기 판매 성과가 좋았던 상품의 예로 한국 업체의 마스크팩과 로션을 들었습니다.",
+        "line": 142,
+        "location": "18:47–18:54",
+        "speaker": "전사본 화자 1",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "한국 브랜드·제조 맥락",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-7",
+    "company": "Beiersdorf (NIVEA)",
+    "date": "2026-08",
+    "title": "1H26",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/etr/BEI/transcripts/553291-q2-2026/",
+    "callId": null,
+    "sha256": "0d9a11be9210f53e7c7d31345e34dc138a032ae901ce7dfb5954426405ce7b08",
+    "count": 8,
+    "segments": [
+      {
+        "id": "eu-7:43",
+        "en": "the Korean brands",
+        "ko": "한국 브랜드들",
+        "context": "2024년까지는 프리미엄 얼굴 관리 중심 전략이 통했지만, 2025년부터 한국 브랜드 등을 포함한 경쟁자들의 민첩성이 높아졌다고 설명했습니다.",
+        "line": 43,
+        "location": "수집 원문 43행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-7:60",
+        "en": "bought in Korea … manufacturers in Korea … Korean flag",
+        "ko": "한국에서 구매한 … 한국의 제조업체들 … 한국 국기",
+        "context": "니베아 선스틱을 한국 제조사에서 조달해 니베아 상표와 한국 국기를 붙였으며, 올해 선케어 최다 판매 SKU라고 설명했습니다.",
+        "line": 60,
+        "location": "수집 원문 60행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "한국 브랜드·제조 맥락",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "id": "eu-7:77",
+        "en": "Korean brands … a Korean brand",
+        "ko": "한국 브랜드들 … 한국 브랜드 하나",
+        "context": "폴란드 성장의 전부가 한국 브랜드에서 나온다고 평가하며, 자사는 한국 브랜드가 아니어서 어려움을 겪는다고 설명했습니다.",
+        "line": 77,
+        "location": "수집 원문 77행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "eu-7:100",
+        "en": "Korean brands being very competitive",
+        "ko": "한국 브랜드들이 매우 경쟁력이 있는",
+        "context": "질문자가 동유럽의 한국 브랜드 경쟁을 짚은 뒤 다른 신흥국의 점유율 하락 원인을 물었습니다.",
+        "line": 100,
+        "location": "수집 원문 100행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-7:101",
+        "en": "Korean brands everywhere",
+        "ko": "어디에나 있는 한국 브랜드들",
+        "context": "경영진이 각 지역에서 현지 브랜드뿐 아니라 한국 브랜드의 경쟁도 나타난다고 답했습니다.",
+        "line": 101,
+        "location": "수집 원문 101행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-12",
+    "company": "L'Oréal",
+    "date": "2026-06-02",
+    "title": "dbAccess 컨퍼런스 2026",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/683348-23rd-annual-dbaccess-global-consumer-conference/",
+    "callId": null,
+    "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a",
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-12:12",
+        "en": "Korean makeup brand",
+        "ko": "한국 메이크업 브랜드",
+        "context": "국가별 브랜드 적합성을 설명하며 프랑스보다 동남아에 더 맞는 한국 메이크업 브랜드를 예로 들었습니다.",
+        "line": 12,
+        "location": "수집 원문 12행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-12:35",
+        "en": "Korean beauty … We also have Korean brands",
+        "ko": "한국 뷰티 … 우리는 한국 브랜드들도 보유하고 있습니다",
+        "context": "세계 각지에서 성장하는 뷰티 흐름을 소개한 뒤, 로레알도 한국을 포함한 다양한 원산지의 브랜드를 보유한다고 설명했습니다.",
+        "line": 35,
+        "location": "수집 원문 35행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Korean beauty",
+            "count": 1
+          },
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-15",
+    "company": "Douglas",
+    "date": "2026-05-12",
+    "title": "2Q FY26",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/etr/DOU/transcripts/535290-q2-2026/",
+    "callId": null,
+    "sha256": "87e09cebcb5c11abf071327643f4c04f06a83e91d14ec57f0e92b6f818895349",
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-15:53",
+        "en": "Korean K-beauty brands like the Beauty of Joseon and Erborian are really doing very well.",
+        "ko": "조선미녀와 에르보리안 같은 한국 K뷰티 브랜드들이 정말 좋은 성과를 내고 있습니다.",
+        "context": "카테고리별 유망 브랜드 성과를 소개하면서 조선미녀와 에르보리안을 들었습니다.",
+        "line": 53,
+        "location": "수집 원문 53행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Beauty of Joseon",
+            "count": 1
+          },
+          {
+            "term": "Erborian",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-19",
+    "company": "Beiersdorf (NIVEA)",
+    "date": "2026-04",
+    "title": "1Q26",
+    "source": "공개 전사본",
+    "url": "https://www.roic.ai/quote/BDRFF%3AUS/transcripts/2026-year/1-quarter",
+    "callId": null,
+    "sha256": "a495eb4551f6646979213a16a8582590fb40dc1ee7ff4118bc717662d9a211a8",
+    "count": 7,
+    "segments": [
+      {
+        "id": "eu-19:152",
+        "en": "Korean brands",
+        "ko": "한국 브랜드들",
+        "context": "동유럽 부진의 배경으로 현지·한국 브랜드의 성장과 일부 유통업체 문제를 들었습니다.",
+        "line": 152,
+        "location": "수집 원문 152행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-19:258",
+        "en": "Korean brands entering the market aggressively",
+        "ko": "한국 브랜드들이 시장에 공격적으로 진입하는 것",
+        "context": "질문자가 독일을 중심으로 경쟁이 심해지고 있으며 한국 브랜드가 적극 진입한다고 지적했습니다.",
+        "line": 258,
+        "location": "수집 원문 258행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-19:262",
+        "en": "Korean brands took market share",
+        "ko": "한국 브랜드들이 시장 점유율을 가져갔습니다",
+        "context": "경영진이 한국 브랜드 등에 점유율을 내주었고 핵심 바디·접근성 높은 얼굴 관리 제품에 투자를 늘렸다고 답했습니다.",
+        "line": 262,
+        "location": "수집 원문 262행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-19:266",
+        "en": "coming from Korea … expertise in Korea … know from Korea",
+        "ko": "한국에서 온 … 한국에서의 전문성 … 한국에서 얻은 지식",
+        "context": "한국산 니베아 선스틱이 선케어 베스트셀러 중 하나라고 설명하고, 한국의 전문성과 지식을 활용한다고 세 번 언급했습니다.",
+        "line": 266,
+        "location": "수집 원문 266행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "한국 브랜드·제조 맥락",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "id": "eu-19:267",
+        "en": "Korean brands",
+        "ko": "한국 브랜드들",
+        "context": "경영진은 경쟁 한국 브랜드의 지속성에 회의적인 평가를 내렸습니다. 이는 해당 경영진의 견해입니다.",
+        "line": 267,
+        "location": "수집 원문 267행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-22",
+    "company": "L'Oréal",
+    "date": "2026-02-20",
+    "title": "CAGNY 2026",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/559102-consumer-analyst-group-of-new-york-conference-cagny-2026/",
+    "callId": null,
+    "sha256": "b95c0a492569ae70b79b0ea53a0c49195a8651bfcc1ceec1304075d5d550abf1",
+    "count": 5,
+    "segments": [
+      {
+        "id": "eu-22:23",
+        "en": "Dr. G, a Korean brand",
+        "ko": "한국 브랜드인 닥터지",
+        "context": "최근 인수·라이선스 거래를 열거하며 닥터지를 소개했습니다.",
+        "line": 23,
+        "location": "수집 원문 23행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-22:37",
+        "en": "Dr. G, a Korean beauty brand. K-beauty is hot.",
+        "ko": "한국 뷰티 브랜드 닥터지. K뷰티가 뜨겁습니다.",
+        "context": "여러 가격대의 스킨케어 소비자를 확보하는 전략에서 닥터지 인수의 의미를 설명했습니다.",
+        "line": 37,
+        "location": "수집 원문 37행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Korean beauty",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-24",
+    "company": "L'Oréal",
+    "date": "2026-02",
+    "title": "FY2025 실적",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/401241-h2-2025/",
+    "callId": null,
+    "sha256": "6b3ce5193aed32424efc7d353c6b32a3e229c6e12045bf770b204c6479dc2604",
+    "count": 12,
+    "segments": [
+      {
+        "id": "eu-24:31",
+        "en": "3CE, our K-beauty makeup brand",
+        "ko": "당사의 K뷰티 메이크업 브랜드 3CE",
+        "context": "3CE를 동남아로 확대하면서 10% 성장했다고 설명했습니다.",
+        "line": 31,
+        "location": "수집 원문 31행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "3CE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-24:33",
+        "en": "3CE … Dr.G … K-beauty",
+        "ko": "3CE … 닥터지 … K뷰티",
+        "context": "메이크업 신제품 계획에 3CE를 포함하고, K뷰티 수요를 활용해 닥터지를 아시아 등으로 확대한다고 설명했습니다.",
+        "line": 33,
+        "location": "수집 원문 33행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          },
+          {
+            "term": "3CE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-24:35",
+        "en": "K-beauty stars: 3CE … Korean makeup brand … Dr.G",
+        "ko": "K뷰티 스타들인 3CE … 한국 메이크업 브랜드 … 닥터지",
+        "context": "신흥시장 유통 확대 전략에서 3CE와 닥터지의 브랜드 지위를 소개했습니다.",
+        "line": 35,
+        "location": "수집 원문 35행",
+        "speaker": "",
+        "count": 4,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          },
+          {
+            "term": "3CE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-24:64",
+        "en": "Dr.G early 2025",
+        "ko": "2025년 초 닥터지",
+        "context": "인수 성과를 정리하면서 2025년 초 닥터지 거래를 되짚었습니다.",
+        "line": 64,
+        "location": "수집 원문 64행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-24:74",
+        "en": "Dr.G … K-beauty hype",
+        "ko": "닥터지 … K뷰티 열풍",
+        "context": "지속되는 K뷰티 관심을 활용해 닥터지의 글로벌 전개를 시작하겠다고 설명했습니다.",
+        "line": 74,
+        "location": "수집 원문 74행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-26",
+    "company": "L'Oréal",
+    "date": "2025-12-02",
+    "title": "CFO 파이어사이드 챗",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/424367-fireside-chat/",
+    "callId": null,
+    "sha256": "cbfc53fcb958cd3bee1e6869e522846ae6ddbed29e4203ffa397dea7c79aa524",
+    "count": 1,
+    "segments": [
+      {
+        "id": "eu-26:114",
+        "en": "We've been bringing in Dr. Jart+",
+        "ko": "우리는 닥터자르트를 들여왔습니다",
+        "context": "인수 기회를 설명하는 전사본에 닥터자르트로 기록돼 있습니다. 로레알의 닥터지와 혼동한 자동전사 가능성이 있어 발췌 표기를 그대로 보존했습니다.",
+        "line": 114,
+        "location": "수집 원문 114행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Dr.Jart",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-29",
+    "company": "Beiersdorf (NIVEA)",
+    "date": "2025-10-23",
+    "title": "9M25 실적",
+    "source": "공개 전사본",
+    "url": "https://tickertrends.io/transcripts/BDRFY/Q3-earnings-transcript-2025",
+    "callId": null,
+    "sha256": "b5d3a7671f0ea98939a9a502b70f546cb2a7475f6166716e594d79712e83986b",
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-29:18",
+        "en": "Korean brands … Korean brands … Korean brands",
+        "ko": "한국 브랜드들 … 한국 브랜드들 … 한국 브랜드들",
+        "context": "폴란드 성장의 전부가 한국 브랜드에서 나온다고 평가하면서, 대형 브랜드보다 짧은 주기로 교체되는 브랜드가 많아 글로벌 업체들이 어려움을 겪는다고 설명했습니다.",
+        "line": 18,
+        "location": "수집 원문 18행",
+        "speaker": "",
+        "count": 3,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-37",
+    "company": "L'Oréal",
+    "date": "2025-02-21",
+    "title": "CAGNY 2025",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/317521-consumer-analyst-group-of-new-york-conference-cagny-2025/",
+    "callId": null,
+    "sha256": "8c1c0c1edb7e8497b6148948a539f2484d50055bf9497527b2610689abd30cd2",
+    "count": 4,
+    "segments": [
+      {
+        "id": "eu-37:6",
+        "en": "We acquired a Korean brand called Dr. G",
+        "ko": "우리는 닥터지라는 한국 브랜드를 인수했습니다",
+        "context": "글로벌 소비자 수요에 대응하기 위한 브랜드 포트폴리오 확장을 설명했습니다.",
+        "line": 6,
+        "location": "수집 원문 6행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-37:31",
+        "en": "acquisition of a Korean skincare brand, Dr. G",
+        "ko": "한국 스킨케어 브랜드 닥터지의 인수",
+        "context": "지속적인 브랜드 인수 정책을 설명하면서 닥터지를 다시 언급했습니다.",
+        "line": 31,
+        "location": "수집 원문 31행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Korean skincare / cosmetics",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-38",
+    "company": "L'Oréal",
+    "date": "2025-02-07",
+    "title": "FY2024 실적",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/244836-h2-2024/",
+    "callId": null,
+    "sha256": "f42603e48bfbd36b4bc0849493d105417d45007ea46531adc499c7b17ef700d6",
+    "count": 14,
+    "segments": [
+      {
+        "id": "eu-38:16",
+        "en": "Dr. G transactions",
+        "ko": "닥터지 거래",
+        "context": "사노피 지분 매각으로 인수 후 재원을 다변화한다는 설명에 닥터지 거래를 포함했습니다.",
+        "line": 16,
+        "location": "수집 원문 16행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-38:50",
+        "en": "K-beauty … Korean beauty … 3CE … K-makeup … Dr. G",
+        "ko": "K뷰티 … 한국 뷰티 … 3CE … K메이크업 … 닥터지",
+        "context": "K뷰티의 세계적 명성과 확산 잠재력을 설명하고, 3CE의 동남아 확대와 닥터지의 글로벌 기회를 소개했습니다. 이 구간의 관련 표현은 총 7회입니다.",
+        "line": 50,
+        "location": "수집 원문 50행",
+        "speaker": "",
+        "count": 7,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 2
+          },
+          {
+            "term": "Korean beauty",
+            "count": 1
+          },
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "한국 브랜드·제조 맥락",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          },
+          {
+            "term": "3CE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-38:61",
+        "en": "Korean skincare brand Dr. G",
+        "ko": "한국 스킨케어 브랜드 닥터지",
+        "context": "브랜드 포트폴리오 강화 조치로 닥터지 인수를 다시 설명했습니다.",
+        "line": 61,
+        "location": "수집 원문 61행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Korean skincare / cosmetics",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-38:156",
+        "en": "Dr. G",
+        "ko": "닥터지",
+        "context": "검증된 브랜드를 인수한 뒤 세계로 확장하는 전략을 닥터지에도 적용하겠다고 설명했습니다.",
+        "line": 156,
+        "location": "수집 원문 156행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-38:166",
+        "en": "Stylenanda",
+        "ko": "스타일난다",
+        "context": "중국 사업을 설명하면서 스타일난다가 2024년 어려움을 겪었다고 평가했습니다.",
+        "line": 166,
+        "location": "수집 원문 166행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "Stylenanda",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-38:167",
+        "en": "Stylenanda … Korean beauty",
+        "ko": "스타일난다 … 한국 뷰티",
+        "context": "한국 뷰티 관심이 다시 높아지고 중국 소비자 기대와 맞는다며 스타일난다의 기회를 설명했습니다.",
+        "line": 167,
+        "location": "수집 원문 167행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "Korean beauty",
+            "count": 1
+          },
+          {
+            "term": "Stylenanda",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-47",
+    "company": "L'Oréal",
+    "date": "2024-04-18",
+    "title": "1Q24 매출",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/166281-q1-2024/",
+    "callId": null,
+    "sha256": "d1d26d5b5adc48a24d8f8109ae6be00a3c3cb2e13803cf7e0804c85078a42ba4",
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-47:77",
+        "en": "Japanese Korean brands",
+        "ko": "일본·한국 브랜드들",
+        "context": "애널리스트가 중국 시장에서 서구·현지·일본·한국 브랜드 사이 점유율 변화가 있었는지 질문했습니다.",
+        "line": 77,
+        "location": "수집 원문 77행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-47:78",
+        "en": "brands of Chinese, Korean, Japanese … Korean brands have been struggling in China",
+        "ko": "중국·한국·일본 브랜드들 … 한국 브랜드들이 중국에서 어려움을 겪어 왔습니다",
+        "context": "경영진은 브랜드 국적별 비중을 분기마다 평가하기 어렵다고 전제한 뒤, 한국·일본 브랜드의 중국 내 부진이 최근에도 달라지지 않았다고 답했습니다.",
+        "line": 78,
+        "location": "수집 원문 78행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          },
+          {
+            "term": "한국 화장품 제조·브랜드 맥락",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-50",
+    "company": "L'Oréal",
+    "date": "2024-02-09",
+    "title": "FY2023 실적",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/122646-h2-2023/",
+    "callId": null,
+    "sha256": "33cca7d7a58fafbddb18a00f0e340a744ff0013d6868a67e974660dae2853614",
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-50:22",
+        "en": "3CE by Stylen anda, spreading K-beauty across Asia",
+        "ko": "아시아 전역에 K뷰티를 확산하는 스타일난다의 3CE",
+        "context": "성장을 이끈 지역 브랜드로 아시아의 3CE를 들었습니다.",
+        "line": 22,
+        "location": "수집 원문 22행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "3CE",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-50:88",
+        "en": "transfer between Japanese and Korean brands to Chinese brands",
+        "ko": "일본·한국 브랜드에서 중국 브랜드로의 이동",
+        "context": "중국 시장에서 일본·한국 브랜드 점유율이 중국 브랜드로 이동하고 있다고 평가했습니다.",
+        "line": 88,
+        "location": "수집 원문 88행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 브랜드·메이크업",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,14 +1,15 @@
 import {Fragment,useMemo,useRef,useState} from 'react';
 import {calls,quarter} from '@/lib/beauty';
 import contexts from '@/data/call-context.json';
+import CallFrequency from './call-frequency';
 
 const quarters=Array.from({length:11},(_,i)=>`${i%4+1}Q${24+Math.floor(i/4)}`);
 const highlightPattern=/(K[ -]?뷰티|K[ -]?beauty|한국(?:의|에서|과|·일본| 브랜드| 스킨케어| 메이크업| 제조업체| 공급업체| 공급| 제조| 시장)?|Korean(?: beauty)?|South Korea|Korea|메디큐브|Medicube|아누아|Anua|Inua|닥터자르트|Dr\.?\s?Jart\+?|Doctor\. Jart|닥터지|Dr\.?\s?G\b|피치앤릴리|Peach(?: &| and)? Lily|라네즈|Laneige|조선미녀|Beauty of Joseon|에스트라|Aestura|바이오던스|Biodance|에르보리안|Erborian|3CE|코스알엑스|CosRX|티르티르|TIRTIR|글래스 스킨|유리알 피부|glass skin)/gi;
 function Highlight({text}:{text:string}){return <>{text.split(highlightPattern).map((t,i)=>i%2?<mark key={i}>{t}</mark>:<Fragment key={i}>{t}</Fragment>)}</>}
 function Choice({value,options,onChange,label}:{value:string;options:string[];onChange:(v:string)=>void;label:string}){return <div className="calls-choices" role="group" aria-label={label}>{options.map(o=><button key={o} aria-pressed={o===value} onClick={()=>onChange(o)}>{o}</button>)}</div>}
 
-export default function CallsView(){
- const [region,setRegion]=useState('전체'),[tag,setTag]=useState('전체'),[company,setCompany]=useState<string|null>(null),[period,setPeriod]=useState<string|null>(null),[search,setSearch]=useState('');
+function CommentView({initialCompany=null}:{initialCompany?:string|null}){
+ const [region,setRegion]=useState('전체'),[tag,setTag]=useState('전체'),[company,setCompany]=useState<string|null>(initialCompany),[period,setPeriod]=useState<string|null>(null),[search,setSearch]=useState('');
  const resultsRef=useRef<HTMLDivElement>(null);
  const indexed=useMemo(()=>calls.items.map((i:any,index:number)=>({...i,index,context:(contexts as any)[index]})),[]);
  const eligible=useMemo(()=>calls.companies.filter((c:any)=>region==='전체'||c.region.startsWith(region)).sort((a:any,b:any)=>{
@@ -49,4 +50,9 @@ export default function CallsView(){
    </article>
   })}</div><p className="calls-source-note">51건의 조사 대상과 분류는 참고 대시보드 기준입니다. 49건은 전사본 대조, 2건은 참고 대시보드 수록 인용입니다. 전후 맥락은 발언 내용을 풀어쓴 요약이며, 자동전사에는 고유명사 오류가 있을 수 있습니다.</p>
  </div>
+}
+
+export default function CallsView(){
+ const [mode,setMode]=useState('frequency'),[initialCompany,setInitialCompany]=useState<string|null>(null);
+ return <><div className="frequency-mode"><Choice label="컨콜 집계 방식" value={mode==='frequency'?'실제 언급 횟수 · 시험':'기존 코멘트 수'} options={['실제 언급 횟수 · 시험','기존 코멘트 수']} onChange={v=>{setInitialCompany(null);setMode(v==='기존 코멘트 수'?'comments':'frequency')}}/></div>{mode==='frequency'?<CallFrequency onOpenNotes={c=>{setInitialCompany(c);setMode('comments')}}/>:<CommentView initialCompany={initialCompany}/>}</>
 }

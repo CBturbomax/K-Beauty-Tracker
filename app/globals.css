@@ -116,3 +116,15 @@
 .call-excerpt{padding:16px}
 .call-excerpt p{font-size:20px}
 }
+
+/* Literal conference-call frequency, using the dashboard's existing colorway. */
+.frequency-mode{margin-bottom:22px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.frequency-intro{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:20px;font-size:17px;color:#8b98a5}.frequency-intro b{color:#fff;font-size:20px}
+.frequency-view .calls-matrix sup{font-size:12px;color:#FFCB05;margin-left:2px}.frequency-coverage{font-size:17px;color:#8b98a5;line-height:1.8;margin:14px 0 0}
+.frequency-chart-panel,.frequency-audit{margin-top:28px;scroll-margin-top:20px}.frequency-chart-panel{border-top-color:#FFCB05}
+.frequency-company-label{display:flex;align-items:center;gap:12px;font-size:17px}.frequency-company-label select{font:inherit;font-size:18px;background:#161d25;color:#fff;border:1px solid #2a3542;padding:8px 12px;max-width:240px;border-radius:0}
+.frequency-stats .stat-value{font-size:42px}.frequency-stats .stat-value small{font-size:19px;color:#8b98a5;margin-left:8px;font-weight:500}.frequency-measure{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:18px 0;font-size:17px}.frequency-chart-scroll{overflow-x:auto}.frequency-chart-panel .chart-tip{max-width:460px}.frequency-chart-panel .chart-tip b{float:none;margin:0}
+.frequency-audit .table-wrap th:first-child{min-width:100px}.frequency-doc-button{padding:0;background:none;border:0;color:inherit;font:inherit;text-align:left}.frequency-doc-button:hover{color:#FFCB05;text-decoration:underline}.frequency-title-cell{white-space:normal!important;min-width:270px;max-width:430px;text-align:left!important}.frequency-title-cell>span{display:block;font-size:17px;color:#8b98a5;margin-top:4px}.frequency-selected td{background:#FFCB0517!important}.frequency-selected td:first-child{box-shadow:inset 3px 0 #FFCB05}
+.frequency-detail{padding:22px 0 0;margin-top:22px;border-top:1px solid #2a3542}.frequency-detail h4{font-size:24px;margin:0 0 10px}.frequency-term-list{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.frequency-term-list>span{border:1px solid #2a3542;padding:10px 14px;font-size:19px}.frequency-term-list small{display:block;font-size:17px;color:#8b98a5}.frequency-term-list b{margin-left:16px;color:#FFCB05}.frequency-method{margin-top:28px;border:1px solid #2a3542;padding:20px;font-size:17px;line-height:1.8;color:#8b98a5}.frequency-method summary{font-size:19px;font-weight:700;color:#fff;cursor:pointer}.frequency-method p{margin:14px 0}.frequency-method b{color:#fff}@media(max-width:600px){.frequency-stats{grid-template-columns:1fr!important}.frequency-stats .stat-value{font-size:36px}.frequency-company-label{flex-wrap:wrap}.frequency-method{padding:16px}}
+
+.frequency-moments{margin-top:18px;font-size:17px}.frequency-moments summary{cursor:pointer;color:#fff}.frequency-moments>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.frequency-moments span{padding:6px 10px;border:1px solid #2a3542;color:#8b98a5}.frequency-moments b{color:#FFCB05;margin-left:6px}

@@ -1,0 +1,5750 @@
+{
+  "updated": "2026-09-30",
+  "version": 1,
+  "range": "2024-01 ~ 2026-09",
+  "directTerms": [
+    "K-beauty",
+    "Korean beauty",
+    "Korean skincare / cosmetics",
+    "K뷰티"
+  ],
+  "brandTerms": [
+    "Medicube",
+    "Anua",
+    "Dr.Jart",
+    "Dr.G",
+    "Laneige",
+    "COSRX",
+    "Beauty of Joseon",
+    "Aestura",
+    "Biodance",
+    "TIRTIR",
+    "Erborian",
+    "3CE",
+    "Innisfree",
+    "Belif",
+    "Round Lab",
+    "Torriden",
+    "Missha"
+  ],
+  "documents": [
+    {
+      "id": "123290",
+      "company": "Walmart",
+      "date": "2024-01-09",
+      "title": "CES 2024",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 123290,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [],
+      "wordCount": 8352,
+      "sha256": "aff0c8108d4512dbcbef4853fadebaa9cc75f88ca5e93e1e393d00382a79e7c8"
+    },
+    {
+      "id": "3877",
+      "company": "Amazon",
+      "date": "2024-02-01",
+      "title": "Q4 2023",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 3877,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 5
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8966,
+      "sha256": "b027a0fb1ee920a23f02605f81cbb5d6c3f450860bc17ee27b4dba39c6284a4f"
+    },
+    {
+      "id": "5473",
+      "company": "Estée Lauder",
+      "date": "2024-02-05",
+      "title": "Q2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 5473,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 25
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 8,
+          "prepared": 6,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 5,
+          "qna": 12,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8895,
+      "sha256": "59d14559c85c0a7f975c6080b17a9c12314461783a05f0b5f71b795206440f7c"
+    },
+    {
+      "id": "121839",
+      "company": "e.l.f. Beauty",
+      "date": "2024-02-06",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 121839,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 61
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 13,
+          "prepared": 10,
+          "qna": 3,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 23,
+          "prepared": 7,
+          "qna": 16,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 25,
+          "prepared": 18,
+          "qna": 7,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9533,
+      "sha256": "d2a6a81ab15526d7b446f5512013215e1bf0ff18fa6fa86b6b6cf5f42554a0bc"
+    },
+    {
+      "id": "121627",
+      "company": "Coty",
+      "date": "2024-02-07",
+      "title": "Q2 2024 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 121627,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 58
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 38,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 38
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 13,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 13
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 7,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 7
+        }
+      ],
+      "moments": [],
+      "wordCount": 5695,
+      "sha256": "332bb29f60b70e3b1a53b9fbd4fa798754ab4ff035162e0a3af7f8420ceb7303"
+    },
+    {
+      "id": "121603",
+      "company": "Unilever",
+      "date": "2024-02-08",
+      "title": "H2 2023",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 121603,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 36
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 32,
+          "prepared": 13,
+          "qna": 19,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 4,
+          "prepared": 4,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 14812,
+      "sha256": "1a797f705e1466d925013da2a695bd0bc4b898a4320479ea8351756c285e616c"
+    },
+    {
+      "id": "121589",
+      "company": "Coty",
+      "date": "2024-02-08",
+      "title": "Q2 2024 (Q&A)",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 121589,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 35
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 15,
+          "prepared": 0,
+          "qna": 15,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 18,
+          "prepared": 0,
+          "qna": 18,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 7180,
+      "sha256": "a5a5d496fc339b79d21c560a205e5068ce8d44098ceb9dc3d4ed3109cf3a1b35"
+    },
+    {
+      "id": "120963",
+      "company": "Coty",
+      "date": "2024-02-13",
+      "title": "TD Cowen Glowing Ahead: Beauty & Wellness Summit",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 120963,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 40
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 22,
+          "prepared": 7,
+          "qna": 15,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 12,
+          "prepared": 2,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 6,
+          "prepared": 1,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4995,
+      "sha256": "81ff78b35cec5eb545c3dc8d0f9110358644f5253ec4dd3127b80d087d7fff0f"
+    },
+    {
+      "id": "3908",
+      "company": "Walmart",
+      "date": "2024-02-20",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 3908,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 10505,
+      "sha256": "5572fddc705bd594a38acc1459f0d8b2a02f1259d2a581b01b69e8d12ca854e8"
+    },
+    {
+      "id": "120202",
+      "company": "Coty",
+      "date": "2024-02-20",
+      "title": "CAGNY 2024 Investor Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 120202,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 93
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 58,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 58
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 22,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 22
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 13,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 13
+        }
+      ],
+      "moments": [],
+      "wordCount": 7520,
+      "sha256": "fd4aefef03972e841b8e769bddcebe88b2494dae480e7dd98307cd9d62f0446e"
+    },
+    {
+      "id": "4335",
+      "company": "TJX",
+      "date": "2024-02-28",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 4335,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 7
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 7,
+          "prepared": 0,
+          "qna": 7,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9017,
+      "sha256": "237310798b4d74d996cfa752897509aae2806ae6534582649c0bbda7bffcb34a"
+    },
+    {
+      "id": "4753",
+      "company": "Target",
+      "date": "2024-03-05",
+      "title": "Q4 2023",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 4753,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 9,
+          "prepared": 5,
+          "qna": 4,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 20864,
+      "sha256": "59d32634a2e2c6ef1f9d5c8a8ad78f3dfa8829bdc0a2fc1ce8a28eabc2ef2076"
+    },
+    {
+      "id": "117660",
+      "company": "Walmart",
+      "date": "2024-03-07",
+      "title": "Morgan Stanley’s Technology, Media & Telecom Conference 2024",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 117660,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": 5498,
+      "sha256": "bf46542f78090dc2bbef8de41a2a45cad1a7189164b82a737c428e82848c3352"
+    },
+    {
+      "id": "3975",
+      "company": "Costco",
+      "date": "2024-03-07",
+      "title": "Q2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 3975,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": 10925,
+      "sha256": "f13680eb76ffe6b5c241e67b61580a229d39d16e206d814916fbaa80f468f05a"
+    },
+    {
+      "id": "117463",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2024-03-12",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 117463,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 3
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9182,
+      "sha256": "d6dc27cfd478788ccee5169a4fe614417a277c8035d1d5377d2c39ea28d96785"
+    },
+    {
+      "id": "117086",
+      "company": "Estée Lauder",
+      "date": "2024-03-14",
+      "title": "UBS Global Consumer and Retail Conference 2024",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 117086,
+      "counts": {
+        "direct": 0,
+        "brands": 1,
+        "general": 19
+      },
+      "terms": [
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 7,
+          "prepared": 2,
+          "qna": 5,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 12,
+          "prepared": 1,
+          "qna": 11,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1286.58,
+          "line": 80
+        }
+      ],
+      "wordCount": 7382,
+      "sha256": "7a79dd4846f68fdfd30b0f640c82f831fe475d02b4cce35fa957b631ddade294"
+    },
+    {
+      "id": "6173",
+      "company": "Ulta Beauty",
+      "date": "2024-03-14",
+      "title": "Q4 2023",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 6173,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 36
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 32,
+          "prepared": 25,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 3,
+          "prepared": 1,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8939,
+      "sha256": "72b382677e52071f51e8ae01da9e34d4bc538f865604cc28d26cef2379ceb1fc"
+    },
+    {
+      "id": "116319",
+      "company": "Ulta Beauty",
+      "date": "2024-04-03",
+      "title": "J. P. Morgan 10th Annual Retail Round Up",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 116319,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 20
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 12,
+          "prepared": 0,
+          "qna": 12,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 3,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 7378,
+      "sha256": "e9e303996b3f041722bb58cec020ed7334f3ad8a1f4f51af6b06c68adfe286d9"
+    },
+    {
+      "id": "115511",
+      "company": "Unilever",
+      "date": "2024-04-25",
+      "title": "Q1 2024 TU",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 115511,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 14
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 11,
+          "prepared": 4,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 3,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8595,
+      "sha256": "717e4322b8daf13f60f59c8e66edc2847ab1f17b853fb9b04dda4b58a6d3f361"
+    },
+    {
+      "id": "3878",
+      "company": "Amazon",
+      "date": "2024-04-30",
+      "title": "Q1 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 3878,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8711,
+      "sha256": "43b03cb62e03fba4ded0dfcc722c0cb9c327207a9ed0ab5aa6471c0e78804e5d"
+    },
+    {
+      "id": "5475",
+      "company": "Estée Lauder",
+      "date": "2024-05-01",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 5475,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 34
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 17,
+          "prepared": 15,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 15,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9151,
+      "sha256": "ec858218e0a9afba19b092afe87e9801a9eb37bdfc938a53680e02243b0d17b9"
+    },
+    {
+      "id": "113529",
+      "company": "Coty",
+      "date": "2024-05-06",
+      "title": "Q3 2024 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 113529,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 49
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 28,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 28
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 11,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 11
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 10,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 10
+        }
+      ],
+      "moments": [],
+      "wordCount": 5936,
+      "sha256": "dd7b28c0fc278f65e6750be64d8feffe591d4285d84c4294f2b1960b08095391"
+    },
+    {
+      "id": "113468",
+      "company": "Coty",
+      "date": "2024-05-07",
+      "title": "Q3 2024 (Q&A)",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 113468,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 53
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 24,
+          "prepared": 0,
+          "qna": 24,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 10,
+          "prepared": 0,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 19,
+          "prepared": 0,
+          "qna": 19,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 7961,
+      "sha256": "57dc96cac6e63341391f4f2d99d234602c88e14bdf48fc29462ec590c772e69f"
+    },
+    {
+      "id": "3924",
+      "company": "Walmart",
+      "date": "2024-05-16",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 3924,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9961,
+      "sha256": "aca2b4f81dd79fdbec03698fcbe3bf57d0bc28c04bea28bd3f78d45169c8dc91"
+    },
+    {
+      "id": "4761",
+      "company": "Target",
+      "date": "2024-05-22",
+      "title": "Q1 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 4761,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9980,
+      "sha256": "21407739de13df4ccf856c2d3e2dc5296ed8e076c47c27ecbce7d8b64a007d99"
+    },
+    {
+      "id": "4326",
+      "company": "TJX",
+      "date": "2024-05-22",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4326
+    },
+    {
+      "id": "110096",
+      "company": "e.l.f. Beauty",
+      "date": "2024-05-22",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 110096
+    },
+    {
+      "id": "109944",
+      "company": "Estée Lauder",
+      "date": "2024-05-29",
+      "title": "Bernstein’s 40th Annual Strategic Decisions Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109944
+    },
+    {
+      "id": "109802",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2024-05-30",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109802
+    },
+    {
+      "id": "6159",
+      "company": "Ulta Beauty",
+      "date": "2024-05-30",
+      "title": "Q1 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 6159,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 32
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 26,
+          "prepared": 21,
+          "qna": 5,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 6,
+          "prepared": 4,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8891,
+      "sha256": "0ead139e97688a2de129b701b76098fab027732f67dab1e969593bc8e88c9b8c"
+    },
+    {
+      "id": "3984",
+      "company": "Costco",
+      "date": "2024-05-30",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3984
+    },
+    {
+      "id": "109657",
+      "company": "Unilever",
+      "date": "2024-06-04",
+      "title": "2024 Deutsche Bank dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109657
+    },
+    {
+      "id": "109655",
+      "company": "Estée Lauder",
+      "date": "2024-06-04",
+      "title": "Deutsche Bank dbAccess 2024 Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109655
+    },
+    {
+      "id": "109601",
+      "company": "Ulta Beauty",
+      "date": "2024-06-04",
+      "title": "The 44th Annual William Blair Growth Stock Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 109601,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 30
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 28,
+          "prepared": 1,
+          "qna": 27,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 5346,
+      "sha256": "4bdb3228e6702fbe5aff88089d3d833aa45daf53bbe6c56bae6aa49b8618b736"
+    },
+    {
+      "id": "109517",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2024-06-04",
+      "title": "Baird 2024 Global Consumer, Technology & Services Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109517
+    },
+    {
+      "id": "109405",
+      "company": "Coty",
+      "date": "2024-06-05",
+      "title": "2024 Deutsche Bank dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109405
+    },
+    {
+      "id": "108283",
+      "company": "Walmart",
+      "date": "2024-06-11",
+      "title": "Oppenheimer's 24th Annual Virtual Consumer Growth and E-Commerce Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 108283
+    },
+    {
+      "id": "108119",
+      "company": "Walmart",
+      "date": "2024-06-12",
+      "title": "4th Annual Evercore ISI Consumer and Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 108119
+    },
+    {
+      "id": "108099",
+      "company": "Ulta Beauty",
+      "date": "2024-06-12",
+      "title": "Oppenheimer’s 24th Annual Consumer Growth & E-Commerce Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 108099,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 36
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 25,
+          "prepared": 1,
+          "qna": 24,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 11,
+          "prepared": 0,
+          "qna": 11,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 5618,
+      "sha256": "e12cac19e59b933a6dea7f4eb02404eaa4b1036ac1c653266feaed6199248a1d"
+    },
+    {
+      "id": "107648",
+      "company": "Coty",
+      "date": "2024-06-13",
+      "title": "4th Annual Evercore ISI Consumer & Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 107648
+    },
+    {
+      "id": "107233",
+      "company": "Walmart",
+      "date": "2024-06-25",
+      "title": "NYSE/Bank of America London Investor Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 107233
+    },
+    {
+      "id": "106277",
+      "company": "Unilever",
+      "date": "2024-07-25",
+      "title": "H1 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 106277
+    },
+    {
+      "id": "3892",
+      "company": "Amazon",
+      "date": "2024-08-01",
+      "title": "Q2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3892
+    },
+    {
+      "id": "11097",
+      "company": "e.l.f. Beauty",
+      "date": "2024-08-08",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 11097
+    },
+    {
+      "id": "3919",
+      "company": "Walmart",
+      "date": "2024-08-15",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3919
+    },
+    {
+      "id": "5474",
+      "company": "Estée Lauder",
+      "date": "2024-08-19",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 5474,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 50
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 33,
+          "prepared": 32,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 17,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9753,
+      "sha256": "5e6380c4b2e62bbc589aacbabe22aa9d5797424856e5430bba59765ab33f5eb7"
+    },
+    {
+      "id": "104616",
+      "company": "Coty",
+      "date": "2024-08-20",
+      "title": "Q4 2024 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 104616
+    },
+    {
+      "id": "4757",
+      "company": "Target",
+      "date": "2024-08-21",
+      "title": "Q2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4757
+    },
+    {
+      "id": "11230",
+      "company": "Coty",
+      "date": "2024-08-21",
+      "title": "Q4 2024 (Q&A)",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 11230
+    },
+    {
+      "id": "4333",
+      "company": "TJX",
+      "date": "2024-08-21",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4333
+    },
+    {
+      "id": "13547",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2024-08-28",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 13547
+    },
+    {
+      "id": "6168",
+      "company": "Ulta Beauty",
+      "date": "2024-08-29",
+      "title": "Q2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 6168,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 51
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 44,
+          "prepared": 35,
+          "qna": 9,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 6,
+          "prepared": 5,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9013,
+      "sha256": "098475109a140cc4705850f106b3728f2c42c73b688255233ffd16ea9efc2ed0"
+    },
+    {
+      "id": "104241",
+      "company": "Estée Lauder",
+      "date": "2024-09-03",
+      "title": "Barclays 17th Annual Global Consumer Staples Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 104241
+    },
+    {
+      "id": "104075",
+      "company": "Walmart",
+      "date": "2024-09-04",
+      "title": "Goldman Sachs 31st Annual Global Retailing Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 104075,
+      "counts": {
+        "direct": 0,
+        "brands": 1,
+        "general": 6
+      },
+      "terms": [
+        {
+          "term": "COSRX",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 6,
+          "prepared": 0,
+          "qna": 6,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "COSRX",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 865.82,
+          "line": 121
+        }
+      ],
+      "wordCount": 6330,
+      "sha256": "f36c932236b8fe78c355005b7d09b0c19c5a1d568ee24156cd84bd6e04295463"
+    },
+    {
+      "id": "103890",
+      "company": "Unilever",
+      "date": "2024-09-04",
+      "title": "Barclays 17th Annual Global Consumer Staples Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 103890
+    },
+    {
+      "id": "103095",
+      "company": "Amazon",
+      "date": "2024-09-09",
+      "title": "Goldman Sachs Communacopia + Technology Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 103095
+    },
+    {
+      "id": "102704",
+      "company": "Walmart",
+      "date": "2024-09-11",
+      "title": "Goldman Sachs Communacopia + Technology Conference 2024",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 102704
+    },
+    {
+      "id": "101930",
+      "company": "Unilever",
+      "date": "2024-09-25",
+      "title": "Bernstein Annual Pan-European Strategic Decisions Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 101930
+    },
+    {
+      "id": "101897",
+      "company": "Walmart",
+      "date": "2024-09-26",
+      "title": "2024 Goldman Sachs Global Sustainability Forum",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 101897
+    },
+    {
+      "id": "3982",
+      "company": "Costco",
+      "date": "2024-09-26",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3982
+    },
+    {
+      "id": "6170",
+      "company": "Ulta Beauty",
+      "date": "2024-10-16",
+      "title": "Investor Day 2024",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 6170,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 286
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 275,
+          "prepared": 267,
+          "qna": 8,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 9,
+          "prepared": 9,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 4210.825,
+          "line": 440
+        }
+      ],
+      "wordCount": 26143,
+      "sha256": "80de3a1b2f4f6dca7f4663f6a18f2b999fe8b9bba3218d7c9dcab4699cc1a0ac"
+    },
+    {
+      "id": "101474",
+      "company": "Unilever",
+      "date": "2024-10-24",
+      "title": "Q3 2024 TU",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 101474
+    },
+    {
+      "id": "5477",
+      "company": "Estée Lauder",
+      "date": "2024-10-31",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 5477
+    },
+    {
+      "id": "3875",
+      "company": "Amazon",
+      "date": "2024-10-31",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3875
+    },
+    {
+      "id": "15831",
+      "company": "e.l.f. Beauty",
+      "date": "2024-11-06",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 15831
+    },
+    {
+      "id": "19162",
+      "company": "Coty",
+      "date": "2024-11-06",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 19162
+    },
+    {
+      "id": "14644",
+      "company": "Coty",
+      "date": "2024-11-07",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 14644
+    },
+    {
+      "id": "3918",
+      "company": "Walmart",
+      "date": "2024-11-19",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3918
+    },
+    {
+      "id": "4759",
+      "company": "Target",
+      "date": "2024-11-20",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4759
+    },
+    {
+      "id": "4331",
+      "company": "TJX",
+      "date": "2024-11-20",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4331
+    },
+    {
+      "id": "17395",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2024-11-26",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 17395,
+      "counts": {
+        "direct": 0,
+        "brands": 1,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "Laneige",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Laneige",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 954.27,
+          "line": 110
+        }
+      ],
+      "wordCount": 9397,
+      "sha256": "1430a15d8f9f8348b5af96b35d34101619b27f925588bb56952b9c7e67339b6b"
+    },
+    {
+      "id": "98765",
+      "company": "Walmart",
+      "date": "2024-12-03",
+      "title": "Morgan Stanley Global Consumer & Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 98765
+    },
+    {
+      "id": "98384",
+      "company": "e.l.f. Beauty",
+      "date": "2024-12-04",
+      "title": "Morgan Stanley Global Consumer & Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 98384
+    },
+    {
+      "id": "6165",
+      "company": "Ulta Beauty",
+      "date": "2024-12-05",
+      "title": "Q3 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 6165,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 58
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 49,
+          "prepared": 37,
+          "qna": 12,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 9,
+          "prepared": 9,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8245,
+      "sha256": "2af82ca11f465cefcabad583c5f36add84137c0e8595813d93ab3a286c1f6c21"
+    },
+    {
+      "id": "98068",
+      "company": "Ulta Beauty",
+      "date": "2024-12-11",
+      "title": "Raymond James 2024 TMT & Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 98068,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 27
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 24,
+          "prepared": 3,
+          "qna": 21,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 3,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4541,
+      "sha256": "a4af0bdc13134af95430c061b288ad00f64874f20646fdd1e75069ec0971984a"
+    },
+    {
+      "id": "1819",
+      "company": "Costco",
+      "date": "2024-12-12",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 1819
+    },
+    {
+      "id": "5476",
+      "company": "Estée Lauder",
+      "date": "2025-02-04",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 5476,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 46
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 41,
+          "prepared": 24,
+          "qna": 17,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 5,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9149,
+      "sha256": "4d40ddad1e036b222228c96475de72d35d8047b5043241770cca61952e6da56e"
+    },
+    {
+      "id": "18759",
+      "company": "e.l.f. Beauty",
+      "date": "2025-02-06",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 18759,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 47
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 11,
+          "prepared": 7,
+          "qna": 4,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 7,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 19,
+          "prepared": 12,
+          "qna": 7,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 3182.252,
+          "line": 714
+        }
+      ],
+      "wordCount": 9755,
+      "sha256": "0a3c66b439a456a83b058ba004e8a455588cf0e7f43a0f5a7014dbe0354665f2"
+    },
+    {
+      "id": "17497",
+      "company": "Amazon",
+      "date": "2025-02-06",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 17497
+    },
+    {
+      "id": "57228",
+      "company": "Coty",
+      "date": "2025-02-11",
+      "title": "Q2 2025 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 57228
+    },
+    {
+      "id": "18945",
+      "company": "Coty",
+      "date": "2025-02-11",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 18945
+    },
+    {
+      "id": "96580",
+      "company": "Unilever",
+      "date": "2025-02-13",
+      "title": "H2 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 96580
+    },
+    {
+      "id": "24761",
+      "company": "Coty",
+      "date": "2025-02-19",
+      "title": "Consumer Analyst Group of New York Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 24761
+    },
+    {
+      "id": "3920",
+      "company": "Walmart",
+      "date": "2025-02-20",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 3920
+    },
+    {
+      "id": "25112",
+      "company": "e.l.f. Beauty",
+      "date": "2025-02-20",
+      "title": "Consumer Analyst Group of New York Conference (CAGNY) 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 25112
+    },
+    {
+      "id": "4332",
+      "company": "TJX",
+      "date": "2025-02-26",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 4332
+    },
+    {
+      "id": "25543",
+      "company": "Coty",
+      "date": "2025-02-26",
+      "title": "TD Cowen Glowing Ahead: Beauty & Wellness Summit",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 25543
+    },
+    {
+      "id": "20270",
+      "company": "Target",
+      "date": "2025-03-04",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 20270
+    },
+    {
+      "id": "91293",
+      "company": "Unilever",
+      "date": "2025-03-06",
+      "title": "Fireside Chat",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 91293
+    },
+    {
+      "id": "27611",
+      "company": "Walmart",
+      "date": "2025-03-06",
+      "title": "Morgan Stanley Technology, Media & Telecom Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 27611
+    },
+    {
+      "id": "21111",
+      "company": "Costco",
+      "date": "2025-03-06",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 21111
+    },
+    {
+      "id": "20249",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2025-03-11",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 20249,
+      "counts": {
+        "direct": 0,
+        "brands": 1,
+        "general": 2
+      },
+      "terms": [
+        {
+          "term": "Laneige",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Laneige",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 850.74,
+          "line": 126
+        }
+      ],
+      "wordCount": 9339,
+      "sha256": "08d73d45e41ce909430b8c53424251a8ab90807ec5b2f165e728d63fc7f1b66b"
+    },
+    {
+      "id": "20423",
+      "company": "Ulta Beauty",
+      "date": "2025-03-13",
+      "title": "Q4 2024",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 20423,
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 29
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 26,
+          "prepared": 13,
+          "qna": 13,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 3,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 597.0,
+          "line": 87
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 597.0,
+          "line": 87
+        }
+      ],
+      "wordCount": 8879,
+      "sha256": "dda944cc23ecb291ca5bf68ca61e0ced7da5c40b72ed9d4a49d18672f5ff48f3"
+    },
+    {
+      "id": "32535",
+      "company": "Ulta Beauty",
+      "date": "2025-04-03",
+      "title": "Annual Retail Round Up Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 32535,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 29
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 28,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 28
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [],
+      "wordCount": 8106,
+      "sha256": "245072bd17bc44e56fea257182a1698d471ba1f9ccb3aacf2f021228a0f38665"
+    },
+    {
+      "id": "93449",
+      "company": "Unilever",
+      "date": "2025-04-24",
+      "title": "Q1 2025 TU",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 93449
+    },
+    {
+      "id": "18050",
+      "company": "Estée Lauder",
+      "date": "2025-05-01",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 18050
+    },
+    {
+      "id": "24471",
+      "company": "Amazon",
+      "date": "2025-05-01",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 24471
+    },
+    {
+      "id": "57229",
+      "company": "Coty",
+      "date": "2025-05-05",
+      "title": "Q3 2025 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 57229
+    },
+    {
+      "id": "24846",
+      "company": "Coty",
+      "date": "2025-05-07",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 24846
+    },
+    {
+      "id": "21379",
+      "company": "Walmart",
+      "date": "2025-05-15",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 21379
+    },
+    {
+      "id": "28137",
+      "company": "Target",
+      "date": "2025-05-21",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 28137
+    },
+    {
+      "id": "24573",
+      "company": "TJX",
+      "date": "2025-05-21",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 24573
+    },
+    {
+      "id": "38832",
+      "company": "Walmart",
+      "date": "2025-05-28",
+      "title": "Bernstein 41st Annual Strategic Decisions Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 38832
+    },
+    {
+      "id": "23322",
+      "company": "e.l.f. Beauty",
+      "date": "2025-05-28",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 23322,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 67
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 33,
+          "prepared": 23,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 11,
+          "qna": 6,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 17,
+          "prepared": 13,
+          "qna": 4,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9485,
+      "sha256": "1f19f41ed8ef7cedb16339e2b6e2de5a90f1fa02ce9addacebe26f225bfbadc9"
+    },
+    {
+      "id": "29369",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2025-05-29",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 29369
+    },
+    {
+      "id": "30158",
+      "company": "Ulta Beauty",
+      "date": "2025-05-29",
+      "title": "Q1 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 30158,
+      "counts": {
+        "direct": 2,
+        "brands": 0,
+        "general": 42
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 36,
+          "prepared": 20,
+          "qna": 16,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 6,
+          "prepared": 4,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 339.9,
+          "line": 52
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 583.44,
+          "line": 74
+        }
+      ],
+      "wordCount": 9046,
+      "sha256": "0a0189f80dfc1291e3f63efb8c6186eafd088d16ab10591b1838bbb9fcd8303f"
+    },
+    {
+      "id": "28832",
+      "company": "Costco",
+      "date": "2025-05-29",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 28832
+    },
+    {
+      "id": "39219",
+      "company": "Estée Lauder",
+      "date": "2025-06-03",
+      "title": "2025 dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39219
+    },
+    {
+      "id": "38597",
+      "company": "Estée Lauder",
+      "date": "2025-06-03",
+      "title": "DbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 38597
+    },
+    {
+      "id": "39986",
+      "company": "Ulta Beauty",
+      "date": "2025-06-04",
+      "title": "2025 dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 39986,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 35
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 34,
+          "prepared": 0,
+          "qna": 34,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 6017,
+      "sha256": "7dc371309a6d82fa964528257272febc5ccbb1c50b0add4214e3efedfedab79d"
+    },
+    {
+      "id": "39534",
+      "company": "e.l.f. Beauty",
+      "date": "2025-06-05",
+      "title": "2025 dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39534
+    },
+    {
+      "id": "40713",
+      "company": "Walmart",
+      "date": "2025-06-09",
+      "title": "25th Annual Consumer Growth and E-Commerce Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 40713
+    },
+    {
+      "id": "40739",
+      "company": "Walmart",
+      "date": "2025-06-11",
+      "title": "5th Annual Evercore ISI Consumer and Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 40739
+    },
+    {
+      "id": "35426",
+      "company": "Amazon",
+      "date": "2025-07-31",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 35426
+    },
+    {
+      "id": "39727",
+      "company": "e.l.f. Beauty",
+      "date": "2025-08-06",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39727
+    },
+    {
+      "id": "50949",
+      "company": "Coty",
+      "date": "2025-08-20",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 50949
+    },
+    {
+      "id": "39119",
+      "company": "Target",
+      "date": "2025-08-20",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39119
+    },
+    {
+      "id": "26181",
+      "company": "Estée Lauder",
+      "date": "2025-08-20",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 26181
+    },
+    {
+      "id": "26184",
+      "company": "TJX",
+      "date": "2025-08-20",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 26184
+    },
+    {
+      "id": "26227",
+      "company": "Walmart",
+      "date": "2025-08-21",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 26227
+    },
+    {
+      "id": "32959",
+      "company": "Coty",
+      "date": "2025-08-21",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 32959
+    },
+    {
+      "id": "39853",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2025-08-27",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39853
+    },
+    {
+      "id": "39877",
+      "company": "Ulta Beauty",
+      "date": "2025-08-28",
+      "title": "Q2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 39877,
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 43
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 41,
+          "prepared": 32,
+          "qna": 9,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 462.111,
+          "line": 64
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 462.111,
+          "line": 64
+        }
+      ],
+      "wordCount": 9387,
+      "sha256": "16d6ac1f0086e48a3bd6d7d2b8e29e334b42d0dc9a105896e05937195b1b71f5"
+    },
+    {
+      "id": "51704",
+      "company": "Walmart",
+      "date": "2025-09-03",
+      "title": "Goldman Sachs 32nd Annual Global Retailing Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51704
+    },
+    {
+      "id": "51508",
+      "company": "Estée Lauder",
+      "date": "2025-09-03",
+      "title": "Barclays 18th Annual Global Consumer Staples Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 51508,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 16
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 16,
+          "prepared": 1,
+          "qna": 15,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 6538,
+      "sha256": "88de77249ca78487776e6373c934f2a3bc53030021cac639782a31889a64ec50"
+    },
+    {
+      "id": "51313",
+      "company": "Ulta Beauty",
+      "date": "2025-09-04",
+      "title": "Goldman Sachs 32nd Annual Global Retailing Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 51313,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 11,
+          "prepared": 0,
+          "qna": 11,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 678.08,
+          "line": 149
+        }
+      ],
+      "wordCount": 5139,
+      "sha256": "6c1dfbb3147a68f60b5303b8c50aa9d96977841009e75c6f38bac70bef30ce05"
+    },
+    {
+      "id": "51751",
+      "company": "Walmart",
+      "date": "2025-09-04",
+      "title": "Barclays 18th Annual Global Consumer Staples Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51751
+    },
+    {
+      "id": "95324",
+      "company": "Unilever",
+      "date": "2025-09-09",
+      "title": "The Magnum Ice Cream Company CMD 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 95324
+    },
+    {
+      "id": "51851",
+      "company": "Walmart",
+      "date": "2025-09-09",
+      "title": "Goldman Sachs Communicopia + Technology Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51851
+    },
+    {
+      "id": "51399",
+      "company": "Ulta Beauty",
+      "date": "2025-09-10",
+      "title": "Piper Sandler 4th Annual Growth Frontiers Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 51399,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 16
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 16,
+          "prepared": 0,
+          "qna": 16,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4218,
+      "sha256": "c0ddecaa612939b509676d6608585104d2657377837dcb4659a6d9fca41b4aa3"
+    },
+    {
+      "id": "51892",
+      "company": "Walmart",
+      "date": "2025-09-11",
+      "title": "Piper Sandler 4th Annual Growth Frontiers Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51892
+    },
+    {
+      "id": "39887",
+      "company": "Costco",
+      "date": "2025-09-25",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39887
+    },
+    {
+      "id": "215595",
+      "company": "Unilever",
+      "date": "2025-10-23",
+      "title": "Q3 2025 TU",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 215595
+    },
+    {
+      "id": "35805",
+      "company": "Estée Lauder",
+      "date": "2025-10-30",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 35805,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 35
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 27,
+          "prepared": 19,
+          "qna": 8,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 8,
+          "prepared": 6,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9067,
+      "sha256": "d5dde4ed5f1cd601ee60838beb4e153e266c6889455345fb7087fc53545e4557"
+    },
+    {
+      "id": "46684",
+      "company": "Amazon",
+      "date": "2025-10-30",
+      "title": "Q3 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 46684
+    },
+    {
+      "id": "47835",
+      "company": "e.l.f. Beauty",
+      "date": "2025-11-05",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 47835
+    },
+    {
+      "id": "57224",
+      "company": "Coty",
+      "date": "2025-11-05",
+      "title": "Q1 2026 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 57224
+    },
+    {
+      "id": "50770",
+      "company": "Coty",
+      "date": "2025-11-06",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 50770
+    },
+    {
+      "id": "63990",
+      "company": "e.l.f. Beauty",
+      "date": "2025-11-14",
+      "title": "Fireside Chat",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 63990,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 16
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 6,
+          "prepared": 0,
+          "qna": 6,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 6,
+          "prepared": 0,
+          "qna": 6,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 4,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9947,
+      "sha256": "e9b5540d473a284909fcc3c0ae032ca8ccc08d11d989c964b480257104c653a7"
+    },
+    {
+      "id": "64761",
+      "company": "Amazon",
+      "date": "2025-11-18",
+      "title": "Plug Power Symposium 2025: Strengthening Energy Independence",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 64761
+    },
+    {
+      "id": "50650",
+      "company": "Target",
+      "date": "2025-11-19",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 50650
+    },
+    {
+      "id": "39476",
+      "company": "TJX",
+      "date": "2025-11-19",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39476
+    },
+    {
+      "id": "39565",
+      "company": "Walmart",
+      "date": "2025-11-20",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 39565
+    },
+    {
+      "id": "51234",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2025-11-25",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51234
+    },
+    {
+      "id": "65168",
+      "company": "Estée Lauder",
+      "date": "2025-12-02",
+      "title": "Morgan Stanley Global Consumer & Retail Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 65168
+    },
+    {
+      "id": "66243",
+      "company": "Walmart",
+      "date": "2025-12-02",
+      "title": "Morgan Stanley Global Consumer & Retail Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 66243
+    },
+    {
+      "id": "64048",
+      "company": "e.l.f. Beauty",
+      "date": "2025-12-03",
+      "title": "2025 Morgan Stanley Global Consumer & Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 64048
+    },
+    {
+      "id": "66326",
+      "company": "Walmart",
+      "date": "2025-12-03",
+      "title": "UBS Global Technology and AI Conference 2025",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 66326
+    },
+    {
+      "id": "51460",
+      "company": "Ulta Beauty",
+      "date": "2025-12-04",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 51460,
+      "counts": {
+        "direct": 6,
+        "brands": 3,
+        "general": 32
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 6,
+          "prepared": 5,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 23,
+          "prepared": 16,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 9,
+          "prepared": 9,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 401.34,
+          "line": 53
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 478.92,
+          "line": 61
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 627.06,
+          "line": 76
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "prepared",
+          "seconds": 631.98,
+          "line": 77
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2936.82,
+          "line": 493
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.06,
+          "line": 78
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.06,
+          "line": 78
+        },
+        {
+          "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 645.06,
+          "line": 78
+        }
+      ],
+      "wordCount": 9473,
+      "sha256": "2de225f8fe9c1250575e3acc0f421fd0d1570f969e53359454fceb10881fcc86"
+    },
+    {
+      "id": "55419",
+      "company": "Costco",
+      "date": "2025-12-11",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 55419
+    },
+    {
+      "id": "66381",
+      "company": "Walmart",
+      "date": "2026-01-13",
+      "title": "ICR Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 66381
+    },
+    {
+      "id": "109015",
+      "company": "Amazon",
+      "date": "2026-02-03",
+      "title": "Cisco AI Summit 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 109015
+    },
+    {
+      "id": "62080",
+      "company": "e.l.f. Beauty",
+      "date": "2026-02-04",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 62080
+    },
+    {
+      "id": "49142",
+      "company": "Estée Lauder",
+      "date": "2026-02-05",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 49142
+    },
+    {
+      "id": "113048",
+      "company": "Coty",
+      "date": "2026-02-05",
+      "title": "Q2 2026 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 113048
+    },
+    {
+      "id": "61132",
+      "company": "Amazon",
+      "date": "2026-02-05",
+      "title": "Q4 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 61132
+    },
+    {
+      "id": "62326",
+      "company": "Coty",
+      "date": "2026-02-06",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 62326
+    },
+    {
+      "id": "119470",
+      "company": "Unilever",
+      "date": "2026-02-12",
+      "title": "H2 2025",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 119470
+    },
+    {
+      "id": "95826",
+      "company": "Unilever",
+      "date": "2026-02-17",
+      "title": "CAGNY Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 95826
+    },
+    {
+      "id": "51060",
+      "company": "Walmart",
+      "date": "2026-02-19",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51060
+    },
+    {
+      "id": "104635",
+      "company": "e.l.f. Beauty",
+      "date": "2026-02-19",
+      "title": "Consumer Analyst Group of New York Conference (CAGNY) 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 104635
+    },
+    {
+      "id": "51672",
+      "company": "TJX",
+      "date": "2026-02-25",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 51672
+    },
+    {
+      "id": "63907",
+      "company": "Target",
+      "date": "2026-03-03",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 63907
+    },
+    {
+      "id": "136379",
+      "company": "Walmart",
+      "date": "2026-03-04",
+      "title": "Morgan Stanley Technology, Media & Telecom Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 136379
+    },
+    {
+      "id": "92024",
+      "company": "Costco",
+      "date": "2026-03-05",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 92024
+    },
+    {
+      "id": "65883",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2026-03-10",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 65883
+    },
+    {
+      "id": "65156",
+      "company": "Ulta Beauty",
+      "date": "2026-03-12",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 65156,
+      "counts": {
+        "direct": 9,
+        "brands": 5,
+        "general": 32
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 9,
+          "prepared": 2,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 26,
+          "prepared": 18,
+          "qna": 8,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 5,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 495.88,
+          "line": 56
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1370.8,
+          "line": 135
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2606.77,
+          "line": 318
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2623.55,
+          "line": 321
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "qna",
+          "seconds": 2681.47,
+          "line": 332
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2704.29,
+          "line": 334
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2716.33,
+          "line": 336
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2751.58,
+          "line": 341
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 419.0,
+          "line": 51
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1370.8,
+          "line": 135
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 419.0,
+          "line": 51
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1370.8,
+          "line": 135
+        },
+        {
+          "term": "TIRTIR",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 419.0,
+          "line": 51
+        }
+      ],
+      "wordCount": 8983,
+      "sha256": "6d4c340d90878bf318ed3bcc8c076e5c7c5a44c56fb11bc2fae4516707b16b8e"
+    },
+    {
+      "id": "168996",
+      "company": "Unilever",
+      "date": "2026-04-08",
+      "title": "Fireside chat",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 168996
+    },
+    {
+      "id": "166922",
+      "company": "Ulta Beauty",
+      "date": "2026-04-08",
+      "title": "J.P. Morgan Retail Round Up Forum 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 166922,
+      "counts": {
+        "direct": 8,
+        "brands": 3,
+        "general": 16
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 8,
+          "prepared": 0,
+          "qna": 8,
+          "unknown": 0
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 11,
+          "prepared": 0,
+          "qna": 11,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 4,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "qna",
+          "seconds": 681.96,
+          "line": 119
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1044.51,
+          "line": 185
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1066.53,
+          "line": 190
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1070.21,
+          "line": 191
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1071.91,
+          "line": 192
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1111.85,
+          "line": 199
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2490.19,
+          "line": 464
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1081.63,
+          "line": 194
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1081.63,
+          "line": 194
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2490.19,
+          "line": 464
+        }
+      ],
+      "wordCount": 8106,
+      "sha256": "50ce746ef1bf6351d1c6870e5e8986a8f3d3161688cb474fb4b4ab331dd72426"
+    },
+    {
+      "id": "137049",
+      "company": "Walmart",
+      "date": "2026-04-08",
+      "title": "J.P. Morgan Retail Round Up Forum 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 137049
+    },
+    {
+      "id": "173261",
+      "company": "Amazon",
+      "date": "2026-04-28",
+      "title": "What’s next with AWS",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 173261
+    },
+    {
+      "id": "114409",
+      "company": "Amazon",
+      "date": "2026-04-29",
+      "title": "Q1 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 114409
+    },
+    {
+      "id": "92337",
+      "company": "Unilever",
+      "date": "2026-04-30",
+      "title": "Q1 2026 TU",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 92337
+    },
+    {
+      "id": "61536",
+      "company": "Estée Lauder",
+      "date": "2026-05-01",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 61536
+    },
+    {
+      "id": "168984",
+      "company": "Coty",
+      "date": "2026-05-05",
+      "title": "Q3 2026 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 168984
+    },
+    {
+      "id": "115237",
+      "company": "Coty",
+      "date": "2026-05-06",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 115237
+    },
+    {
+      "id": "180190",
+      "company": "Estée Lauder",
+      "date": "2026-05-19",
+      "title": "Morgan Stanley Luxury Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 180190
+    },
+    {
+      "id": "141082",
+      "company": "Target",
+      "date": "2026-05-20",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 141082
+    },
+    {
+      "id": "113294",
+      "company": "TJX",
+      "date": "2026-05-20",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 113294
+    },
+    {
+      "id": "113364",
+      "company": "e.l.f. Beauty",
+      "date": "2026-05-20",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 113364
+    },
+    {
+      "id": "128173",
+      "company": "Walmart",
+      "date": "2026-05-21",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 128173
+    },
+    {
+      "id": "147606",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2026-05-28",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 147606,
+      "counts": {
+        "direct": 1,
+        "brands": 3,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Aestura",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Biodance",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 4,
+          "prepared": 2,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2290.62,
+          "line": 324
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 691.79,
+          "line": 86
+        },
+        {
+          "term": "Aestura",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 691.79,
+          "line": 86
+        },
+        {
+          "term": "Biodance",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 691.79,
+          "line": 86
+        }
+      ],
+      "wordCount": 9790,
+      "sha256": "9ae17631610827bf756ffa2779689474895e7fffbe638074cb640b0e7e3c3b0c"
+    },
+    {
+      "id": "142708",
+      "company": "Costco",
+      "date": "2026-05-28",
+      "title": "Q3 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 142708
+    },
+    {
+      "id": "189502",
+      "company": "Estée Lauder",
+      "date": "2026-06-02",
+      "title": "23rd annual dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 189502,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 26
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 23,
+          "prepared": 0,
+          "qna": 23,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 3,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 7314,
+      "sha256": "cd49ef418669053a38eb38ad7801c0643a1f78e560f31039a20fd9ed26a06a5e"
+    },
+    {
+      "id": "184258",
+      "company": "Unilever",
+      "date": "2026-06-02",
+      "title": "23rd annual dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 184258
+    },
+    {
+      "id": "191684",
+      "company": "Coty",
+      "date": "2026-06-02",
+      "title": "TD Cowen 10th Annual Future of the Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 191684
+    },
+    {
+      "id": "195259",
+      "company": "Ulta Beauty",
+      "date": "2026-06-02",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 195259,
+      "counts": {
+        "direct": 0,
+        "brands": 2,
+        "general": 26
+      },
+      "terms": [
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 20,
+          "prepared": 13,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 5,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1359.5,
+          "line": 147
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1375.4,
+          "line": 148
+        }
+      ],
+      "wordCount": 9185,
+      "sha256": "51b81f92478a5f06dbaafc4290a9f3ec41c23541cc3ddd06cf04ab25b07043a0"
+    },
+    {
+      "id": "211952",
+      "company": "Unilever",
+      "date": "2026-06-03",
+      "title": "BNP Paribas CEO Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 211952
+    },
+    {
+      "id": "183073",
+      "company": "e.l.f. Beauty",
+      "date": "2026-06-04",
+      "title": "23rd annual dbAccess Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 183073
+    },
+    {
+      "id": "183077",
+      "company": "Ulta Beauty",
+      "date": "2026-06-04",
+      "title": "46th Annual William Blair Growth Stock Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 183077,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 11,
+          "prepared": 5,
+          "qna": 6,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 5718,
+      "sha256": "38e2cf19fc06cda226fa6a0137a53b492fe1aebfeb7ff5f0cd2b396610519fed"
+    },
+    {
+      "id": "185898",
+      "company": "Walmart",
+      "date": "2026-06-09",
+      "title": "Oppenheimer 26th Annual Consumer Growth and E-Commerce Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 185898
+    },
+    {
+      "id": "185901",
+      "company": "Walmart",
+      "date": "2026-06-10",
+      "title": "5th Annual Evercore Consumer & Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 185901
+    },
+    {
+      "id": "189128",
+      "company": "Coty",
+      "date": "2026-06-10",
+      "title": "16th Annual East Coast IDEAS Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 189128
+    },
+    {
+      "id": "107024",
+      "company": "Unilever",
+      "date": "2026-07-28",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 107024
+    },
+    {
+      "id": "173968",
+      "company": "Amazon",
+      "date": "2026-07-30",
+      "title": "Q2 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 173968
+    },
+    {
+      "id": "183024",
+      "company": "e.l.f. Beauty",
+      "date": "2026-08-05",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 183024
+    },
+    {
+      "id": "182943",
+      "company": "Target",
+      "date": "2026-08-19",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 182943
+    },
+    {
+      "id": "154052",
+      "company": "Estée Lauder",
+      "date": "2026-08-19",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 154052
+    },
+    {
+      "id": "129121",
+      "company": "TJX",
+      "date": "2026-08-19",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 129121
+    },
+    {
+      "id": "222844",
+      "company": "Coty",
+      "date": "2026-08-19",
+      "title": "Q4 2026 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 222844
+    },
+    {
+      "id": "168740",
+      "company": "Walmart",
+      "date": "2026-08-20",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 168740
+    },
+    {
+      "id": "176174",
+      "company": "Coty",
+      "date": "2026-08-20",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 176174
+    },
+    {
+      "id": "189745",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2026-08-26",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 189745,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 3
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 693.38,
+          "line": 92
+        }
+      ],
+      "wordCount": 9747,
+      "sha256": "c8d2554491cc2b08fd7ce1faca469e40e706244b59fccc1d2beb34e0eada5029"
+    },
+    {
+      "id": "194083",
+      "company": "Ulta Beauty",
+      "date": "2026-08-27",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 194083,
+      "counts": {
+        "direct": 17,
+        "brands": 2,
+        "general": 34
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 17,
+          "prepared": 7,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 29,
+          "prepared": 19,
+          "qna": 10,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 2,
+          "qna": 3,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 466.63,
+          "line": 60
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 469.81,
+          "line": 61
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "prepared",
+          "seconds": 482.41,
+          "line": 62
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 492.31,
+          "line": 63
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 498.87,
+          "line": 64
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1418.12,
+          "line": 152
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2525.01,
+          "line": 312
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2534.6,
+          "line": 313
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2622.1,
+          "line": 332
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2630.96,
+          "line": 335
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2645.42,
+          "line": 339
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2670.04,
+          "line": 342
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2675.94,
+          "line": 344
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2703.44,
+          "line": 346
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2716.14,
+          "line": 348
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 3304.62,
+          "line": 461
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1418.12,
+          "line": 152
+        },
+        {
+          "term": "Anua",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1418.12,
+          "line": 152
+        }
+      ],
+      "wordCount": 8804,
+      "sha256": "44e59673bbe9ce29bc011647bf8ea1f5aec3f7da778160ed79c99989a299050d"
+    },
+    {
+      "id": "226698",
+      "company": "Unilever",
+      "date": "2026-09-09",
+      "title": "Barclays 19th Annual Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 226698
+    },
+    {
+      "id": "225846",
+      "company": "Estée Lauder",
+      "date": "2026-09-09",
+      "title": "Barclays 19th Annual Global Consumer Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 225846
+    },
+    {
+      "id": "225611",
+      "company": "Walmart",
+      "date": "2026-09-09",
+      "title": "Goldman Sachs Communacopia + Technology Conference 2026",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "missing",
+      "callId": 225611
+    },
+    {
+      "id": "226193",
+      "company": "Ulta Beauty",
+      "date": "2026-09-10",
+      "title": "Barclays 19th Annual Global Consumer Staples Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 226193,
+      "counts": {
+        "direct": 6,
+        "brands": 0,
+        "general": 40
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 6,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 6
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 36,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 36
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 486.76,
+          "line": 92
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": 493.54,
+          "line": 93
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 504.26,
+          "line": 94
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 520.22,
+          "line": 96
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 1751.11,
+          "line": 310
+        }
+      ],
+      "wordCount": 6177,
+      "sha256": "f86b2730882bdd4bc6db13e01b59304ef571c46e4d8b6aff92a454f892e4b966"
+    },
+    {
+      "id": "225657",
+      "company": "Walmart",
+      "date": "2026-09-15",
+      "title": "Goldman Sachs Global Consumer and Retail Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 225657,
+      "counts": {
+        "direct": 0,
+        "brands": 3,
+        "general": 2
+      },
+      "terms": [
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 1182.38,
+          "line": 233
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 2,
+          "section": "unknown",
+          "seconds": 1188.34,
+          "line": 234
+        }
+      ],
+      "wordCount": 4719,
+      "sha256": "bfd89f449f5b0f11aa1237e8d30908061ebd5ad1f546caa65e222f2da02bea48"
+    },
+    {
+      "id": "225673",
+      "company": "Walmart",
+      "date": "2026-09-16",
+      "title": "Piper Sandler 5th Annual Growth Frontiers Conference",
+      "type": "conference",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 225673,
+      "counts": {
+        "direct": 2,
+        "brands": 1,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 162.86,
+          "line": 47
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 338.38,
+          "line": 96
+        },
+        {
+          "term": "Medicube",
+          "category": "brands",
+          "count": 1,
+          "section": "qna",
+          "seconds": 162.86,
+          "line": 47
+        }
+      ],
+      "wordCount": 4607,
+      "sha256": "2117989cddf560f7d88db97f62fce7ad4c5dd113d7dcd7cc4a4e00a0e2f81927"
+    },
+    {
+      "id": "189866",
+      "company": "Costco",
+      "date": "2026-09-24",
+      "title": "Q4 2026",
+      "type": "earnings",
+      "source": "StockNow 자동전사",
+      "status": "complete",
+      "callId": 189866,
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 5
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 5,
+          "prepared": 4,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 1127.32,
+          "line": 142
+        }
+      ],
+      "wordCount": 10610,
+      "sha256": "1b56b040404b73b48252f15139e65e203391d0a6d9e9d1ffa31cd20df1c54f80"
+    },
+    {
+      "id": "eu-4",
+      "company": "L'Oréal",
+      "date": "2026-09",
+      "title": "Barclays Global Consumer Conference",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://www.investing.com/news/transcripts/loreal-at-barclays-19th-annual-global-consumer-conference-growth-edge-93CH-4891883",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-7",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2026-08",
+      "title": "1H26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/etr/BEI/transcripts/553291-q2-2026/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 9
+        }
+      ],
+      "moments": [],
+      "wordCount": 9773,
+      "sha256": "0d9a11be9210f53e7c7d31345e34dc138a032ae901ce7dfb5954426405ce7b08"
+    },
+    {
+      "id": "eu-8",
+      "company": "Douglas",
+      "date": "2026-08",
+      "title": "3Q FY26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-douglas-group-q3-2026-sales-fall-as-margins-narrow-93CH-4854160",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-9",
+      "company": "L'Oréal",
+      "date": "2026-07",
+      "title": "1H26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/557549-h1-2026/",
+      "status": "missing",
+      "reason": "원문 제목은 2026년이나 본문은 2025년 상반기로 소개되어 시점 대조 필요"
+    },
+    {
+      "id": "eu-12",
+      "company": "L'Oréal",
+      "date": "2026-06-02",
+      "title": "dbAccess 컨퍼런스 2026",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/683348-23rd-annual-dbaccess-global-consumer-conference/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 0,
+        "general": 39
+      },
+      "terms": [
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 31,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 31
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 8,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 8
+        }
+      ],
+      "moments": [
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
+        }
+      ],
+      "wordCount": 5637,
+      "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a"
+    },
+    {
+      "id": "eu-15",
+      "company": "Douglas",
+      "date": "2026-05-12",
+      "title": "2Q FY26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/etr/DOU/transcripts/535290-q2-2026/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 2,
+        "general": 64
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Erborian",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 62,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 62
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 53
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 53
+        },
+        {
+          "term": "Erborian",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 53
+        }
+      ],
+      "wordCount": 12650,
+      "sha256": "87e09cebcb5c11abf071327643f4c04f06a83e91d14ec57f0e92b6f818895349"
+    },
+    {
+      "id": "eu-16",
+      "company": "L'Oréal",
+      "date": "2026-04-24",
+      "title": "주주총회",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://kbeauty-app-hj-aiproject1-handy.vercel.app/",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-18",
+      "company": "L'Oréal",
+      "date": "2026-04",
+      "title": "1Q26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-loreal-q1-2026-shows-strong-growth-amid-it-challenges-93CH-4630262",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-19",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2026-04",
+      "title": "1Q26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://www.roic.ai/quote/BDRFF%3AUS/transcripts/2026-year/1-quarter",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 3
+      },
+      "terms": [
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        }
+      ],
+      "moments": [],
+      "wordCount": 9913,
+      "sha256": "a495eb4551f6646979213a16a8582590fb40dc1ee7ff4118bc717662d9a211a8"
+    },
+    {
+      "id": "eu-21",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2026-03",
+      "title": "FY2025 실적",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-beiersdorf-ag-q4-2025-results-show-solid-growth-93CH-4537068",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-22",
+      "company": "L'Oréal",
+      "date": "2026-02-20",
+      "title": "CAGNY 2026",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/559102-consumer-analyst-group-of-new-york-conference-cagny-2026/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 2,
+        "brands": 2,
+        "general": 61
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 45,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 45
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 13,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 13
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 37
+        },
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 37
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 23
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 37
+        }
+      ],
+      "wordCount": 7410,
+      "sha256": "b95c0a492569ae70b79b0ea53a0c49195a8651bfcc1ceec1304075d5d550abf1"
+    },
+    {
+      "id": "eu-23",
+      "company": "Douglas",
+      "date": "2026-02-11",
+      "title": "1Q FY26",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://earningscalls.dev/transcripts/douglas-ag_dou_earnings_call_transcript_2026-02-11",
+      "status": "missing",
+      "reason": "공개 페이지에 부분 전사본 안내가 있어 전체 횟수 미집계"
+    },
+    {
+      "id": "eu-24",
+      "company": "L'Oréal",
+      "date": "2026-02",
+      "title": "FY2025 실적",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/401241-h2-2025/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 4,
+        "brands": 7,
+        "general": 110
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 70,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 70
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 38,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 38
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 31
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 33
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 74
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 33
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 64
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 74
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 31
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 33
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 35
+        }
+      ],
+      "wordCount": 16199,
+      "sha256": "6b3ce5193aed32424efc7d353c6b32a3e229c6e12045bf770b204c6479dc2604"
+    },
+    {
+      "id": "eu-26",
+      "company": "L'Oréal",
+      "date": "2025-12-02",
+      "title": "CFO 파이어사이드 챗",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/424367-fireside-chat/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 1,
+        "general": 35
+      },
+      "terms": [
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 32,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 32
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        }
+      ],
+      "moments": [
+        {
+          "term": "Dr.Jart",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 114
+        }
+      ],
+      "wordCount": 9827,
+      "sha256": "cbfc53fcb958cd3bee1e6869e522846ae6ddbed29e4203ffa397dea7c79aa524"
+    },
+    {
+      "id": "eu-29",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2025-10-23",
+      "title": "9M25 실적",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://tickertrends.io/transcripts/BDRFY/Q3-earnings-transcript-2025",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 25
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 5
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 19,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 19
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [],
+      "wordCount": 8880,
+      "sha256": "b5d3a7671f0ea98939a9a502b70f546cb2a7475f6166716e594d79712e83986b"
+    },
+    {
+      "id": "eu-37",
+      "company": "L'Oréal",
+      "date": "2025-02-21",
+      "title": "CAGNY 2025",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/317521-consumer-analyst-group-of-new-york-conference-cagny-2025/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 2,
+        "general": 71
+      },
+      "terms": [
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 61,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 61
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 10,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 10
+        }
+      ],
+      "moments": [
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 31
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 6
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 31
+        }
+      ],
+      "wordCount": 8325,
+      "sha256": "8c1c0c1edb7e8497b6148948a539f2484d50055bf9497527b2610689abd30cd2"
+    },
+    {
+      "id": "eu-38",
+      "company": "L'Oréal",
+      "date": "2025-02-07",
+      "title": "FY2024 실적",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/244836-h2-2024/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 5,
+        "brands": 5,
+        "general": 100
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 81,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 81
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 17
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        },
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        },
+        {
+          "term": "Korean beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 167
+        },
+        {
+          "term": "Korean skincare / cosmetics",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 61
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 16
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 61
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 156
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 50
+        }
+      ],
+      "wordCount": 16965,
+      "sha256": "f42603e48bfbd36b4bc0849493d105417d45007ea46531adc499c7b17ef700d6"
+    },
+    {
+      "id": "eu-46",
+      "company": "L'Oréal",
+      "date": "2024-06-27",
+      "title": "JP Morgan 대담",
+      "type": "conference",
+      "source": "공개 전사본",
+      "url": "https://kbeauty-app-hj-aiproject1-handy.vercel.app/",
+      "status": "missing",
+      "reason": "전체 원문 미확보·미집계"
+    },
+    {
+      "id": "eu-47",
+      "company": "L'Oréal",
+      "date": "2024-04-18",
+      "title": "1Q24 매출",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/166281-q1-2024/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 32
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 21,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 21
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 11,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 11
+        }
+      ],
+      "moments": [],
+      "wordCount": 8863,
+      "sha256": "d1d26d5b5adc48a24d8f8109ae6be00a3c3cb2e13803cf7e0804c85078a42ba4"
+    },
+    {
+      "id": "eu-48",
+      "company": "LVMH (Sephora)",
+      "date": "2024-04-16",
+      "title": "1Q24 매출",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://www.roic.ai/quote/LVMHF:US/transcripts/2024-year/1-quarter",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 11
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 3,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 3
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 6,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 6
+        }
+      ],
+      "moments": [],
+      "wordCount": 10050,
+      "sha256": "c4e008525c6e8dc70d0879a986f917fba7c123effc37131d4317df94ce7f9cd4"
+    },
+    {
+      "id": "eu-50",
+      "company": "L'Oréal",
+      "date": "2024-02-09",
+      "title": "FY2023 실적",
+      "type": "earnings",
+      "source": "공개 전사본",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/122646-h2-2023/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 144
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 119,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 119
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 15,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 15
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 10,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 10
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 22
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 22
+        }
+      ],
+      "wordCount": 17143,
+      "sha256": "33cca7d7a58fafbddb18a00f0e340a744ff0013d6868a67e974660dae2853614"
+    }
+  ]
+}

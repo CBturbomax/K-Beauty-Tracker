@@ -1,6 +1,6 @@
 {
-  "automationEnabled": false,
-  "schedule": "GitHub Actions 전환 준비 · 수집 인증 미연결",
+  "automationEnabled": true,
+  "schedule": "매일 오전 8시 전후 · 한국시간",
   "datasets": {
     "trade": {
       "label": "수출입",

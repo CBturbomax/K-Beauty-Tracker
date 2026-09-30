@@ -1,0 +1,341 @@
+{
+  "checkedAt": "2026-09-30",
+  "basis": "OFS",
+  "unit": "KRW",
+  "verification": [
+    {
+      "company": "코스맥스",
+      "year": 2019,
+      "field": "revenue",
+      "quarterSum": 739010730696,
+      "annualDart": 739010730696
+    },
+    {
+      "company": "코스맥스",
+      "year": 2019,
+      "field": "operating_income",
+      "quarterSum": 40180613170,
+      "annualDart": 40180613170
+    },
+    {
+      "company": "코스맥스",
+      "year": 2020,
+      "field": "revenue",
+      "quarterSum": 765400192007,
+      "annualDart": 765400192007
+    },
+    {
+      "company": "코스맥스",
+      "year": 2020,
+      "field": "operating_income",
+      "quarterSum": 65853784194,
+      "annualDart": 65853784194
+    },
+    {
+      "company": "코스맥스",
+      "year": 2021,
+      "field": "revenue",
+      "quarterSum": 853145123069,
+      "annualDart": 853145123069
+    },
+    {
+      "company": "코스맥스",
+      "year": 2021,
+      "field": "operating_income",
+      "quarterSum": 77596940893,
+      "annualDart": 77596940893
+    },
+    {
+      "company": "코스맥스",
+      "year": 2022,
+      "field": "revenue",
+      "quarterSum": 853979768613,
+      "annualDart": 853979768613
+    },
+    {
+      "company": "코스맥스",
+      "year": 2022,
+      "field": "operating_income",
+      "quarterSum": 42853285932,
+      "annualDart": 42853285932
+    },
+    {
+      "company": "코스맥스",
+      "year": 2023,
+      "field": "revenue",
+      "quarterSum": 1057537127679,
+      "annualDart": 1057537127679
+    },
+    {
+      "company": "코스맥스",
+      "year": 2023,
+      "field": "operating_income",
+      "quarterSum": 86777013559,
+      "annualDart": 86777013559
+    },
+    {
+      "company": "코스맥스",
+      "year": 2024,
+      "field": "revenue",
+      "quarterSum": 1357660037190,
+      "annualDart": 1357660037190
+    },
+    {
+      "company": "코스맥스",
+      "year": 2024,
+      "field": "operating_income",
+      "quarterSum": 138679278034,
+      "annualDart": 138679278034
+    },
+    {
+      "company": "코스맥스",
+      "year": 2025,
+      "field": "revenue",
+      "quarterSum": 1526414620755,
+      "annualDart": 1526414620755
+    },
+    {
+      "company": "코스맥스",
+      "year": 2025,
+      "field": "operating_income",
+      "quarterSum": 154578400652,
+      "annualDart": 154578400652
+    },
+    {
+      "company": "한국콜마",
+      "year": 2019,
+      "field": "revenue",
+      "quarterSum": 854579663720,
+      "annualDart": 854579663720
+    },
+    {
+      "company": "한국콜마",
+      "year": 2019,
+      "field": "operating_income",
+      "quarterSum": 57997632987,
+      "annualDart": 57997632987
+    },
+    {
+      "company": "한국콜마",
+      "year": 2020,
+      "field": "revenue",
+      "quarterSum": 609200623115,
+      "annualDart": 609200623115
+    },
+    {
+      "company": "한국콜마",
+      "year": 2020,
+      "field": "operating_income",
+      "quarterSum": 50356324363,
+      "annualDart": 50356324363
+    },
+    {
+      "company": "한국콜마",
+      "year": 2021,
+      "field": "revenue",
+      "quarterSum": 632823513300,
+      "annualDart": 632823513300
+    },
+    {
+      "company": "한국콜마",
+      "year": 2021,
+      "field": "operating_income",
+      "quarterSum": 65642304083,
+      "annualDart": 65642304083
+    },
+    {
+      "company": "한국콜마",
+      "year": 2022,
+      "field": "revenue",
+      "quarterSum": 724645671224,
+      "annualDart": 724645671224
+    },
+    {
+      "company": "한국콜마",
+      "year": 2022,
+      "field": "operating_income",
+      "quarterSum": 69080549207,
+      "annualDart": 69080549207
+    },
+    {
+      "company": "한국콜마",
+      "year": 2023,
+      "field": "revenue",
+      "quarterSum": 856755450058,
+      "annualDart": 856755450058
+    },
+    {
+      "company": "한국콜마",
+      "year": 2023,
+      "field": "operating_income",
+      "quarterSum": 79651771388,
+      "annualDart": 79651771388
+    },
+    {
+      "company": "한국콜마",
+      "year": 2024,
+      "field": "revenue",
+      "quarterSum": 1059669026293,
+      "annualDart": 1059669026293
+    },
+    {
+      "company": "한국콜마",
+      "year": 2024,
+      "field": "operating_income",
+      "quarterSum": 122336444032,
+      "annualDart": 122336444032
+    },
+    {
+      "company": "한국콜마",
+      "year": 2025,
+      "field": "revenue",
+      "quarterSum": 1192752359723,
+      "annualDart": 1192752359723
+    },
+    {
+      "company": "한국콜마",
+      "year": 2025,
+      "field": "operating_income",
+      "quarterSum": 149532754144,
+      "annualDart": 149532754144
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2019,
+      "field": "revenue",
+      "quarterSum": 194650605991,
+      "annualDart": 194650605991
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2019,
+      "field": "operating_income",
+      "quarterSum": 8115154677,
+      "annualDart": 8115154677
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2020,
+      "field": "revenue",
+      "quarterSum": 197146224295,
+      "annualDart": 197146224295
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2020,
+      "field": "operating_income",
+      "quarterSum": 10543595643,
+      "annualDart": 10543595643
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2021,
+      "field": "revenue",
+      "quarterSum": 217364581053,
+      "annualDart": 217364581053
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2021,
+      "field": "operating_income",
+      "quarterSum": 8367297035,
+      "annualDart": 8367297035
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2022,
+      "field": "revenue",
+      "quarterSum": 227401439036,
+      "annualDart": 227401439036
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2022,
+      "field": "operating_income",
+      "quarterSum": 7688147107,
+      "annualDart": 7688147107
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2023,
+      "field": "revenue",
+      "quarterSum": 268641961132,
+      "annualDart": 268641961132
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2023,
+      "field": "operating_income",
+      "quarterSum": 22910823094,
+      "annualDart": 22910823094
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2024,
+      "field": "revenue",
+      "quarterSum": 328663642736,
+      "annualDart": 328663642736
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2024,
+      "field": "operating_income",
+      "quarterSum": 44466954050,
+      "annualDart": 44466954050
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2025,
+      "field": "revenue",
+      "quarterSum": 441498750150,
+      "annualDart": 441498750150
+    },
+    {
+      "company": "코스메카코리아",
+      "year": 2025,
+      "field": "operating_income",
+      "quarterSum": 48060491361,
+      "annualDart": 48060491361
+    }
+  ],
+  "corrections": [
+    {
+      "company": "한국콜마",
+      "period": "2026Q2",
+      "field": "revenue",
+      "stockNow": 335175489374,
+      "dartQuarterly": 430401171682
+    },
+    {
+      "company": "한국콜마",
+      "period": "2023Q4",
+      "field": "operating_income",
+      "stockNow": 18390991084,
+      "dartQuarterly": 18390990084
+    },
+    {
+      "company": "코스메카코리아",
+      "period": "2023Q4",
+      "field": "revenue",
+      "stockNow": 70484411748,
+      "dartQuarterly": 69681890220
+    },
+    {
+      "company": "코스메카코리아",
+      "period": "2023Q4",
+      "field": "operating_income",
+      "stockNow": 9000226312,
+      "dartQuarterly": 7253484367
+    }
+  ],
+  "sampleFilings": [
+    {
+      "company": "한국콜마",
+      "period": "2026Q2",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002721",
+      "revenue": 430401171682,
+      "operatingIncome": 70775035360,
+      "note": "4-2 포괄손익계산서 3개월 열. StockNow의 revenue=335175489374는 매출원가를 잘못 매핑한 값이므로 교정."
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 import tradeData from '@/data/trade.json';
 import financialData from '@/data/financials.json';
-import capacityData from '@/data/capacity.json';
 import callData from '@/data/calls.json';
-export const trade:any=tradeData, financials:any=financialData, capacity:any=capacityData, calls:any=callData;
+export const trade:any=tradeData, financials:any=financialData, calls:any=callData;
 export type Row={x:string;[key:string]:any};
 export const months:string[]=trade.meta.months;
 export const regions:string[]=trade.meta.regions;
-export const companies:string[]=Object.keys(capacity.companies);
 export const number=(n:number|null|undefined,d=0)=>n==null||!Number.isFinite(n)?'—':(Math.abs(n)<0.5?0:n).toLocaleString('ko-KR',{maximumFractionDigits:0,minimumFractionDigits:0});
 export const pct=(n:number|null|undefined,d=0)=>n==null||!Number.isFinite(n)?'—':`${n>=0.5?'+':''}${number(n,d)}%`;
 export const monthLabel=(s:string)=>`${s.slice(2,4)}년 ${Number(s.slice(4))}월`;

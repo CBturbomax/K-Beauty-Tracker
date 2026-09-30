@@ -28,6 +28,39 @@ export default function AmazonTracker() {
         header .status-row { margin-top: 0 !important; }
       `;
       doc.head.appendChild(style);
+      // Apply this dashboard's chart defaults to the live, same-origin embed.
+      let rangeInitialized = false;let brandRangeInitialized = false;
+      const enhance = () => {
+        const brandRange = doc.querySelector<HTMLElement>('#br-range');
+        if (brandRange && !brandRangeInitialized) {
+          brandRangeInitialized = true;
+          const five = doc.createElement('button');five.type='button';five.dataset.range='1827';five.textContent='5년';
+          five.setAttribute('aria-pressed','false');brandRange.prepend(five);five.click();
+        }
+        const trend = doc.querySelector<HTMLElement>('#trend-range');
+        const all = trend?.querySelector<HTMLButtonElement>('button[data-v="0"]');
+        if (all && !rangeInitialized) {
+          rangeInitialized = true;
+          const five = doc.createElement('button');
+          five.type = 'button'; five.dataset.v = '1827'; five.textContent = '5년';
+          five.setAttribute('aria-pressed', 'false');
+          trend!.insertBefore(five, all); five.click();
+        }
+        // Mark the newest point even when an embedded chart is redrawn.
+        doc.querySelectorAll<SVGSVGElement>('svg').forEach(svg => {
+          const points = Array.from(svg.querySelectorAll<SVGCircleElement>('circle[cx][cy]'));
+          if (!points.length) return;
+          const lastX = Math.max(...points.map(p => Number(p.getAttribute('cx'))));
+          points.filter(p => Number(p.getAttribute('cx')) === lastX).forEach(p => {
+            if (p.classList.contains('beauty-latest')) return;
+            p.classList.add('beauty-latest');p.setAttribute('r', '7');
+            p.setAttribute('stroke', '#FFFFFF');p.setAttribute('stroke-width', '2');
+          });
+        });
+      };
+      const mutations = new MutationObserver(enhance);
+      mutations.observe(content, {childList: true, subtree: true});
+      enhance();
       let animation = 0;
       const resize = () => {
         cancelAnimationFrame(animation);
@@ -39,7 +72,7 @@ export default function AmazonTracker() {
       const observer = new ResizeObserver(resize);
       observer.observe(content);
       resize();
-      cleanup.current = () => { observer.disconnect(); cancelAnimationFrame(animation); };
+      cleanup.current = () => { observer.disconnect(); mutations.disconnect(); cancelAnimationFrame(animation); };
     } catch {
       // If opened on another origin, the complete tracker still works with its own scroll.
     }
@@ -47,7 +80,7 @@ export default function AmazonTracker() {
 
   return <section className="amazon-integration" aria-label="아마존 K뷰티 트래커">
     <div className="amazon-toolbar">
-      <span>AMAZON K-BEAUTY <span className="muted">· 원본 자동 갱신 연동</span></span>
+      <span>AMAZON K-BEAUTY <span className="muted">· 원본 자동 갱신 연동 · 수집된 기간만 표시</span></span>
       <a className="link-button" href={amazonUrl} target="_blank" rel="noreferrer">별도 창으로 열기 ↗</a>
     </div>
     {!loaded && <div className="amazon-loading" role="status">아마존 트래커를 불러오는 중입니다…</div>}

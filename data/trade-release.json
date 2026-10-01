@@ -1,10 +1,10 @@
 {
   "month": "202609",
-  "exportUsd": 1510000000,
+  "exportUsd": 1506000000,
   "yoyPct": 31.4,
   "publishedAt": "2026-10-01",
   "basis": "산업통상부 9월 수출입 동향 · 발표치",
-  "sourceUrl": "https://www.mk.co.kr/article/12165932",
-  "sourceLabel": "매일경제 · 산업통상부 발표 인용",
-  "note": "산업부 발표 기준. 기존 HS3304 시계열과 품목 범위 일치 여부 미확인. 국가별·품목별 상세 통계는 8월까지 확보."
+  "sourceUrl": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172254/view?mno=&pageIndex=1",
+  "sourceLabel": "산업통상부 2026년 9월 수출입 동향 · 11쪽",
+  "note": "산업부 품목 기준 1,506백만 달러. 위 교보증권 화장품 집계와 범위가 달라 합산하거나 동일 시계열로 연결하지 않습니다."
 }

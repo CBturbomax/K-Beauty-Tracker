@@ -4181,8 +4181,26 @@
       "title": "Q1 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 141082
+      "status": "complete",
+      "callId": 141082,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 18
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 18,
+          "prepared": 8,
+          "qna": 10,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 10621,
+      "sha256": "50604d624058fc8c37584beff514da6033050882e49fc3b57a4d247eb2e1b159"
     },
     {
       "id": "113294",
@@ -4191,8 +4209,17 @@
       "title": "Q1 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 113294
+      "status": "complete",
+      "callId": 113294,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": 8404,
+      "sha256": "ea6b9e3bc0e3108c568c54f1aa42095450fb40f77bd1e5a3633e6ab7737c4eb4"
     },
     {
       "id": "113364",
@@ -4211,8 +4238,26 @@
       "title": "Q1 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 128173
+      "status": "complete",
+      "callId": 128173,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 4,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9458,
+      "sha256": "15f90e9c0742399c32596b1b956c538799195a95b10e4b2ae9846a7564e8c655"
     },
     {
       "id": "147606",
@@ -4322,8 +4367,26 @@
       "title": "Q3 2026",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 142708
+      "status": "complete",
+      "callId": 142708,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 4,
+          "prepared": 2,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 10291,
+      "sha256": "4ba35b99391e1c9b35c1ef0124eec102d8a7142f305fba30788fd910d8d66613"
     },
     {
       "id": "189502",
@@ -4393,8 +4456,34 @@
       "title": "23rd annual dbAccess Global Consumer Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 184258
+      "status": "complete",
+      "callId": 184258,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 10
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 9
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [],
+      "wordCount": 6583,
+      "sha256": "428fd6bb659ba8e0516ee3495a41091d3b221671bfa11b7320d9bc718ba73a7d"
     },
     {
       "id": "191684",
@@ -4403,8 +4492,34 @@
       "title": "TD Cowen 10th Annual Future of the Consumer Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 191684
+      "status": "complete",
+      "callId": 191684,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 13
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 8,
+          "prepared": 2,
+          "qna": 6,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 5326,
+      "sha256": "5e9867a54b835effa967709026b91834ba07ea26eb28a82b0273f8d002eac2bb"
     },
     {
       "id": "195259",
@@ -4506,8 +4621,26 @@
       "title": "BNP Paribas CEO Conference 2026",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 211952
+      "status": "complete",
+      "callId": 211952,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 4,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 6331,
+      "sha256": "3a48e1015e08d4c78939e67568536fd14be5197ced70ca5bad7895be04025404"
     },
     {
       "id": "183073",
@@ -4516,8 +4649,42 @@
       "title": "23rd annual dbAccess Global Consumer Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 183073
+      "status": "complete",
+      "callId": 183073,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 30
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 10,
+          "prepared": 1,
+          "qna": 9,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 5,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 15,
+          "prepared": 0,
+          "qna": 15,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 6510,
+      "sha256": "5ca8835af0f3a3a50fa401ecfe4f455ed54daf72dc74e53de6b98ee9eefb3bc9"
     },
     {
       "id": "183077",
@@ -4554,8 +4721,26 @@
       "title": "Oppenheimer 26th Annual Consumer Growth and E-Commerce Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 185898
+      "status": "complete",
+      "callId": 185898,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 2
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4733,
+      "sha256": "d19cb87975acebc5e5e3adb02811c07dded83a14547c5b9eeb4d244e7f7063e2"
     },
     {
       "id": "185901",
@@ -4564,8 +4749,26 @@
       "title": "5th Annual Evercore Consumer & Retail Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 185901
+      "status": "complete",
+      "callId": 185901,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 2
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 6157,
+      "sha256": "80e03b35d4e6bce15268a376fb435f0a5a15d0f34c93a37cdde523a7f3f45586"
     },
     {
       "id": "189128",
@@ -4574,8 +4777,42 @@
       "title": "16th Annual East Coast IDEAS Conference",
       "type": "conference",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 189128
+      "status": "complete",
+      "callId": 189128,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 50
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 41,
+          "prepared": 34,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 3,
+          "prepared": 2,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 6,
+          "prepared": 5,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 4502,
+      "sha256": "c84b76496038f7fba2a18a53867e5f4417896b7c3a6f1f6dddd848e79813dc59"
     },
     {
       "id": "107024",
@@ -4584,8 +4821,34 @@
       "title": "Q2 2026",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 107024
+      "status": "complete",
+      "callId": 107024,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 28
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 18,
+          "prepared": 11,
+          "qna": 7,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 10,
+          "prepared": 1,
+          "qna": 9,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 12239,
+      "sha256": "d47e463850e2b67005e5a25d5c5f385727857677129e5c9a4675e2a740730b4b"
     },
     {
       "id": "173968",
@@ -5702,17 +5965,18 @@
     {
       "id": "eu-4",
       "company": "L'Oréal",
-      "date": "2026-09",
+      "date": "2026-09-08",
       "title": "Barclays Global Consumer Conference",
       "type": "conference",
-      "source": "공개 컨퍼런스콜 전사본",
-      "url": "https://www.investing.com/news/transcripts/loreal-at-barclays-19th-annual-global-consumer-conference-growth-edge-93CH-4891883",
+      "source": "공개 컨퍼런스콜 발췌 · EarningsCalls.dev",
+      "url": "https://earningscalls.dev/transcripts/lor-al-s-a_or_earnings_call_transcript_2026-09-08",
+      "dateSource": "https://www.loreal-finance.com/eng/strategic-presentations",
       "status": "excerpt",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
         "direct": 1,
         "brands": 1,
-        "general": 1
+        "general": 23
       },
       "terms": [
         {
@@ -5732,12 +5996,28 @@
           "unknown": 1
         },
         {
-          "term": "skincare",
+          "term": "beauty",
           "category": "general",
-          "count": 1,
+          "count": 14,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
+          "unknown": 14
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 5,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 5
         }
       ],
       "moments": [
@@ -5747,7 +6027,7 @@
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 1
+          "line": 6
         },
         {
           "term": "Dr.G",
@@ -5755,12 +6035,12 @@
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 1
+          "line": 6
         }
       ],
-      "wordCount": 145,
-      "sha256": "c16974e85f03c9cbab7d61e95c071915fdff066fcbb1daa13ce1e2cb3401e026",
-      "coverage": "확보 발췌"
+      "wordCount": 5722,
+      "sha256": "a341395c0f4cac0d40fdc75d7389b3d9d8b47c01f6bb30b98cb2afc534b2c522",
+      "coverage": "공개 미리보기(전반부) · 전문 미확보"
     },
     {
       "id": "eu-7",

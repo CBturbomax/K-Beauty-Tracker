@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-10-01T23:56:23.589092+00:00",
+  "baseCommit": "17feaf20a1564b613a29a8238a04c6b860c0057e",
+  "trade": {
+    "status": "partial",
+    "latestDisplayedMonth": "202609",
+    "officialApiLatest": "202608",
+    "officialNationalHs10Compared": 13,
+    "officialOverlapMonths": [
+      "202606",
+      "202607",
+      "202608"
+    ],
+    "countrySeriesQueried": {
+      "3304": 20,
+      "3304991000": 20
+    },
+    "sameOfficialSkinObservations": 47,
+    "existingNullSkinObservationsPreserved": 13,
+    "missingApiFields": "EE import_usd not supplied for all 3 overlap months; not set to zero",
+    "reportVerification": {
+      "sourceId": "samsung-2026-10-01-september",
+      "receivedPdfRechecked": true,
+      "sha256Matches": true,
+      "page7NumericFactsMatched": 984,
+      "reportCorrections": 0
+    },
+    "sourceDifferenceHandling": "Official HS3304 and report aggregates remain separate. Existing same-report 24-month series and methodology boundaries retained. No mixed-source growth recalculation.",
+    "remainingCoverage": "September country exports 19/172, imports unavailable; unreturned-country corrections not checked",
+    "newMonthAdded": false
+  },
+  "financials": {
+    "status": "no_change",
+    "basis": "OFS",
+    "companies": [
+      "코스맥스",
+      "한국콜마",
+      "코스메카코리아"
+    ],
+    "periods": [
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "matchedObservations": 24,
+    "newRegularOrPreliminaryDisclosures": 0
+  },
+  "calls": {
+    "queryStart": "2026-09-17",
+    "queryEnd": "2026-10-02",
+    "usCompanies": 11,
+    "newEvents": 0,
+    "delayedTranscripts": [
+      107024,
+      185901,
+      189128,
+      185898,
+      183073,
+      211952,
+      184258,
+      191684,
+      142708,
+      128173,
+      141082,
+      113294
+    ],
+    "delayedRelevantMentions": 0,
+    "unchangedTranscriptIds": [
+      189866
+    ],
+    "improvedExcerpts": [
+      {
+        "id": "eu-4",
+        "date": "2026-09-08",
+        "source": "https://earningscalls.dev/transcripts/lor-al-s-a_or_earnings_call_transcript_2026-09-08",
+        "coverage": "Public first-half preview; complete transcript unavailable",
+        "relevantMentions": 2,
+        "dateSource": "https://www.loreal-finance.com/eng/strategic-presentations"
+      }
+    ],
+    "documents": 237,
+    "complete": 105,
+    "excerpt": 6,
+    "missing": 126,
+    "mentions": 248
+  },
+  "europeSources": [
+    {
+      "company": "L’Oréal",
+      "url": "https://www.loreal-finance.com/eng/strategic-presentations"
+    },
+    {
+      "company": "Beiersdorf",
+      "url": "https://www.beiersdorf.com/investor-relations/financial-reports/financial-reports-and-presentations"
+    },
+    {
+      "company": "LVMH",
+      "url": "https://www.lvmh.com/investors/investors-and-analysts"
+    },
+    {
+      "company": "Puig",
+      "url": "https://www.puig.com/en/financial-information/"
+    },
+    {
+      "company": "Douglas",
+      "url": "https://douglas.group/en/investors/publications"
+    }
+  ],
+  "limitations": [
+    "9월 미확보 국가·수입 유지, 전체 원장 정정치 대조 미완료",
+    "과거 미확보 전사 126건·발췌 6건 전문 미확보 유지"
+  ],
+  "validation": {
+    "data": "passed",
+    "mentionCounterTests": "12 passed",
+    "tradeSeriesRegression": "passed",
+    "npmCi": "passed",
+    "typecheckAndBuild": "passed"
+  }
+}

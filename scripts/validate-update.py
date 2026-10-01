@@ -7,12 +7,40 @@ def numbers(values):
  assert all(v is None or isinstance(v,(int,float)) and math.isfinite(v) for v in values)
 trade=read('trade');months=trade['meta']['months']
 assert months==sorted(set(months)) and trade['meta']['latest']==months[-1]
+def trade_series(values,label):
+ assert len(values)==len(months),label
+ numbers(values)
+ assert all(v is None or v>=0 for v in values),label
 for c in trade['countries']:
  for key in ('exp','imp','skin'):
-  if key in c:
-   assert len(c[key])==len(months),(c['code'],key)
-   numbers(c[key]);assert all(v is None or v>=0 for v in c[key])
-for values in trade['national']['cat'].values():assert len(values)==len(months);numbers(values)
+  if key in c:trade_series(c[key],(c['code'],key))
+ for key,values in c.get('cat',{}).items():trade_series(values,(c['code'],'cat',key))
+for group in ('cat','hs'):
+ for key,values in trade['national'].get(group,{}).items():trade_series(values,('national',group,key))
+for field in ('exp','imp'):
+ if field in trade['national']:trade_series(trade['national'][field],('national',field))
+ for region,values in trade.get('regional',{}).get(field,{}).items():
+  assert region in trade['meta']['regions'],region
+  trade_series(values,('regional',field,region))
+for field,groups in trade.get('grouped',{}).items():
+ for group,values in groups.items():
+  assert group in trade['meta']['g2'],group
+  trade_series(values,('grouped',field,group))
+# Direct aggregates may be rounded to USD millions; do not require country
+# reconciliation when country coverage or classifications differ.
+if trade.get('regional') or trade.get('grouped'):
+ assert trade.get('provenance'),'Direct aggregates require source provenance'
+for field in ('exp','imp'):
+ national=trade['national'].get(field)
+ if national is None:continue
+ groups=[trade.get('regional',{}).get(field,{}),trade.get('grouped',{}).get(field,{})]
+ if field=='exp':groups.append(trade['national']['cat'])
+ for i,total in enumerate(national):
+  if total is None:continue
+  for group in groups:
+   values=[series[i] for series in group.values()]
+   if values and all(v is not None for v in values):
+    assert abs(sum(values)-total)<=4000,('aggregate reconciliation',field,months[i],sum(values),total)
 f=read('financials');assert f['meta']['basis']=='OFS'
 assert len(f['q'])==len(set(f['q']))
 for c,series in f['companies'].items():

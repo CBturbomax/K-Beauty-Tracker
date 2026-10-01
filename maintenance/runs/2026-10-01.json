@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-01T06:35:49.986376+00:00",
+  "changes": {
+    "newDocuments": [
+      "eu-puig-20260730",
+      "eu-lvmh-20260727"
+    ],
+    "delayedTranscripts": [
+      "173968",
+      "183024",
+      "182943",
+      "154052",
+      "129121",
+      "222844",
+      "168740",
+      "176174"
+    ],
+    "completedExcerptDocuments": [
+      "eu-8"
+    ],
+    "newRelevantMentions": 5,
+    "company": "Estée Lauder",
+    "date": "2026-08-19",
+    "unchangedTranscriptIds": [
+      "225673",
+      "189866"
+    ]
+  },
+  "callCoverage": {
+    "usCompanies": 11,
+    "queryStart": "2026-09-16",
+    "queryEnd": "2026-10-01",
+    "newCallEvents": 0,
+    "excludedDocumentIds": [
+      228048,
+      228429,
+      228426,
+      228557,
+      229054,
+      229053
+    ],
+    "totalDocuments": 237,
+    "complete": 93,
+    "excerpt": 6,
+    "missing": 138,
+    "positiveDocuments": 55,
+    "sourcePassages": 163,
+    "relevantMentions": 248
+  },
+  "trade": {
+    "source": "InvestingWiki trade_stats / 관세청",
+    "months": [
+      "202606",
+      "202607",
+      "202608"
+    ],
+    "latest": "202608",
+    "nationalHs10Reconciled": 13,
+    "nationalResult": "Exact USD totals of all 13 HS10 match HS3304 exports; national HS10/category values match existing floor(USD/1000) precision. No new month provided. National import differences of USD 5,153–6,055 remain at legacy truncation scale; no partial precision restatement.",
+    "countrySeriesChecked": {
+      "3304": 20,
+      "3304991000": 20
+    },
+    "countryResult": "Skin exports match existing floor(USD/1000). Available HS3304 export/import USD differ from stored truncated thousand-USD sums by USD 15–3,663; EE import_usd missing in all 3 returned months. Remaining countries not rechecked. Existing valid series preserved.",
+    "coverage": "partial",
+    "fallbackCheck": {
+      "checkedAt": "2026-10-01T09:37:08.059023+00:00",
+      "source": "https://t.me/kyobofnbcosmetic/2379",
+      "result": "Public monthly September figures read; 5-country regional subsets do not establish dashboard full-region totals. Samsung monthly databook found in search metadata but full report not obtained. No unverified series appended."
+    }
+  },
+  "financials": {
+    "checkedAt": "2026-10-01T06:35:49.986376+00:00",
+    "source": "DART via InvestingWiki kr_financials, basis=OFS, periods=4",
+    "companies": [
+      "코스맥스",
+      "한국콜마",
+      "코스메카코리아"
+    ],
+    "comparedValues": 24,
+    "result": "All 24 sales/operating income observations match. No regular/earnings-preliminary disclosures within queried past 14 days. Prior source report verification retained for Cosmecca period warning.",
+    "latestQuarter": "2Q26"
+  },
+  "europeSources": [
+    {
+      "company": "L’Oréal",
+      "url": "https://www.loreal-finance.com/eng/strategic-presentations",
+      "latestEventChecked": "2026-09-25",
+      "transcript": "https://www.youtube.com/watch?v=nk66ibTF1XE",
+      "eventDateBasis": "official IR event date, not upload date",
+      "result": "Official IR latest event unchanged at 2026-09-25"
+    },
+    {
+      "company": "Beiersdorf",
+      "url": "https://www.beiersdorf.com/investor-relations/financial-reports/financial-reports-and-presentations"
+    },
+    {
+      "company": "LVMH",
+      "url": "https://www.lvmh.com/investors/investors-and-analysts",
+      "transcript": "https://stockanalysis.com/quote/epa/MC/transcripts/648785-q2-2026/",
+      "eventDate": "2026-07-27",
+      "result": "Full transcript collected; Korean references all non-cosmetics, excluded"
+    },
+    {
+      "company": "Puig",
+      "url": "https://www.puig.com/en/financial-information/",
+      "transcript": "https://stockanalysis.com/quote/bme/PUIG/transcripts/557776-h1-2026/",
+      "eventDate": "2026-07-30",
+      "result": "Full transcript collected; 0 relevant mentions"
+    },
+    {
+      "company": "Douglas",
+      "url": "https://douglas.group/en/investors/publications",
+      "transcript": "https://stockanalysis.com/quote/etr/DOU/transcripts/556960-q3-2026/",
+      "eventDate": "2026-08-12",
+      "result": "Excerpt replaced with full transcript; 4 relevant mentions unchanged"
+    }
+  ],
+  "limitations": [
+    "국가별 수출입 전체 원장 정정치 대조 미완료; API 에스토니아 수입 필드 미제공",
+    "과거 미확보 전사 138건은 missing으로 유지. 이번 재조회는 최근 미확보 8건 우선 처리.",
+    "9월 공개 주요국 집계는 확인했으나 기존 권역 전체 합계·정의 검증 자료 미확보"
+  ],
+  "validation": {
+    "data": "passed",
+    "mentionCounterTests": "12 passed",
+    "npmCi": "passed",
+    "typecheckAndProductionBuild": "passed",
+    "baseCommit": "a048fdd03b74d20048f6b06d8d9bca1a97e40d65"
+  },
+  "reconciledWithMain": "a048fdd03b74d20048f6b06d8d9bca1a97e40d65"
+}

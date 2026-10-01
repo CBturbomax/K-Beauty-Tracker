@@ -514,11 +514,6 @@
     "reason": "니베아 선스틱을 한국 제조사에서 조달해 니베아 상표와 한국 국기를 붙였으며, 올해 선케어 최다 판매 SKU라고 설명했습니다.",
     "lineSha256": "f3b667acff6c476067359cde7e127c8f01e3a7acb61e6eb42939f2e6ff4e92bb"
   },
-  "eu-8:1": {
-    "include": true,
-    "reason": "성과가 좋았던 스킨케어 브랜드로 조선미녀와 에르보리안을 들고 K뷰티라는 표현을 두 번 사용했습니다.",
-    "lineSha256": "6dbb88717fce1458707c2fff1e7916b8e7c8c0c1a5677c6569b04c5197cc83c9"
-  },
   "eu-9:24": {
     "include": true,
     "reason": "하반기에 닥터지를 중국과 미국으로 확대하겠다고 설명했습니다.",
@@ -818,5 +813,75 @@
     "include": true,
     "reason": "화장품 브랜드의 한국 시장·점유율·면세 수요·마케팅 성과에 관한 발언 또는 질문",
     "lineSha256": "63bf1a1d68d7f194faa0f575a26ade58026628a7f2b270d7073227c128002569"
+  },
+  "154052:67": {
+    "include": true,
+    "reason": "한국 화장품 시장·면세 매출 또는 한국 출시 제품 실적을 설명한 발언.",
+    "lineSha256": "a11e844ebf9a2160044285c950c59e753b6e6fbf1676a66967c970c83d6b78d0"
+  },
+  "154052:70": {
+    "include": true,
+    "reason": "한국 화장품 시장·면세 매출 또는 한국 출시 제품 실적을 설명한 발언.",
+    "lineSha256": "0dae30efe05bd1b1813a17737dbc014dfcfd7a0e3c857258bbb718f7a4091b1d"
+  },
+  "154052:75": {
+    "include": true,
+    "reason": "한국 화장품 시장·면세 매출 또는 한국 출시 제품 실적을 설명한 발언.",
+    "lineSha256": "5c96094130b73f2ff264927da9ead9d7127e2a16ba53efb18b9aad649e253e6b"
+  },
+  "154052:89": {
+    "include": true,
+    "reason": "한국 화장품 시장·면세 매출 또는 한국 출시 제품 실적을 설명한 발언.",
+    "lineSha256": "86022e8b1d4a36eacd8c68887429d505e9e65d62b53af57eb96cbc92371eb8ce"
+  },
+  "154052:240": {
+    "include": true,
+    "reason": "한국 화장품 시장·면세 매출 또는 한국 출시 제품 실적을 설명한 발언.",
+    "lineSha256": "e6b073df77f57b1d73cb0dd29196fb96da889d203ab1e636e6d3ea54c6a4bdee"
+  },
+  "eu-8:33": {
+    "include": true,
+    "reason": "한국 화장품 브랜드 2개와 K-beauty 표현의 반복을 포함한 스킨케어 성장 설명.",
+    "lineSha256": "e6c097f7487f10e368cdbf6036a9f6d16d55fad0e9e364444c589e48f1191fc4"
+  },
+  "eu-lvmh-20260727:23": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "132827130da1950bb5dd01c8e598898de31abea24de26cf4ce3c42e5335cb30a"
+  },
+  "eu-lvmh-20260727:25": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "4516b3926021c59fa52244bf876b7e52a5c3eac3966ec712c524e543a903e90e"
+  },
+  "eu-lvmh-20260727:29": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "3cb78481be1963df7509425bd370c894fb6dfd0dc0ea50358d7f6c0b7bb90097"
+  },
+  "eu-lvmh-20260727:30": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "447065cb3329b7580e274fbab6790a027afdd8acd7aa43e57b7f25c29a6e91e9"
+  },
+  "eu-lvmh-20260727:36": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "03c108eccace9694515b8f987e0333128b5b5c0ec7f765a9c33a3d99e58d02e2"
+  },
+  "eu-lvmh-20260727:68": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "f4ad9641d7d6283f4c75ca55cf31e5985a739f1c133a86c14f7bc9390b8a3179"
+  },
+  "eu-lvmh-20260727:77": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "b9740146b36ecf2a95429bcb2e46aef5b028e6b556af5cb0a728f8648fe02808"
+  },
+  "eu-lvmh-20260727:78": {
+    "include": false,
+    "reason": "패션·가죽·주얼리 또는 일반 럭셔리 소비/여행의 한국 고객 관련 설명. 한국 화장품과의 직접 연관이 없어 제외.",
+    "lineSha256": "eaa85391ab04c41d3dca60f7eef9f44fdade280fa2620413ad081ffd95704faf"
   }
 }

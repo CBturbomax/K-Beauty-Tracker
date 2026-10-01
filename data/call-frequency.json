@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "version": 4,
   "range": "2024-01 ~ 2026-09",
   "directTerms": [
@@ -4594,8 +4594,26 @@
       "title": "Q2 2026",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 173968
+      "status": "complete",
+      "callId": 173968,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8140,
+      "sha256": "496b421044c678bd147e1f71158f644351d7ee6aeb2e2a9235b916a4cff6d178"
     },
     {
       "id": "183024",
@@ -4604,8 +4622,42 @@
       "title": "Q1 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 183024
+      "status": "complete",
+      "callId": 183024,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 43
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 15,
+          "prepared": 10,
+          "qna": 5,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 12,
+          "prepared": 10,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 16,
+          "prepared": 12,
+          "qna": 4,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 9120,
+      "sha256": "1395b1b01be93d1e45a7e52b07ecb3e2cba237841a3c71cfdabcd44dc6f47a43"
     },
     {
       "id": "182943",
@@ -4614,8 +4666,26 @@
       "title": "Q2 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 182943
+      "status": "complete",
+      "callId": 182943,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 16
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 16,
+          "prepared": 9,
+          "qna": 7,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 11021,
+      "sha256": "8ae931dd0d83089d8bef702ca42b5817ddc3e7fb9c9932040442097b3b2b788b"
     },
     {
       "id": "154052",
@@ -4624,8 +4694,83 @@
       "title": "Q4 2026",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 154052
+      "status": "complete",
+      "callId": 154052,
+      "counts": {
+        "direct": 5,
+        "brands": 0,
+        "general": 32
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 5,
+          "prepared": 4,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 22,
+          "prepared": 18,
+          "qna": 4,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 10,
+          "prepared": 5,
+          "qna": 5,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 611.02,
+          "line": 67
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 649.12,
+          "line": 70
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 697.02,
+          "line": 75
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 882.54,
+          "line": 89
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2061.03,
+          "line": 240
+        }
+      ],
+      "wordCount": 8631,
+      "sha256": "0e426e4f3945154357460929d846b86383745c74f220b3b9a703a36bb75cc401"
     },
     {
       "id": "129121",
@@ -4634,8 +4779,26 @@
       "title": "Q2 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 129121
+      "status": "complete",
+      "callId": 129121,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 1
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 1,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 8881,
+      "sha256": "f2ef79e5e6114248ee627eb5a9491ffb80dc173c6e273c6e9793efdd4ed6de55"
     },
     {
       "id": "222844",
@@ -4644,8 +4807,42 @@
       "title": "Q4 2026 Prepared Remarks",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 222844
+      "status": "complete",
+      "callId": 222844,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 45
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 34,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 34
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 9
+        }
+      ],
+      "moments": [],
+      "wordCount": 6646,
+      "sha256": "76b50e54b82db771c87d25995168628b1b574f9234f376901ff2233b29d01553"
     },
     {
       "id": "168740",
@@ -4654,8 +4851,17 @@
       "title": "Q2 2027",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 168740
+      "status": "complete",
+      "callId": 168740,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": 10758,
+      "sha256": "27164d21b8b2d42b150e740097f99877d5361d605db70e45fdc581f03d68c781"
     },
     {
       "id": "176174",
@@ -4664,8 +4870,42 @@
       "title": "Q4 2026",
       "type": "earnings",
       "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 176174
+      "status": "complete",
+      "callId": 176174,
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 13
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 9,
+          "prepared": 0,
+          "qna": 9,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 2,
+          "prepared": 0,
+          "qna": 2,
+          "unknown": 0
+        }
+      ],
+      "moments": [],
+      "wordCount": 5276,
+      "sha256": "e50188aa8e70a9b171cd4793955ac1a3e7cc0326d3a2fbf157d75db35ea73970"
     },
     {
       "id": "189745",
@@ -5612,17 +5852,18 @@
     {
       "id": "eu-8",
       "company": "Douglas",
-      "date": "2026-08",
+      "date": "2026-08-12",
       "title": "3Q FY26",
-      "type": "conference",
-      "source": "공개 컨퍼런스콜 전사본",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-douglas-group-q3-2026-sales-fall-as-margins-narrow-93CH-4854160",
-      "status": "excerpt",
+      "type": "earnings",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/etr/DOU/transcripts/556960-q3-2026/",
+      "dateSource": "https://douglas.group/en/investors/publications",
+      "status": "complete",
       "reason": "전체 원문 미확보·미집계",
       "counts": {
         "direct": 2,
         "brands": 2,
-        "general": 2
+        "general": 24
       },
       "terms": [
         {
@@ -5652,18 +5893,18 @@
         {
           "term": "beauty",
           "category": "general",
-          "count": 1,
+          "count": 21,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
+          "unknown": 21
         },
         {
           "term": "skincare",
           "category": "general",
-          "count": 1,
+          "count": 3,
           "prepared": 0,
           "qna": 0,
-          "unknown": 1
+          "unknown": 3
         }
       ],
       "moments": [
@@ -5673,7 +5914,7 @@
           "count": 2,
           "section": "unknown",
           "seconds": null,
-          "line": 1
+          "line": 33
         },
         {
           "term": "Beauty of Joseon",
@@ -5681,7 +5922,7 @@
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 1
+          "line": 33
         },
         {
           "term": "Erborian",
@@ -5689,12 +5930,12 @@
           "count": 1,
           "section": "unknown",
           "seconds": null,
-          "line": 1
+          "line": 33
         }
       ],
-      "wordCount": 144,
-      "sha256": "6dbb88717fce1458707c2fff1e7916b8e7c8c0c1a5677c6569b04c5197cc83c9",
-      "coverage": "확보 발췌"
+      "wordCount": 9022,
+      "sha256": "1adb9c86c3c4f4dba4cab0934f0d790b922a5880e3a015c5455374b57b7abc0f",
+      "coverage": "전체 원문"
     },
     {
       "id": "eu-9",
@@ -7391,6 +7632,92 @@
       "moments": [],
       "wordCount": 7817,
       "sha256": "9c94a168d9c650ff4cac9516caf2fd2efc2a8fd36578a8e269db50417155bdf4",
+      "coverage": "전체 원문"
+    },
+    {
+      "id": "eu-puig-20260730",
+      "company": "Puig",
+      "date": "2026-07-30",
+      "title": "H1 2026 실적 발표",
+      "type": "earnings",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/bme/PUIG/transcripts/557776-h1-2026/",
+      "dateSource": "https://www.puig.com/en/financial-information/",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 29
+      },
+      "terms": [
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 8,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 8
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 17,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 17
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 4,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 4
+        }
+      ],
+      "moments": [],
+      "wordCount": 5416,
+      "sha256": "fe1bc1c3ce76015b2e612c8d49bf73280df3fd912620a742e8c2e8cbea3bb933",
+      "coverage": "전체 원문"
+    },
+    {
+      "id": "eu-lvmh-20260727",
+      "company": "LVMH (Sephora)",
+      "date": "2026-07-27",
+      "title": "H1 2026 실적 발표",
+      "type": "earnings",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/epa/MC/transcripts/648785-q2-2026/",
+      "dateSource": "https://www.lvmh.com/en/financial-calendar/2026-first-half-results",
+      "status": "complete",
+      "reason": "전체 원문 미확보·미집계",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 7
+      },
+      "terms": [
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "cosmetics",
+          "category": "general",
+          "count": 6,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 6
+        }
+      ],
+      "moments": [],
+      "wordCount": 7855,
+      "sha256": "af9b58be2400c008a2f684b38af2fe843c109a9770b7ebe9eaf8507abb19e38c",
       "coverage": "전체 원문"
     }
   ]

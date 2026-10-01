@@ -1491,6 +1491,101 @@
     ]
   },
   {
+    "id": "154052",
+    "company": "Estée Lauder",
+    "date": "2026-08-19",
+    "title": "Q4 2026",
+    "source": "StockNow 자동전사",
+    "url": null,
+    "callId": 154052,
+    "sha256": "0e426e4f3945154357460929d846b86383745c74f220b3b9a703a36bb75cc401",
+    "coverage": "전체 원문",
+    "dateSource": null,
+    "count": 5,
+    "segments": [
+      {
+        "id": "154052:67",
+        "en": "retail across mainland China and Korea.",
+        "ko": "중국 본토와 한국 전역의 리테일.",
+        "context": "지역별 화장품 실적을 설명하면서 아시아태평양의 글로벌 면세 사업이 성장으로 돌아섰다고 말했다. 중국 본토·한국의 체험형 매장 투자가 일부 기여했으며, 면세 채널은 회계연도 매출의 약 15%라고 이어 설명했다.",
+        "line": 67,
+        "location": "10:11–10:22",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "154052:70",
+        "en": "and Korea, we improved organic sales trend",
+        "ko": "그리고 한국에서 환율·인수합병 효과를 제외한 매출 추세를 개선했습니다",
+        "context": "미국, 영국·아일랜드, 한국에서 2026 회계연도 동안 유기적 매출 추세가 개선됐다는 발언이다. 이후 각 시장의 성장과 프레스티지 뷰티 점유율 성과를 차례로 설명한다.",
+        "line": 70,
+        "location": "10:49–10:56",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "154052:75",
+        "en": "performance in Korea",
+        "ko": "한국에서의 실적",
+        "context": "영국·아일랜드 성과에 이어 한국 실적도 고무적이라고 평가했다. 한국은 4분기까지 3개 분기 연속 유기적 매출 성장, 소매 매출은 3분기 한 자릿수 후반에서 4분기 두 자릿수 성장으로 가속해 프레스티지 뷰티 점유율 회복으로 이어졌다고 설명했다.",
+        "line": 75,
+        "location": "11:37–11:40",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "154052:89",
+        "en": "early launch in Korea",
+        "ko": "한국에서의 조기 출시",
+        "context": "스킨케어·메이크업 신제품 혁신을 설명하던 중 M·A·C의 새로운 립 스테인을 사례로 제시했다. 이 제품이 2026 회계연도 한국 선출시에서 큰 성공을 거뒀다고 평가한 뒤 향수 신제품 계획으로 넘어갔다.",
+        "line": 89,
+        "location": "14:42–14:57",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "154052:240",
+        "en": "momentum in Korea",
+        "ko": "한국에서의 성장세",
+        "context": "질의응답에서 글로벌 면세 실적 회복을 설명했다. 하이난 성장에 이어 한국·홍콩·동남아의 면세 사업도 좋은 흐름이라고 말했으며, 미주가 중동 부진을 일부 상쇄하고 재고를 수요에 맞춰 관리한다고 덧붙였다.",
+        "line": 240,
+        "location": "34:21–34:26",
+        "speaker": "전사본 화자 2",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "189745",
     "company": "Kohl's (Sephora 숍인숍)",
     "date": "2026-08-26",
@@ -2315,23 +2410,23 @@
   {
     "id": "eu-8",
     "company": "Douglas",
-    "date": "2026-08",
+    "date": "2026-08-12",
     "title": "3Q FY26",
-    "source": "공개 컨퍼런스콜 전사본",
-    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-douglas-group-q3-2026-sales-fall-as-margins-narrow-93CH-4854160",
+    "source": "공개 전사본 · StockAnalysis",
+    "url": "https://stockanalysis.com/quote/etr/DOU/transcripts/556960-q3-2026/",
     "callId": null,
-    "sha256": "6dbb88717fce1458707c2fff1e7916b8e7c8c0c1a5677c6569b04c5197cc83c9",
-    "coverage": "확보 발췌",
-    "dateSource": null,
+    "sha256": "1adb9c86c3c4f4dba4cab0934f0d790b922a5880e3a015c5455374b57b7abc0f",
+    "coverage": "전체 원문",
+    "dateSource": "https://douglas.group/en/investors/publications",
     "count": 4,
     "segments": [
       {
-        "id": "eu-8:1",
-        "en": "In skincare, Rituals, Beauty of Joseon, and Erborian, K-beauty brands, two K-beauty brands.",
-        "ko": "스킨케어에서는 리추얼스, 조선미녀, 에르보리안, K뷰티 브랜드들, 두 K뷰티 브랜드입니다.",
-        "context": "성과가 좋았던 스킨케어 브랜드로 조선미녀와 에르보리안을 들고 K뷰티라는 표현을 두 번 사용했습니다.",
-        "line": 1,
-        "location": "수집 원문 1행",
+        "id": "eu-8:33",
+        "en": "Beauty of Joseon, and Erborian, K-beauty brands, two K-beauty brands.",
+        "ko": "조선미녀와 에르보리앙, K뷰티 브랜드들, 두 K뷰티 브랜드입니다.",
+        "context": "독점 브랜드를 통한 차별화 전략을 설명한 뒤, 시장이 정체되거나 위축돼도 카테고리별로 성과가 좋은 브랜드가 있다고 말했다. 스킨케어에서는 Rituals와 함께 조선미녀·에르보리앙을 제시했으며, K-beauty 표현을 두 번 반복했다. 이어 메이크업·헤어케어 브랜드와 카테고리별 매출 흐름을 설명했다.",
+        "line": 33,
+        "location": "수집 원문 33행",
         "speaker": "",
         "count": 4,
         "terms": [

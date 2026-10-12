@@ -38,3 +38,5 @@
 - python scripts/validate-update.py && npm ci && npm run build. data 변경과 docs 빌드 결과 및 상태 파일을 함께 커밋. 비밀·전문·node_modules 제외.
 - GitHub create_tree(base_tree_sha=최신main tree), create_commit(parent=최신main), update_ref(force=false)로 배포 가능. 푸시 직전 main 변경시 최신본에 재적용한다. Pages Actions 성공 확인 뒤에만 배포 완료 보고.
 - 매 실행 실제 검사 상태를 사이트에 남긴다. stale 36시간 경고는 프런트에서 자동 표시된다. 원문 수집/검증/배포 실패시 이 채팅에 원인과 실패 영역을 보고한다. 변경이 있으면 추가 월/콜/분기 및 사이트 링크를 짧게 알리고, 변경없으면 간단히 기록한다.
+
+- YoY 출처 전환 공백은 data/trade-yoy-legacy.json의 기존 원장 비교쌍으로 복원한다(원장 커밋 4ba6ab7). 2024-10~2025-09 월 및 4Q24~3Q25 분기만 적용하며 당기와 전년 모두 같은 원장을 사용한다. 2025-10 이후에는 삼성 기준 비교쌍을 쓴다. 기존 수치와 수정치를 한 비교쌍으로 혼합하거나 빈칸을 보간하지 않는다. node scripts/test-trade-series.mjs로 월·분기 및 최신 YoY를 검증한다.

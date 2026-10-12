@@ -1,3 +1,4 @@
+import legacyYoy from '@/data/trade-yoy-legacy.json';
 import tradeData from '@/data/trade.json';
 import financialData from '@/data/financials.json';
 import callData from '@/data/calls.json';
@@ -19,7 +20,8 @@ export function completeCountryQuarter(field:string,region='전체'){for(let end
 
 export function regionSeries(field='exp',mode='8권역'){const r:Record<string,Series>={};for(const name of regions){const fallback=addSeries(trade.countries.filter((c:any)=>c.region===name).map((c:any)=>c[field]));r[name]=months.map((_,i)=>trade.regional?.[field]?.[name]?.[i]??fallback[i]);}if(mode==='4권역'){r['기타 지역']=addSeries(regions.slice(4).map(n=>r[n]));for(const n of regions.slice(4))delete r[n];}return r;}
 export function rangeSlice<T>(a:T[],range:string,perYear:number){return range==='전체'?a:a.slice(-(range==='24개월'?2:Number(range[0]))*perYear);}
-export function toRows(series:Record<string,(number|null)[]>,period='월',range='전체',growth=false,basisStart?:string):Row[]{
+export function legacyYoySeries(group:'regional'|'categories'):Record<string,Series>{return Object.fromEntries(Object.entries(legacyYoy[group]).map(([k,a])=>[k,months.map(m=>a[legacyYoy.months.indexOf(m)]??null)]));}
+export function toRows(series:Record<string,(number|null)[]>,period='월',range='전체',growth=false,basisStart?:string,comparisonArchive?:Record<string,Series>):Row[]{
  const keys=Object.keys(series);let rows:Row[];
  if(period==='분기'){
   const buckets:Record<string,number[]>={};months.forEach((m,i)=>{const key=`${Math.ceil(Number(m.slice(4))/3)}Q${m.slice(2,4)}`;(buckets[key]??=[]).push(i)});
@@ -27,7 +29,11 @@ export function toRows(series:Record<string,(number|null)[]>,period='월',range=
  }else rows=months.map((m,i)=>({x:monthLabel(m),...Object.fromEntries(keys.map(k=>[k,series[k][i]==null?null:series[k][i]!/1000]))}));
  const lag=period==='분기'?4:12;
  const basisLabel=basisStart?(period==='분기'?`${Math.ceil(Number(basisStart.slice(4))/3)}Q${basisStart.slice(2,4)}`:monthLabel(basisStart)):null;const basisIndex=basisLabel?rows.findIndex(r=>r.x===basisLabel):-1;
- if(growth)rows=rows.map((r,i)=>({x:r.x,...Object.fromEntries(keys.map(k=>[k,i<lag||(basisIndex>=0&&i>=basisIndex&&i-lag<basisIndex)?null:yoy(r[k],rows[i-lag][k])]))})).slice(lag);
+ if(growth){
+  // Only bridge the source transition with a complete same-vintage comparison pair.
+  const archived=comparisonArchive?new Map(toRows(comparisonArchive,period,'전체',true).map(r=>[r.x,r])):null;
+  rows=rows.map((r,i)=>({x:r.x,...Object.fromEntries(keys.map(k=>[k,i<lag?null:(basisIndex>=0&&i>=basisIndex&&i-lag<basisIndex)?(archived?.get(r.x)?.[k]??null):yoy(r[k],rows[i-lag][k])]))})).slice(lag);
+ }
  while(rows.length&&keys.every(k=>rows.at(-1)![k]==null))rows.pop();
  return rangeSlice(rows,range,lag);
 }

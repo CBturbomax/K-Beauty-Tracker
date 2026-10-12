@@ -29,3 +29,20 @@ for(const group of trade.meta.g2){const values=trade.grouped.exp[group];assert.e
 assert.ok(Math.abs(completeSum(Object.values(trade.grouped.exp).map(a=>a[sept]))-total[sept])<=4000);
 assert.equal(addSeries(trade.countries.map(c=>c.exp))[sept],null);
 console.log('Trade regressions passed: September regions/3Q26, nullable sums, imports August, complete country ranking 2Q26, methodology boundary, regional shares.');
+// Archived pairs restore the gap without comparing revised and legacy amounts.
+const legacy=read('trade-yoy-legacy');
+for(const group of ['regional','categories']){
+ const archived=Object.fromEntries(Object.entries(legacy[group]).map(([k,a])=>[k,months.map(m=>a[legacy.months.indexOf(m)]??null)]));
+ const current=group==='regional'?{...regional,전체:total}:{...trade.national.cat,전체:total};
+ for(const period of ['월','분기']){
+  const restored=toRows(current,period,'전체',true,trade.meta.regionalBasisStart,archived);
+  const old=toRows(archived,period,'전체',true);
+  const labels=period==='월'?months.filter(m=>m>='202410'&&m<='202509').map(exports.monthLabel):['4Q24','1Q25','2Q25','3Q25'];
+  for(const label of labels)for(const key of Object.keys(current)){
+   const expected=old.find(r=>r.x===label)[key];assert.notEqual(expected,null);
+   assert.equal(restored.find(r=>r.x===label)[key],expected,`${group} ${period} ${label} ${key}: use both archived amounts`);
+  }
+  assert.equal(restored.at(-1).전체,toRows(current,period,'전체',true,trade.meta.regionalBasisStart).at(-1).전체);
+ }
+}
+console.log('YoY continuity passed: 12 months and four quarters, archived comparison pairs, current September unchanged.');

@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-02",
   "version": 4,
-  "range": "2024-01 ~ 2026-10",
+  "range": "2024-01 ~ 2026-11",
   "directTerms": [
     "K-beauty",
     "한국 관련",
@@ -8671,6 +8671,17 @@
       "terms": [],
       "moments": [],
       "sha256": "038610a635dac5b8b9d939128331bd239391070aa9fae8379cf9a633a07e2186"
+    },
+    {
+      "id": "176620",
+      "company": "Estée Lauder",
+      "date": "2026-11-02",
+      "title": "Q1 2027",
+      "type": "earnings",
+      "source": "StockNow 전사 데이터 (콜 176620)",
+      "status": "missing",
+      "callId": 176620,
+      "reason": "전사 제공 가능 표시 확인. 직접 읽기 응답이 비어 전문·Q&A 확인 불가. 공식 실적발표문 한국 관련 발췌는 data/calls.json에 참고 인용으로 별도 보존하며 미검증 발언 횟수는 세지 않음."
     }
   ]
 }

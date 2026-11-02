@@ -1,8 +1,8 @@
 {
   "meta": {
-    "range": "2024.01 ~ 2026.10",
+    "range": "2024.01 ~ 2026.11",
     "updated": "2026-11-02",
-    "note": "기존 51개 참고 컨콜 인용과 2026년 10월 신규 검증 전사(data/call-evidence.json)를 병행 표시."
+    "note": "기존 참고 컨콜 인용·검증 전사를 유지. 2026-11-02 에스티로더는 공식 발표자료의 한국시장 발췌만 별도 표시(컨콜 Q&A 원문 미검증·횟수 제외)."
   },
   "companies": [
     {
@@ -1539,6 +1539,40 @@
         "role": "management",
         "url": "https://stockanalysis.com/quote/epa/OR/transcripts/122646-h2-2023/",
         "verification": "transcript"
+      }
+    },
+    {
+      "releaseId": "el-official-release-20261102",
+      "date": "2026-11-02",
+      "company": "Estée Lauder",
+      "event": "FY27 1Q · 공식 실적발표문 (Q&A 전사 검증 대기)",
+      "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/11-02-2026-110046663",
+      "source": "에스티로더 공식 IR",
+      "headline": "한국 소매매출 두 자릿수 성장 · MAC·톰포드 메이크업 점유율 확대",
+      "tags": [
+        "한국시장",
+        "성과",
+        "공식 발표자료"
+      ],
+      "lines": [
+        {
+          "ko": "한국에서는 에스티로더 계열 브랜드의 소매매출이 두 자릿수 성장했고, 메이크업에서 MAC과 TOM FORD가 시장점유율을 높였습니다. 한국산 화장품이나 K뷰티 브랜드의 해외 매출을 뜻하는 수치는 아닙니다."
+        },
+        {
+          "ko": "같은 공식 실적발표문에서 전사 유기적 매출은 6% 증가했고 향수 20%, 스킨케어 4%, 메이크업 1% 성장했습니다. 중국·일본·미국에서도 주요 브랜드의 프레스티지 뷰티 점유율 확대를 설명했습니다."
+        },
+        {
+          "ko": "아시아태평양 성장은 중국 공항 및 하이난 면세 채널 회복이 기여했습니다. 이 내용은 공식 발표문 기준이며 11월 2일 컨콜 Q&A의 한국·K뷰티 언급 전체 횟수는 아직 확인하지 못했습니다."
+        }
+      ],
+      "quote": {
+        "en": "Korea: Double-digit retail sales growth, with share gains in Makeup led by M·A·C and TOM FORD",
+        "ko": "한국: 소매매출 두 자릿수 성장. 메이크업에서는 MAC과 TOM FORD가 시장점유율 상승을 주도했습니다.",
+        "source": "Estée Lauder 공식 FY27 1Q 실적발표문 · 'Beauty Gains and Achievements' · 2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "role": "company_release",
+        "verification": "press_release",
+        "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/11-02-2026-110046663"
       }
     }
   ]

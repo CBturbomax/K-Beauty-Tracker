@@ -112,11 +112,11 @@ export default function CallsView(){
     <div className="call-event">{i.event}<span>참고 인용 · 횟수 집계에 포함하지 않음</span>{q?.role==='analyst'&&<span>애널리스트 질문</span>}{q?.verification==='secondary'&&<span>전사본 대조 미완료</span>}{i.index===9&&<span>출처 날짜 재확인 필요 · 횟수 제외</span>}</div>
     <h4>{i.headline}</h4><div className="call-topic-tags">{i.tags?.map((t:string)=><span key={t}>{t}</span>)}</div>
     <div className="call-reading"><div className="context-label">발언의 전후 맥락 <span>요약</span></div>{ctx?.before&&<p className="context-copy"><Highlight text={ctx.before}/></p>}
-     {q&&<blockquote className="call-excerpt"><span>{q.role==='analyst'?'질문':'핵심 발언'} · 번역 인용</span><p>“<Highlight text={q.ko}/>”</p><p className="original-excerpt" lang="en">“<Highlight text={q.en}/>”</p></blockquote>}
+     {q&&<blockquote className="call-excerpt"><span>{q.verification==='press_release'?'공식 실적발표문':q.role==='analyst'?'질문':'핵심 발언'} · 번역 인용</span><p>“<Highlight text={q.ko}/>”</p><p className="original-excerpt" lang="en">“<Highlight text={q.en}/>”</p></blockquote>}
      {ctx?.after&&<p className="context-copy"><Highlight text={ctx.after}/></p>}
      {!ctx&&i.lines.map((l:any,j:number)=><p className="context-copy" key={j}><Highlight text={l.ko||''}/></p>)}
     </div>
-    <div className="call-note-bottom"><div className="call-citation">{q&&<><p className="citation-detail">{q.source}{q.timestamp&&` · ${q.timestamp}`} · 짧은 발췌 / 전후 맥락은 요약</p>{q.url&&<a href={q.url} target="_blank" rel="noreferrer">{q.verification==='secondary'?'참고 대시보드':'전체 전사본'} ↗</a>}</>}{i.url&&i.url!==q?.url&&<a href={i.url} target="_blank" rel="noreferrer">원문 링크 ↗</a>}</div><span>{quarter(i.date)}</span></div>
+    <div className="call-note-bottom"><div className="call-citation">{q&&<><p className="citation-detail">{q.source}{q.timestamp&&` · ${q.timestamp}`} · 짧은 발췌 / 전후 맥락은 요약</p>{q.url&&<a href={q.url} target="_blank" rel="noreferrer">{q.verification==='press_release'?'공식 실적발표문':q.verification==='secondary'?'참고 대시보드':'전체 전사본'} ↗</a>}</>}{i.url&&i.url!==q?.url&&<a href={i.url} target="_blank" rel="noreferrer">원문 링크 ↗</a>}</div><span>{quarter(i.date)}</span></div>
    </article>
   })}</div><p className="calls-source-note">횟수는 확보한 원문과 발췌에서 한국·한국 브랜드·K뷰티 관련 표현이 등장한 횟수입니다. 화장품·뷰티 사업에 연결되는 한국 시장·생산·조달·면세·경쟁과 질문을 포함합니다. 같은 발언의 반복 표현과 브랜드명도 각각 셉니다. 화장품과 무관한 일반 매장 출점·회원 수·환율 가정과 한국 관련성이 없는 발언은 제외하며, 자동 번역 병기는 중복 집계하지 않습니다. 표의 숫자는 아래 발언별 횟수와 일치합니다. 짧은 원문 발췌와 번역을 함께 표시하며 …는 중간 생략입니다. 시간 정보가 없는 전사본은 수집 원문의 행 위치와 출처 링크를 표시합니다. 기존 참고 인용 중 집계에 포함하지 않은 것은 별도로 명시합니다. 전후 맥락은 발언 내용을 풀어쓴 요약이며, 자동전사에는 고유명사 오류가 있을 수 있습니다.</p>
  </div>

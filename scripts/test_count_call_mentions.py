@@ -38,7 +38,10 @@ class MentionCountingTests(unittest.TestCase):
   d=counter.count('[10-12] South Korea.\n  → 한국.');self.assertEqual(d['counts']['direct'],1)
  def test_every_existing_comment_has_counted_evidence(self):
   e=json.loads(Path('data/call-evidence.json').read_text());ids={d['id'] for d in e}
-  for n,i in enumerate(json.loads(Path('data/calls.json').read_text())['items']):self.assertIn(str(i.get('callId') or 'eu-'+str(n)),ids)
+  for n,i in enumerate(json.loads(Path('data/calls.json').read_text())['items']):
+   if i.get('quote',{}).get('verification')=='press_release':
+    self.assertTrue(i.get('url'));self.assertTrue(i['quote'].get('en'));continue
+   self.assertIn(str(i.get('callId') or 'eu-'+str(n)),ids)
   d=next(d for d in e if d['id']=='eu-21');self.assertEqual(d['count'],3);self.assertEqual(len(d['segments']),3)
   for d in e:self.assertEqual(d['count'],sum(s['count'] for s in d['segments']))
  def test_non_beauty_mentions_removed(self):

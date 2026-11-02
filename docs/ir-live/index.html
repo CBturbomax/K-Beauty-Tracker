@@ -236,6 +236,7 @@ function restoreKey(){
    if(saved){el('key').value=saved;keyMessage('✓ 저장된 키를 불러왔습니다 · 바로 통역 시작 가능');}
  }catch(e){keyMessage('브라우저 저장소에 접근할 수 없습니다.',true);}
 }
+el('key').addEventListener('input',saveKey);
 el('key').addEventListener('change',saveKey);
 el('key').addEventListener('blur',saveKey);
 el('forgetkey').onclick=()=>{
@@ -243,7 +244,21 @@ el('forgetkey').onclick=()=>{
  el('key').value='';
  keyMessage('저장된 키 삭제 완료 · 필요하면 새 키를 입력하세요.');
 };
+function consumeSetupKeyFromFragment(){
+ // Import an existing personal key once, directly into this browser. Never put the key in public source.
+ const hash=location.hash||'';
+ if(!hash.startsWith('#setup_key='))return false;
+ const value=new URLSearchParams(hash.slice(1)).get('setup_key')||'';
+ // Remove the bearer credential from visible URL/history immediately, including if storage is disabled.
+ try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}
+ if(!/^AIza[A-Za-z0-9_-]{20,}$/.test(value)){keyMessage('키 연결 링크가 올바르지 않습니다.',true);return false;}
+ el('key').value=value;
+ saveKey();
+ return true;
+}
 restoreKey();
+const importedKey=consumeSetupKeyFromFragment();
+if(importedKey)keyMessage('✓ API 키 자동 연결 완료 · 다음부터 입력할 필요 없습니다.');
 try{if(!el('key').value.trim())el('advanced').open=true;}catch(e){}
 function isPhoneOrTablet(ua,touchPoints){
  const agent=String(ua||'');

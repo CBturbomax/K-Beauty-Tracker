@@ -86,9 +86,9 @@ export default function CallsView(){
       <div className="call-theme-meta">검증 구간 {g.lines.length}개 · 공개 전사본 {g.lines.join(" · ")}행</div>
       {g.quoteEn&&<blockquote className="call-theme-quote">
        <span className="call-theme-quote-label">실제 발언에서 발췌한 짧은 직접 인용</span>
-       <p className="call-theme-quote-ko">“<Highlight text={g.quoteKo||""}/ >”</p>
-       <p className="call-theme-quote-en" lang="en">“<Highlight text={g.quoteEn}/ >”</p>
-       {g.secondQuoteEn&&<div className="call-theme-second"><p className="call-theme-quote-ko">“<Highlight text={g.secondQuoteKo||""}/ >”</p><p className="call-theme-quote-en" lang="en">“<Highlight text={g.secondQuoteEn}/ >”</p></div>}
+       <p className="call-theme-quote-ko">“<Highlight text={g.quoteKo||""}/>”</p>
+       <p className="call-theme-quote-en" lang="en">“<Highlight text={g.quoteEn}/>”</p>
+       {g.secondQuoteEn&&<div className="call-theme-second"><p className="call-theme-quote-ko">“<Highlight text={g.secondQuoteKo||""}/>”</p><p className="call-theme-quote-en" lang="en">“<Highlight text={g.secondQuoteEn}/>”</p></div>}
       </blockquote>}
       <div className="call-theme-summary"><span className="call-theme-summary-label">{g.quoteEn?"발언의 전후 맥락":"원문 확인 내용 · 한국어 설명"}</span>
        <p><Highlight text={g.summary}/></p>

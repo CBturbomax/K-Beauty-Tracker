@@ -138,3 +138,16 @@ body{min-width:1280px}
 .evidence-context-ko{font-size:20px;line-height:1.8;color:#fff;word-break:keep-all;margin:0}
 .evidence-context-en{font-size:18px;line-height:1.75;color:#aab9c8;overflow-wrap:anywhere;margin:0}
 .evidence-quote{margin-top:12px}
+
+
+/* Verbatim-first calls: translated speaker quote before the small original anchor. */
+.evidence-quote-primary{margin:14px 0 12px;padding:18px 20px;background:#10171f;border-left:3px solid #FFCB05}
+.evidence-quote-primary .evidence-quote-ko p{font-size:23px;line-height:1.75;font-weight:700;color:#fff;word-break:keep-all}
+.evidence-quote-primary .evidence-quote-en p[lang=en]{font-size:18px;line-height:1.65;color:#b4c0cc;font-weight:400}
+.evidence-quote-primary .evidence-label{color:#FFCB05}
+.evidence-quote-primary .evidence-quote-en .evidence-label{color:#8b98a5}
+.evidence-context-details{border:1px solid #2a3542;background:#15202b;padding:0 17px 13px;margin:10px 0 8px}
+.evidence-context-details summary{cursor:pointer;color:#8b98a5;font-size:17px;font-weight:700;padding:13px 0}
+.evidence-context-details summary>span{font-size:15px;font-weight:400;margin-left:12px}
+.evidence-context-details .evidence-context-ko{font-size:19px;line-height:1.75;color:#c8d1dc}
+.evidence-context-details .evidence-context-en{font-size:16px;line-height:1.65;margin-top:8px}

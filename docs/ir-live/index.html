@@ -68,7 +68,7 @@ button:disabled{opacity:.4;cursor:not-allowed}
 </div></section>
 <section class="panel main">
 <div class="mainhead"><div class="section" style="margin:0"><span class="num">02</span> 실시간 자막</div><div class="clock" id="clock">00:00:00</div></div>
-<div class="controls"><button class="primary" id="start">🎙 실시간 통역 시작</button><button class="secondary" id="stop" disabled>■ 종료</button><button class="secondary" id="clear">초기화</button></div>
+<div class="controls"><button class="primary" id="start">🎙 실시간 통역 시작</button><button class="secondary" id="testapi">🔌 Gemini 연결 검사</button><button class="secondary" id="stop" disabled>■ 종료</button><button class="secondary" id="clear">초기화</button></div>
 <div class="status"><i id="dot" class="dot"></i><span id="status" role="status">준비 완료 · API 키 입력 후 시작하세요.</span></div>
 <div class="feed" id="feed"><div class="empty" id="empty"><div class="glyph">〰</div>마이크로 들리는 말을 실시간 번역합니다.<br>AI와 연결되면 여기서 원문과 한국어 자막을 확인하세요.</div></div>
 <div class="foot"><button id="txt" disabled>↓ 자막 TXT 저장</button><button id="json" disabled>↓ 기록 JSON 저장</button><button id="audio" disabled>↓ 녹음 파일 저장</button></div>
@@ -81,7 +81,7 @@ button:disabled{opacity:.4;cursor:not-allowed}
 const el=id=>document.getElementById(id),MODEL='models/gemini-3.5-live-translate-preview';
 const url='wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent';
 let direction='in',alive=false,connected=false,ws=null,stream=null,ctx=null,src=null,proc=null,silent=null,recorder=null,chunks=[],audioBlob=null,cap=[],current=null,started=0,timer=0,pending=[],left=0,nextSound=0;
-let micTesting=false,displayStream=null;
+let micTesting=false,displayStream=null,testingAPI=false;
 const KEY_STORAGE='ir-live-gemini-api-key-v1';
 function keyMessage(s,bad=false){el('keystate').textContent=s;el('keystate').className='micstate'+(bad?' warn':' ok');}
 function saveKey(){
@@ -155,7 +155,7 @@ el('checkmic').onclick=async()=>{
 
 function target(){return direction==='in'?'ko':el('lang').value}
 function seconds(){let t=Math.floor((Date.now()-started)/1000);return [Math.floor(t/3600),Math.floor(t/60)%60,t%60].map(x=>String(x).padStart(2,'0')).join(':')}
-function update(){el('start').disabled=alive;el('stop').disabled=!alive;el('txt').disabled=!cap.length;el('json').disabled=!cap.length;el('audio').disabled=!audioBlob;}
+function update(){el('start').disabled=alive||testingAPI;el('testapi').disabled=alive||testingAPI;el('stop').disabled=!alive;el('txt').disabled=!cap.length;el('json').disabled=!cap.length;el('audio').disabled=!audioBlob;}
 function choose(d){if(alive)return status('언어 방향을 변경하려면 통역을 종료한 뒤 다시 시작하세요.',true);direction=d;el('in').className=d==='in'?'active':'';el('out').className=d==='out'?'active':'';}
 el('in').onclick=()=>choose('in');el('out').onclick=()=>choose('out');
 function join(a,b){if(!a)return b;if(a.endsWith(b))return a;if(b.startsWith(a))return b;return a+((/[a-zA-Z0-9]$/.test(a)&&/^[a-zA-Z0-9]/.test(b))?' ':'')+b;}
@@ -168,7 +168,39 @@ function b64(bytes){let s='';for(let j=0;j<bytes.length;j+=8192)s+=String.fromCh
 function play(base64){if(!ctx||!el('voice').checked)return;try{const x=atob(base64),count=Math.floor(x.length/2);if(!count)return;const b=ctx.createBuffer(1,count,24000),a=b.getChannelData(0);for(let i=0;i<count;i++){let v=x.charCodeAt(i*2)|(x.charCodeAt(i*2+1)<<8);if(v>32767)v-=65536;a[i]=v/32768;}const s=ctx.createBufferSource();s.buffer=b;s.connect(ctx.destination);nextSound=Math.max(ctx.currentTime+.05,nextSound);if(nextSound>ctx.currentTime+2)nextSound=ctx.currentTime+.05;s.start(nextSound);nextSound+=b.duration;}catch(e){console.warn(e);}}
 function audioSetup(){src=ctx.createMediaStreamSource(stream);proc=ctx.createScriptProcessor(4096,1,1);silent=ctx.createGain();silent.gain.value=0;src.connect(proc);proc.connect(silent);silent.connect(ctx.destination);proc.onaudioprocess=e=>{const input=e.inputBuffer.getChannelData(0),step=ctx.sampleRate/16000;let p=left;for(;p<input.length;p+=step){pending.push(Math.max(-1,Math.min(1,input[Math.floor(p)]||0)));if(pending.length>=1600){const buf=new ArrayBuffer(3200),dv=new DataView(buf);for(let i=0;i<1600;i++){let v=pending[i];dv.setInt16(i*2,v<0?v*32768:v*32767,true);}pending=[];if(connected&&ws?.readyState===WebSocket.OPEN&&ws.bufferedAmount<800000)ws.send(JSON.stringify({realtimeInput:{audio:{data:b64(new Uint8Array(buf)),mimeType:'audio/pcm;rate=16000'}}}));}}left=p<input.length?p:p-input.length;};}
 function recordStart(){if(!el('rec').checked||!window.MediaRecorder)return;try{const type=['audio/mp4','audio/webm;codecs=opus','audio/webm'].find(x=>MediaRecorder.isTypeSupported(x));recorder=new MediaRecorder(stream,type?{mimeType:type}:undefined);chunks=[];audioBlob=null;recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onstop=()=>{audioBlob=new Blob(chunks,{type:recorder.mimeType||type||'audio/webm'});update();};recorder.start(5000);}catch(e){status('녹음 저장이 불가능하지만 통역은 진행합니다.',true);}}
-function connect(key){return new Promise((resolve,reject)=>{let ready=false;ws=new WebSocket(url+'?key='+encodeURIComponent(key));const timeout=setTimeout(()=>{if(!ready){ws?.close();reject(new Error('Gemini 연결 시간 초과'));}},15000);ws.onopen=()=>ws.send(JSON.stringify({setup:{model:MODEL,generationConfig:{responseModalities:['AUDIO'],inputAudioTranscription:{},outputAudioTranscription:{},translationConfig:{targetLanguageCode:target(),echoTargetLanguage:false}}}}));ws.onmessage=async e=>{try{const str=typeof e.data==='string'?e.data:await e.data.text(),m=JSON.parse(str);if(m.setupComplete){ready=true;connected=true;clearTimeout(timeout);status('LIVE · 마이크가 보내는 소리를 실시간 번역 중');resolve();}const c=m.serverContent;if(c){if(c.inputTranscription?.text)add('original',c.inputTranscription.text);if(c.outputTranscription?.text)add('translation',c.outputTranscription.text);if(el('voice').checked&&c.modelTurn?.parts)c.modelTurn.parts.forEach(p=>{if(p.inlineData?.data)play(p.inlineData.data);});}if(m.goAway)status('세션 종료 예고 · 종료 후 다시 시작하세요',true);}catch(err){console.error(err);}};ws.onerror=()=>{if(!ready){clearTimeout(timeout);reject(new Error('Gemini 연결 오류 · API 키와 무료 할당량 확인'));}else status('연결 오류 · 종료 후 다시 시작하세요',true);};ws.onclose=e=>{clearTimeout(timeout);connected=false;if(!ready)reject(new Error('AI 접속이 종료됨 ('+e.code+'). API 키·모델 권한 확인'));else if(alive)status('AI 세션 종료 ('+e.code+'). 종료 후 다시 시작하세요',true);};});}
+function setupPayload(){return {setup:{model:MODEL,generationConfig:{responseModalities:['AUDIO'],inputAudioTranscription:{},outputAudioTranscription:{},translationConfig:{targetLanguageCode:target(),echoTargetLanguage:false}}}};}
+function describeClose(e){
+ const reason=(e.reason||'').trim().slice(0,350);
+ const code=e.code;
+ if(code===1007)return 'Gemini가 초기 설정을 거부했습니다 (1007 · 잘못된 요청). '+(reason||'모델 또는 계정의 허용 설정을 확인하세요.');
+ if(code===1008)return 'Gemini 정책 또는 접근 제한 (1008). '+(reason||'API 사용 권한을 확인하세요.');
+ if(code===1011)return 'Gemini 서버 오류 (1011). '+reason;
+ if(code===1006)return 'Gemini 연결이 비정상적으로 종료됨 (1006). 네트워크·API 키·무료 등급 제한을 확인하세요.';
+ return 'Gemini 연결 종료 ('+code+'). '+(reason||'서버에서 자세한 사유를 보내지 않았습니다.');
+}
+el('testapi').onclick=async()=>{
+ if(alive||testingAPI)return;
+ const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);
+ saveKey();testingAPI=true;update();status('마이크 없이 Gemini 통역 모델 연결 검사 중...');
+ let testSocket=null,timeout=null,finished=false;
+ try{
+  const result=await new Promise((resolve,reject)=>{
+   testSocket=new WebSocket(url+'?key='+encodeURIComponent(key));
+   timeout=setTimeout(()=>reject(new Error('서버 설정 응답이 12초 이상 없습니다.')),12000);
+   testSocket.onopen=()=>{try{testSocket.send(JSON.stringify(setupPayload()));}catch(err){reject(err);}};
+   testSocket.onmessage=async e=>{
+     try{const m=JSON.parse(typeof e.data==='string'?e.data:await e.data.text());
+       if(m.setupComplete)resolve('✓ Gemini 통역 모델 연결 성공! 이제 실시간 통역 시작을 누르세요.');
+     }catch(err){reject(err);}
+   };
+   testSocket.onclose=e=>reject(new Error(describeClose(e)));
+   testSocket.onerror=()=>{ /* A CloseEvent may follow with the specific reason. */ };
+  });
+  finished=true;status(result,false);
+ }catch(e){finished=true;status('연결 검사 실패: '+(e.message||String(e)),true);}
+ finally{clearTimeout(timeout);try{testSocket?.close();}catch(e){}testingAPI=false;update();}
+};
+function connect(key){return new Promise((resolve,reject)=>{let ready=false;ws=new WebSocket(url+'?key='+encodeURIComponent(key));const timeout=setTimeout(()=>{if(!ready){ws?.close();reject(new Error('Gemini 연결 시간 초과'));}},15000);ws.onopen=()=>ws.send(JSON.stringify(setupPayload()));ws.onmessage=async e=>{try{const str=typeof e.data==='string'?e.data:await e.data.text(),m=JSON.parse(str);if(m.setupComplete){ready=true;connected=true;clearTimeout(timeout);status('LIVE · 마이크가 보내는 소리를 실시간 번역 중');resolve();}const c=m.serverContent;if(c){if(c.inputTranscription?.text)add('original',c.inputTranscription.text);if(c.outputTranscription?.text)add('translation',c.outputTranscription.text);if(el('voice').checked&&c.modelTurn?.parts)c.modelTurn.parts.forEach(p=>{if(p.inlineData?.data)play(p.inlineData.data);});}if(m.goAway)status('세션 종료 예고 · 종료 후 다시 시작하세요',true);}catch(err){console.error(err);}};ws.onerror=()=>{if(ready)status('네트워크 또는 서버 연결 오류. 잠시 후 재시도하세요.',true);};ws.onclose=e=>{clearTimeout(timeout);connected=false;if(!ready)reject(new Error(describeClose(e)));else if(alive)status(describeClose(e)+' · 종료 후 다시 시작하세요',true);};});}
 async function stop(){alive=false;connected=false;clearInterval(timer);try{ws?.close();}catch(e){}ws=null;try{if(recorder?.state==='recording')recorder.stop();}catch(e){}try{proc?.disconnect();src?.disconnect();silent?.disconnect();}catch(e){}proc=src=silent=null;try{stream?.getTracks().forEach(t=>t.stop());displayStream?.getTracks().forEach(t=>t.stop());}catch(e){}stream=null;displayStream=null;try{await ctx?.close();}catch(e){}ctx=null;status('종료되었습니다 · 기록 저장 가능');update();}
 el('start').onclick=async()=>{if(alive)return;const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);saveKey();if(!navigator.mediaDevices?.getUserMedia)return status('HTTPS 환경의 Safari/Chrome이 필요합니다.',true);alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();status('음성 입력 권한을 기다립니다...');try{stream=await acquireMic();ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);status('Gemini Live 서버에 연결 중...');await connect(key);}catch(e){await stop();status(friendlyMicError(e),true);}};
 el('stop').onclick=stop;

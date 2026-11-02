@@ -2,7 +2,7 @@
   "meta": {
     "range": "2024.01 ~ 2026.10",
     "updated": "2026-11-02",
-    "note": "원본 대시보드의 51개 컨콜 항목에 근거한 재작성 요약. 전문은 연결된 원문에서 확인."
+    "note": "기존 51개 참고 컨콜 인용과 2026년 10월 신규 검증 전사(data/call-evidence.json)를 병행 표시."
   },
   "companies": [
     {
@@ -135,7 +135,7 @@
       "source": "Investing.com 요지 + 공개 전사본(stockanalysis)·TIKR 원문",
       "hit": 13,
       "checked": 27,
-      "last": "2026-09"
+      "last": "2026-10-22"
     },
     {
       "name": "LVMH (Sephora)",
@@ -157,7 +157,7 @@
       "source": "Investing.com 요지 + IR 발표문·공개 전사본(TickerTrends)·TIKR 원문",
       "hit": 4,
       "checked": 11,
-      "last": "2026-08"
+      "last": "2026-10-27"
     },
     {
       "name": "Puig",

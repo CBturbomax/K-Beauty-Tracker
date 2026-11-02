@@ -8597,6 +8597,458 @@
       "moments": [],
       "wordCount": 8494,
       "sha256": "2433c164162194090022d1c48f1ef1c092ffda58fbee9362ba2989ad036eb72f"
+    },
+    {
+      "id": "eu-loreal-20261022",
+      "company": "L'Oréal",
+      "date": "2026-10-22",
+      "title": "3Q26 매출발표 컨퍼런스콜",
+      "type": "earnings",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/epa/OR/transcripts/655554-q3-2026/",
+      "dateSource": "https://stockanalysis.com/quote/epa/OR/transcripts/655554-q3-2026/",
+      "status": "complete",
+      "coverage": "전체 원문",
+      "counts": {
+        "direct": 14,
+        "brands": 9,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 12,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 12
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 7,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 7
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 1,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 185
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 220
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 220
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 221
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 222
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 486
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 525
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 526
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 526
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 527
+        },
+        {
+          "term": "3CE",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 528
+        },
+        {
+          "term": "Stylenanda",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 528
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 528
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 528
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 529
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 2,
+          "section": "unknown",
+          "seconds": null,
+          "line": 529
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 530
+        },
+        {
+          "term": "Dr.G",
+          "category": "brands",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 530
+        }
+      ],
+      "sha256": "69bbda132e3c01fdb8955f9d5ab94f97b696c52a2b09cff7ad9f1d3c082f330f"
+    },
+    {
+      "id": "eu-puig-20261021",
+      "company": "Puig",
+      "date": "2026-10-21",
+      "title": "3Q26 매출발표 컨퍼런스콜",
+      "type": "earnings",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
+      "dateSource": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
+      "status": "complete",
+      "coverage": "전체 원문",
+      "counts": {
+        "direct": 2,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 294
+        },
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 295
+        }
+      ],
+      "sha256": "b81ae8fbddd08b3b971f221dafba8ac0eff3d9e0f592b7031368694d07958d2e"
+    },
+    {
+      "id": "eu-beiersdorf-20261027",
+      "company": "Beiersdorf (NIVEA)",
+      "date": "2026-10-27",
+      "title": "3Q26 실적 컨퍼런스콜",
+      "type": "earnings",
+      "source": "공개 전사본 · Investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-beiersdorf-q3-2026-sales-slip-as-premium-brands-shine-93CH-4974613",
+      "dateSource": "https://www.investing.com/news/transcripts/earnings-call-transcript-beiersdorf-q3-2026-sales-slip-as-premium-brands-shine-93CH-4974613",
+      "status": "complete",
+      "coverage": "전체 원문",
+      "counts": {
+        "direct": 2,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 2
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 119
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 226
+        }
+      ],
+      "sha256": "21f4e81db5f0becd2d88b911a79e06a5bdb81aa16c355d0f8c54b6d369c6eed3"
+    },
+    {
+      "id": "eu-puig-20261028",
+      "company": "Puig",
+      "date": "2026-10-28",
+      "title": "Capital Markets Day 2026",
+      "type": "conference",
+      "source": "공개 전사본 · StockAnalysis",
+      "url": "https://stockanalysis.com/quote/bme/PUIG/transcripts/722700-cmd-2026/",
+      "dateSource": "https://stockanalysis.com/quote/bme/PUIG/transcripts/722700-cmd-2026/",
+      "status": "complete",
+      "coverage": "전체 원문",
+      "counts": {
+        "direct": 15,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 15,
+          "prepared": 0,
+          "qna": 0,
+          "unknown": 15
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 177
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 206
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 216
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 444
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 445
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 557
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 656
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 674
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 705
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 771
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 775
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": null,
+          "line": 776
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "section": "unknown",
+          "seconds": null,
+          "line": 782
+        }
+      ],
+      "sha256": "cee5ce523870be4ad49908cfb22dec7021e6df73858a5fd3c248995fd91d4a62"
+    },
+    {
+      "id": "eu-lvmh-20261012",
+      "company": "LVMH (Sephora)",
+      "date": "2026-10-12",
+      "title": "3Q26 매출발표 컨퍼런스콜",
+      "type": "earnings",
+      "source": "공개 전사본 · 6ix",
+      "url": "https://6ix.com/event/lvmh-moet-hennessy-louis-vuitton-lvmhf-q3-2026-earnings-call",
+      "dateSource": "https://6ix.com/event/lvmh-moet-hennessy-louis-vuitton-lvmhf-q3-2026-earnings-call",
+      "status": "complete",
+      "coverage": "전체 원문",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "sha256": "038610a635dac5b8b9d939128331bd239391070aa9fae8379cf9a633a07e2186"
     }
   ]
 }

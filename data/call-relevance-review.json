@@ -963,5 +963,145 @@
     "include": true,
     "reason": "한국과 일본을 합친 향수시장이 중국과 비슷한 규모라며 펜할리곤스의 성장 기회와 바이레도의 한국 유통 확대를 설명했습니다.",
     "lineSha256": "4a56137e09729e6050ba72716106e60f0de30180be3a8dde45bee9654a04fc7f"
+  },
+  "eu-loreal-20261022:185": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "6a9a12772da30fe35e4f21a366d77eabef74aa98363f4bdf86a99d34c8b136ed"
+  },
+  "eu-loreal-20261022:220": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "d8b9cf4f5ba1ad3419a455f98eb4661fe0dce3d52d6f6172cf974f7a140dd7c3"
+  },
+  "eu-loreal-20261022:221": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8d8f3d5bca1ed581f935eee1db60f0fb5de0987971ea87e2bf640ef83dacc3d5"
+  },
+  "eu-loreal-20261022:222": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8d8f3d5bca1ed581f935eee1db60f0fb5de0987971ea87e2bf640ef83dacc3d5"
+  },
+  "eu-loreal-20261022:486": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "f13a25ec7de6fd3a05b726e577ec2dabedb59bc03784e53063f7d2f5160b6742"
+  },
+  "eu-loreal-20261022:525": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "f2ea120901493967d1a3de7bc90ff0d74e9425559a848dd82e8cee4569f0e50f"
+  },
+  "eu-loreal-20261022:526": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "f2ea120901493967d1a3de7bc90ff0d74e9425559a848dd82e8cee4569f0e50f"
+  },
+  "eu-loreal-20261022:527": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "c423d5df1b6f64afbf555f2535b4675281d8ca8d10ab436265529624b3661432"
+  },
+  "eu-loreal-20261022:528": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "c423d5df1b6f64afbf555f2535b4675281d8ca8d10ab436265529624b3661432"
+  },
+  "eu-loreal-20261022:529": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "48942e0075cca782f40fab18492dbc5b7e9d0715b2babed1fc4b668e80c1b495"
+  },
+  "eu-loreal-20261022:530": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "48942e0075cca782f40fab18492dbc5b7e9d0715b2babed1fc4b668e80c1b495"
+  },
+  "eu-puig-20261021:294": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "f9bf0efb0f9d1b936dc5bf72e6c9a22433bc44894327e6390ce34313e5b48a07"
+  },
+  "eu-puig-20261021:295": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "f9bf0efb0f9d1b936dc5bf72e6c9a22433bc44894327e6390ce34313e5b48a07"
+  },
+  "eu-beiersdorf-20261027:119": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "87a42101796c017e0c948cc2d97d403e9cd959a1e1c61af9db0bf7f67d3f9991"
+  },
+  "eu-beiersdorf-20261027:226": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8d34a19b3799605ab0f6c19ca524406d3973b4b18117ad7429ac68a3901a8002"
+  },
+  "eu-puig-20261028:177": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "ff96e3b93bf00f3e142165de2a37a20659c262013cc03859b248c24132358cc8"
+  },
+  "eu-puig-20261028:206": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8f1240d8253449d7b198c8068994fc62396767150a9d015ec7ad9422741a4921"
+  },
+  "eu-puig-20261028:216": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "73f076692fb512025f713ba03b4403634cc2fffa2493abc6213093a03628e030"
+  },
+  "eu-puig-20261028:444": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "e65ef7f875c7bc9dd14a18aa90f62a1610c613a72927d8687ca91e4fff22c0e0"
+  },
+  "eu-puig-20261028:445": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8f1240d8253449d7b198c8068994fc62396767150a9d015ec7ad9422741a4921"
+  },
+  "eu-puig-20261028:557": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "7fc2f3140999f2330fa4d7796fbf7483c22a8adc939b603f40b3c41f0087b9e9"
+  },
+  "eu-puig-20261028:656": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "bcd6cfef283da4b7aebb3a25bf36dba0323a8ee6587a85b84de40fea9ecd8ab0"
+  },
+  "eu-puig-20261028:674": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "a44acd5a72aca84279c63edbd5d9bebcbc87ca72a8f21887d3e1ab4f14ea6172"
+  },
+  "eu-puig-20261028:705": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "8f1240d8253449d7b198c8068994fc62396767150a9d015ec7ad9422741a4921"
+  },
+  "eu-puig-20261028:771": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "db9eddf373ac6a5268ce9636d461939f986e843945283e3306d15c4eb9ebf3f5"
+  },
+  "eu-puig-20261028:775": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "7fc2f3140999f2330fa4d7796fbf7483c22a8adc939b603f40b3c41f0087b9e9"
+  },
+  "eu-puig-20261028:776": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "7fc2f3140999f2330fa4d7796fbf7483c22a8adc939b603f40b3c41f0087b9e9"
+  },
+  "eu-puig-20261028:782": {
+    "include": true,
+    "reason": "화장품/뷰티 사업 관련 한국 시장·브랜드·생산·경쟁 구간을 공개 전사본에서 직접 확인",
+    "lineSha256": "d9c50844a8767b7dd00d479864d55a14b8a17db2688d78107e184b4bb996cbea"
   }
 }

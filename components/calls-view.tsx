@@ -27,8 +27,22 @@ const callThemes:Record<string,CallTheme[]>={
   {title:"3CE와 닥터지: 한국 브랜드 직접 육성",lines:["528"],summary:"로레알은 인수한 스타일난다의 3CE를 동남아시아에서 확대하고, 닥터지를 스킨케어 해외 확장의 주요 브랜드로 활용하고 있습니다. K뷰티에 대한 관심이 높아진 만큼 한국 브랜드를 직접 확보해 글로벌 유통망으로 키우는 전략입니다. 이 구간에는 길게 인용할 수 있는 독립적인 원문 문장이 확보돼 있지 않습니다."}
  ],
  "eu-puig-20261021":[
-  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"both K-beauty and dermo-cosmetics",quoteKo:"K뷰티와 더마코스메틱 모두",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
+  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"So we see more accessible skincare with good levels of science background in both K-beauty and dermo-cosmetics",quoteKo:"그래서 K뷰티와 더마코스메틱 모두에서 과학적 근거를 갖추면서도 더 접근하기 쉬운 스킨케어 제품을 보고 있습니다.",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
  ]
+};
+
+
+/** Distinguish short verbatim excerpts from fuller, non-verbatim English context. */
+const englishCallContexts:Record<string,string>={
+ "eu-puig-20261021:0":"Circana data cited by Puig show U.S. high-end skincare declining 4.8% year-to-date through August 2026. Management sees consumers turning to more accessible, science-led skincare, including K-beauty and dermo-cosmetics. This pattern extends beyond the U.S., and Puig expects dermo-cosmetics to grow faster than skincare overall.",
+ "eu-puig-20261028:0":"Puig believes the combined fragrance markets of South Korea and Japan are comparable in size to China's fragrance market. Management expects scope for further growth, while an analyst asked how it would build local sales and distribution capabilities.",
+ "eu-puig-20261028:1":"Charlotte Tilbury delivered strong growth in China, yet has not launched in Korea, Japan or Taiwan. Puig sees these countries as future makeup expansion opportunities, supported by local teams and already-growing niche fragrance brands.",
+ "eu-puig-20261028:2":"Puig described Byredo as a major niche fragrance name in Korea and cited brand awareness of approximately 50% there versus roughly 15% in Europe. One speaker called its ranking top two, while another used top five; the ranking methodology was not specified.",
+ "eu-puig-20261028:3":"Puig has established local subsidiaries in South Korea and Japan to support wider expansion. Penhaligon's plans to develop indirect distribution, while Byredo aims to strengthen its existing Korean position.",
+ "eu-loreal-20261022:0":"L'Oréal described the Korean travel-retail market as stable but remained cautious about the quality of the recovery. Unlike stronger conditions in Hainan, management did not view Korea's improvement as sufficient reason to push more stock.",
+ "eu-loreal-20261022:1":"Dr.G is expanding from China and Southeast Asia into the United States, first through online sales and later through physical stores. With K-beauty accelerating, L'Oréal's CEO instructed teams to move faster than the original gradual rollout plan.",
+ "eu-loreal-20261022:2":"The CEO acknowledged the K-beauty boom and said Korean manufacturers also supply global brands, citing the success of YSL cushions in the U.S. He mentioned a recent agreement with Cosmax and estimated Korean brands' skincare growth at around 30%, with global skincare share around 3–4%.",
+ "eu-loreal-20261022:3":"L'Oréal has acquired Korean beauty brands as part of its skincare and makeup expansion. 3CE is being rolled out successfully in Southeast Asia, while Dr.G forms part of the group's international skincare strategy."
 };
 
 export default function CallsView(){
@@ -85,12 +99,18 @@ export default function CallsView(){
       </div>
       <div className="call-theme-meta">검증 구간 {g.lines.length}개 · 공개 전사본 {g.lines.join(" · ")}행</div>
       {g.quoteEn&&<blockquote className="call-theme-quote">
-       <span className="call-theme-quote-label">실제 발언에서 발췌한 짧은 직접 인용</span>
+       <span className="call-theme-quote-label">영어 원문 · 실제 발언에서 발췌</span>
+       <p className="call-theme-quote-en call-theme-quote-featured" lang="en">“<Highlight text={g.quoteEn}/>”</p>
+       {g.secondQuoteEn&&<p className="call-theme-quote-en call-theme-quote-featured call-theme-extra-quote" lang="en">“<Highlight text={g.secondQuoteEn}/>”</p>}
+       <span className="call-theme-translation-label">한국어 번역</span>
        <p className="call-theme-quote-ko">“<Highlight text={g.quoteKo||""}/>”</p>
-       <p className="call-theme-quote-en" lang="en">“<Highlight text={g.quoteEn}/>”</p>
-       {g.secondQuoteEn&&<div className="call-theme-second"><p className="call-theme-quote-ko">“<Highlight text={g.secondQuoteKo||""}/>”</p><p className="call-theme-quote-en" lang="en">“<Highlight text={g.secondQuoteEn}/>”</p></div>}
+       {g.secondQuoteKo&&<p className="call-theme-quote-ko call-theme-extra-quote">“<Highlight text={g.secondQuoteKo}/>”</p>}
       </blockquote>}
-      <div className="call-theme-summary"><span className="call-theme-summary-label">{g.quoteEn?"발언의 전후 맥락":"원문 확인 내용 · 한국어 설명"}</span>
+      <div className="call-theme-english-context">
+        <span className="call-theme-english-label">ENGLISH CONTEXT <small>원문 기반 설명 · 직접 인용 아님</small></span>
+        <p lang="en"><Highlight text={englishCallContexts[d.id+":"+j]||g.matches.map((p:any)=>p.contextEn).filter(Boolean).slice(0,2).join(" ")||"Only a short reference was preserved. Please use the linked transcript for complete surrounding remarks."}/></p>
+      </div>
+      <div className="call-theme-summary"><span className="call-theme-summary-label">발언 전후 맥락 · 한국어 설명</span>
        <p><Highlight text={g.summary}/></p>
       </div>
       <details className="call-theme-source"><summary>근거 위치와 개별 표현 확인 ({g.matches.length}개 구간)</summary>

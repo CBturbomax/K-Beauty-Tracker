@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b1020">
+<title>IR LIVE · 실시간 AI 통역</title>
+<style>
+:root{font-family:Inter,"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#080d19;color:#eef3fc;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse 80% 35% at 65% -10%,#1c3563 0%,transparent 74%),#080d19;min-height:100vh}button,input,select{font:inherit}button{cursor:pointer}.shell{max-width:1160px;margin:auto;padding:22px 23px 60px}
+header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #26334b;padding:8px 0 24px}
+.brand{font-weight:900;letter-spacing:-1.2px;font-size:23px}.brand em{font-style:normal;color:#59deb4}.tag{font-size:11px;padding:8px 11px;border:1px solid #33435b;border-radius:50px;color:#adbed3;letter-spacing:.06em}
+h1{font-size:clamp(30px,5vw,51px);line-height:1.24;letter-spacing:-2px;margin:44px 0 13px}h1 span{color:#5de2b6}
+.subtitle{color:#9fadc1;line-height:1.8;font-size:14px;margin:0 0 33px}
+.layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:17px}
+.panel{border:1px solid #25344d;border-radius:18px;background:#11192b;overflow:hidden}
+.pad{padding:22px}.section{font-weight:750;font-size:15px;display:flex;align-items:center;gap:8px;margin-bottom:22px}.num{color:#4acda6;font-size:11px}
+label{display:block;color:#adbcd0;font-size:12px;margin:18px 0 8px}
+select,input{width:100%;background:#0c1424;border:1px solid #304059;color:#edf3ff;border-radius:10px;padding:13px 12px;outline:none;font-size:14px}
+select:focus,input:focus{border-color:#64ddb8}
+.tip{font-size:11px;line-height:1.65;color:#7f90a9}
+.link{color:#68dfba}.split{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.split button{padding:10px 4px;border:1px solid #31405b;border-radius:8px;background:#11192b;color:#aabbd1;font-size:12px}
+.split button.active{border-color:#5bdfb2;background:#153c39;color:#86f8cf}
+.hr{height:1px;background:#24334b;margin:24px 0}
+.check{display:flex;align-items:center;gap:8px;color:#b5c8db;font-size:12px}.check input{width:auto}
+.main{min-height:570px;display:flex;flex-direction:column}
+.mainhead{display:flex;align-items:center;justify-content:space-between;padding:22px;border-bottom:1px solid #24334b}
+.clock{font-variant-numeric:tabular-nums;color:#a9bed3;font-size:15px}
+.controls{display:flex;flex-wrap:wrap;gap:9px;padding:17px 22px;border-bottom:1px solid #24334b}
+.primary{background:#54deb0;color:#0d1c20;border:0;border-radius:11px;font-weight:850;padding:13px 18px}
+.secondary{background:#1f2a3f;color:#dce9fa;border:1px solid #34435d;border-radius:11px;padding:12px 14px}
+button:disabled{opacity:.4;cursor:not-allowed}
+.status{display:flex;align-items:center;gap:11px;min-height:43px;padding:0 22px;font-size:12px;color:#95a8bf;border-bottom:1px solid #24334b}
+.dot{height:8px;width:8px;border-radius:50%;background:#64748b;flex-shrink:0}
+.dot.on{background:#62deb1;box-shadow:0 0 9px #45d8a6}.dot.bad{background:#ff9686}
+.feed{padding:22px;overflow:auto;flex:1;max-height:56vh;min-height:330px}
+.empty{text-align:center;padding:70px 12px;color:#8094ae;font-size:13px;line-height:1.8}
+.empty .glyph{font-size:45px;color:#65dcb2}
+.entry{padding:14px 0 17px;border-bottom:1px solid #233147}
+.label{font-size:10px;color:#7f96b6;letter-spacing:.12em;font-weight:800;margin:4px 0 9px}
+.original{font-size:14px;line-height:1.75;color:#b7c8dc;white-space:pre-wrap}
+.translation{font-size:19px;font-weight:650;line-height:1.8;color:#ecfff5;white-space:pre-wrap}
+.entry .translation{border-left:2px solid #61deb2;padding-left:12px;margin-top:13px}
+.foot{border-top:1px solid #25344d;padding:15px 22px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.foot button{background:#19263b;border:1px solid #334259;border-radius:8px;color:#bdd0e8;padding:8px 11px;font-size:11px}
+.notice{margin-top:18px;padding:13px 15px;border:1px solid #33445c;border-radius:11px;font-size:11px;color:#97abc3;line-height:1.8}
+@media(max-width:800px){.shell{padding:16px 14px 42px}h1{margin-top:28px;letter-spacing:-1px}.layout{grid-template-columns:1fr}.main{min-height:470px}.feed{max-height:none;min-height:260px}.tag{font-size:9px}.mainhead{padding:17px}.controls{padding:15px}.status{padding:10px 15px}.feed{padding:16px}.translation{font-size:17px}}
+</style></head>
+<body><div class="shell">
+<header><div class="brand">IR <em>LIVE</em><div style="font-size:9px;letter-spacing:.16em;color:#7e93b0;margin-top:4px">SIMULTANEOUS INTERPRETER</div></div><span class="tag">GITHUB PAGES · FREE WEB APP</span></header>
+<h1>말하는 도중에도,<br><span>바로 이해할 수 있게.</span></h1>
+<p class="subtitle">해외 기업탐방을 위한 실시간 AI 동시통역. 아이폰 Safari와 노트북 Chrome에서 같은 주소로 사용하세요.</p>
+<div class="layout">
+<section class="panel"><div class="pad">
+<div class="section"><span class="num">01</span> 통역 설정</div>
+<label>방향 선택</label><div class="split"><button id="in" class="active">외국어 → 한국어</button><button id="out">한국어 → 외국어</button></div>
+<label for="lang">상대방 언어</label><select id="lang"><option value="en">🇺🇸 English (영어)</option><option value="ja">🇯🇵 日本語 (일본어)</option><option value="zh-Hans">🇨🇳 中文 (중국어)</option><option value="es">🇪🇸 Español (스페인어)</option></select>
+<label for="key">Gemini API 키 (최초 테스트용)</label>
+<input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="AIza... API 키 입력"><p class="tip">무료 키는 <a class="link" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>에서 만들 수 있어요. 키는 서버·GitHub·로컬 저장소에 저장하지 않고 이 탭의 메모리에서만 사용합니다. Google Live API 연결 인증 과정에서는 키가 전달되므로 개인 테스트에만 사용하세요.</p>
+<div class="hr"></div><label class="check"><input id="voice" type="checkbox"> 번역 음성도 재생 (이어폰 권장)</label>
+<label class="check" style="margin-top:16px"><input id="rec" type="checkbox" checked> 원본 소리도 녹음</label>
+<p class="tip">녹음은 이 기기에서만 처리하며 중지 후 파일로 저장할 수 있어요.</p>
+</div></section>
+<section class="panel main">
+<div class="mainhead"><div class="section" style="margin:0"><span class="num">02</span> 실시간 자막</div><div class="clock" id="clock">00:00:00</div></div>
+<div class="controls"><button class="primary" id="start">🎙 실시간 통역 시작</button><button class="secondary" id="stop" disabled>■ 종료</button><button class="secondary" id="clear">초기화</button></div>
+<div class="status"><i id="dot" class="dot"></i><span id="status" role="status">준비 완료 · API 키 입력 후 시작하세요.</span></div>
+<div class="feed" id="feed"><div class="empty" id="empty"><div class="glyph">〰</div>마이크로 들리는 말을 실시간 번역합니다.<br>AI와 연결되면 여기서 원문과 한국어 자막을 확인하세요.</div></div>
+<div class="foot"><button id="txt" disabled>↓ 자막 TXT 저장</button><button id="json" disabled>↓ 기록 JSON 저장</button><button id="audio" disabled>↓ 녹음 파일 저장</button></div>
+</section></div>
+<div class="notice">현재는 개인 테스트용 무료 GitHub Pages 버전입니다. 브라우저에 입력한 API 키로 Gemini에 직접 연결하므로 장기 키 보안이 필요한 팀 공유·NDA 미팅에는 사용하지 마세요. Gemini 무료 등급 데이터는 제품 개선에 이용될 수 있습니다. 아이폰은 화면 잠금 시 마이크가 중단될 수 있고, 통역에는 지연·오인식이 발생할 수 있습니다.</div>
+</div>
+<script>
+(function(){
+'use strict';
+const el=id=>document.getElementById(id),MODEL='models/gemini-3.5-live-translate-preview';
+const url='wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent';
+let direction='in',alive=false,connected=false,ws=null,stream=null,ctx=null,src=null,proc=null,silent=null,recorder=null,chunks=[],audioBlob=null,cap=[],current=null,started=0,timer=0,pending=[],left=0,nextSound=0;
+const status=(s,bad)=>{el('status').textContent=s;el('dot').className='dot'+(bad?' bad':connected?' on':'');};
+function target(){return direction==='in'?'ko':el('lang').value}
+function seconds(){let t=Math.floor((Date.now()-started)/1000);return [Math.floor(t/3600),Math.floor(t/60)%60,t%60].map(x=>String(x).padStart(2,'0')).join(':')}
+function update(){el('start').disabled=alive;el('stop').disabled=!alive;el('txt').disabled=!cap.length;el('json').disabled=!cap.length;el('audio').disabled=!audioBlob;}
+function choose(d){if(alive)return status('언어 방향을 변경하려면 통역을 종료한 뒤 다시 시작하세요.',true);direction=d;el('in').className=d==='in'?'active':'';el('out').className=d==='out'?'active':'';}
+el('in').onclick=()=>choose('in');el('out').onclick=()=>choose('out');
+function join(a,b){if(!a)return b;if(a.endsWith(b))return a;if(b.startsWith(a))return b;return a+((/[a-zA-Z0-9]$/.test(a)&&/^[a-zA-Z0-9]/.test(b))?' ':'')+b;}
+function add(kind,text){if(typeof text!=='string'||!text.trim())return;const now=Date.now();if(!current||now-current.last>5000){
+current={time:seconds(),original:'',translation:'',last:now};
+cap.push(current);el('empty')?.remove();const box=document.createElement('div');box.className='entry';
+const time=document.createElement('div');time.className='label';time.textContent=current.time;const org=document.createElement('div');org.className='original';const tr=document.createElement('div');tr.className='translation';box.append(time,org,tr);el('feed').append(box);current.org=org;current.tr=tr;
+}current.last=now;current[kind]=join(current[kind],text);current.org.textContent=current.original||'원문 인식 중...';current.tr.textContent=current.translation||'번역 중...';el('feed').scrollTop=el('feed').scrollHeight;update();}
+function b64(bytes){let s='';for(let j=0;j<bytes.length;j+=8192)s+=String.fromCharCode.apply(null,bytes.subarray(j,j+8192));return btoa(s);}
+function play(base64){if(!ctx||!el('voice').checked)return;try{const x=atob(base64),count=Math.floor(x.length/2);if(!count)return;const b=ctx.createBuffer(1,count,24000),a=b.getChannelData(0);for(let i=0;i<count;i++){let v=x.charCodeAt(i*2)|(x.charCodeAt(i*2+1)<<8);if(v>32767)v-=65536;a[i]=v/32768;}const s=ctx.createBufferSource();s.buffer=b;s.connect(ctx.destination);nextSound=Math.max(ctx.currentTime+.05,nextSound);if(nextSound>ctx.currentTime+2)nextSound=ctx.currentTime+.05;s.start(nextSound);nextSound+=b.duration;}catch(e){console.warn(e);}}
+function audioSetup(){src=ctx.createMediaStreamSource(stream);proc=ctx.createScriptProcessor(4096,1,1);silent=ctx.createGain();silent.gain.value=0;src.connect(proc);proc.connect(silent);silent.connect(ctx.destination);proc.onaudioprocess=e=>{const input=e.inputBuffer.getChannelData(0),step=ctx.sampleRate/16000;for(let p=left;p<input.length;p+=step){pending.push(Math.max(-1,Math.min(1,input[Math.floor(p)]||0)));if(pending.length>=1600){const buf=new ArrayBuffer(3200),dv=new DataView(buf);for(let i=0;i<1600;i++){let v=pending[i];dv.setInt16(i*2,v<0?v*32768:v*32767,true);}pending=[];if(connected&&ws?.readyState===WebSocket.OPEN&&ws.bufferedAmount<800000)ws.send(JSON.stringify({realtimeInput:{audio:{data:b64(new Uint8Array(buf)),mimeType:'audio/pcm;rate=16000'}}}));}}left=p<input.length?p:p-input.length;};}
+function recordStart(){if(!el('rec').checked||!window.MediaRecorder)return;try{const type=['audio/mp4','audio/webm;codecs=opus','audio/webm'].find(x=>MediaRecorder.isTypeSupported(x));recorder=new MediaRecorder(stream,type?{mimeType:type}:undefined);chunks=[];audioBlob=null;recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onstop=()=>{audioBlob=new Blob(chunks,{type:recorder.mimeType||type||'audio/webm'});update();};recorder.start(5000);}catch(e){status('녹음 저장이 불가능하지만 통역은 진행합니다.',true);}}
+function connect(key){return new Promise((resolve,reject)=>{let ready=false;ws=new WebSocket(url+'?key='+encodeURIComponent(key));const timeout=setTimeout(()=>{if(!ready){ws?.close();reject(new Error('Gemini 연결 시간 초과'));}},15000);ws.onopen=()=>ws.send(JSON.stringify({setup:{model:MODEL,generationConfig:{responseModalities:['AUDIO'],inputAudioTranscription:{},outputAudioTranscription:{},translationConfig:{targetLanguageCode:target(),echoTargetLanguage:false}}}}));ws.onmessage=async e=>{try{const str=typeof e.data==='string'?e.data:await e.data.text(),m=JSON.parse(str);if(m.setupComplete){ready=true;connected=true;clearTimeout(timeout);status('LIVE · 마이크가 보내는 소리를 실시간 번역 중');resolve();}const c=m.serverContent;if(c){if(c.inputTranscription?.text)add('original',c.inputTranscription.text);if(c.outputTranscription?.text)add('translation',c.outputTranscription.text);if(el('voice').checked&&c.modelTurn?.parts)c.modelTurn.parts.forEach(p=>{if(p.inlineData?.data)play(p.inlineData.data);});}if(m.goAway)status('세션 종료 예고 · 종료 후 다시 시작하세요',true);}catch(err){console.error(err);}};ws.onerror=()=>{if(!ready){clearTimeout(timeout);reject(new Error('Gemini 연결 오류 · API 키와 무료 할당량 확인'));}else status('연결 오류 · 종료 후 다시 시작하세요',true);};ws.onclose=e=>{clearTimeout(timeout);connected=false;if(!ready)reject(new Error('AI 접속이 종료됨 ('+e.code+'). API 키·모델 권한 확인'));else if(alive)status('AI 세션 종료 ('+e.code+'). 종료 후 다시 시작하세요',true);};});}
+async function stop(){alive=false;connected=false;clearInterval(timer);try{ws?.close();}catch(e){}ws=null;try{if(recorder?.state==='recording')recorder.stop();}catch(e){}try{proc?.disconnect();src?.disconnect();silent?.disconnect();}catch(e){}proc=src=silent=null;try{stream?.getTracks().forEach(t=>t.stop());}catch(e){}stream=null;try{await ctx?.close();}catch(e){}ctx=null;status('종료되었습니다 · 기록 저장 가능');update();}
+el('start').onclick=async()=>{if(alive)return;const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);if(!navigator.mediaDevices?.getUserMedia)return status('HTTPS 환경의 Safari/Chrome이 필요합니다.',true);alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();status('마이크 허용을 기다립니다...');try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true},video:false});ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);status('Gemini Live 서버에 연결 중...');await connect(key);el('key').value='';}catch(e){await stop();status(e.message||String(e),true);}};
+el('stop').onclick=stop;
+el('clear').onclick=()=>{if(alive)return status('먼저 통역을 종료하세요.',true);cap=[];current=null;audioBlob=null;el('clock').textContent='00:00:00';el('feed').innerHTML='<div class="empty" id="empty">새로운 미팅을 시작할 수 있습니다.</div>';update();};
+function dl(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500);}
+el('txt').onclick=()=>dl(new Blob([cap.map(c=>'['+c.time+'] 원문: '+c.original+'\n['+c.time+'] 번역: '+c.translation).join('\n\n')],{type:'text/plain;charset=utf-8'}),'IR-LIVE-'+new Date().toISOString().slice(0,10)+'.txt');
+el('json').onclick=()=>dl(new Blob([JSON.stringify(cap.map(c=>({time:c.time,original:c.original,translation:c.translation})),null,2)],{type:'application/json'}),'IR-LIVE-'+new Date().toISOString().slice(0,10)+'.json');
+el('audio').onclick=()=>{if(audioBlob)dl(audioBlob,'IR-LIVE-audio.'+(audioBlob.type.includes('mp4')?'m4a':'webm'));};
+window.addEventListener('pagehide',()=>{ws?.close();stream?.getTracks().forEach(t=>t.stop());});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&alive)status('화면 잠금·백그라운드 전환 시 마이크가 중단될 수 있습니다.',true);});
+update();
+})();
+</script>
+</body></html>

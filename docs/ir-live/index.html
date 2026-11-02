@@ -299,8 +299,8 @@ function isKoreanTranscript(text,languageCode=''){
  const lang=String(languageCode||'').toLowerCase();
  if(lang==='ko'||lang.startsWith('ko-'))return true;
  if(lang&&lang!=='und')return false;
- const letters=(String(text||'').match(/\\p{L}/gu)||[]).length;
- const hangul=(String(text||'').match(/\\p{Script=Hangul}/gu)||[]).length;
+ const letters=(String(text||'').match(/\p{L}/gu)||[]).length;
+ const hangul=(String(text||'').match(/\p{Script=Hangul}/gu)||[]).length;
  return hangul>=2&&letters>0&&hangul/letters>=.45;
 }
 function chooseKoreanCaption(original,translation,languageCode=''){

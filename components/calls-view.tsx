@@ -11,6 +11,26 @@ const highlightPattern=/(K[ -]?뷰티|K[ -]?beauty|한국(?:의|에서|과|·일
 function Highlight({text}:{text:string}){return <>{text.split(highlightPattern).map((t,i)=>i%2?<mark key={i}>{t}</mark>:<Fragment key={i}>{t}</Fragment>)}</>}
 function Choice({value,options,onChange,label}:{value:string;options:string[];onChange:(v:string)=>void;label:string}){return <div className="calls-choices" role="group" aria-label={label}>{options.map(o=><button key={o} aria-pressed={o===value} onClick={()=>onChange(o)}>{o}</button>)}</div>}
 
+
+type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
+const callThemes:Record<string,CallTheme[]>={
+ "eu-puig-20261028":[
+  {title:"한국·일본 향수시장 규모와 성장 가능성",lines:["177","771","782"],quoteEn:"South Korea and Japan, they represent roughly the size of China",quoteKo:"한국과 일본을 합치면 대략 중국과 비슷한 규모입니다.",summary:"Puig는 한국·일본 향수 시장을 합하면 중국에 맞먹는 규모라고 평가했습니다. 소비자의 향수 사용 빈도가 늘면서 성장 기회가 커지고 있으며, 애널리스트는 이를 확대할 때 현지 조직과 유통업체 중 어떤 방식을 택할지 질문했습니다."},
+  {title:"샬롯틸버리: 한국은 아직 미진출 시장",lines:["206","216","705"],quoteEn:"Japan, Korea, and Taiwan",quoteKo:"일본, 한국, 대만",summary:"샬롯틸버리는 중국에서 2025년 28%, 2026년 1~9월 38% 성장했다고 설명했습니다. 한국·일본은 아직 샬롯틸버리 미진출 지역으로, 회사는 현지법인을 기반으로 메이크업 유통을 확장할 여지를 보고 있습니다. 기존 한국 매출이 급증했다는 뜻은 아닙니다."},
+  {title:"바이레도: 한국 순위와 브랜드 인지도",lines:["444","656","776"],quoteEn:"top two in Korea",quoteKo:"한국에서는 2위권입니다.",secondQuoteEn:"50% awareness in Korea",secondQuoteKo:"한국에서 인지도는 약 50%입니다.",summary:"바이레도를 한국에서 약 2위, 다른 발표에서는 5위권이라고 표현해 정확한 순위 기준은 통일되어 있지 않습니다. 회사는 한국에서 바이레도 인지도가 약 50%로 유럽 약 15%를 크게 웃돈다고 설명했습니다. 인지도 50%는 시장점유율 50%가 아닙니다."},
+  {title:"한국 법인·니치 향수 유통망 확대",lines:["445","557","674","775"],summary:"Puig는 한국·일본에 현지법인을 두고 니치 향수와 메이크업 포트폴리오의 성장을 추진하고 있습니다. 펜할리곤스는 한국·일본에서 간접 유통망을 확대하고, 바이레도는 기존 한국 사업 기반을 강화한다는 계획입니다. 이 구간의 영어 원문은 대부분 한국이라는 단어뿐이어서 요약을 직접인용처럼 표시하지 않았습니다."}
+ ],
+ "eu-loreal-20261022":[
+  {title:"한국 면세시장: 회복은 확인되지만 신중하게 접근",lines:["185"],quoteEn:"The Korean market was stable",quoteKo:"한국 시장은 안정적이었습니다.",summary:"하이난 면세점 매출은 긍정적이었지만 중국 본토는 재고를 보충하는 과정이었습니다. 로레알은 한국 면세시장도 안정적이라고 판단하면서 반등의 질이 확실치 않다며 공급량을 공격적으로 늘리지 않았습니다."},
+  {title:"닥터지: 미국 온라인 진출과 해외 확장 가속",lines:["220","221","222","529","530"],quoteEn:"I have asked everybody to really gear up and go faster",quoteKo:"모두에게 속도를 높이고 더 빨리 추진하라고 지시했습니다.",summary:"닥터지는 중국과 동남아 진출에 이어 미국 온라인과 TikTok Shop을 통해 판매를 확대하고, 이후 오프라인으로 넓혀갈 계획입니다. CEO는 K뷰티의 빠른 확산을 보고 당초 점진적이던 닥터지 글로벌 진출 속도를 높이라고 지시했습니다. 동남아 성과가 서구권에서도 재현될지가 핵심입니다."},
+  {title:"K뷰티 성장 전망·코스맥스와 MOU",lines:["486","525","526","527"],quoteEn:"I signed recently an MoU with Cosmax",quoteKo:"저는 최근 코스맥스와 업무협약을 체결했습니다.",summary:"애널리스트가 한국 스킨케어 매장 증가에 대한 로레알의 대응을 물었습니다. CEO는 K뷰티의 성장세를 인정하면서 한국 ODM 업체가 글로벌 브랜드도 제조한다고 설명했고, YSL 쿠션의 미국 성과를 사례로 들었습니다. 한국 스킨케어 브랜드 성장률 약 30%, 시장점유율 약 3~4%는 CEO의 추정치입니다."},
+  {title:"3CE와 닥터지: 한국 브랜드 직접 육성",lines:["528"],summary:"로레알은 인수한 스타일난다의 3CE를 동남아시아에서 확대하고, 닥터지를 스킨케어 해외 확장의 주요 브랜드로 활용하고 있습니다. K뷰티에 대한 관심이 높아진 만큼 한국 브랜드를 직접 확보해 글로벌 유통망으로 키우는 전략입니다. 이 구간에는 길게 인용할 수 있는 독립적인 원문 문장이 확보돼 있지 않습니다."}
+ ],
+ "eu-puig-20261021":[
+  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"both K-beauty and dermo-cosmetics",quoteKo:"K뷰티와 더마코스메틱 모두",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
+ ]
+};
+
 export default function CallsView(){
  const [region,setRegion]=useState('전체'),[company,setCompany]=useState<string|null>(null),[period,setPeriod]=useState<string|null>(null),[search,setSearch]=useState('');
  const resultsRef=useRef<HTMLDivElement>(null);
@@ -47,18 +67,42 @@ export default function CallsView(){
    if(i.evidence){const d=i.evidence;return <article className="call-note call-evidence-note" key={d.id} data-source-id={d.id} data-mention-count={d.count}>
     <div className="call-note-top"><button className="call-company" onClick={()=>select(i.company)}><i className={c.type==='브랜드'?'brand-dot':'retail-dot'}/>{c.ko}<span>{c.ticker}</span></button><time dateTime={d.date}>{d.date}</time><b className="evidence-call-total">{d.count}회</b></div>
     <div className="call-event">{d.title}</div><div className="evidence-source">출처: {d.source} · {d.coverage}{d.callId?` · 콜 ${d.callId}`:''}{d.url&&<> · <a href={d.url} target="_blank" rel="noreferrer">전체 원문 ↗</a></>}</div>
-    <div className="evidence-passages">{d.segments.map((p:any,j:number)=><section className="evidence-passage" key={p.id} data-passage-count={p.count}>
-     <div className="evidence-passage-head"><span className="evidence-position">{String(j+1).padStart(2,'0')} · {p.location}</span><b>{p.count}회 <span>{p.terms.map((t:any)=>`${t.term} ×${t.count}`).join(' · ')}</span></b></div>
-     <blockquote className="evidence-quote evidence-quote-primary">
-       <div className="evidence-quote-ko"><span className="evidence-label">실제 발언 · 한국어 번역</span><p>“<Highlight text={p.ko}/>”</p></div>
-       <div className="evidence-quote-en"><span className="evidence-label">영어 원문</span><p lang="en">“<Highlight text={p.en}/>”</p></div>
-     </blockquote>
-     <details className="evidence-context-details">
-       <summary>발언 전후 맥락 · 투자 해설 <span>원문 근거의 요약이며 직접 인용 아님</span></summary>
-       <p className="evidence-context-ko"><Highlight text={p.context}/></p>
-       {p.contextEn&&<p className="evidence-context-en" lang="en"><Highlight text={p.contextEn}/></p>}
-     </details>
-    </section>)}</div>
+    <div className="evidence-passages">{(()=>{
+     const definitions=callThemes[d.id];
+     const groups=definitions?definitions.map(g=>{
+      const matches=g.lines.map(line=>d.segments.find((p:any)=>String(p.line)===line)).filter(Boolean);
+      return {...g,matches,count:matches.reduce((sum:number,p:any)=>sum+p.count,0)};
+     }):d.segments.map((p:any)=>({
+      title:p.speaker&&p.speaker!=='경영진'?p.speaker:"원문 발언",
+      lines:[String(p.line)],matches:[p],count:p.count,summary:p.context,
+      quoteEn:p.en.trim().split(/\s+/).length>=4?p.en:undefined,
+      quoteKo:p.en.trim().split(/\s+/).length>=4?p.ko:undefined
+     }));
+     return groups.map((g:any,j:number)=><section className="evidence-passage call-theme" key={d.id+"-"+j} data-passage-count={g.count}>
+      <div className="evidence-passage-head">
+       <span className="evidence-position">{String(j+1).padStart(2,'0')} · {g.title}</span>
+       <b>{g.count}회</b>
+      </div>
+      <div className="call-theme-meta">검증 구간 {g.lines.length}개 · 공개 전사본 {g.lines.join(" · ")}행</div>
+      {g.quoteEn&&<blockquote className="call-theme-quote">
+       <span className="call-theme-quote-label">실제 발언에서 발췌한 짧은 직접 인용</span>
+       <p className="call-theme-quote-ko">“<Highlight text={g.quoteKo||""}/ >”</p>
+       <p className="call-theme-quote-en" lang="en">“<Highlight text={g.quoteEn}/ >”</p>
+       {g.secondQuoteEn&&<div className="call-theme-second"><p className="call-theme-quote-ko">“<Highlight text={g.secondQuoteKo||""}/ >”</p><p className="call-theme-quote-en" lang="en">“<Highlight text={g.secondQuoteEn}/ >”</p></div>}
+      </blockquote>}
+      <div className="call-theme-summary"><span className="call-theme-summary-label">{g.quoteEn?"발언의 전후 맥락":"원문 확인 내용 · 한국어 설명"}</span>
+       <p><Highlight text={g.summary}/></p>
+      </div>
+      <details className="call-theme-source"><summary>근거 위치와 개별 표현 확인 ({g.matches.length}개 구간)</summary>
+       <div className="call-theme-source-list">{g.matches.map((p:any)=><div key={p.id}>
+        <span className="source-position">{p.location}</span>
+        <span>{p.speaker||"전사본 화자 미상"}</span>
+        <span>{p.count}회: {p.terms.map((t:any)=>t.term+" ×"+t.count).join(" · ")}</span>
+       </div>)}</div>
+       {d.url&&<a href={d.url} target="_blank" rel="noreferrer">전사본의 전체 문맥 확인 ↗</a>}
+      </details>
+     </section>)
+    })()}</div>
    </article>}
    return <article className="call-note" key={`${i.company}-${i.date}-${i.index}`}>
     <div className="call-note-top"><button className="call-company" onClick={()=>select(i.company)}><i className={c.type==='브랜드'?'brand-dot':'retail-dot'}/>{c.ko}<span>{c.ticker}</span></button><time dateTime={i.date}>{i.date}</time></div>

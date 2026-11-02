@@ -610,9 +610,9 @@ el('start').onclick=async()=>{
 };
 el('clear').onclick=()=>{if(alive)return status('먼저 통역을 종료하세요.',true);cap=[];current=null;audioBlob=null;el('clock').textContent='00:00:00';el('stat-time').textContent='00:00:00';el('feed').innerHTML='<div class="empty" id="empty">새로운 미팅을 시작할 수 있습니다.</div>';update();};
 function dl(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500);}
-el('txt').onclick=()=>dl(new Blob([cap.map(c=>'['+c.time+'] 원문: '+c.original+'\n['+c.time+'] 번역: '+c.translation).join('\n\n')],{type:'text/plain;charset=utf-8'}),'IR-LIVE-'+new Date().toISOString().slice(0,10)+'.txt');
-el('json').onclick=()=>dl(new Blob([JSON.stringify(cap.map(c=>({time:c.time,original:c.original,translation:c.translation})),null,2)],{type:'application/json'}),'IR-LIVE-'+new Date().toISOString().slice(0,10)+'.json');
-el('audio').onclick=()=>{if(audioBlob)dl(audioBlob,'IR-LIVE-audio.'+(audioBlob.type.includes('mp4')?'m4a':'webm'));};
+el('txt').onclick=()=>dl(new Blob([cap.map(c=>'['+c.time+'] 원문: '+c.original+'\n['+c.time+'] 번역: '+c.translation).join('\n\n')],{type:'text/plain;charset=utf-8'}),'Live-Samurai-'+new Date().toISOString().slice(0,10)+'.txt');
+el('json').onclick=()=>dl(new Blob([JSON.stringify(cap.map(c=>({time:c.time,original:c.original,translation:c.translation})),null,2)],{type:'application/json'}),'Live-Samurai-'+new Date().toISOString().slice(0,10)+'.json');
+el('audio').onclick=()=>{if(audioBlob)dl(audioBlob,'Live-Samurai-audio.'+(audioBlob.type.includes('mp4')?'m4a':'webm'));};
 window.addEventListener('pagehide',()=>{ws?.close();stream?.getTracks().forEach(t=>t.stop());});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&alive)status('화면 잠금·백그라운드 전환 시 마이크가 중단될 수 있습니다.',true);});
 if(navigator.mediaDevices?.addEventListener)navigator.mediaDevices.addEventListener('devicechange',refreshMics);

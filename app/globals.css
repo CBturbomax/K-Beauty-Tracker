@@ -129,3 +129,12 @@
 
 /* Keep the same desktop canvas on phones; allow horizontal pan and pinch zoom. */
 body{min-width:1280px}
+
+/* Expanded multilingual earnings call context */
+.evidence-context-expanded{margin:14px 0;padding:17px 20px;background:#111b24;border:1px solid #2a3542}
+.evidence-context-title{font-size:17px;font-weight:800;color:#FFCB05;margin-bottom:8px}
+.evidence-context-title small{font-size:15px;color:#8b98a5;font-weight:400;margin-left:8px}
+.evidence-context-title-en{color:#8b98a5;margin-top:14px;font-size:15px}
+.evidence-context-ko{font-size:20px;line-height:1.8;color:#fff;word-break:keep-all;margin:0}
+.evidence-context-en{font-size:18px;line-height:1.75;color:#aab9c8;overflow-wrap:anywhere;margin:0}
+.evidence-quote{margin-top:12px}

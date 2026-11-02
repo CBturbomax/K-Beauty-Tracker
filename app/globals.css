@@ -183,3 +183,9 @@ body{min-width:1280px}
 .call-theme-english-label{display:block;color:#aabdd1;font-size:17px;letter-spacing:.02em;font-weight:800;margin-bottom:9px}
 .call-theme-english-label small{font-size:15px;color:#8999a8;font-weight:400;margin-left:9px;letter-spacing:0}
 .call-theme-english-context p{margin:0;font-size:19px;line-height:1.85;color:#e4eaf2;overflow-wrap:anywhere}
+
+
+/* Source-first excerpt formatting: wrap genuine English speech across 2–3 readable lines. */
+.call-theme-quote-featured{max-width:760px;font-size:21px!important;line-height:1.8!important;white-space:normal;overflow-wrap:normal;word-break:normal}
+.call-theme-quote-ko{max-width:840px}
+.call-theme-english-context{display:none!important}

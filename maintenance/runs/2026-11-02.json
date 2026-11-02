@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-02T01:35:38.125916+00:00",
+  "baseCommit": "a9013db8541cb018210d81e531b79349242ce171",
+  "datasets": {
+    "trade": {
+      "label": "수출입",
+      "checkedAt": "2026-11-02T01:35:38.125916+00:00",
+      "status": "partial",
+      "latest": "2026-09",
+      "message": "9월 공식 전국 수입 84,082,404 USD 및 23개국 수입을 기존 시계열에 보완. 공식 HS3304·카테고리·국가별 조회 완료. 수출은 삼성 기준 보존; 전체 국가 원장 대조 미완료. 10월 권역 전체월 원문은 공개 검색·수신 메일에서 미확보."
+    },
+    "financials": {
+      "label": "ODM 별도 손익",
+      "checkedAt": "2026-11-02T01:36:24.974969+00:00",
+      "status": "no_change",
+      "latest": "2Q26",
+      "message": "3사 OFS 최근 4분기 매출·영업이익 24개 값 일치. 최근 45일 정기·잠정 공시 확인. 코스맥스 10/29 정정은 자기주식 기재·첨부 보완으로 손익 변경 없음. 최신 별도 실적 2Q26."
+    },
+    "calls": {
+      "label": "컨콜",
+      "checkedAt": "2026-11-02T01:35:38.125916+00:00",
+      "status": "partial",
+      "latest": "2026-10-29",
+      "message": "미국 11사·유럽 5사 조회. 10월 신규 전문 7건·기존 미확보 전문 4건 반영, 한국 화장품 관련 27회 추가. 과거 미확보 126건 제공 상태 재조회. 남은 전문 보완 122건·발췌 6건 및 Puig 10/28 CMD 전문은 미완료. 에스티로더 11/2 콜은 아직 시작 전."
+    }
+  },
+  "newCallIds": [
+    230409,
+    175295,
+    219266
+  ],
+  "newEuropeCalls": [
+    "L’Oréal 2026-10-22",
+    "LVMH 2026-10-12",
+    "Beiersdorf 2026-10-27",
+    "Puig 2026-10-21"
+  ],
+  "backfilledCallIds": [
+    113364,
+    180190,
+    115237,
+    168984
+  ],
+  "addedMentions": 27,
+  "nationalImportsUsd": 84082404,
+  "countryImportsUpdated": 23,
+  "exportSourceVintagesPreserved": true,
+  "limitations": [
+    "10월 권역 수출 미반영",
+    "9월 공식 전체 국가 원장 대조 미완료",
+    "컨콜 과거 전문 122건·발췌 6건 및 Puig CMD 전문 미완료"
+  ],
+  "cosmaxCorrection": {
+    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000602",
+    "scope": "Treasury-share disclosures; no income statement correction"
+  },
+  "validation": {
+    "data": "passed",
+    "mentionCounterTests": "12 passed",
+    "tradeSeriesRegression": "passed",
+    "npmCi": "passed",
+    "typecheckAndBuild": "passed"
+  }
+}

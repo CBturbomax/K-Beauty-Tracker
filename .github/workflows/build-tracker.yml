@@ -34,13 +34,13 @@ jobs:
         with:
           node-version: '22'
           cache: npm
+      - name: Install dependencies
+        run: npm ci
       - name: Validate datasets and source evidence
         run: |
           python3 scripts/validate-update.py
           node scripts/test-trade-series.mjs
           python3 -m unittest discover -s scripts -p 'test_*.py'
-      - name: Install dependencies
-        run: npm ci
       - name: Build static site
         run: npm run build
       - name: Commit rebuilt GitHub Pages files

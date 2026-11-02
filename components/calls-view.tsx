@@ -14,6 +14,12 @@ function Choice({value,options,onChange,label}:{value:string;options:string[];on
 
 type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
 const callThemes:Record<string,CallTheme[]>={
+ "176620":[
+  {title:"한국 메이크업: MAC 점유율 상승·톰포드 시장 성장률 상회",lines:["111","112"],quoteEn:"gained share in China, Japan, and Korea",quoteKo:"중국·일본·한국에서 점유율을 높였습니다.",summary:"발표부 · CEO 스테판 드 라 파브리. MAC은 2026년 7~9월 한국·중국·일본에서 프레스티지 메이크업 점유율이 상승했습니다. TOM FORD도 이들 시장에서 프레스티지 메이크업 시장 전체보다 빠르게 성장했습니다. 두 브랜드 모두 분기 매출 두 자릿수 성장에 기여했습니다."},
+  {title:"한국 향수: 럭셔리 향수 점유율 확대",lines:["199","203"],quoteEn:"share gain in China, in Korea, in Japan",quoteKo:"중국·한국·일본에서 점유율을 높였습니다.",summary:"Q&A · 도이체방크 Steve Powers의 향수 성장 질문에 대한 CEO 답변. 에스티로더는 TOM FORD·Le Labo 등 럭셔리 향수가 한국에서도 점유율을 높이고 있다고 두 차례 언급했습니다. 글로벌 향수 매출 성장률은 20%이며 한국 개별 증가율은 공개하지 않았습니다."},
+  {title:"한국 면세: 관광객 복귀로 매출 안정화",lines:["113","252","263"],quoteEn:"retail sales stabilizing thanks to Korea",quoteKo:"한국 덕분에 소매판매가 안정화됐습니다.",summary:"발표부 1회 + Q&A 2회. CEO는 한국 면세 소매판매와 중국 하이난 온라인 면세가 아시아 성장에 기여했다고 설명했습니다. 오펜하이머 Rupesh Parikh 질문에는 중국인 관광객의 아시아 역내 여행 복귀를, 씨티 Filippo Falorni 질문에는 한국·하이난·서구의 면세 회복을 재확인했습니다. 이는 한국 시장·면세 관련 언급이며 한국 브랜드 수출 성과가 아닙니다."}
+ ],
+
  "eu-puig-20261028":[
   {title:"한국·일본 향수시장 규모와 성장 가능성",lines:["177","771","782"],quoteEn:"South Korea and Japan, they represent roughly the size of China",quoteKo:"한국과 일본을 합치면 대략 중국과 비슷한 규모입니다.",summary:"Puig는 한국·일본 향수 시장을 합하면 중국에 맞먹는 규모라고 평가했습니다. 소비자의 향수 사용 빈도가 늘면서 성장 기회가 커지고 있으며, 애널리스트는 이를 확대할 때 현지 조직과 유통업체 중 어떤 방식을 택할지 질문했습니다."},
   {title:"샬롯틸버리: 한국은 아직 미진출 시장",lines:["206","216","705"],quoteEn:"Japan, Korea, and Taiwan",quoteKo:"일본, 한국, 대만",summary:"샬롯틸버리는 중국에서 2025년 28%, 2026년 1~9월 38% 성장했다고 설명했습니다. 한국·일본은 아직 샬롯틸버리 미진출 지역으로, 회사는 현지법인을 기반으로 메이크업 유통을 확장할 여지를 보고 있습니다. 기존 한국 매출이 급증했다는 뜻은 아닙니다."},
@@ -99,7 +105,7 @@ export default function CallsView(){
       <details className="call-theme-source"><summary>근거 위치와 개별 표현 확인 ({g.matches.length}개 구간)</summary>
        <div className="call-theme-source-list">{g.matches.map((p:any)=><div key={p.id}>
         <span className="source-position">{p.location}</span>
-        <span>{p.speaker||"전사본 화자 미상"}</span>
+        <span>{p.speaker||"전사본 화자 미상"}{p.section==="qna"?" · Q&A":p.section==="prepared"?" · 발표부":""}{p.questioner?` · ${p.questioner} 질문`:""}</span>
         <span>{p.count}회: {p.terms.map((t:any)=>t.term+" ×"+t.count).join(" · ")}</span>
        </div>)}</div>
        {d.url&&<a href={d.url} target="_blank" rel="noreferrer">전사본의 전체 문맥 확인 ↗</a>}

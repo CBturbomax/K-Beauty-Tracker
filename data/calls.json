@@ -133,9 +133,9 @@
       "region": "유럽(프랑스)",
       "type": "브랜드",
       "source": "Investing.com 요지 + 공개 전사본(stockanalysis)·TIKR 원문",
-      "hit": 35,
-      "checked": 28,
-      "last": "2026-10-22"
+      "hit": 13,
+      "checked": 27,
+      "last": "2026-09"
     },
     {
       "name": "LVMH (Sephora)",
@@ -155,9 +155,9 @@
       "region": "유럽(독일)",
       "type": "브랜드",
       "source": "Investing.com 요지 + IR 발표문·공개 전사본(TickerTrends)·TIKR 원문",
-      "hit": 6,
-      "checked": 12,
-      "last": "2026-10-27"
+      "hit": 4,
+      "checked": 11,
+      "last": "2026-08"
     },
     {
       "name": "Puig",
@@ -166,8 +166,8 @@
       "region": "유럽(스페인)",
       "type": "브랜드",
       "source": "Investing.com 요지 + 공개 전사본(stockanalysis)",
-      "hit": 9,
-      "checked": 14,
+      "hit": 7,
+      "checked": 13,
       "last": "2026-10-28"
     },
     {

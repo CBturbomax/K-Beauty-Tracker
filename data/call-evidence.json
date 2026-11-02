@@ -4033,7 +4033,7 @@
         "id": "eu-puig-20261028:177",
         "en": "South Korea",
         "ko": "한국",
-        "context": "한국을 미국·중국·일본과 함께 향수 소비 확대가 가능한 주요 시장으로 거론.",
+        "context": "회사는 향수 사용 빈도가 늘어날 수 있는 시장으로 미국·중국·일본과 한국을 함께 언급했습니다. 향수에 대한 브랜드 인지와 상품 발견이 확대되면 시장 전체가 성장할 수 있다는 설명입니다. 한국 브랜드의 해외 성적이 아니라 한국 소비시장의 가능성을 뜻합니다.",
         "line": 177,
         "location": "공개 전사본 177행",
         "speaker": "경영진",
@@ -4043,13 +4043,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Puig sees fragrance adoption broadening in several historically underdeveloped markets, including South Korea. Increasing awareness and usage frequency could support category growth over time."
       },
       {
         "id": "eu-puig-20261028:206",
         "en": "Korea",
         "ko": "한국",
-        "context": "한국 신설 법인으로 니치 향수 및 샬롯틸버리 성장을 추진하며 강한 성장세를 언급.",
+        "context": "샬롯틸버리의 중국 사업은 2025년 28%, 2026년 첫 9개월 38% 성장했다고 설명했습니다. 한국·일본에 설립한 현지법인에서도 이런 확장 전략을 시도할 수 있다고 보고 있습니다. 양국에서 니치 향수는 이미 높은 두 자릿수 성장을 기록했지만 샬롯틸버리는 아직 진출하지 않았습니다.",
         "line": 206,
         "location": "공개 전사본 206행",
         "speaker": "경영진",
@@ -4059,13 +4060,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Puig wants to extend lessons from Charlotte Tilbury's fast growth in China into Japan and Korea. Its niche fragrance operations are growing rapidly there, but Charlotte Tilbury itself has not yet launched."
       },
       {
         "id": "eu-puig-20261028:216",
         "en": "Korea",
         "ko": "한국",
-        "context": "샬롯틸버리가 아직 진출하지 않은 한국을 핵심 메이크업 잠재 시장으로 거론.",
+        "context": "샬롯틸버리는 중국에서도 주요 경쟁사보다 입점 매장이 훨씬 적다고 설명했습니다. 한국·일본·대만 역시 아직 미진출 시장이지만 전략적으로 중요한 메이크업 소비시장으로 평가했습니다. 회사가 강조한 것은 기존 판매 실적보다 앞으로의 유통 확대 여지입니다.",
         "line": 216,
         "location": "공개 전사본 216행",
         "speaker": "경영진",
@@ -4075,13 +4077,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Charlotte Tilbury remains under-distributed even where it already operates. Korea, Japan and Taiwan are significant makeup markets where the brand has yet to enter, leaving potential room for launches."
       },
       {
         "id": "eu-puig-20261028:444",
         "en": "Korea",
         "ko": "한국",
-        "context": "바이레도가 한국에서 높은 순위를 보유한다고 설명. 동일 행사 내 순위 언급이 달라 기준 추가 확인이 필요함.",
+        "context": "경영진은 바이레도의 아시아 입지를 강조하며 중국 6위, 일본 7위, 한국 2위라는 순위를 제시했습니다. 아시아 매출을 늘리면서도 마진을 훼손하지 않겠다는 전략을 설명하는 맥락입니다. 다른 발표자는 한국 5위권이라고도 표현했으므로 순위의 기준은 추가 확인이 필요합니다.",
         "line": 444,
         "location": "공개 전사본 444행",
         "speaker": "경영진",
@@ -4091,13 +4094,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "An executive highlighted Byredo's strong regional market positions as evidence of Asian demand for niche fragrance. One presentation called it second in Korea, while another used a top-five characterization."
       },
       {
         "id": "eu-puig-20261028:445",
         "en": "Korea",
         "ko": "한국",
-        "context": "한국·일본 현지법인을 통한 니치 향수 판매 및 유통 확대 전략 언급.",
+        "context": "Puig는 최근 수년간 북미 확장에 주력하면서도 아시아 사업 기반을 확보해 왔다고 설명했습니다. 한국·일본 현지법인을 운영하고 인도와 동남아에도 판매 조직을 구축했습니다. 앞으로 수익성을 유지하면서 신규 아시아 시장을 공략한다는 계획입니다.",
         "line": 445,
         "location": "공개 전사본 445행",
         "speaker": "경영진",
@@ -4107,13 +4111,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "The group has invested in North America while quietly establishing its Asian operating base. Local subsidiaries in Japan and Korea are intended to support profitable expansion rather than growth at any cost."
       },
       {
         "id": "eu-puig-20261028:557",
         "en": "South Korea",
         "ko": "한국",
-        "context": "한국 현지법인과 북아시아 니치향수·샬롯틸버리 성장 전략을 설명.",
+        "context": "아시아태평양에서 한국·일본·인도·호주 법인을 통해 현지 판매 체계를 강화했다고 밝혔습니다. 북아시아에서는 니치 향수와 샬롯틸버리를, 동남아·인도에서는 프레스티지 향수와 더마코스메틱을 중점 육성합니다. 국가마다 서로 다른 제품과 채널 전략을 활용한다는 내용입니다.",
         "line": 557,
         "location": "공개 전사본 557행",
         "speaker": "경영진",
@@ -4123,13 +4128,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Puig is scaling through local subsidiaries across Asia-Pacific, including South Korea. Its product priorities differ by subregion: niche fragrance and makeup in the north, prestige fragrance and derma in the south."
       },
       {
         "id": "eu-puig-20261028:656",
         "en": "Korea",
         "ko": "한국",
-        "context": "바이레도 인지도는 한국 약 50%, 유럽 약 15%라고 발표.",
+        "context": "바이레도의 브랜드 인지도가 한국에서 약 50%인 반면 유럽은 약 15%라고 회사가 제시했습니다. 이는 한국 소비자들 사이에서 이미 브랜드가 널리 알려져 있다는 설명입니다. 매출 점유율이 50%라는 뜻은 아니며 향후 유통망 확대의 기반으로 보고 있습니다.",
         "line": 656,
         "location": "공개 전사본 656행",
         "speaker": "경영진",
@@ -4139,13 +4145,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Management contrasted awareness of roughly 50% in Korea with approximately 15% in Europe for Byredo. The gap indicates strong cultural recognition in Korea, not a 50% revenue market share."
       },
       {
         "id": "eu-puig-20261028:674",
         "en": "Korea",
         "ko": "한국",
-        "context": "펜할리곤스의 한국·일본 재진입 및 유통망 확대 계획 언급.",
+        "context": "펜할리곤스의 다음 성장 지역 중 하나로 동북아를 지목했습니다. 영국·중동에서 기존 입지를 지키면서 미국·중국을 키우고, 한국·일본에서는 외부 유통업체를 통한 재진입을 추진할 계획입니다. 이는 향후 매장·판매처를 확대하는 장기 전략의 일부입니다.",
         "line": 674,
         "location": "공개 전사본 674행",
         "speaker": "경영진",
@@ -4155,13 +4162,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Penhaligon's intends to expand beyond its established markets. Korea and Japan feature in a Northeast Asian reentry plan using indirect distribution as part of a larger retail footprint strategy."
       },
       {
         "id": "eu-puig-20261028:705",
         "en": "Korea",
         "ko": "한국",
-        "context": "샬롯틸버리 북아시아 사업 확대 기회로 한국을 거론.",
+        "context": "샬롯틸버리는 글로벌 경쟁 브랜드보다 유통망이 작아 성장 여력이 있다고 설명했습니다. 한국·일본을 포함한 북아시아는 향후 사업을 넓힐 후보 지역입니다. 아직 한국에서 샬롯틸버리 매출이 급증했다는 뜻이 아니라 신규 진출 기회를 말합니다.",
         "line": 705,
         "location": "공개 전사본 705행",
         "speaker": "경영진",
@@ -4171,13 +4179,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Charlotte Tilbury remains less widely distributed than larger makeup rivals. Korea is among the potential future expansion markets, rather than an established driver of its current sales."
       },
       {
         "id": "eu-puig-20261028:771",
         "en": "Korea",
         "ko": "한국",
-        "context": "애널리스트가 한국 니치향수 시장과 판매인력·유통 방식에 관해 질문.",
+        "context": "애널리스트가 한국·중국 등 북아시아 향수 시장이 얼마나 성장할 수 있는지 물었습니다. 현지 영업직원을 직접 고용해야 할지, 유통 파트너를 써야 할지 같은 실행 방법도 질문했습니다. 이에 대해 경영진이 한국 법인과 바이레도 입지를 설명했습니다.",
         "line": 771,
         "location": "공개 전사본 771행",
         "speaker": "애널리스트",
@@ -4187,13 +4196,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "An analyst questioned both the scale and practical execution of fragrance expansion in North Asia. The question covered the role of local sales teams versus outside distributors in markets including Korea."
       },
       {
         "id": "eu-puig-20261028:775",
         "en": "South Korea",
         "ko": "한국",
-        "context": "한국·중국·일본 법인과 니치향수 시장 전략을 설명.",
+        "context": "경영진은 한국·중국·일본에 이미 현지법인이 있다고 답했습니다. 향수가 전체 뷰티 소비에서 차지하는 비중은 작지만 시장의 절대 규모는 무시할 수 없다고 봤습니다. 직접 운영 조직을 통해 니치 향수 포트폴리오를 키우겠다는 전략입니다.",
         "line": 775,
         "location": "공개 전사본 775행",
         "speaker": "Javier Bach, COO",
@@ -4203,13 +4213,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Puig has its own subsidiaries in China, South Korea and Japan. Although fragrance represents a smaller category share in these markets, its absolute size makes local sales teams worthwhile."
       },
       {
         "id": "eu-puig-20261028:776",
         "en": "South Korea",
         "ko": "한국",
-        "context": "바이레도의 한국 니치 향수 시장 내 입지를 언급.",
+        "context": "바이레도를 사례로 들어 한국 니치 향수 시장에서 5위권의 경쟁력이 있다고 설명했습니다. 이러한 기존 브랜드 입지가 다른 고급 향수 브랜드를 추가로 판매할 기반이 된다고 봤습니다. 앞서 같은 행사에서 언급된 2위와는 기준이 달라 보이므로 직접 동일 순위로 비교하면 안 됩니다.",
         "line": 776,
         "location": "공개 전사본 776행",
         "speaker": "Javier Bach, COO",
@@ -4219,13 +4230,14 @@
             "term": "한국 관련",
             "count": 1
           }
-        ]
+        ],
+        "contextEn": "Management described Byredo as a top-five niche fragrance brand in Korea, providing a platform for wider portfolio growth. A different speaker cited a top-two position, with no common ranking basis supplied."
       },
       {
         "id": "eu-puig-20261028:782",
         "en": "South Korea … South Korea … South Korea",
         "ko": "한국, 한국, 한국",
-        "context": "한국·일본 니치향수 시장의 합산 규모가 중국과 비슷하며 펜할리곤스·바이레도 유통 확대가 가능하다고 설명.",
+        "context": "회사 측은 한국과 일본의 향수 시장을 합치면 중국 향수시장과 비슷한 규모라고 평가했습니다. 펜할리곤스는 두 나라에서 간접 유통을 확대할 기회가 있고, 바이레도는 기존 한국 판매 기반을 강화할 수 있다고 설명했습니다. 단순한 한국 시장 소개가 아니라 향수 브랜드별 유통 전략에 대한 답변입니다.",
         "line": 782,
         "location": "공개 전사본 782행",
         "speaker": "Thomas James, Niche & Wellness",
@@ -4235,7 +4247,8 @@
             "term": "한국 관련",
             "count": 3
           }
-        ]
+        ],
+        "contextEn": "Management views Japan and South Korea together as a fragrance opportunity comparable in scale to China. It sees room to broaden Penhaligon's distribution and consolidate Byredo's existing Korean footprint."
       }
     ]
   }

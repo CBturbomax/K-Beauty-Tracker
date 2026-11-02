@@ -151,3 +151,25 @@ body{min-width:1280px}
 .evidence-context-details summary>span{font-size:15px;font-weight:400;margin-left:12px}
 .evidence-context-details .evidence-context-ko{font-size:19px;line-height:1.75;color:#c8d1dc}
 .evidence-context-details .evidence-context-en{font-size:16px;line-height:1.65;margin-top:8px}
+
+
+/* Call evidence layout v2: clear hierarchy, no fixed-width quote labels. */
+.call-theme{padding:22px 2px 26px;border-top:1px solid #2a3542}
+.call-theme .evidence-position{font-size:21px;line-height:1.45;min-width:0;word-break:keep-all}
+.call-theme-meta{font-size:16px;color:#95a6b8;margin:8px 0 14px;letter-spacing:.01em}
+.call-theme-quote{display:block;margin:14px 0 16px;padding:18px 21px;background:#10171f;border:1px solid #34404c;border-left:4px solid #FFCB05;min-width:0}
+.call-theme-quote-label{display:block;margin:0 0 11px;font-size:16px;color:#FFCB05;font-weight:800;line-height:1.5}
+.call-theme-quote p{margin:0;padding:0;min-width:0;overflow-wrap:anywhere}
+.call-theme-quote-ko{font-size:24px;line-height:1.75;font-weight:800;color:#fff;word-break:keep-all}
+.call-theme-quote-en{font-size:18px;line-height:1.7;color:#aebdc9;margin-top:10px!important;word-break:normal}
+.call-theme-second{border-top:1px solid #2a3542;margin-top:14px;padding-top:14px}
+.call-theme-summary{border:1px solid #2a3542;background:#19242f;padding:17px 20px;margin:12px 0 12px;min-width:0}
+.call-theme-summary-label{display:block;color:#FFCB05;font-size:17px;font-weight:800;margin-bottom:7px}
+.call-theme-summary p{font-size:20px;line-height:1.8;color:#e5ecf3;margin:0;word-break:keep-all}
+.call-theme-source{background:transparent;border-top:1px solid #2a3542;padding:11px 2px 0}
+.call-theme-source summary{display:list-item;cursor:pointer;font-size:16px;color:#95a6b8;padding:3px 5px;margin-left:16px}
+.call-theme-source-list{margin:13px 0 12px}
+.call-theme-source-list>div{display:flex;flex-wrap:wrap;gap:5px 16px;border-bottom:1px solid #2a3542;padding:9px 2px;color:#aab6c2;font-size:16px}
+.call-theme-source-list .source-position{font-weight:750;color:#e5ecf3}
+.call-theme-source a{display:inline-block;color:#89b9e1;font-size:16px;margin-bottom:6px}
+.call-theme-quote mark,.call-theme-summary mark{display:inline;box-decoration-break:clone}

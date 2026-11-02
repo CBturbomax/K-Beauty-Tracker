@@ -52,10 +52,12 @@ button:disabled{opacity:.4;cursor:not-allowed}
 <div class="section"><span class="num">01</span> 통역 설정</div>
 <label>방향 선택</label><div class="split"><button id="in" class="active">외국어 → 한국어</button><button id="out">한국어 → 외국어</button></div>
 <label for="lang">상대방 언어</label><select id="lang"><option value="en">🇺🇸 English (영어)</option><option value="ja">🇯🇵 日本語 (일본어)</option><option value="zh-Hans">🇨🇳 中文 (중국어)</option><option value="es">🇪🇸 Español (스페인어)</option></select>
-<label for="mic">마이크 입력 장치</label>
-<select id="mic"><option value="">기본 마이크 (자동)</option></select>
-<div class="microw"><button class="secondary" id="checkmic" type="button">🎤 마이크 검사</button><span id="micstate" class="micstate">Gemini 키 없이 검사 가능</span></div>
-<p class="tip">먼저 마이크 검사를 해보세요. 장치가 없다면 PC 마이크 연결 및 Windows 입력 설정을 확인하세요. 아이폰은 내장 마이크 사용 가능.</p>
+<label for="source">음성 입력 방식</label>
+<select id="source"><option value="mic">🎙 마이크 (아이폰 / PC)</option><option value="tab">🔊 브라우저 탭 소리 (PC Chrome)</option></select>
+<div id="micarea"><label for="mic">마이크 입력 장치</label>
+<select id="mic"><option value="">기본 마이크 (자동)</option></select></div>
+<div class="microw"><button class="secondary" id="checkmic" type="button">🎤 입력 검사</button><span id="micstate" class="micstate">Gemini 키 없이 검사 가능</span></div>
+<p class="tip" id="michelp">먼저 입력 검사를 해보세요. 장치가 없다면 PC 마이크 연결 및 Windows 입력 설정을 확인하세요. 아이폰은 내장 마이크 사용 가능.</p>
 <label for="key">Gemini API 키 (최초 테스트용)</label>
 <input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="AIza... API 키 입력"><p class="tip">무료 키는 <a class="link" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>에서 만들 수 있어요. 키는 서버·GitHub·로컬 저장소에 저장하지 않고 이 탭의 메모리에서만 사용합니다. Google Live API 연결 인증 과정에서는 키가 전달되므로 개인 테스트에만 사용하세요.</p>
 <div class="hr"></div><label class="check"><input id="voice" type="checkbox"> 번역 음성도 재생 (이어폰 권장)</label>
@@ -77,10 +79,13 @@ button:disabled{opacity:.4;cursor:not-allowed}
 const el=id=>document.getElementById(id),MODEL='models/gemini-3.5-live-translate-preview';
 const url='wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent';
 let direction='in',alive=false,connected=false,ws=null,stream=null,ctx=null,src=null,proc=null,silent=null,recorder=null,chunks=[],audioBlob=null,cap=[],current=null,started=0,timer=0,pending=[],left=0,nextSound=0;
-let micTesting=false;
+let micTesting=false,displayStream=null;
+el('source').onchange=()=>{if(alive){el('source').value=displayStream?'tab':'mic';return;}const tab=el('source').value==='tab';el('micarea').style.display=tab?'none':'';el('michelp').textContent=tab?'PC Chrome에서 영어 컨콜을 재생하는 탭을 선택하고, 공유 화면에서 「탭 오디오도 공유」를 반드시 켜세요. 아이폰에서는 이 모드가 지원되지 않습니다.':'마이크를 먼저 검사하세요. 장치가 없다면 Windows 소리 설정에서 입력 장치를 확인하거나 USB/이어폰 마이크를 연결하세요.';el('micstate').className='micstate';el('micstate').textContent=tab?'탭 오디오 공유 검사 가능':'마이크 검사 가능';};
 const status=(s,bad)=>{el('status').textContent=s;el('dot').className='dot'+(bad?' bad':connected?' on':'');};
 function friendlyMicError(err){
- if(['NotFoundError','DevicesNotFoundError','OverconstrainedError'].includes(err?.name)) return '마이크를 찾지 못했습니다. Windows 설정 → 시스템 → 소리 → 입력에서 마이크가 나타나는지 확인하거나 USB/이어폰 마이크를 연결하세요. Chrome 설정 → 개인정보 보호 및 보안 → 사이트 설정 → 마이크도 확인하세요.';
+ if(err?.name==='NoTabAudioError')return '탭 소리가 감지되지 않았습니다. Chrome에서 브라우저 탭을 공유하고 「탭 오디오도 공유」를 켠 후 재시도하세요.';
+ if(err?.name==='TabUnsupportedError')return '이 브라우저에서는 탭 소리 공유가 지원되지 않습니다. PC Chrome으로 열거나 마이크 모드를 선택하세요.';
+ if(['NotFoundError','DevicesNotFoundError','OverconstrainedError'].includes(err?.name)) return '마이크를 찾지 못했습니다. Windows 설정 → 시스템 → 소리 → 입력에서 마이크가 나타나는지 확인하거나 USB/이어폰 마이크를 연결하세요. 마이크가 없다면 PC Chrome에서 「브라우저 탭 소리」 모드도 가능합니다.';
  if(['NotAllowedError','PermissionDeniedError','SecurityError'].includes(err?.name)) return '마이크 사용이 차단되어 있습니다. 주소창 왼쪽 사이트 설정에서 마이크 허용 후 새로고침하세요.';
  if(['NotReadableError','TrackStartError'].includes(err?.name)) return '마이크를 다른 프로그램이 점유 중이거나 장치 오류가 발생했습니다. Zoom/Teams 등을 종료한 뒤 다시 시도하세요.';
  if(err?.name==='AbortError')return '마이크 시작이 중단되었습니다. 입력 장치를 다시 선택해보세요.';
@@ -93,11 +98,20 @@ async function refreshMics(){
  const basic=document.createElement('option');basic.value='';basic.textContent='기본 마이크 (자동)';el('mic').appendChild(basic);
  devices.forEach((d,i)=>{const opt=document.createElement('option');opt.value=d.deviceId;opt.textContent=d.label||'마이크 '+(i+1);el('mic').appendChild(opt);});
  if([...el('mic').options].some(o=>o.value===old))el('mic').value=old;
- if(!devices.length){el('micstate').className='micstate warn';el('micstate').textContent='입력 마이크가 감지되지 않음';}
- else if(!micTesting){el('micstate').className='micstate';el('micstate').textContent=devices.length+'개 마이크 감지 · 검사 버튼으로 확인';}
+ if(el('source').value==='mic'&&el('micstate').className!=='micstate ok'){
+ if(!devices.length){el('micstate').className='micstate warn';el('micstate').textContent='입력 마이크 없음 · 탭 오디오 공유도 가능';}
+ else if(!micTesting){el('micstate').className='micstate';el('micstate').textContent=devices.length+'개 마이크 감지 · 검사 버튼으로 확인';}}
  }catch(e){console.warn('Device enumeration:',e);}
 }
 async function acquireMic(){
+ if(el('source').value==='tab'){
+   if(!navigator.mediaDevices?.getDisplayMedia)throw Object.assign(new Error('탭 오디오 공유 불가'),{name:'TabUnsupportedError'});
+   displayStream=await navigator.mediaDevices.getDisplayMedia({video:true,audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false}});
+   const audio=displayStream.getAudioTracks();
+   if(!audio.length){displayStream.getTracks().forEach(t=>t.stop());displayStream=null;throw Object.assign(new Error('탭 오디오가 공유되지 않았습니다'),{name:'NoTabAudioError'});}
+   displayStream.getVideoTracks().forEach(t=>t.addEventListener('ended',()=>{if(alive)stop();}));
+   return new MediaStream(audio);
+ }
  const id=el('mic').value;const settings=id?{deviceId:{ideal:id},echoCancellation:true,noiseSuppression:true,autoGainControl:true}:true;
  try{return await navigator.mediaDevices.getUserMedia({audio:settings,video:false});}
  catch(e){if(id&&['NotFoundError','OverconstrainedError'].includes(e.name)){el('mic').value='';return await navigator.mediaDevices.getUserMedia({audio:true,video:false});}throw e;}
@@ -106,12 +120,12 @@ el('checkmic').onclick=async()=>{
  if(alive)return status('통역 중에는 마이크 검사를 할 수 없습니다.',true);
  if(micTesting)return;
  if(!navigator.mediaDevices?.getUserMedia){el('micstate').className='micstate warn';el('micstate').textContent='HTTPS에서 지원되는 브라우저가 필요합니다';return;}
- micTesting=true;el('checkmic').disabled=true;el('micstate').className='micstate';el('micstate').textContent='마이크 접근 테스트 중...';
+ micTesting=true;el('checkmic').disabled=true;el('micstate').className='micstate';el('micstate').textContent='오디오 입력 접근 테스트 중...';
  let test=null;
  try{test=await acquireMic();const track=test.getAudioTracks()[0];if(!track)throw Object.assign(new Error('입력 트랙이 없습니다'),{name:'NotFoundError'});
- el('micstate').className='micstate ok';el('micstate').textContent='✓ 마이크 정상: '+(track.label||'기본 입력');status('마이크 준비 완료 · Gemini API 키 입력 후 통역 시작 가능');}
+ el('micstate').className='micstate ok';el('micstate').textContent='✓ 입력 정상: '+(track.label||'오디오 입력');status('음성 입력 준비 완료 · Gemini API 키 입력 후 통역 시작 가능');}
  catch(e){const msg=friendlyMicError(e);el('micstate').className='micstate warn';el('micstate').textContent='⚠ 마이크 사용 불가';status(msg,true);}
- finally{test?.getTracks().forEach(t=>t.stop());micTesting=false;el('checkmic').disabled=false;await refreshMics();}
+ finally{test?.getTracks().forEach(t=>t.stop());displayStream?.getTracks().forEach(t=>t.stop());displayStream=null;micTesting=false;el('checkmic').disabled=false;await refreshMics();}
 };
 
 function target(){return direction==='in'?'ko':el('lang').value}
@@ -130,8 +144,8 @@ function play(base64){if(!ctx||!el('voice').checked)return;try{const x=atob(base
 function audioSetup(){src=ctx.createMediaStreamSource(stream);proc=ctx.createScriptProcessor(4096,1,1);silent=ctx.createGain();silent.gain.value=0;src.connect(proc);proc.connect(silent);silent.connect(ctx.destination);proc.onaudioprocess=e=>{const input=e.inputBuffer.getChannelData(0),step=ctx.sampleRate/16000;let p=left;for(;p<input.length;p+=step){pending.push(Math.max(-1,Math.min(1,input[Math.floor(p)]||0)));if(pending.length>=1600){const buf=new ArrayBuffer(3200),dv=new DataView(buf);for(let i=0;i<1600;i++){let v=pending[i];dv.setInt16(i*2,v<0?v*32768:v*32767,true);}pending=[];if(connected&&ws?.readyState===WebSocket.OPEN&&ws.bufferedAmount<800000)ws.send(JSON.stringify({realtimeInput:{audio:{data:b64(new Uint8Array(buf)),mimeType:'audio/pcm;rate=16000'}}}));}}left=p<input.length?p:p-input.length;};}
 function recordStart(){if(!el('rec').checked||!window.MediaRecorder)return;try{const type=['audio/mp4','audio/webm;codecs=opus','audio/webm'].find(x=>MediaRecorder.isTypeSupported(x));recorder=new MediaRecorder(stream,type?{mimeType:type}:undefined);chunks=[];audioBlob=null;recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onstop=()=>{audioBlob=new Blob(chunks,{type:recorder.mimeType||type||'audio/webm'});update();};recorder.start(5000);}catch(e){status('녹음 저장이 불가능하지만 통역은 진행합니다.',true);}}
 function connect(key){return new Promise((resolve,reject)=>{let ready=false;ws=new WebSocket(url+'?key='+encodeURIComponent(key));const timeout=setTimeout(()=>{if(!ready){ws?.close();reject(new Error('Gemini 연결 시간 초과'));}},15000);ws.onopen=()=>ws.send(JSON.stringify({setup:{model:MODEL,generationConfig:{responseModalities:['AUDIO'],inputAudioTranscription:{},outputAudioTranscription:{},translationConfig:{targetLanguageCode:target(),echoTargetLanguage:false}}}}));ws.onmessage=async e=>{try{const str=typeof e.data==='string'?e.data:await e.data.text(),m=JSON.parse(str);if(m.setupComplete){ready=true;connected=true;clearTimeout(timeout);status('LIVE · 마이크가 보내는 소리를 실시간 번역 중');resolve();}const c=m.serverContent;if(c){if(c.inputTranscription?.text)add('original',c.inputTranscription.text);if(c.outputTranscription?.text)add('translation',c.outputTranscription.text);if(el('voice').checked&&c.modelTurn?.parts)c.modelTurn.parts.forEach(p=>{if(p.inlineData?.data)play(p.inlineData.data);});}if(m.goAway)status('세션 종료 예고 · 종료 후 다시 시작하세요',true);}catch(err){console.error(err);}};ws.onerror=()=>{if(!ready){clearTimeout(timeout);reject(new Error('Gemini 연결 오류 · API 키와 무료 할당량 확인'));}else status('연결 오류 · 종료 후 다시 시작하세요',true);};ws.onclose=e=>{clearTimeout(timeout);connected=false;if(!ready)reject(new Error('AI 접속이 종료됨 ('+e.code+'). API 키·모델 권한 확인'));else if(alive)status('AI 세션 종료 ('+e.code+'). 종료 후 다시 시작하세요',true);};});}
-async function stop(){alive=false;connected=false;clearInterval(timer);try{ws?.close();}catch(e){}ws=null;try{if(recorder?.state==='recording')recorder.stop();}catch(e){}try{proc?.disconnect();src?.disconnect();silent?.disconnect();}catch(e){}proc=src=silent=null;try{stream?.getTracks().forEach(t=>t.stop());}catch(e){}stream=null;try{await ctx?.close();}catch(e){}ctx=null;status('종료되었습니다 · 기록 저장 가능');update();}
-el('start').onclick=async()=>{if(alive)return;const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);if(!navigator.mediaDevices?.getUserMedia)return status('HTTPS 환경의 Safari/Chrome이 필요합니다.',true);alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();status('마이크 허용을 기다립니다...');try{stream=await acquireMic();ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);status('Gemini Live 서버에 연결 중...');await connect(key);el('key').value='';}catch(e){await stop();status(friendlyMicError(e),true);}};
+async function stop(){alive=false;connected=false;clearInterval(timer);try{ws?.close();}catch(e){}ws=null;try{if(recorder?.state==='recording')recorder.stop();}catch(e){}try{proc?.disconnect();src?.disconnect();silent?.disconnect();}catch(e){}proc=src=silent=null;try{stream?.getTracks().forEach(t=>t.stop());displayStream?.getTracks().forEach(t=>t.stop());}catch(e){}stream=null;displayStream=null;try{await ctx?.close();}catch(e){}ctx=null;status('종료되었습니다 · 기록 저장 가능');update();}
+el('start').onclick=async()=>{if(alive)return;const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);if(!navigator.mediaDevices?.getUserMedia)return status('HTTPS 환경의 Safari/Chrome이 필요합니다.',true);alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();status('음성 입력 권한을 기다립니다...');try{stream=await acquireMic();ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);status('Gemini Live 서버에 연결 중...');await connect(key);el('key').value='';}catch(e){await stop();status(friendlyMicError(e),true);}};
 el('stop').onclick=stop;
 el('clear').onclick=()=>{if(alive)return status('먼저 통역을 종료하세요.',true);cap=[];current=null;audioBlob=null;el('clock').textContent='00:00:00';el('feed').innerHTML='<div class="empty" id="empty">새로운 미팅을 시작할 수 있습니다.</div>';update();};
 function dl(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500);}

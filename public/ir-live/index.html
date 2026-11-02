@@ -75,6 +75,7 @@ select:focus,input[type=password]:focus{border-color:var(--yellow)}
 .dot{width:7px;height:7px;flex:none;background:#77838d;border-radius:50%}
 .dot.on{background:var(--yellow);box-shadow:0 0 0 3px #ffcb0520}
 .dot.bad{background:var(--warn)}
+.status:has(.dot.bad){color:#ffe4ce;background:#30231f;border-bottom-color:#62453d}
 .columns{background:var(--panel2);border-bottom:1px solid var(--line);display:grid;grid-template-columns:70px 1fr 1.3fr;align-items:center;min-height:37px;font-weight:700;font-size:10px;letter-spacing:.9px;color:var(--muted);padding:0 19px}
 .columns span:last-child{color:var(--yellow)}
 .feed{padding:0 19px;overflow-y:auto;flex:1;max-height:70vh;min-height:350px;scrollbar-color:#3a444e transparent}
@@ -183,7 +184,7 @@ footer{margin-top:15px}
 <div class="layout">
 <section class="panel main" aria-label="실시간 한국어 자막">
 <div class="main-top"><strong>LIVE CAPTIONS <span class="head-sub">· 자동 언어 인식 → 한국어</span></strong><div class="main-right"><span id="clock" class="clock">00:00:00</span></div></div>
-<div class="controls"><button class="primary" id="start" type="button">● 통역 시작</button><span class="auto-hint">언어 선택 없이 바로 통역합니다</span></div>
+<div class="controls"><button class="primary" id="start" type="button">● 녹음 · 통역 시작</button><span class="auto-hint">언어 선택 없이 바로 통역합니다</span></div>
 <div class="status"><i id="dot" class="dot"></i><span id="status" role="status">통역 준비 완료 · 시작 버튼을 누르세요.</span></div>
 <div class="feed" id="feed"><div class="empty" id="empty"><div class="glyph">▂ ▃ ▄ ▅ ▄ ▃</div><strong>마이크를 켜면 바로 한국어 자막이 나옵니다.</strong><span>영어 · 일본어 · 중국어 등 자동 인식<br>한국어는 그대로 받아씁니다.</span></div></div>
 </section>
@@ -293,7 +294,7 @@ el('checkmic').onclick=async()=>{
 
 function target(){return 'ko';}
 function seconds(){let t=Math.floor((Date.now()-started)/1000);return [Math.floor(t/3600),Math.floor(t/60)%60,t%60].map(x=>String(x).padStart(2,'0')).join(':')}
-function update(){el('start').disabled=testingAPI;el('start').textContent=alive?'■ 통역 종료':'● 통역 시작';el('testapi').disabled=alive||testingAPI;el('txt').disabled=!cap.length;el('json').disabled=!cap.length;el('audio').disabled=!audioBlob;}
+function update(){el('start').disabled=testingAPI;el('start').textContent=alive?'■ 녹음 종료':'● 녹음 · 통역 시작';el('testapi').disabled=alive||testingAPI;el('txt').disabled=!cap.length;el('json').disabled=!cap.length;el('audio').disabled=!audioBlob;}
 function join(a,b){if(!a)return b;if(a.endsWith(b))return a;if(b.startsWith(a))return b;return a+((/[a-zA-Z0-9]$/.test(a)&&/^[a-zA-Z0-9]/.test(b))?' ':'')+b;}
 function isKoreanTranscript(text,languageCode=''){
  const lang=String(languageCode||'').toLowerCase();
@@ -377,8 +378,35 @@ el('testapi').onclick=async()=>{
 };
 function connect(key){return new Promise((resolve,reject)=>{let ready=false;ws=new WebSocket(url+'?key='+encodeURIComponent(key));const timeout=setTimeout(()=>{if(!ready){ws?.close();reject(new Error('Gemini 연결 시간 초과'));}},15000);ws.onopen=()=>ws.send(JSON.stringify(setupPayload()));ws.onmessage=async e=>{try{const str=typeof e.data==='string'?e.data:await e.data.text(),m=JSON.parse(str);if(m.setupComplete){ready=true;connected=true;clearTimeout(timeout);status('LIVE · 마이크가 보내는 소리를 실시간 번역 중');resolve();}const c=m.serverContent;if(c){if(c.inputTranscription?.text)recordInput(c.inputTranscription.text,c.inputTranscription.languageCode||'');if(c.outputTranscription?.text)recordTranslation(c.outputTranscription.text);if(el('voice').checked&&c.modelTurn?.parts)c.modelTurn.parts.forEach(p=>{if(p.inlineData?.data)play(p.inlineData.data);});}if(m.goAway)status('세션 종료 예고 · 종료 후 다시 시작하세요',true);}catch(err){console.error(err);}};ws.onerror=()=>{if(ready)status('네트워크 또는 서버 연결 오류. 잠시 후 재시도하세요.',true);};ws.onclose=e=>{clearTimeout(timeout);connected=false;if(!ready)reject(new Error(describeClose(e)));else if(alive)status(describeClose(e)+' · 종료 후 다시 시작하세요',true);};});}
 async function stop(){alive=false;connected=false;clearInterval(timer);try{ws?.close();}catch(e){}ws=null;try{if(recorder?.state==='recording')recorder.stop();}catch(e){}try{proc?.disconnect();src?.disconnect();silent?.disconnect();}catch(e){}proc=src=silent=null;try{stream?.getTracks().forEach(t=>t.stop());displayStream?.getTracks().forEach(t=>t.stop());}catch(e){}stream=null;displayStream=null;try{await ctx?.close();}catch(e){}ctx=null;status('종료되었습니다 · 기록 저장 가능');update();}
-el('start').onclick=async()=>{if(alive){await stop();return;}const key=el('key').value.trim();if(!key)return status('먼저 Gemini API 키를 입력하세요.',true);saveKey();if(!navigator.mediaDevices?.getUserMedia)return status('HTTPS 환경의 Safari/Chrome이 필요합니다.',true);alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();status('음성 입력 권한을 기다립니다...');try{stream=await acquireMic();ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);status('Gemini Live 서버에 연결 중...');await connect(key);}catch(e){await stop();status(friendlyMicError(e),true);}};
-
+el('start').onclick=async()=>{
+ if(alive){await stop();return;}
+ if(!navigator.mediaDevices?.getUserMedia&&!navigator.mediaDevices?.getDisplayMedia){
+  status('이 기기에서는 마이크/탭 소리 녹음이 지원되지 않습니다. HTTPS의 Safari 또는 Chrome을 사용하세요.',true);return;
+ }
+ const key=el('key').value.trim();if(key)saveKey();
+ alive=true;connected=false;started=Date.now();current=null;pending=[];left=0;audioBlob=null;update();
+ status('입력 장치 연결 중 · 마이크 권한을 허용하세요.');
+ try{
+   stream=await acquireMic();
+   ctx=new(window.AudioContext||window.webkitAudioContext)();await ctx.resume();
+   audioSetup();recordStart();timer=setInterval(()=>el('clock').textContent=seconds(),500);
+   if(!key){
+     el('advanced').open=true;
+     status('● 녹음 중 · Gemini API 키가 없어 실시간 통역은 꺼져 있습니다. 설정에 키를 입력하고 다시 시작하세요.',true);
+     return;
+   }
+   status('● 녹음 중 · Gemini 실시간 통역에 연결 중...');
+   try{
+     await connect(key);
+     status('● 녹음 및 실시간 한국어 통역 중');
+   }catch(e){
+     connected=false;
+     status('● 녹음은 진행 중 · AI 통역 연결 실패: '+(e.message||String(e))+'. 녹음을 종료하면 파일을 저장할 수 있습니다.',true);
+   }
+ }catch(e){
+   await stop();status('녹음을 시작하지 못했습니다: '+friendlyMicError(e),true);
+ }
+};
 el('clear').onclick=()=>{if(alive)return status('먼저 통역을 종료하세요.',true);cap=[];current=null;audioBlob=null;el('clock').textContent='00:00:00';el('feed').innerHTML='<div class="empty" id="empty">새로운 미팅을 시작할 수 있습니다.</div>';update();};
 function dl(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500);}
 el('txt').onclick=()=>dl(new Blob([cap.map(c=>'['+c.time+'] 원문: '+c.original+'\n['+c.time+'] 번역: '+c.translation).join('\n\n')],{type:'text/plain;charset=utf-8'}),'IR-LIVE-'+new Date().toISOString().slice(0,10)+'.txt');

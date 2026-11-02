@@ -173,3 +173,13 @@ body{min-width:1280px}
 .call-theme-source-list .source-position{font-weight:750;color:#e5ecf3}
 .call-theme-source a{display:inline-block;color:#89b9e1;font-size:16px;margin-bottom:6px}
 .call-theme-quote mark,.call-theme-summary mark{display:inline;box-decoration-break:clone}
+
+
+/* Context-first bilingual earnings call presentation. */
+.call-theme-quote-featured{font-size:21px!important;line-height:1.8!important;color:#fff!important;word-break:normal!important;margin:4px 0 14px!important}
+.call-theme-extra-quote{padding-top:10px!important;margin-top:9px!important;border-top:1px solid #2a3542}
+.call-theme-translation-label{display:block;font-size:16px;color:#FFCB05;font-weight:800;line-height:1.5;margin:15px 0 6px}
+.call-theme-english-context{padding:17px 20px;border:1px solid #304050;background:#111d28;margin:12px 0;min-width:0}
+.call-theme-english-label{display:block;color:#aabdd1;font-size:17px;letter-spacing:.02em;font-weight:800;margin-bottom:9px}
+.call-theme-english-label small{font-size:15px;color:#8999a8;font-weight:400;margin-left:9px;letter-spacing:0}
+.call-theme-english-context p{margin:0;font-size:19px;line-height:1.85;color:#e4eaf2;overflow-wrap:anywhere}

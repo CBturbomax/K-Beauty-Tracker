@@ -8688,8 +8688,7 @@
       "sha256Scope": "verified_25_word_excerpts_in_source_order_not_full_transcript",
       "counts": {
         "direct": 7,
-        "brands": 0,
-        "general": null
+        "brands": 0
       },
       "terms": [
         {

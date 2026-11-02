@@ -27,7 +27,7 @@ const callThemes:Record<string,CallTheme[]>={
   {title:"3CE와 닥터지: 한국 브랜드 직접 육성",lines:["528"],summary:"로레알은 인수한 스타일난다의 3CE를 동남아시아에서 확대하고, 닥터지를 스킨케어 해외 확장의 주요 브랜드로 활용하고 있습니다. K뷰티에 대한 관심이 높아진 만큼 한국 브랜드를 직접 확보해 글로벌 유통망으로 키우는 전략입니다. 이 구간에는 길게 인용할 수 있는 독립적인 원문 문장이 확보돼 있지 않습니다."}
  ],
  "eu-puig-20261021":[
-  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"So we see more accessible skincare with good levels of science background in both K-beauty and dermo-cosmetics",quoteKo:"그래서 K뷰티와 더마코스메틱 모두에서 과학적 근거를 갖추면서도 더 접근하기 쉬운 스킨케어 제품을 보고 있습니다.",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
+  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"we see more and more that the skincare and the high-end premium skincare is being overtaken in dermo-cosmetics and also in this K-beauty trend.",quoteKo:"우리는 스킨케어, 특히 고가 프리미엄 스킨케어가 더마코스메틱과 K뷰티 흐름에 밀리는 현상을 점점 더 뚜렷하게 보고 있습니다.",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
  ]
 };
 

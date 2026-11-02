@@ -49,8 +49,8 @@ export default function CallsView(){
     <div className="call-event">{d.title}</div><div className="evidence-source">출처: {d.source} · {d.coverage}{d.callId?` · 콜 ${d.callId}`:''}{d.url&&<> · <a href={d.url} target="_blank" rel="noreferrer">전체 원문 ↗</a></>}</div>
     <div className="evidence-passages">{d.segments.map((p:any,j:number)=><section className="evidence-passage" key={p.id} data-passage-count={p.count}>
      <div className="evidence-passage-head"><span className="evidence-position">{String(j+1).padStart(2,'0')} · {p.location}</span><b>{p.count}회 <span>{p.terms.map((t:any)=>`${t.term} ×${t.count}`).join(' · ')}</span></b></div>
-     <p className="evidence-context"><span>맥락 요약</span> <Highlight text={p.context}/></p>
-     <blockquote className="evidence-quote"><div><span className="evidence-label">원문 발췌</span><p lang="en">“<Highlight text={p.en}/>”</p></div><div><span className="evidence-label">한글 번역</span><p>“<Highlight text={p.ko}/>”</p></div></blockquote>
+     {p.contextEn?<div className="evidence-context-expanded"><div className="evidence-context-title">발언 전후 맥락 <small>원문 기반 설명</small></div><p className="evidence-context-ko"><Highlight text={p.context}/></p><div className="evidence-context-title evidence-context-title-en">ENGLISH CONTEXT <small>의역 · 직접 인용 아님</small></div><p className="evidence-context-en" lang="en"><Highlight text={p.contextEn}/></p></div>:<p className="evidence-context"><span>맥락 요약</span> <Highlight text={p.context}/></p>}
+     <blockquote className="evidence-quote"><div><span className="evidence-label">핵심 원문</span><p lang="en">“<Highlight text={p.en}/>”</p></div><div><span className="evidence-label">핵심 번역</span><p>“<Highlight text={p.ko}/>”</p></div></blockquote>
     </section>)}</div>
    </article>}
    return <article className="call-note" key={`${i.company}-${i.date}-${i.index}`}>

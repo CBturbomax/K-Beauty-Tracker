@@ -15,7 +15,7 @@ function Choice({value,options,onChange,label}:{value:string;options:string[];on
 type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
 const callThemes:Record<string,CallTheme[]>={
  "176620":[
-  {title:"한국 메이크업: MAC 점유율 상승·톰포드 시장 성장률 상회",lines:["111","112"],quoteEn:"gained share in China, Japan, and Korea",quoteKo:"중국·일본·한국에서 점유율을 높였습니다.",summary:"발표부 · CEO 스테판 드 라 파브리. MAC은 2026년 7~9월 한국·중국·일본에서 프레스티지 메이크업 점유율이 상승했습니다. TOM FORD도 이들 시장에서 프레스티지 메이크업 시장 전체보다 빠르게 성장했습니다. 두 브랜드 모두 분기 매출 두 자릿수 성장에 기여했습니다."},
+  {title:"한국 메이크업: MAC 점유율 상승·톰포드 시장 성장률 상회",lines:["111","112"],quoteEn:"M·A·C gained share in China, Japan, and Korea",quoteKo:"M·A·C은 중국·일본·한국에서 점유율을 높였습니다.",summary:"발표부 · CEO 스테판 드 라 파브리. MAC은 2026년 7~9월 한국·중국·일본에서 프레스티지 메이크업 점유율이 상승했습니다. TOM FORD도 이들 시장에서 프레스티지 메이크업 시장 전체보다 빠르게 성장했습니다. 두 브랜드 모두 분기 매출 두 자릿수 성장에 기여했습니다."},
   {title:"한국 향수: 럭셔리 향수 점유율 확대",lines:["199","203"],quoteEn:"share gain in China, in Korea, in Japan",quoteKo:"중국·한국·일본에서 점유율을 높였습니다.",summary:"Q&A · 도이체방크 Steve Powers의 향수 성장 질문에 대한 CEO 답변. 에스티로더는 TOM FORD·Le Labo 등 럭셔리 향수가 한국에서도 점유율을 높이고 있다고 두 차례 언급했습니다. 글로벌 향수 매출 성장률은 20%이며 한국 개별 증가율은 공개하지 않았습니다."},
   {title:"한국 면세: 관광객 복귀로 매출 안정화",lines:["113","252","263"],quoteEn:"retail sales stabilizing thanks to Korea",quoteKo:"한국 덕분에 소매판매가 안정화됐습니다.",summary:"발표부 1회 + Q&A 2회. CEO는 한국 면세 소매판매와 중국 하이난 온라인 면세가 아시아 성장에 기여했다고 설명했습니다. 오펜하이머 Rupesh Parikh 질문에는 중국인 관광객의 아시아 역내 여행 복귀를, 씨티 Filippo Falorni 질문에는 한국·하이난·서구의 면세 회복을 재확인했습니다. 이는 한국 시장·면세 관련 언급이며 한국 브랜드 수출 성과가 아닙니다."}
  ],
@@ -28,7 +28,7 @@ const callThemes:Record<string,CallTheme[]>={
  ],
  "eu-loreal-20261022":[
   {title:"한국 면세시장: 회복은 확인되지만 신중하게 접근",lines:["185"],summary:"하이난 면세점 매출은 긍정적이었지만 중국 본토는 재고를 보충하는 과정이었습니다. 로레알은 한국 면세시장도 안정적이라고 판단하면서 반등의 질이 확실치 않다며 공급량을 공격적으로 늘리지 않았습니다."},
-  {title:"닥터지: 미국 온라인 진출과 해외 확장 가속",lines:["220","221","222","529","530"],quoteEn:"I have asked everybody to really gear up and go faster",quoteKo:"모두에게 속도를 높이고 더 빨리 추진하라고 지시했습니다.",summary:"닥터지는 중국과 동남아 진출에 이어 미국 온라인과 TikTok Shop을 통해 판매를 확대하고, 이후 오프라인으로 넓혀갈 계획입니다. CEO는 K뷰티의 빠른 확산을 보고 당초 점진적이던 닥터지 글로벌 진출 속도를 높이라고 지시했습니다. 동남아 성과가 서구권에서도 재현될지가 핵심입니다."},
+  {title:"닥터지: 미국 온라인 진출과 해외 확장 가속",lines:["220","221","222","529","530"],quoteEn:"I have asked everybody to really gear up and go faster because it is a speed game",quoteKo:"모두에게 속도를 높이고 더 빨리 추진하라고 지시했습니다. 속도가 중요한 경쟁이기 때문입니다.",summary:"닥터지는 중국과 동남아 진출에 이어 미국 온라인과 TikTok Shop을 통해 판매를 확대하고, 이후 오프라인으로 넓혀갈 계획입니다. CEO는 K뷰티의 빠른 확산을 보고 당초 점진적이던 닥터지 글로벌 진출 속도를 높이라고 지시했습니다. 동남아 성과가 서구권에서도 재현될지가 핵심입니다."},
   {title:"K뷰티 성장 전망·코스맥스와 MOU",lines:["486","525","526","527"],quoteEn:"I signed recently an MoU with Cosmax",quoteKo:"저는 최근 코스맥스와 업무협약을 체결했습니다.",summary:"애널리스트가 한국 스킨케어 매장 증가에 대한 로레알의 대응을 물었습니다. CEO는 K뷰티의 성장세를 인정하면서 한국 ODM 업체가 글로벌 브랜드도 제조한다고 설명했고, YSL 쿠션의 미국 성과를 사례로 들었습니다. 한국 스킨케어 브랜드 성장률 약 30%, 시장점유율 약 3~4%는 CEO의 추정치입니다."},
   {title:"3CE와 닥터지: 한국 브랜드 직접 육성",lines:["528"],summary:"로레알은 인수한 스타일난다의 3CE를 동남아시아에서 확대하고, 닥터지를 스킨케어 해외 확장의 주요 브랜드로 활용하고 있습니다. K뷰티에 대한 관심이 높아진 만큼 한국 브랜드를 직접 확보해 글로벌 유통망으로 키우는 전략입니다. 이 구간에는 길게 인용할 수 있는 독립적인 원문 문장이 확보돼 있지 않습니다."}
  ],
@@ -86,8 +86,8 @@ export default function CallsView(){
      }):d.segments.map((p:any)=>({
       title:p.speaker&&p.speaker!=='경영진'?p.speaker:"원문 발언",
       lines:[String(p.line)],matches:[p],count:p.count,summary:p.context,
-      quoteEn:p.en.trim().split(/\s+/).length>=4?p.en:undefined,
-      quoteKo:p.en.trim().split(/\s+/).length>=4?p.ko:undefined
+      quoteEn:p.en.trim().split(/\s+/).length>=8?p.en:undefined,
+      quoteKo:p.en.trim().split(/\s+/).length>=8?p.ko:undefined
      }));
      return groups.map((g:any,j:number)=><section className="evidence-passage call-theme" key={d.id+"-"+j} data-passage-count={g.count}>
       <div className="evidence-passage-head">
@@ -95,6 +95,7 @@ export default function CallsView(){
        <b>{g.count}회</b>
       </div>
       <div className="call-theme-meta">검증 구간 {g.lines.length}개 · 공개 전사본 {g.lines.join(" · ")}행</div>
+      <div className="call-theme-attribution">{Array.from(new Set(g.matches.map((p:any)=>p.speaker).filter(Boolean))).join(" · ")||"화자 미확인"} · {g.matches.some((p:any)=>p.section==="qna")?(g.matches.some((p:any)=>p.section==="prepared")?"발표부·Q&A":"Q&A"):"발표부"}{Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).length?" · 질문: "+Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).join(", "):""}</div>
       {g.quoteEn&&<blockquote className="call-theme-quote">
        <span className="call-theme-quote-label">영어 원문 · 실제 발언 발췌</span>
        <p className="call-theme-quote-en call-theme-quote-featured" lang="en">“<Highlight text={g.quoteEn}/>”</p>
@@ -103,9 +104,9 @@ export default function CallsView(){
        <p className="call-theme-quote-ko">“<Highlight text={g.quoteKo||""}/>”</p>
        {g.secondQuoteKo&&<p className="call-theme-quote-ko call-theme-extra-quote">“<Highlight text={g.secondQuoteKo}/>”</p>}
       </blockquote>}
-      <div className="call-theme-summary"><span className="call-theme-summary-label">발언 전후 맥락 · 한국어 설명</span>
+      <details className="call-theme-summary" open={!g.quoteEn}><summary className="call-theme-summary-label">한국어 맥락 해설 {g.quoteEn?"펼치기":"(의미 있는 직접 인용 미확보)"}</summary>
        <p><Highlight text={g.summary}/></p>
-      </div>
+      </details>
       <details className="call-theme-source"><summary>근거 위치와 개별 표현 확인 ({g.matches.length}개 구간)</summary>
        <div className="call-theme-source-list">{g.matches.map((p:any)=><div key={p.id}>
         <span className="source-position">{p.location}</span>

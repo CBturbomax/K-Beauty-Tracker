@@ -189,3 +189,8 @@ body{min-width:1280px}
 .call-theme-quote-featured{max-width:760px;font-size:21px!important;line-height:1.8!important;white-space:normal;overflow-wrap:normal;word-break:normal}
 .call-theme-quote-ko{max-width:840px}
 .call-theme-english-context{display:none!important}
+
+/* Call-source identity and collapsible Korean-only interpretation. */
+.call-theme-attribution{font-size:16px;line-height:1.6;color:#adbcca;margin:-8px 0 14px;word-break:keep-all}
+.call-theme-summary>summary.call-theme-summary-label{display:list-item;cursor:pointer;list-style:disclosure-closed;list-style-position:inside;margin:0;color:#FFCB05}
+.call-theme-summary[open]>summary.call-theme-summary-label{list-style:disclosure-open;margin-bottom:8px}

@@ -14,6 +14,11 @@ function Choice({value,options,onChange,label}:{value:string;options:string[];on
 
 type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
 const callThemes:Record<string,CallTheme[]>={
+ "232953":[
+  {title:"한국 피부시술 비교: PDRN 기술",lines:["7278"],summary:"클리니크 CX PDRN 앰풀 연구에서 한국에서 주로 쓰이는 PDRN 주사제를 비교 대상으로 언급했습니다. 한국 브랜드 매출이나 한국 ODM 계약으로 해석하면 안 됩니다. 연구 발표 화자의 성명은 자동전사에서 확인되지 않았습니다."},
+  {title:"한국 럭셔리 뷰티 유통: 서울·제주·대한항공",lines:["15444","15618","15625"],quoteEn:"So, for example, South Korea is a high-growth and influential destination where we have renovated stores and opened stores…",quoteKo:"예를 들어 한국은 성장성이 높고 영향력 있는 방문지로, 우리는 매장을 개보수하고 새 매장을 열었습니다…",summary:"에스티로더는 한국의 뷰티 트래블리테일 사업을 확장하며 서울과 제주에 매장을 새로 열거나 개보수했습니다. M·A·C Powder Kiss 립스틱의 대한항공 기내 쇼핑잡지 표지 노출과 에스티로더 브랜드의 대한항공 1등석 라운지 마케팅 사례도 각각 1회 언급했습니다. 위 직접인용은 확인된 원문 중 앞부분만 발췌한 것이고, 뒤의 한국어 설명은 나머지 근거를 포함한 해설입니다."},
+  {title:"중국인 관광객 동선·한국 면세사업 운영",lines:["16067","17222"],summary:"중국인 여행객의 해외 이동 회복이 한국·일본 등 목적지마다 다르다고 발표했습니다. 별도로 글로벌 브랜드·국내 팀·트래블리테일 팀이 한국 시장에서도 공동 조율하는 내부 협의체를 운영한다고 설명했습니다. 한국 개별 면세 매출 증가율은 제시되지 않았습니다."}
+ ],
  "176620":[
   {title:"한국 메이크업: MAC 점유율 상승·톰포드 시장 성장률 상회",lines:["111","112"],quoteEn:"M·A·C gained share in China, Japan, and Korea",quoteKo:"M·A·C은 중국·일본·한국에서 점유율을 높였습니다.",summary:"발표부 · CEO 스테판 드 라 파브리. MAC은 2026년 7~9월 한국·중국·일본에서 프레스티지 메이크업 점유율이 상승했습니다. TOM FORD도 이들 시장에서 프레스티지 메이크업 시장 전체보다 빠르게 성장했습니다. 두 브랜드 모두 분기 매출 두 자릿수 성장에 기여했습니다."},
   {title:"한국 향수: 럭셔리 향수 점유율 확대",lines:["199","203"],quoteEn:"share gain in China, in Korea, in Japan",quoteKo:"중국·한국·일본에서 점유율을 높였습니다.",summary:"Q&A · 도이체방크 Steve Powers의 향수 성장 질문에 대한 CEO 답변. 에스티로더는 TOM FORD·Le Labo 등 럭셔리 향수가 한국에서도 점유율을 높이고 있다고 두 차례 언급했습니다. 글로벌 향수 매출 성장률은 20%이며 한국 개별 증가율은 공개하지 않았습니다."},
@@ -94,8 +99,8 @@ export default function CallsView(){
        <span className="evidence-position">{String(j+1).padStart(2,'0')} · {g.title}</span>
        <b>{g.count}회</b>
       </div>
-      <div className="call-theme-meta">검증 구간 {g.lines.length}개 · 공개 전사본 {g.lines.join(" · ")}행</div>
-      <div className="call-theme-attribution">{Array.from(new Set(g.matches.map((p:any)=>p.speaker).filter(Boolean))).join(" · ")||"화자 미확인"} · {g.matches.some((p:any)=>p.section==="qna")?(g.matches.some((p:any)=>p.section==="prepared")?"발표부·Q&A":"Q&A"):"발표부"}{Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).length?" · 질문: "+Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).join(", "):""}</div>
+      <div className="call-theme-meta">검증 구간 {g.lines.length}개 · {d.source.includes("StockNow")?"자동전사 위치 ID":"공개 전사본 행"} {g.lines.join(" · ")}</div>
+      <div className="call-theme-attribution">{Array.from(new Set(g.matches.map((p:any)=>p.speaker).filter(Boolean))).join(" · ")||"화자 미확인"} · {g.matches.some((p:any)=>p.section==="qna")?(g.matches.some((p:any)=>p.section==="prepared")?"발표부·Q&A":"Q&A"):(g.matches.some((p:any)=>p.section==="prepared")?"발표부":"구간 구분 확인 중")}{Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).length?" · 질문: "+Array.from(new Set(g.matches.map((p:any)=>p.questioner).filter(Boolean))).join(", "):""}</div>
       {g.quoteEn&&<blockquote className="call-theme-quote">
        <span className="call-theme-quote-label">영어 원문 · 실제 발언 발췌</span>
        <p className="call-theme-quote-en call-theme-quote-featured" lang="en">“<Highlight text={g.quoteEn}/>”</p>

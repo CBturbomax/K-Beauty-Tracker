@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "version": 4,
   "range": "2024-01 ~ 2026-11",
   "directTerms": [
@@ -8759,6 +8759,120 @@
         }
       ],
       "wordCount": null
+    },
+    {
+      "id": "232953",
+      "company": "Estée Lauder",
+      "date": "2026-11-04",
+      "title": "Capital Markets Experience: China Ecosystem Immersion",
+      "type": "conference",
+      "source": "StockNow 자동전사 검색 발췌 · 공식 Investor Event",
+      "status": "excerpt",
+      "callId": 232953,
+      "url": "https://investors.elcompanies.com/en/investors/events-and-presentations",
+      "sha256": "df0876a54ea43b32ebba8eeafac4f4e640d66a2a77d7b4516516a7766649d296",
+      "sha256Scope": "verified_24_word_excerpt_strings_in_timestamp_order_not_full_transcript",
+      "coverage": "자동전사에서 확인된 한국 관련 구간 6회만 집계 · 전체 전문 조회가 빈 응답을 반환하여 총횟수 검증 미완료",
+      "reason": "전문 조회가 빈 객체를 반환하여 의미 검색에서 직접 확인한 6개 구간만 계수. 동일 행사 전체 출현 횟수는 미확정이며 향후 전사본 전체 확보 시 재집계.",
+      "counts": {
+        "direct": 6,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 6,
+          "prepared": 5,
+          "qna": 0,
+          "unknown": 1
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 7278,
+          "line": 7278
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 15444,
+          "line": 15444
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 15618,
+          "line": 15618
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 15625,
+          "line": 15625
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": 16067,
+          "line": 16067
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "unknown",
+          "seconds": 17222,
+          "line": 17222
+        }
+      ],
+      "wordCount": null
+    },
+    {
+      "id": "179203",
+      "company": "Unilever",
+      "date": "2026-11-04",
+      "title": "CMD 2026",
+      "type": "conference",
+      "source": "StockNow",
+      "status": "missing",
+      "callId": 179203,
+      "reason": "정상 개최·자동전사 제공 표시 확인. 전체 원문 조회 빈 응답. 의미 검색은 조직개편의 Korea 열거만 확인(뷰티 시장 관련성 없음); 전수 검증 전까지 0회 처리 금지."
+    },
+    {
+      "id": "220420",
+      "company": "e.l.f. Beauty",
+      "date": "2026-11-04",
+      "title": "Q2 2027",
+      "type": "earnings",
+      "source": "StockNow",
+      "status": "missing",
+      "callId": 220420,
+      "reason": "11월 5일 06:30 KST 종료 콜. 전체 자동전사 조회가 빈 객체를 반환하여 의미 검색만 점검, 완전한 0회 검증 불가."
+    },
+    {
+      "id": "234281",
+      "company": "Coty",
+      "date": "2026-11-04",
+      "title": "Q1 2027 Prepared Remarks",
+      "type": "earnings",
+      "source": "StockNow",
+      "status": "missing",
+      "callId": 234281,
+      "reason": "11월 5일 06:30 KST 사전 녹화 발표. 전체 자동전사 조회가 빈 객체를 반환하여 의미 검색만 점검, 완전한 0회 검증 불가. 11월 5일 미국 오전 예정 라이브 Q&A는 미처리."
     }
   ]
 }

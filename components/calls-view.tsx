@@ -82,7 +82,7 @@ export default function CallsView(){
    const c=calls.companies.find((c:any)=>c.name===i.company),q=i.quote,ctx=i.context;
    if(i.evidence){const d=i.evidence;return <article className="call-note call-evidence-note" key={d.id} data-source-id={d.id} data-mention-count={d.count}>
     <div className="call-note-top"><button className="call-company" onClick={()=>select(i.company)}><i className={c.type==='브랜드'?'brand-dot':'retail-dot'}/>{c.ko}<span>{c.ticker}</span></button><time dateTime={d.date}>{d.date}</time><b className="evidence-call-total">{d.count}회</b></div>
-    <div className="call-event">{d.title}</div><div className="evidence-source">출처: {d.source} · {d.coverage}{d.callId?` · 콜 ${d.callId}`:''}{d.url&&<> · <a href={d.url} target="_blank" rel="noreferrer">전체 원문 ↗</a></>}</div>
+    <div className="call-event">{d.title}</div><div className="evidence-source">출처: {d.source} · {d.coverage}{d.callId?` · 콜 ${d.callId}`:''}{d.url&&<> · <a href={d.url} target="_blank" rel="noreferrer">{d.id==="232953"?"공식 행사·웹캐스트 ↗":"전체 원문 ↗"}</a></>}</div>
     <div className="evidence-passages">{(()=>{
      const definitions=callThemes[d.id];
      const groups=definitions?definitions.map(g=>{
@@ -118,7 +118,7 @@ export default function CallsView(){
         <span>{p.speaker||"전사본 화자 미상"}{p.section==="qna"?" · Q&A":p.section==="prepared"?" · 발표부":""}{p.questioner?` · ${p.questioner} 질문`:""}</span>
         <span>{p.count}회: {p.terms.map((t:any)=>t.term+" ×"+t.count).join(" · ")}</span>
        </div>)}</div>
-       {d.url&&<a href={d.url} target="_blank" rel="noreferrer">전사본의 전체 문맥 확인 ↗</a>}
+       {d.url&&<a href={d.url} target="_blank" rel="noreferrer">{d.id==="232953"?"공식 행사·웹캐스트 확인 ↗":"전사본의 전체 문맥 확인 ↗"}</a>}
       </details>
      </section>)
     })()}</div>

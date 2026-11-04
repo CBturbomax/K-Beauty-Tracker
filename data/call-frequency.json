@@ -8847,10 +8847,20 @@
       "date": "2026-11-04",
       "title": "CMD 2026",
       "type": "conference",
-      "source": "StockNow",
-      "status": "missing",
+      "source": "공개 전사본 · StockAnalysis (원문 직접 대조)",
+      "status": "complete",
       "callId": 179203,
-      "reason": "정상 개최·자동전사 제공 표시 확인. 전체 원문 조회 빈 응답. 의미 검색은 조직개편의 Korea 열거만 확인(뷰티 시장 관련성 없음); 전수 검증 전까지 0회 처리 금지."
+      "reason": "유니레버 2026.11.4 CMD 공개 전사본 전체 약 20.9만 글자 검색. Korea 1회는 지역 조직 개편 국가 열거로 화장품·뷰티 시장 관련성 없음. 다른 Korean K-beauty 및 한국 브랜드명 일치 0건. 집계 한국 화장품 관련 표현 0회.",
+      "url": "https://stockanalysis.com/quote/lon/ULVR/transcripts/665870-cmd-2026/",
+      "coverage": "공개 전체 전사본",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
     },
     {
       "id": "220420",
@@ -8858,10 +8868,20 @@
       "date": "2026-11-04",
       "title": "Q2 2027",
       "type": "earnings",
-      "source": "StockNow",
-      "status": "missing",
+      "source": "공개 전사본 · StockAnalysis (원문 직접 대조)",
+      "status": "complete",
       "callId": 220420,
-      "reason": "11월 5일 06:30 KST 종료 콜. 전체 자동전사 조회가 빈 객체를 반환하여 의미 검색만 점검, 완전한 0회 검증 불가."
+      "reason": "e.l.f. 2026.11.4 Q2 FY27 공개 전문 약 4.6만 글자에서 Korea/K-beauty/주요 한국 화장품 브랜드 직접 검색 결과 0건. 사업 자체 스킨케어 언급은 한국 관련 아님.",
+      "url": "https://stockanalysis.com/stocks/elf/transcripts/725309-q2-2027/",
+      "coverage": "공개 전체 전사본",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
     },
     {
       "id": "234281",
@@ -8869,10 +8889,20 @@
       "date": "2026-11-04",
       "title": "Q1 2027 Prepared Remarks",
       "type": "earnings",
-      "source": "StockNow",
-      "status": "missing",
+      "source": "공개 전사본 · StockAnalysis (원문 직접 대조)",
+      "status": "complete",
       "callId": 234281,
-      "reason": "11월 5일 06:30 KST 사전 녹화 발표. 전체 자동전사 조회가 빈 객체를 반환하여 의미 검색만 점검, 완전한 0회 검증 불가. 11월 5일 미국 오전 예정 라이브 Q&A는 미처리."
+      "reason": "Coty 2026.11.4 Q1 FY27 Prepared Remarks 공개 전문 약 3.6만 글자에서 한국·K뷰티·주요 한국 화장품 브랜드 직접 검색 0건. 2026.11.5 23:30 KST 별도 라이브 Q&A는 미래 일정 미처리.",
+      "url": "https://stockanalysis.com/stocks/coty/transcripts/786187-q1-2027-prepared-remarks/",
+      "coverage": "공개 사전발표 전문",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "version": 4,
   "range": "2024-01 ~ 2026-11",
   "directTerms": [
@@ -8895,6 +8895,48 @@
       "reason": "Coty 2026.11.4 Q1 FY27 Prepared Remarks 공개 전문 약 3.6만 글자에서 한국·K뷰티·주요 한국 화장품 브랜드 직접 검색 0건. 2026.11.5 23:30 KST 별도 라이브 Q&A는 미래 일정 미처리.",
       "url": "https://stockanalysis.com/stocks/coty/transcripts/786187-q1-2027-prepared-remarks/",
       "coverage": "공개 사전발표 전문",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
+    },
+    {
+      "id": "236735",
+      "company": "Costco",
+      "date": "2026-11-04",
+      "title": "Monthly Sales Update October 2026",
+      "type": "briefing",
+      "source": "공개 전체 전사본 · StockAnalysis 대조",
+      "status": "complete",
+      "callId": 236735,
+      "url": "https://stockanalysis.com/stocks/cost/transcripts/794855-monthly-sales-update-october-2026/",
+      "reason": "코스트코 2026.11.4 10월 월매출 업데이트 공개 전사본 전체 점검. Korea 1회는 일반 해외지역 동일점매출 강세 국가 열거로, 한국 화장품·브랜드·생산·조달 발언이 아니므로 제외.",
+      "coverage": "공개 전문",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
+    },
+    {
+      "id": "224031",
+      "company": "Coty",
+      "date": "2026-11-05",
+      "title": "Q1 2027 Q&A",
+      "type": "earnings",
+      "source": "공개 전체 전사본 · StockAnalysis 및 Benzinga 대조",
+      "status": "complete",
+      "callId": 224031,
+      "url": "https://stockanalysis.com/stocks/coty/transcripts/736907-q1-2027-q-a/",
+      "reason": "Coty 2026.11.5 FY27 Q1 실적 질의응답(사전발표 11.4와 별도 세션) 공개 전문 전구간 검색. Korean/Korea/K-beauty 및 한국 스킨케어 브랜드 관련 발언 없음. 한국과 무관한 뷰티/향수·포트폴리오 질문은 제외.",
+      "coverage": "공개 Q&A 전문",
       "counts": {
         "direct": 0,
         "brands": 0,

@@ -15,9 +15,9 @@ function Choice({value,options,onChange,label}:{value:string;options:string[];on
 type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
 const callThemes:Record<string,CallTheme[]>={
  "232953":[
-  {title:"한국 피부시술 비교: PDRN 기술",lines:["7278"],summary:"클리니크 CX PDRN 앰풀 연구에서 한국에서 주로 쓰이는 PDRN 주사제를 비교 대상으로 언급했습니다. 한국 브랜드 매출이나 한국 ODM 계약으로 해석하면 안 됩니다. 연구 발표 화자의 성명은 자동전사에서 확인되지 않았습니다."},
-  {title:"한국 럭셔리 뷰티 유통: 서울·제주·대한항공",lines:["15444","15618","15625"],quoteEn:"So, for example, South Korea is a high-growth and influential destination where we have renovated stores and opened stores…",quoteKo:"예를 들어 한국은 성장성이 높고 영향력 있는 방문지로, 우리는 매장을 개보수하고 새 매장을 열었습니다…",summary:"에스티로더는 한국의 뷰티 트래블리테일 사업을 확장하며 서울과 제주에 매장을 새로 열거나 개보수했습니다. M·A·C Powder Kiss 립스틱의 대한항공 기내 쇼핑잡지 표지 노출과 에스티로더 브랜드의 대한항공 1등석 라운지 마케팅 사례도 각각 1회 언급했습니다. 위 직접인용은 확인된 원문 중 앞부분만 발췌한 것이고, 뒤의 한국어 설명은 나머지 근거를 포함한 해설입니다."},
-  {title:"중국인 관광객 동선·한국 면세사업 운영",lines:["16067","17222"],summary:"중국인 여행객의 해외 이동 회복이 한국·일본 등 목적지마다 다르다고 발표했습니다. 별도로 글로벌 브랜드·국내 팀·트래블리테일 팀이 한국 시장에서도 공동 조율하는 내부 협의체를 운영한다고 설명했습니다. 한국 개별 면세 매출 증가율은 제시되지 않았습니다."}
+  {title:"한국 피부시술 비교: PDRN 기술",lines:["7278"],summary:"발표부 · René Lammers(R&I 책임자). 클리니크 CX PDRN 앰풀을 한국에서 주로 쓰이는 PDRN 주사제와 실험실에서 비교했습니다. 한국의 주사제는 효능 비교 대상이며, 한국 ODM 계약이나 한국 브랜드 매출을 뜻하지 않습니다. 실제 발언은 공개 전사본 549행."},
+  {title:"한국 럭셔리 뷰티 유통: 서울·제주·대한항공",lines:["15444","15618","15625"],quoteEn:"So, for example, South Korea is a high-growth and influential destination where we have renovated stores and opened stores in both Seoul and Jeju Island.",quoteKo:"예를 들어, 한국은 성장성이 높고 영향력 있는 여행 목적지로, 우리는 서울과 제주도에서 매장을 개보수하고 신규 매장을 열었습니다.",summary:"발표부 · Matthew Growdon(APAC·글로벌 트래블리테일 총괄). 서울·제주 면세점 브랜드 경험 확대 외에 M·A·C Powder Kiss 립스틱의 대한항공 기내 쇼핑잡지 표지 노출과 에스티로더 브랜드의 대한항공 일등석 라운지 캠페인을 각각 별도로 언급했습니다. 동일 발언의 서울·제주 지명은 중복 계수하지 않았습니다. 공개 전사본 948·954행."},
+  {title:"중국인 관광객 동선·한국 면세사업 운영",lines:["16067","17222"],summary:"발표부 · Olivier Dubos: 중국인 여행객의 회복 속도가 한국·일본 등 목적지마다 다르다고 설명했습니다(977행). Q&A · Citi Filippo Falorni 질문에 Matthew Growdon은 한국에도 글로벌 브랜드·국내팀·트래블리테일팀의 공동 협의체를 운영한다고 답했습니다(1060행). 한국 개별 면세 매출 증가율은 제시하지 않았습니다."}
  ],
  "176620":[
   {title:"한국 메이크업: MAC 점유율 상승·톰포드 시장 성장률 상회",lines:["111","112"],quoteEn:"M·A·C gained share in China, Japan, and Korea",quoteKo:"M·A·C은 중국·일본·한국에서 점유율을 높였습니다.",summary:"발표부 · CEO 스테판 드 라 파브리. MAC은 2026년 7~9월 한국·중국·일본에서 프레스티지 메이크업 점유율이 상승했습니다. TOM FORD도 이들 시장에서 프레스티지 메이크업 시장 전체보다 빠르게 성장했습니다. 두 브랜드 모두 분기 매출 두 자릿수 성장에 기여했습니다."},

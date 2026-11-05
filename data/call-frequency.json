@@ -8766,14 +8766,14 @@
       "date": "2026-11-04",
       "title": "Capital Markets Experience: China Ecosystem Immersion",
       "type": "conference",
-      "source": "StockNow 자동전사 검색 발췌 · 공식 Investor Event",
-      "status": "excerpt",
+      "source": "StockAnalysis 공개 전체 전사본(2026-11-04) · ELC 공식 Capital Markets Experience",
+      "status": "complete",
       "callId": 232953,
-      "url": "https://investors.elcompanies.com/en/investors/events-and-presentations",
-      "sha256": "df0876a54ea43b32ebba8eeafac4f4e640d66a2a77d7b4516516a7766649d296",
-      "sha256Scope": "verified_24_word_excerpt_strings_in_timestamp_order_not_full_transcript",
-      "coverage": "자동전사에서 확인된 한국 관련 구간 6회만 집계 · 전체 전문 조회가 빈 응답을 반환하여 총횟수 검증 미완료",
-      "reason": "전문 조회가 빈 객체를 반환하여 의미 검색에서 직접 확인한 6개 구간만 계수. 동일 행사 전체 출현 횟수는 미확정이며 향후 전사본 전체 확보 시 재집계.",
+      "url": "https://stockanalysis.com/stocks/el/transcripts/778075-status-update/",
+      "sha256": "b9945e3ce39dbcf27622e9008493e7c0604efccaf299e31e5b84aa7e877fc4c9",
+      "sha256Scope": "sha256_of_complete_203481_character_public_transcript_text_extracted_2026_11_06",
+      "coverage": "2026.11.6 StockAnalysis 공개 전체 전사본 203,481자 직접 검색. Korea/Korean 6회: R&D 비교 1, 한국 뷰티 면세·대한항공 마케팅 3, 해외 관광객/조직 Q&A 2. 서울/제주 등 동일 문장 지명은 추가 중복 집계하지 않음. 952행 단순 서울 매장 위치 설명은 별도 횟수에서 제외.",
+      "reason": "공개 전체 전사본 203,481자에서 Korea/Korean 6개 표현 각각 확인. StockNow 단편의 동일 6건과 일치하며 성명·발표/Q&A 출처 행을 확인함. 'Seoul'만 있는 일반 매장 예시(952행)는 한국 화장품 개별 영업성과 발언이 아니라 별도 횟수로 세지 않음.",
       "counts": {
         "direct": 6,
         "brands": 0,
@@ -8785,8 +8785,8 @@
           "category": "direct",
           "count": 6,
           "prepared": 5,
-          "qna": 0,
-          "unknown": 1
+          "qna": 1,
+          "unknown": 0
         }
       ],
       "moments": [
@@ -8834,7 +8834,7 @@
           "term": "한국 관련",
           "category": "direct",
           "count": 1,
-          "section": "unknown",
+          "section": "qna",
           "seconds": 17222,
           "line": 17222
         }

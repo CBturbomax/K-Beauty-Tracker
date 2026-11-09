@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-10",
   "version": 4,
   "range": "2024-01 ~ 2026-11",
   "directTerms": [
@@ -5517,9 +5517,47 @@
       "date": "2026-05-01",
       "title": "Q3 2026",
       "type": "earnings",
-      "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 61536
+      "source": "에스티로더 공식 IR · FactSet 2026.05.01 수정 전사본",
+      "status": "complete",
+      "callId": 61536,
+      "url": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/quarterly-earnings/2026/q3/3q26-transcript.pdf",
+      "coverage": "공식 수정 전사본 전체 18페이지 대조 · Korea/Korean 관련 발표부 2개 구간(한국 소매판매·쿠팡 화장품 온라인 유통)",
+      "sha256": "50e86b3f525990b7d928e5ed56eafb4cd68bf765d01e50e511fe3408bc6e0d0a",
+      "sha256Scope": "sha256_of_two_verbatim_23_word_excerpts_in_source_order",
+      "counts": {
+        "direct": 2,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": null,
+          "line": 87
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": null,
+          "line": 99
+        }
+      ],
+      "wordCount": null
     },
     {
       "id": "168984",

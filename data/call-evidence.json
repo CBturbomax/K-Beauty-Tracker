@@ -2067,41 +2067,6 @@
     ]
   },
   {
-    "id": "eu-18",
-    "company": "L'Oréal",
-    "date": "2026-04",
-    "title": "1Q26",
-    "source": "공개 컨퍼런스콜 전사본",
-    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-loreal-q1-2026-shows-strong-growth-amid-it-challenges-93CH-4630262",
-    "callId": null,
-    "sha256": "e55be6dc98a81def964bd49646cfb91517faa790a6eac191f81f2bf9572b6dcc",
-    "coverage": "확보 발췌",
-    "dateSource": null,
-    "count": 2,
-    "segments": [
-      {
-        "id": "eu-18:1",
-        "en": "Of course, we will be starting the rollout of Dr. G, our Korean brand.",
-        "ko": "물론 당사의 한국 브랜드인 닥터지의 전개를 시작할 것입니다.",
-        "context": "닥터지의 판매 확대 계획을 스킨케어 성장 전망과 연결해 설명했습니다.",
-        "line": 1,
-        "location": "수집 원문 1행",
-        "speaker": "",
-        "count": 2,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 1
-          },
-          {
-            "term": "Dr.G",
-            "count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "eu-19",
     "company": "Beiersdorf (NIVEA)",
     "date": "2026-04",
@@ -2191,6 +2156,41 @@
           {
             "term": "한국 관련",
             "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eu-18",
+    "company": "L'Oréal",
+    "date": "2026-04",
+    "title": "1Q26",
+    "source": "공개 컨퍼런스콜 전사본",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-loreal-q1-2026-shows-strong-growth-amid-it-challenges-93CH-4630262",
+    "callId": null,
+    "sha256": "e55be6dc98a81def964bd49646cfb91517faa790a6eac191f81f2bf9572b6dcc",
+    "coverage": "확보 발췌",
+    "dateSource": null,
+    "count": 2,
+    "segments": [
+      {
+        "id": "eu-18:1",
+        "en": "Of course, we will be starting the rollout of Dr. G, our Korean brand.",
+        "ko": "물론 당사의 한국 브랜드인 닥터지의 전개를 시작할 것입니다.",
+        "context": "닥터지의 판매 확대 계획을 스킨케어 성장 전망과 연결해 설명했습니다.",
+        "line": 1,
+        "location": "수집 원문 1행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          },
+          {
+            "term": "Dr.G",
+            "count": 1
           }
         ]
       }
@@ -2392,6 +2392,57 @@
           },
           {
             "term": "Dr.G",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "61536",
+    "company": "Estée Lauder",
+    "date": "2026-05-01",
+    "title": "Q3 2026",
+    "source": "에스티로더 공식 IR · FactSet 수정 전사본",
+    "url": "https://media.elcompanies.com/files/e/estee-lauder-companies/global/investors/earnings-and-financials/quarterly-earnings/2026/q3/3q26-transcript.pdf",
+    "callId": 61536,
+    "sha256": "50e86b3f525990b7d928e5ed56eafb4cd68bf765d01e50e511fe3408bc6e0d0a",
+    "sha256Scope": "sha256_of_two_verbatim_23_word_excerpts_in_source_order",
+    "coverage": "공식 수정 전사본 전체 18페이지 · 한국 메이크업 반등(3페이지 87행)·한국 온라인 플랫폼 쿠팡(4페이지 99행) · CEO 발표부 두 표현 확인",
+    "count": 2,
+    "segments": [
+      {
+        "id": "61536:87",
+        "line": 87,
+        "location": "FactSet 공식 수정 전사본 3페이지 · 87행",
+        "speaker": "Stéphane de La Faverie (CEO)",
+        "section": "prepared",
+        "questioner": null,
+        "en": "In Korea, we returned to retail sales growth, up high-single digits and gained share in makeup.",
+        "ko": "한국에서는 소매 매출이 다시 높은 한 자릿수 성장세로 돌아섰고 메이크업 시장 점유율도 높아졌습니다.",
+        "context": "에스티로더 최고경영자는 2026년 3분기(회계연도) 한국 소매판매가 높은 한 자릿수 성장으로 전환했다고 밝혔습니다. 메이크업 점유율이 확대됐고 일본과 한국에서 M·A·C가 특히 선전했다는 설명입니다. 국가별 한국 매출액이나 실제 시장점유율 수치는 공개하지 않았습니다.",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "61536:99",
+        "line": 99,
+        "location": "FactSet 공식 수정 전사본 4페이지 · 99행",
+        "speaker": "Stéphane de La Faverie (CEO)",
+        "section": "prepared",
+        "questioner": null,
+        "en": "one of the leading Korean online platforms",
+        "ko": "한국의 주요 온라인 플랫폼 가운데 하나",
+        "context": "중국의 더우인·티몰과 한국의 쿠팡에서 판매가 호조를 보인 점이 전사 온라인 유기적 매출의 두 자릿수 성장에 기여했다고 설명했습니다. 쿠팡 단독 성장률이나 한국 온라인 매출액을 제시한 것은 아니므로 지역별 성과와 혼동하지 않습니다.",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
             "count": 1
           }
         ]
@@ -2610,6 +2661,53 @@
     ]
   },
   {
+    "id": "eu-12",
+    "company": "L'Oréal",
+    "date": "2026-06-02",
+    "title": "dbAccess 컨퍼런스 2026",
+    "source": "공개 전사본",
+    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/683348-23rd-annual-dbaccess-global-consumer-conference/",
+    "callId": null,
+    "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a",
+    "coverage": "전체 원문",
+    "dateSource": null,
+    "count": 3,
+    "segments": [
+      {
+        "id": "eu-12:12",
+        "en": "Korean makeup brand",
+        "ko": "한국 메이크업 브랜드",
+        "context": "국가별 브랜드 적합성을 설명하며 프랑스보다 동남아에 더 맞는 한국 메이크업 브랜드를 예로 들었습니다.",
+        "line": 12,
+        "location": "수집 원문 12행",
+        "speaker": "",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "eu-12:35",
+        "en": "Korean beauty … We also have Korean brands",
+        "ko": "한국 뷰티 … 우리는 한국 브랜드들도 보유하고 있습니다",
+        "context": "세계 각지에서 성장하는 뷰티 흐름을 소개한 뒤, 로레알도 한국을 포함한 다양한 원산지의 브랜드를 보유한다고 설명했습니다.",
+        "line": 35,
+        "location": "수집 원문 35행",
+        "speaker": "",
+        "count": 2,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "195259",
     "company": "Ulta Beauty",
     "date": "2026-06-02",
@@ -2655,53 +2753,6 @@
           {
             "term": "Anua",
             "count": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "eu-12",
-    "company": "L'Oréal",
-    "date": "2026-06-02",
-    "title": "dbAccess 컨퍼런스 2026",
-    "source": "공개 전사본",
-    "url": "https://stockanalysis.com/quote/epa/OR/transcripts/683348-23rd-annual-dbaccess-global-consumer-conference/",
-    "callId": null,
-    "sha256": "c374b074996e5ea4b57053d3b9670d10e14f981076bd85d9307876bef352564a",
-    "coverage": "전체 원문",
-    "dateSource": null,
-    "count": 3,
-    "segments": [
-      {
-        "id": "eu-12:12",
-        "en": "Korean makeup brand",
-        "ko": "한국 메이크업 브랜드",
-        "context": "국가별 브랜드 적합성을 설명하며 프랑스보다 동남아에 더 맞는 한국 메이크업 브랜드를 예로 들었습니다.",
-        "line": 12,
-        "location": "수집 원문 12행",
-        "speaker": "",
-        "count": 1,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 1
-          }
-        ]
-      },
-      {
-        "id": "eu-12:35",
-        "en": "Korean beauty … We also have Korean brands",
-        "ko": "한국 뷰티 … 우리는 한국 브랜드들도 보유하고 있습니다",
-        "context": "세계 각지에서 성장하는 뷰티 흐름을 소개한 뒤, 로레알도 한국을 포함한 다양한 원산지의 브랜드를 보유한다고 설명했습니다.",
-        "line": 35,
-        "location": "수집 원문 35행",
-        "speaker": "",
-        "count": 2,
-        "terms": [
-          {
-            "term": "한국 관련",
-            "count": 2
           }
         ]
       }
@@ -3704,6 +3755,55 @@
     ]
   },
   {
+    "id": "eu-puig-20261021",
+    "company": "Puig",
+    "date": "2026-10-21",
+    "title": "3Q26 매출발표 컨퍼런스콜",
+    "source": "공개 전사본 · StockAnalysis",
+    "url": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
+    "callId": null,
+    "sha256": "b81ae8fbddd08b3b971f221dafba8ac0eff3d9e0f592b7031368694d07958d2e",
+    "coverage": "전체 원문",
+    "dateSource": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
+    "count": 2,
+    "segments": [
+      {
+        "id": "eu-puig-20261021:294",
+        "en": "high-end skincare decreasing at 4.8%",
+        "ko": "고가 스킨케어 시장은 4.8% 감소하고 있습니다.",
+        "context": "CEO는 Circana 자료를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 밝혔습니다. 저렴하면서 효능을 강조하는 K뷰티와 더마코스메틱이 기존 고가 스킨케어의 수요를 일부 가져가고 있다고 설명했습니다. 단순 경기 부진만이 아니라 카테고리 간 소비 이동이라는 해석입니다.",
+        "line": 294,
+        "location": "공개 전사본 294행",
+        "speaker": "José Manuel Albesa, CEO",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ],
+        "contextEn": "Puig cited Circana data showing a 4.8% decline in U.S. premium skincare through August. Management linked the weakness to shoppers moving toward more accessible, efficacy-led alternatives including K-beauty and dermo-cosmetics."
+      },
+      {
+        "id": "eu-puig-20261021:295",
+        "en": "we see more accessible skincare with good levels of science background in both K-beauty and dermo-cosmetics",
+        "ko": "우리는 K뷰티와 더마코스메틱 모두에서 과학적 근거를 갖추면서도 더 쉽게 구매할 수 있는 스킨케어 제품을 보고 있습니다.",
+        "context": "CEO는 K뷰티와 더마코스메틱의 공통 경쟁력으로 합리적인 가격과 과학적 효능을 꼽았습니다. 이러한 추세가 미국뿐 아니라 다른 시장에서도 강해지고 있다고 설명했습니다. 회사는 장기적으로 더마코스메틱이 글로벌 스킨케어 전체보다 빠르게 성장할 것으로 전망했습니다.",
+        "line": 295,
+        "location": "공개 전사본 295행",
+        "speaker": "José Manuel Albesa, CEO",
+        "count": 1,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          }
+        ],
+        "contextEn": "Korean beauty and dermo-cosmetics appeal to customers seeking credible efficacy without top-tier prices. Management views the trend as global and expects the derma category to outgrow broader skincare."
+      }
+    ]
+  },
+  {
     "id": "eu-loreal-20261022",
     "company": "L'Oréal",
     "date": "2026-10-22",
@@ -3930,55 +4030,6 @@
           }
         ],
         "contextEn": "Management hopes Dr.G can translate its Southeast Asian momentum into Western consumer adoption. The Korean-beauty wave provides an opportunity, but success in Western markets is still to be demonstrated."
-      }
-    ]
-  },
-  {
-    "id": "eu-puig-20261021",
-    "company": "Puig",
-    "date": "2026-10-21",
-    "title": "3Q26 매출발표 컨퍼런스콜",
-    "source": "공개 전사본 · StockAnalysis",
-    "url": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
-    "callId": null,
-    "sha256": "b81ae8fbddd08b3b971f221dafba8ac0eff3d9e0f592b7031368694d07958d2e",
-    "coverage": "전체 원문",
-    "dateSource": "https://stockanalysis.com/quote/bme/PUIG/transcripts/659886-q3-2026-tu/",
-    "count": 2,
-    "segments": [
-      {
-        "id": "eu-puig-20261021:294",
-        "en": "high-end skincare decreasing at 4.8%",
-        "ko": "고가 스킨케어 시장은 4.8% 감소하고 있습니다.",
-        "context": "CEO는 Circana 자료를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 밝혔습니다. 저렴하면서 효능을 강조하는 K뷰티와 더마코스메틱이 기존 고가 스킨케어의 수요를 일부 가져가고 있다고 설명했습니다. 단순 경기 부진만이 아니라 카테고리 간 소비 이동이라는 해석입니다.",
-        "line": 294,
-        "location": "공개 전사본 294행",
-        "speaker": "José Manuel Albesa, CEO",
-        "count": 1,
-        "terms": [
-          {
-            "term": "K-beauty",
-            "count": 1
-          }
-        ],
-        "contextEn": "Puig cited Circana data showing a 4.8% decline in U.S. premium skincare through August. Management linked the weakness to shoppers moving toward more accessible, efficacy-led alternatives including K-beauty and dermo-cosmetics."
-      },
-      {
-        "id": "eu-puig-20261021:295",
-        "en": "we see more accessible skincare with good levels of science background in both K-beauty and dermo-cosmetics",
-        "ko": "우리는 K뷰티와 더마코스메틱 모두에서 과학적 근거를 갖추면서도 더 쉽게 구매할 수 있는 스킨케어 제품을 보고 있습니다.",
-        "context": "CEO는 K뷰티와 더마코스메틱의 공통 경쟁력으로 합리적인 가격과 과학적 효능을 꼽았습니다. 이러한 추세가 미국뿐 아니라 다른 시장에서도 강해지고 있다고 설명했습니다. 회사는 장기적으로 더마코스메틱이 글로벌 스킨케어 전체보다 빠르게 성장할 것으로 전망했습니다.",
-        "line": 295,
-        "location": "공개 전사본 295행",
-        "speaker": "José Manuel Albesa, CEO",
-        "count": 1,
-        "terms": [
-          {
-            "term": "K-beauty",
-            "count": 1
-          }
-        ],
-        "contextEn": "Korean beauty and dermo-cosmetics appeal to customers seeking credible efficacy without top-tier prices. Management views the trend as global and expects the derma category to outgrow broader skincare."
       }
     ]
   },

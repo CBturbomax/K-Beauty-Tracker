@@ -164,7 +164,7 @@
       "색조": "입술 + 눈화장 + 메이크업용",
       "기타": "네일 + 파우더 + 어린이용 + 기타"
     },
-    "source": "관세청 공공데이터포털 오픈API / TRASS·삼성증권 정동희 수출 데이터북 (2026.11.2, 10월 잠정 월간집계)",
+    "source": "관세청 HS3304 직접 집계(2026.10 수입·HS6/HS10 상세); TRASS·삼성증권 정동희 수출 데이터북(2026.11.2, 월간 수출·권역·카테고리 잠정)",
     "regions": [
       "중화권",
       "아시아",
@@ -184,12 +184,13 @@
       "기타"
     ],
     "regionalBasisStart": "202410",
-    "regionalBasisNote": "2024년 10월~2026년 10월 전국·권역·카테고리·국가별 수출은 삼성증권 정동희 2026.11.2 수출 데이터북(TRASS·삼성증권, p7)과 2026.10.1 데이터북의 연속된 동일 출처 시계열입니다. 2026년 10월 값은 1~31일 잠정치, 백만 USD 단위 반올림(저장은 천 USD). 유럽은 유럽 전체(러시아 포함) 직접 집계이며 5개국 합이 아닙니다. 권역 정의는 2024년 10월 이전의 자체 분류와 일부 다릅니다. 2026.10 전국 수입/HS10/미확보 국가 및 국가별 카테고리는 추정·0 대체 없이 공란입니다. 관세청 상세 HS3304 원장의 적재는 2026.09까지이므로 10월 TRASS 잠정액을 상세 확정치와 섞지 않습니다.",
+    "regionalBasisNote": "2024년 10월~2026년 10월 전국·권역·카테고리·국가별 수출은 삼성증권 정동희 2026.11.2 수출 데이터북(TRASS·삼성증권, p7)과 2026.10.1 데이터북의 연속된 동일 출처 시계열입니다. 2026년 10월 값은 1~31일 잠정치, 백만 USD 단위 반올림(저장은 천 USD). 유럽은 유럽 전체(러시아 포함) 직접 집계이며 5개국 합이 아닙니다. 권역 정의는 2024년 10월 이전의 자체 분류와 일부 다릅니다. 2026.11.11 관세청 HS3304 국가·HS10 원장 2026.10 적재를 확인하여 9월 정정 수입 및 10월 전국 수입·HS6·HS10 직접 원자료(천 USD)만 별도로 갱신했습니다. 전국/권역/품목군/19개국 수출의 10월값은 삼성증권 11.2 잠정치로 유지하며, 서로 다른 출처·확정 단계의 금액을 합계 검증 또는 직접 YoY에 혼합하지 않습니다. 관세청 원장 10월 전국 수출은 1,154,893천 USD로 삼성 잠정 1,182,000천 USD와 차이가 있습니다. 원장 기준 전체 국가·권역 대조 완료 후 일관되게 전환합니다. 미확보 국가별 수출·수입은 null 그대로입니다.",
     "officialImportCheck": {
-      "month": "202609",
-      "source": "관세청 HS3304 via InvestingWiki",
-      "nationalUsd": 84082404,
-      "countries": 23
+      "month": "202610",
+      "source": "관세청 HS3304 국가·HS10 직접 집계 via InvestingWiki",
+      "nationalUsd": 100037317,
+      "countries": 195,
+      "checkedAt": "2026-11-10T23:02:05.648Z"
     }
   },
   "national": {
@@ -817,8 +818,8 @@
         0,
         0,
         0,
-        null,
-        null
+        55407.129,
+        54107.027
       ],
       "330420": [
         0,
@@ -973,8 +974,8 @@
         0,
         0,
         0,
-        null,
-        null
+        19894.789,
+        17826.389
       ],
       "330430": [
         0,
@@ -1129,8 +1130,8 @@
         0,
         0,
         0,
-        null,
-        null
+        3027.107,
+        3371.625
       ],
       "330491": [
         0,
@@ -1285,8 +1286,8 @@
         0,
         0,
         0,
-        null,
-        null
+        5971.527,
+        6156.137
       ],
       "330499": [
         0,
@@ -1441,8 +1442,8 @@
         0,
         0,
         0,
-        null,
-        null
+        1128262.125,
+        1073432.182
       ],
       "3304101000": [
         1399,
@@ -1597,8 +1598,8 @@
         8387,
         7177,
         8965,
-        null,
-        null
+        7502.665,
+        6632.801
       ],
       "3304109000": [
         665,
@@ -1753,8 +1754,8 @@
         42262,
         40779,
         33005,
-        null,
-        null
+        47904.464,
+        47474.226
       ],
       "3304201000": [
         726,
@@ -1909,8 +1910,8 @@
         5382,
         4966,
         4002,
-        null,
-        null
+        5256.241,
+        5460.352
       ],
       "3304209000": [
         4227,
@@ -2065,8 +2066,8 @@
         14867,
         10993,
         14722,
-        null,
-        null
+        14638.548,
+        12366.037
       ],
       "3304301000": [
         314,
@@ -2221,8 +2222,8 @@
         1558,
         1277,
         1524,
-        null,
-        null
+        1433.6,
+        2060.725
       ],
       "3304309000": [
         665,
@@ -2377,8 +2378,8 @@
         1092,
         1159,
         1271,
-        null,
-        null
+        1593.507,
+        1310.9
       ],
       "3304911000": [
         1311,
@@ -2533,8 +2534,8 @@
         3821,
         4047,
         3300,
-        null,
-        null
+        4438.105,
+        4218.689
       ],
       "3304912000": [
         0,
@@ -2689,8 +2690,8 @@
         2,
         47,
         24,
-        null,
-        null
+        13.435,
+        7.735
       ],
       "3304919000": [
         227,
@@ -2845,8 +2846,8 @@
         1750,
         1572,
         871,
-        null,
-        null
+        1519.987,
+        1929.713
       ],
       "3304991000": [
         44305,
@@ -3001,8 +3002,8 @@
         555149,
         527127,
         530050,
-        null,
-        null
+        594793.216,
+        587394
       ],
       "3304992000": [
         9168,
@@ -3157,8 +3158,8 @@
         75016,
         72551,
         70948,
-        null,
-        null
+        89287.542,
+        69111.672
       ],
       "3304993000": [
         23,
@@ -3313,8 +3314,8 @@
         2308,
         2998,
         3251,
-        null,
-        null
+        2985.341,
+        3996.19
       ],
       "3304999000": [
         17711,
@@ -3469,8 +3470,8 @@
         378746,
         422493,
         409410,
-        null,
-        null
+        441196.026,
+        412930.32
       ]
     },
     "imp": [
@@ -3626,8 +3627,8 @@
       87005,
       83917,
       80491,
-      84082.404,
-      null
+      84371.393,
+      100037.317
     ],
     "exp": [
       null,
@@ -141001,6 +141002,24 @@
       "groupOther": "Arithmetic remainder of report national minus China/HK/TW, US, Europe, Japan, Southeast Asia",
       "nationalImportAndHsUnavailable": true,
       "note": "Report emailed November 2, 2026 and publicly readable at sourceUrl. Source report not stored in repository. Direct aggregated series, no claim of full country-level customs reconciliation."
+    },
+    "officialHs202610": {
+      "source": "관세청 HS3304 공식 월별 국가·HS10 집계 · InvestingWiki trade_stats(local DB)",
+      "checkedAt": "2026-11-10T23:02:05.648Z",
+      "sourceType": "first_local_customs_snapshot",
+      "latestMonth": "202610",
+      "unitStored": "thousand USD",
+      "totalExportThousandUsd": 1154893.36,
+      "totalImportThousandUsd": 100037.317,
+      "samsungProvisionalWorldExportThousandUsd": 1182000,
+      "differenceThousandUsd": -27106.64,
+      "overwrittenSeries": [
+        "national.imp 202609,202610",
+        "national.hs HS6/HS10 202609,202610"
+      ],
+      "notOverwritten": "national.exp/regional.exp/grouped.exp/national.cat/country exports are still same-vintage Samsung TRASS provisional Oct 2026; keep intact until complete official country/region reconciliation; do not compare different sources as same-vintage YoY",
+      "countryCoverage": "Latest official source has 195 partners, country ranking response is only top 20; not a complete national ledger",
+      "method": "HS6 five groups sum exactly to customs national 3304 October total; never treat top-20 as all countries"
     }
   }
 }

@@ -12,7 +12,7 @@ const sept=months.indexOf('202609');assert.ok(sept>=0);
 assert.equal(completeSum([1,null,2]),null);assert.equal(completeSum([1,0,2]),3);
 assert.equal(addSeries([[1],[null]])[0],null);assert.equal(rolling([1,null,3],3)[2],null);
 assert.equal(nationalSeries('exp')[sept],1213010);
-assert.equal(months[latestIndex(nationalSeries('imp'))],'202609');
+assert.equal(months[latestIndex(nationalSeries('imp'))],'202610');
 assert.equal(months[completeCountryQuarter('exp')-1],'202606');
 assert.equal(months[completeCountryQuarter('imp')-1],'202606');
 const regional=regionSeries('exp');
@@ -21,18 +21,20 @@ const monthly=toRows(regional,'월');assert.equal(monthly.at(-1).x,'26년 10월'
 assert.equal(months.at(-1),'202610');assert.equal(nationalSeries('exp').at(-1),1182000);
 assert.equal(trade.regional.exp['유럽'].at(-1),281000);assert.equal(trade.regional.exp['아시아'].at(-1),286000);
 assert.equal(trade.grouped.exp['기타'].at(-1),230000);assert.equal(trade.national.cat['기초'].at(-1),588000);
-assert.equal(nationalSeries('imp').at(-1),null);
+assert.equal(nationalSeries('imp').at(-1),100037.317);
+assert.equal(trade.national.hs['3304991000'].at(-1),587394);
+assert.equal(trade.meta.officialImportCheck.month,'202610');
 const quarterly=toRows(regional,'분기');assert.equal(quarterly.at(-1).x,'3Q26');
 for(const region of trade.meta.regions)assert.equal(quarterly.at(-1)[region],completeSum(regional[region].slice(sept-2,sept+1))/1000);
 const total=nationalSeries('exp');
 const growth=toRows({...regional,전체:total},'월','전체',true,trade.meta.regionalBasisStart);
 for(const name of ['북미','전체']){assert.equal(growth.find(r=>r.x==='24년 10월')[name],null);assert.equal(growth.find(r=>r.x==='25년 9월')[name],null);assert.notEqual(growth.find(r=>r.x==='25년 10월')[name],null);}
 const quarterGrowth=toRows({...regional,전체:total},'분기','전체',true,trade.meta.regionalBasisStart);assert.equal(quarterGrowth.find(r=>r.x==='3Q25').전체,null);assert.notEqual(quarterGrowth.find(r=>r.x==='4Q25').전체,null);
-assert.equal(toRows({수입:nationalSeries('imp')},'월').at(-1).x,'26년 9월');
+assert.equal(toRows({수입:nationalSeries('imp')},'월').at(-1).x,'26년 10월');
 for(const group of trade.meta.g2){const values=trade.grouped.exp[group];assert.equal(values.length,months.length);assert.ok(values[sept]>0);assert.notEqual(rolling(values,3)[sept],null);}
 assert.ok(Math.abs(completeSum(Object.values(trade.grouped.exp).map(a=>a[sept]))-total[sept])<=4000);
 assert.equal(addSeries(trade.countries.map(c=>c.exp))[sept],null);
-console.log('Trade regressions passed: October monthly/8-region/6-group and partial import, September 3Q26 and validated source boundary.');
+console.log('Trade regressions passed: October Samsung export/regions and official customs HS/import, September 3Q26 and source boundary.');
 // Archived pairs restore the gap without comparing revised and legacy amounts.
 const legacy=read('trade-yoy-legacy');
 for(const group of ['regional','categories']){

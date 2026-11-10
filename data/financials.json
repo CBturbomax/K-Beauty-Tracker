@@ -4,14 +4,14 @@
     "basis": "OFS",
     "source": "DART 별도재무제표 · InvestingWiki / StockNow 조회",
     "note": "한국 상장법인 자체의 별도 손익. 해외법인 및 HK이노엔·연우·잉글우드랩 등 자회사 손익 제외. 한국법인의 수출 매출은 포함. 4분기는 연간에서 1~3분기 합계를 차감. 3Q26은 한국콜마 별도 잠정 실적만 반영. 코스맥스·코스메카코리아 별도 3Q 미공시는 null이며 연결 잠정실적은 넣지 않음.",
-    "checkedAt": "2026-11-06T23:04:38.121Z",
+    "checkedAt": "2026-11-10T23:02:05.648Z",
     "corps": {
       "코스맥스": "192820",
       "한국콜마": "161890",
       "코스메카코리아": "241710"
     },
     "provenance": {
-      "checkedAt": "2026-11-06T23:04:38.121Z",
+      "checkedAt": "2026-11-10T23:02:05.648Z",
       "source": "DART OFS 2026 Q2 regular filings; 한국콜마 3Q26 OFS preliminary earnings release 2026-11-06 (not audited, KRW million figures)",
       "reports": {
         "코스맥스": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001436",

@@ -1043,5 +1043,20 @@
     "include": true,
     "reason": "한국 온라인 플랫폼인 쿠팡의 에스티로더 화장품 온라인 판매 실적 기여를 명시한 발언",
     "lineSha256": "e7957ad121360aa178e289375a3acc200a7ec41014b9241cccc594712f2ee489"
+  },
+  "49142:240": {
+    "include": true,
+    "reason": "애널리스트가 북아시아 한국·일본 면세 화장품 사업 현황을 직접 질문한 구간",
+    "lineSha256": "1d31c319fef66c3bbc8d0e120c822ab69c8b255087a6844792c5ebd2e43bd1a3"
+  },
+  "49142:249": {
+    "include": true,
+    "reason": "CEO가 한국을 포함한 아시아 화장품 면세 유통의 혼란을 구체적으로 지목한 답변",
+    "lineSha256": "7772e959777c9cbaf2c2fd02654919c675c5ae736cd3b01c3b613f89d3fd5b1b"
+  },
+  "49142:255": {
+    "include": true,
+    "reason": "일본에서 한국으로 이동하는 여행·면세 수요와 글로벌 화장품 브랜드 대응에 관한 CEO 답변",
+    "lineSha256": "8eb9f0921a9e7ff70ebbda86394c9d3b01dfaab939e561a862136c4235554765"
   }
 }

@@ -14,6 +14,9 @@ function Choice({value,options,onChange,label}:{value:string;options:string[];on
 
 type CallTheme = {title:string; lines:string[]; summary:string; quoteEn?:string; quoteKo?:string; secondQuoteEn?:string; secondQuoteKo?:string};
 const callThemes:Record<string,CallTheme[]>={
+ "49142":[
+  {title:"한국 면세: 일본에서 한국으로 이동하는 여행 수요",lines:["240","249","255"],quoteEn:"a shift from Japan to Korea and other markets",quoteKo:"일본에서 한국과 다른 시장으로 이동하는 흐름",summary:"2026년 2월 5일 FY26 2Q 컨콜 Q&A. Citi의 Filippo Falorni는 한국·일본의 면세 현황을 질문했고, CEO Stéphane de La Faverie는 한국을 포함한 아태 면세 채널의 혼란과 연초 일본에서 한국·다른 시장으로 이동하는 여행 수요를 설명했습니다. 총 3회(질문 1·답변 2), 원문 240·249·255행을 각각 보존했습니다. 한국 자체의 면세 매출 성장률은 발표하지 않았습니다."}
+ ],
  "232953":[
   {title:"한국 피부시술 비교: PDRN 기술",lines:["7278"],summary:"발표부 · René Lammers(R&I 책임자). 클리니크 CX PDRN 앰풀을 한국에서 주로 쓰이는 PDRN 주사제와 실험실에서 비교했습니다. 한국의 주사제는 효능 비교 대상이며, 한국 ODM 계약이나 한국 브랜드 매출을 뜻하지 않습니다. 실제 발언은 공개 전사본 549행."},
   {title:"한국 럭셔리 뷰티 유통: 서울·제주·대한항공",lines:["15444","15618","15625"],quoteEn:"So, for example, South Korea is a high-growth and influential destination where we have renovated stores and opened stores in both Seoul and Jeju Island.",quoteKo:"예를 들어, 한국은 성장성이 높고 영향력 있는 여행 목적지로, 우리는 서울과 제주도에서 매장을 개보수하고 신규 매장을 열었습니다.",summary:"발표부 · Matthew Growdon(APAC·글로벌 트래블리테일 총괄). 서울·제주 면세점 브랜드 경험 확대 외에 M·A·C Powder Kiss 립스틱의 대한항공 기내 쇼핑잡지 표지 노출과 에스티로더 브랜드의 대한항공 일등석 라운지 캠페인을 각각 별도로 언급했습니다. 동일 발언의 서울·제주 지명은 중복 계수하지 않았습니다. 공개 전사본 948·954행."},

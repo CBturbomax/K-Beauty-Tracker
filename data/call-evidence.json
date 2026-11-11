@@ -4581,5 +4581,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "49142",
+    "company": "Estée Lauder",
+    "date": "2026-02-05",
+    "title": "Q2 FY26 실적콜",
+    "source": "StockAnalysis 공개 전체 전사본 · StockNow 화자·시각 대조",
+    "url": "https://stockanalysis.com/stocks/el/transcripts/373523-q2-2026/",
+    "callId": 49142,
+    "sha256": "e4258572c050f9b9dc89f467d813089f2d0b09b469faa6bf85aa5cd41d633c76",
+    "sha256Scope": "sha256_of_three_verbatim_24_word_excerpts_joined_by_newline",
+    "coverage": "전체 공개 전사본 240·249·255행 및 StockNow Q&A 발언 대조. 한국 면세 관련 한국/South Korea 언급 총 3회. 질문 1회, CEO 답변 2회.",
+    "count": 3,
+    "segments": [
+      {
+        "id": "49142:240",
+        "line": 240,
+        "location": "StockAnalysis 공개 전사본 240행 · StockNow 원문 1883초 부근",
+        "speaker": "Filippo Falorni (Citi) · 애널리스트 질문",
+        "section": "qna",
+        "questioner": "Filippo Falorni (Citi)",
+        "en": "North Asia, especially South Korea and Japan",
+        "ko": "북아시아, 특히 한국과 일본",
+        "context": "씨티의 Filippo Falorni는 에스티로더의 아시아 면세 회복을 질문하면서 하이난뿐 아니라 한국과 일본의 면세 상황도 별도로 설명해 달라고 요청했습니다. 기업의 실적 개선 발표가 아니라 애널리스트가 던진 질문이며, 원문 전체의 한국 관련 첫 언급입니다.",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "49142:249",
+        "line": 249,
+        "location": "StockAnalysis 공개 전사본 249행 · StockNow 원문 2003초 부근",
+        "speaker": "Stéphane de La Faverie (CEO)",
+        "section": "qna",
+        "questioner": "Filippo Falorni (Citi)",
+        "en": "rest of APAC, that is highly disrupted, Korea",
+        "ko": "큰 혼란을 겪고 있는 아시아태평양의 나머지 지역, 한국",
+        "context": "CEO는 하이난만이 아니라 한국을 포함한 아시아 면세 유통망 전체를 봐야 한다고 설명했습니다. 당시 중국 공항·온라인 면세 유통사의 사업 이관과 아태 지역의 운영 차질이 맞물려 있었으며 한국 매출 성장률을 별도 제시한 것은 아닙니다.",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "49142:255",
+        "line": 255,
+        "location": "StockAnalysis 공개 전사본 255행 · StockNow 원문 2165초 부근",
+        "speaker": "Stéphane de La Faverie (CEO)",
+        "section": "qna",
+        "questioner": "Filippo Falorni (Citi)",
+        "en": "a shift from Japan to Korea and other markets",
+        "ko": "일본에서 한국과 다른 시장으로 이동하는 흐름",
+        "context": "CEO는 일본 여행객 감소에도 일본 내 점유율 상승이 있었으며, 연초 들어 여행 수요가 일본에서 한국 및 다른 목적지로 이동하는 양상을 확인했다고 답했습니다. 회사는 이 소비자를 다양한 럭셔리 화장품 브랜드로 유치할 준비가 돼 있다고 설명했습니다. 한국에서 실현된 매출 규모는 공개하지 않았습니다.",
+        "count": 1,
+        "terms": [
+          {
+            "term": "한국 관련",
+            "count": 1
+          }
+        ]
+      }
+    ]
   }
 ]

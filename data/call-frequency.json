@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "version": 4,
-  "range": "2024-01 ~ 2026-11",
+  "range": "2024.01 ~ 2026.11",
   "directTerms": [
     "K-beauty",
     "한국 관련",
@@ -4559,9 +4559,55 @@
       "date": "2026-02-05",
       "title": "Q2 2026",
       "type": "earnings",
-      "source": "StockNow 자동전사",
-      "status": "missing",
-      "callId": 49142
+      "source": "공개 전사본 StockAnalysis · StockNow 원문 대조",
+      "status": "complete",
+      "callId": 49142,
+      "url": "https://stockanalysis.com/stocks/el/transcripts/373523-q2-2026/",
+      "coverage": "2026.02.05 컨퍼런스콜 전체 공개 전사본 한국 관련 질의 1회·CEO 면세 답변 2회(총 3회); 전사본 240·249·255행, Q&A 3개 구간; Korea·South Korea 포함 총 3개 표현 검증",
+      "sha256": "e4258572c050f9b9dc89f467d813089f2d0b09b469faa6bf85aa5cd41d633c76",
+      "sha256Scope": "sha256_of_three_verbatim_24_word_excerpts_joined_by_newline",
+      "counts": {
+        "direct": 3,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 3,
+          "prepared": 0,
+          "qna": 3,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 1883,
+          "line": 240
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2003,
+          "line": 249
+        },
+        {
+          "term": "한국 관련",
+          "category": "direct",
+          "count": 1,
+          "section": "qna",
+          "seconds": 2165,
+          "line": 255
+        }
+      ],
+      "wordCount": null
     },
     {
       "id": "61132",

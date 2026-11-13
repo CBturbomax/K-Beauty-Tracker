@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-30",
+  "checkedAt": "2026-11-13T22:58:53.002Z",
   "basis": "OFS",
   "unit": "KRW",
   "verification": [
@@ -337,5 +337,31 @@
       "operatingIncome": 70775035360,
       "note": "4-2 포괄손익계산서 3개월 열. StockNow의 revenue=335175489374는 매출원가를 잘못 매핑한 값이므로 교정."
     }
-  ]
+  ],
+  "latestQuarter": {
+    "period": "2026Q3",
+    "basis": "OFS",
+    "files": [
+      {
+        "company": "코스맥스",
+        "rcept_no": "20261113001208",
+        "date": "2026-11-13",
+        "revenueWon": 616149207095,
+        "operatingIncomeWon": 67661233475
+      },
+      {
+        "company": "코스메카코리아",
+        "rcept_no": "20261113001568",
+        "date": "2026-11-13",
+        "revenueWon": 201093231960,
+        "operatingIncomeWon": 23391578907
+      }
+    ],
+    "preliminary": {
+      "company": "한국콜마",
+      "rcept_no": "20261106800125",
+      "date": "2026-11-06",
+      "status": "별도 잠정·정기보고서 미확보"
+    }
+  }
 }

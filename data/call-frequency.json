@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "version": 4,
   "range": "2024.01 ~ 2026.11",
   "directTerms": [
@@ -9121,6 +9121,39 @@
       "callId": 184890,
       "coverage": "전체 전사문 대상 검색",
       "reason": "StockNow 전사문 전체 키워드 검색(Korea/Korean/K-beauty 및 28개 한국 화장품 브랜드) 완료. 해당 주제 유효 출현 미검출; Anua 문자열은 무관한 일반단어 부분일치로 제외. 단순 beauty/skincare 발언은 K뷰티로 간주하지 않음.",
+      "counts": {
+        "direct": 0,
+        "brands": 0,
+        "general": 0
+      },
+      "terms": [],
+      "moments": [],
+      "wordCount": null
+    },
+    {
+      "id": "234364",
+      "company": "e.l.f. Beauty",
+      "date": "2026-11-16",
+      "title": "Citi Fireside Chat",
+      "type": "conference",
+      "source": "StockNow 행사 목록(전사 미제공)",
+      "status": "missing",
+      "callId": 234364,
+      "coverage": "원문 미확보",
+      "reason": "2026-11-16 개최(한국시간 11/17 03:00). StockNow 전문 조회에서 전사 미제공 오류; 공개 원문도 미확인. 한국 화장품 발언 여부/횟수 미검증으로 0회 기재하지 않음."
+    },
+    {
+      "id": "186098",
+      "company": "Walmart",
+      "date": "2026-11-19",
+      "title": "Q3 2027",
+      "type": "earnings",
+      "source": "2026-11-19 공개 전체 전사본(Investing.com)·StockNow 검색 대조",
+      "status": "complete",
+      "callId": 186098,
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-walmart-beats-q3-2026-estimates-but-shares-fall-premarket-93CH-5039191",
+      "coverage": "공개 전체 원문",
+      "reason": "영문 원문 전구간에서 Korea/Korean/K-beauty 및 Medicube/Anua/COSRX/Dr.Jart/Beauty of Joseon/Peach & Lily/Laneige/Torriden 등 관련 브랜드 검색 미검출. CFO가 '뷰티 신규 브랜드 100개·매출 성장 기여 75%'를 언급했으나 한국 브랜드 또는 K뷰티로 특정하지 않아 제외. 출처 2026-11-19 공개 전체 Q&A 전사본.",
       "counts": {
         "direct": 0,
         "brands": 0,

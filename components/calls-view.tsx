@@ -36,16 +36,16 @@ const callThemes:Record<string,CallTheme[]>={
  ],
  "eu-loreal-20261022":[
   {title:"한국 면세시장: 회복은 확인되지만 신중하게 접근",lines:["185"],summary:"하이난 면세점 매출은 긍정적이었지만 중국 본토는 재고를 보충하는 과정이었습니다. 로레알은 한국 면세시장도 안정적이라고 판단하면서 반등의 질이 확실치 않다며 공급량을 공격적으로 늘리지 않았습니다."},
-  {title:"닥터지: 미국 온라인 진출과 해외 확장 가속",lines:["220","221","222","529","530"],quoteEn:"I have asked everybody to really gear up and go faster because it is a speed game",quoteKo:"모두에게 속도를 높이고 더 빨리 추진하라고 지시했습니다. 속도가 중요한 경쟁이기 때문입니다.",summary:"닥터지는 중국과 동남아 진출에 이어 미국 온라인과 TikTok Shop을 통해 판매를 확대하고, 이후 오프라인으로 넓혀갈 계획입니다. CEO는 K뷰티의 빠른 확산을 보고 당초 점진적이던 닥터지 글로벌 진출 속도를 높이라고 지시했습니다. 동남아 성과가 서구권에서도 재현될지가 핵심입니다."},
+  {title:"닥터지: 미국 온라인 진출과 해외 확장 가속",lines:["220","221","222","529","530"],quoteEn:"We have Dr.G, which as you know, is the number one skincare brand in Korea",quoteKo:"우리는 닥터지를 보유하고 있습니다. 아시다시피 닥터지는 한국의 스킨케어 1위 브랜드입니다.",summary:"닥터지는 중국과 동남아 진출에 이어 미국 온라인과 TikTok Shop을 통해 판매를 확대하고, 이후 오프라인으로 넓혀갈 계획입니다. CEO는 K뷰티의 빠른 확산을 보고 당초 점진적이던 닥터지 글로벌 진출 속도를 높이라고 지시했습니다. 동남아 성과가 서구권에서도 재현될지가 핵심입니다."},
   {title:"K뷰티 성장 전망·코스맥스와 MOU",lines:["486","525","526","527"],quoteEn:"I signed recently an MoU with Cosmax",quoteKo:"저는 최근 코스맥스와 업무협약을 체결했습니다.",summary:"애널리스트가 한국 스킨케어 매장 증가에 대한 로레알의 대응을 물었습니다. CEO는 K뷰티의 성장세를 인정하면서 한국 ODM 업체가 글로벌 브랜드도 제조한다고 설명했고, YSL 쿠션의 미국 성과를 사례로 들었습니다. 한국 스킨케어 브랜드 성장률 약 30%, 시장점유율 약 3~4%는 CEO의 추정치입니다."},
   {title:"3CE와 닥터지: 한국 브랜드 직접 육성",lines:["528"],summary:"로레알은 인수한 스타일난다의 3CE를 동남아시아에서 확대하고, 닥터지를 스킨케어 해외 확장의 주요 브랜드로 활용하고 있습니다. K뷰티에 대한 관심이 높아진 만큼 한국 브랜드를 직접 확보해 글로벌 유통망으로 키우는 전략입니다. 이 구간에는 길게 인용할 수 있는 독립적인 원문 문장이 확보돼 있지 않습니다."}
  ],
  "eu-beiersdorf-20261027":[
-  {title:"니베아, 저가 한국 화장품 브랜드에 점유율 상실",lines:["226"],quoteEn:"We are losing market share against local brands, against Korean brands, local private labels, which are cheaper than us.",quoteKo:"우리는 현지 브랜드, 한국 브랜드, 더 저렴한 유통업체 PB 브랜드에 점유율을 빼앗기고 있습니다.",summary:"CEO Vincent Warnery 발언. 니베아 점유율 하락의 경쟁상대는 기존 글로벌 화장품 회사뿐 아니라 가격이 저렴한 한국 스킨케어 브랜드·현지 브랜드·유통 PB입니다. 가격을 무작정 올리기 어려워지는 이유를 직접 설명했습니다."},
-  {title:"유세린 티아미돌 한국 등록",lines:["119"],quoteEn:"Thiamidol now also registered in Korea",quoteKo:"티아미돌이 이제 한국에도 등록됐습니다.",summary:"CEO Vincent Warnery 발표. 유세린의 색소침착 관리 핵심성분 티아미돌이 한국에서도 등록돼 아시아 판매 확대 가능성을 언급했습니다. 한국 브랜드의 해외 진출이 아닌 해외 브랜드의 한국 시장 진출 기회입니다."}
+  {title:"니베아, 저가 한국 화장품 브랜드에 점유율 상실",lines:["226"],quoteEn:"We are losing market share against local brands, against Korean brands",quoteKo:"우리는 현지 브랜드와 한국 브랜드에 시장점유율을 빼앗기고 있습니다.",summary:"CEO Vincent Warnery 발언. 니베아 점유율 하락의 경쟁상대는 기존 글로벌 화장품 회사뿐 아니라 가격이 저렴한 한국 스킨케어 브랜드·현지 브랜드·유통 PB입니다. 가격을 무작정 올리기 어려워지는 이유를 직접 설명했습니다."},
+  {title:"유세린 티아미돌 한국 등록",lines:["119"],quoteEn:"With Thiamidol now also registered in Korea, we are opening up further opportunities",quoteKo:"티아미돌이 이제 한국에도 등록되면서, 우리는 추가적인 기회를 열어가고 있습니다.",summary:"CEO Vincent Warnery 발표. 유세린의 색소침착 관리 핵심성분 티아미돌이 한국에서도 등록돼 아시아 판매 확대 가능성을 언급했습니다. 한국 브랜드의 해외 진출이 아닌 해외 브랜드의 한국 시장 진출 기회입니다."}
  ],
  "eu-puig-20261021":[
-  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"…premium skincare is being overtaken in dermo-cosmetics and also in this K-beauty trend. So we see more accessible skincare with good levels of science background…",quoteKo:"…고가 스킨케어는 더마코스메틱과 K뷰티 흐름에 밀리고 있습니다. 그래서 우리는 과학적 근거를 갖춘, 더 접근하기 쉬운 스킨케어 제품을 보고 있습니다…",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
+  {title:"K뷰티와 더마코스메틱이 고가 스킨케어를 잠식",lines:["294","295"],quoteEn:"the high-end premium skincare is being overtaken in dermo-cosmetics and also in this K-beauty trend",quoteKo:"고가 프리미엄 스킨케어는 더마코스메틱과 K뷰티 흐름에 밀리고 있습니다.",summary:"CEO는 Circana 데이터를 인용해 미국 고가 스킨케어 시장이 2026년 8월 누계로 4.8% 감소했다고 설명했습니다. 합리적인 가격과 효능을 앞세운 K뷰티·더마코스메틱으로 수요가 이동하는 흐름이 미국을 넘어 전 세계에서 나타나고 있다고 평가했습니다."}
  ]
 };
 

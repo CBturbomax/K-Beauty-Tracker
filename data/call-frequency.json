@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-25",
   "version": 4,
   "range": "2024.01 ~ 2026.11",
   "directTerms": [
@@ -9162,6 +9162,77 @@
       "terms": [],
       "moments": [],
       "wordCount": null
+    },
+    {
+      "id": "224651",
+      "company": "Kohl's (Sephora 숍인숍)",
+      "date": "2026-11-24",
+      "title": "Q3 2027",
+      "type": "earnings",
+      "source": "StockAnalysis 공개 전체 전사본 · Motley Fool 교차검증",
+      "status": "complete",
+      "callId": 224651,
+      "url": "https://stockanalysis.com/stocks/kss/transcripts/739238-q3-2027/",
+      "coverage": "공개 전체 원문",
+      "counts": {
+        "direct": 1,
+        "brands": 1,
+        "general": 4
+      },
+      "terms": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "prepared": 1,
+          "qna": 0,
+          "unknown": 0
+        },
+        {
+          "term": "beauty",
+          "category": "general",
+          "count": 2,
+          "prepared": 1,
+          "qna": 1,
+          "unknown": 0
+        },
+        {
+          "term": "skincare",
+          "category": "general",
+          "count": 2,
+          "prepared": 2,
+          "qna": 0,
+          "unknown": 0
+        }
+      ],
+      "moments": [
+        {
+          "term": "K-beauty",
+          "category": "direct",
+          "count": 1,
+          "section": "prepared",
+          "seconds": null,
+          "line": 14
+        },
+        {
+          "term": "Beauty of Joseon",
+          "category": "brands",
+          "count": 1,
+          "section": "prepared",
+          "seconds": null,
+          "line": 14
+        }
+      ],
+      "wordCount": 9397,
+      "sha256": "10fc26118cf33985742ee8c4098712d7b0f464d8d1a515cb8a0a35ac5d4c9c99"
     }
   ]
 }

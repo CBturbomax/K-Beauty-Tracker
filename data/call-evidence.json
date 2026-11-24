@@ -4622,5 +4622,41 @@
         ]
       }
     ]
+  },
+  {
+    "id": "224651",
+    "company": "Kohl's (Sephora 숍인숍)",
+    "date": "2026-11-24",
+    "title": "Q3 2027",
+    "source": "StockAnalysis 공개 전체 전사본 · Motley Fool 교차검증",
+    "url": "https://stockanalysis.com/stocks/kss/transcripts/739238-q3-2027/",
+    "callId": 224651,
+    "sha256": "10fc26118cf33985742ee8c4098712d7b0f464d8d1a515cb8a0a35ac5d4c9c99",
+    "coverage": "공개 전체 원문",
+    "dateSource": "https://www.fool.com/earnings/call-transcripts/2026/11/24/kohls-kss-q3-2026-earnings-call-transcript/",
+    "count": 2,
+    "segments": [
+      {
+        "id": "224651:14",
+        "en": "Beauty of Joseon in the K-beauty category and Salt & Stone in the body category, both of which are off to strong starts.",
+        "ko": "K뷰티 카테고리의 조선미녀와 바디 카테고리의 솔트 앤 스톤은 모두 순조로운 출발을 보이고 있습니다.",
+        "context": "세포라 앳 콜스의 3분기 매출은 전년 대비 1.9% 감소했으나 2분기보다 200bp 개선됐습니다. CEO는 기존 브랜드의 유통망 확대 영향으로 스킨케어가 가장 어려운 부문이라고 설명했고, 가을 신규 도입 브랜드인 조선미녀와 솔트 앤 스톤의 초기 성과는 긍정적이라고 평가했습니다. 조선미녀의 개별 매출이나 성장률은 공개하지 않았습니다.",
+        "line": 14,
+        "location": "수집 원문 14행 · 공개 전사본 164행 · 발표문",
+        "speaker": "Michael J. Bender (CEO) · 발표문",
+        "section": "prepared",
+        "count": 2,
+        "terms": [
+          {
+            "term": "K-beauty",
+            "count": 1
+          },
+          {
+            "term": "Beauty of Joseon",
+            "count": 1
+          }
+        ]
+      }
+    ]
   }
 ]
